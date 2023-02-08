@@ -6,7 +6,7 @@ We construct a crash solution KG with 963,334 nodes and 1,626,101 edges for 245 
 
 [Java exceptions types](https://github.com/KG4CraSolver/KG4CraSolver.github.io/blob/main/KGBuilder/exception_type_set_with_size.json), the 245 common Java exceptions we parse from Java libraries from Maven Central, and extract the names of all classes that are a subclass of *java.lang.Exception* or *java.lang.Error*.
 
-[SO threads](https://github.com/KG4CraSolver/KG4CraSolver.github.io/blob/main/KGBuilder/all_exception_post_info.json), the related 71,592 SO threads.  we select the threads that: (1) have “java” in the title or tags, (2) have “exception” or “error” in the title or tags, (3) have an accepted answer, (4) have a positive vote for its question, and (5) contain at least one specific exception type (e.g., *NullPointerException*) in the given exception type list.
+[SO threads](https://github.com/KG4CraSolver/KG4CraSolver.github.io/blob/main/KGBuilder/all_exception_post_info.json), the related 71,592 SO threads.  we select the threads that: (1) have “java” in the title or tags, (2) have “exception” or “error” in the title or tags, (3) have an accepted answer, (4) have a positive vote for its question, and (5) contain at least one specific exception type in the given exception type list.
 
 [Crash Solution KG](https://github.com/KG4CraSolver/KG4CraSolver.github.io/tree/main/KGBuilder), our constructed crash solution KG with 963,334 nodes and 1,626,101 edges. 
 
