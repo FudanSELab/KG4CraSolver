@@ -40,7 +40,7 @@ To construct the benchmark, we first randomly select 50 exception types involved
 
 We select 12 questions describing crash bugs from the benchmark constructed in RQ2.
 
-[Recommended result](https://github.com/KG4CraSolver/KG4CraSolver.github.io/tree/main/Benchmark/RQ3/recommended result),  top-10 resolution summary of relevant posts returned by KG4CraSolver corresponding to the 12 questions.
+[Recommended result](https://github.com/KG4CraSolver/KG4CraSolver.github.io/tree/main/Benchmark/RQ3/recommended%20result),  top-10 resolution summary of relevant posts returned by KG4CraSolver corresponding to the 12 questions.
 
 ## Result
 
