@@ -16,17 +16,17 @@ We construct a crash solution KG with 963,334 nodes and 1,626,101 edges for 245 
 
 To construct the training dataset,  we randomly select 50 Java crash-related threads (from Section 3.2) and manually annotate the sentences in these threads into the five categories.  (i.e., *Purpose*, *Symptom*, *Reason*, *Solution Step* *Others*)
 
-[Classification training set](https://github.com/KG4CraSolver/KG4CraSolver.github.io/tree/main/Benchmark/RQ1/classification/training set), we separate the labeled sentences obtained from the question (i.e., *Purpose*, *Symptom*, *Others*) and those obtained from the answer (i.e., *Reason*, *Solution Step*, *Others*). As a result, we obtain 30, 133, 55, 87, and 103 sentences for *Purpose*, *Symptom*, *Reason*, *Solution Step*, and *Others* respectively.
+[Classification training set](https://github.com/KG4CraSolver/KG4CraSolver.github.io/tree/main/Benchmark/RQ1/classification/training%20set), we separate the labeled sentences obtained from the question (i.e., *Purpose*, *Symptom*, *Others*) and those obtained from the answer (i.e., *Reason*, *Solution Step*, *Others*). As a result, we obtain 30, 133, 55, 87, and 103 sentences for *Purpose*, *Symptom*, *Reason*, *Solution Step*, and *Others* respectively.
 
-[Classification testing set](https://github.com/KG4CraSolver/KG4CraSolver.github.io/tree/main/Benchmark/RQ1/classification/test set), we manually construct a benchmark of 100 crash related threads as the testing set for evaluation, which include randomly sample 100 crash-related threads that are not overlapped with the training dataset.
+[Classification testing set](https://github.com/KG4CraSolver/KG4CraSolver.github.io/tree/main/Benchmark/RQ1/classification/test%20set), we manually construct a benchmark of 100 crash related threads as the testing set for evaluation, which include randomly sample 100 crash-related threads that are not overlapped with the training dataset.
 
 ### RQ1 extraction benchmark
 
 we build a training dataset for the purpose and environment phrase extraction task by further annotating the sentence classification dataset. 
 
-[Extraction training set](https://github.com/KG4CraSolver/KG4CraSolver.github.io/tree/main/Benchmark/RQ1/extraction/training set),  the training set includes 120 and 616 samples for purpose phrases and environment phrases, respectively.
+[Extraction training set](https://github.com/KG4CraSolver/KG4CraSolver.github.io/tree/main/Benchmark/RQ1/extraction/training%20set),  the training set includes 120 and 616 samples for purpose phrases and environment phrases, respectively.
 
-[Extraction testing set](https://github.com/KG4CraSolver/KG4CraSolver.github.io/tree/main/Benchmark/RQ1/extraction/test set), the testing set includes all purpose and symptom sentences in classification testing dataset (randomly sample 100 crash-related threads).
+[Extraction testing set](https://github.com/KG4CraSolver/KG4CraSolver.github.io/tree/main/Benchmark/RQ1/extraction/test%20set), the testing set includes all purpose and symptom sentences in classification testing dataset (randomly sample 100 crash-related threads).
 
 ### RQ2 benchmark
 
