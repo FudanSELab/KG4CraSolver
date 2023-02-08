@@ -1,0 +1,15 @@
+{
+  "kg4crasolver_metric": {
+    "avg_precisions": 0.850,
+    "avg_time_first": 60.588,
+    "avg_time_total": 233.216
+  },
+  "baseline_metric": {
+    "avg_precisions": 0.217,
+    "avg_time_first": 92.385,
+    "avg_time_total": 274.923
+  },
+  "precision_p_value": 1.627e-07,
+  "time_first_p_value": 0.0080018191,
+  "time_total_p_value": 0.0194559113
+}
