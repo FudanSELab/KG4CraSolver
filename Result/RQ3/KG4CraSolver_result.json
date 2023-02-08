@@ -1,0 +1,712 @@
+[
+  [
+    {
+      "id": 1,
+      "exp_related_id": [
+        38687209,
+        21322312,
+        59722381,
+        33472503
+      ],
+      "time_first": 60,
+      "time_total": 200,
+      "post_nums": [],
+      "key_words": ""
+    },
+    {
+      "id": 2,
+      "exp_related_id": [
+        32839886,
+        60179279,
+        52026671,
+        9385395
+      ],
+      "time_first": 30,
+      "time_total": 180,
+      "post_nums": [],
+      "key_words": ""
+    },
+    {
+      "id": 3,
+      "exp_related_id": [
+        52671412
+      ],
+      "time_first": 150,
+      "time_total": 200,
+      "post_nums": [],
+      "key_words": ""
+    },
+    {
+      "id": 4,
+      "exp_related_id": [],
+      "time_first": 600,
+      "time_total": 600,
+      "post_nums": [],
+      "key_words": ""
+    },
+    {
+      "id": 5,
+      "exp_related_id": [
+        4242154,
+        37575714,
+        66263157,
+        25086515,
+        6451929,
+        38617598
+      ],
+      "time_first": 50,
+      "time_total": 300,
+      "post_nums": [],
+      "key_words": ""
+    },
+    {
+      "id": 6,
+      "exp_related_id": [
+        26628161,
+        585599,
+        50574949,
+        18947088
+      ],
+      "time_first": 20,
+      "time_total": 300,
+      "post_nums": [],
+      "key_words": ""
+    },
+    {
+      "id": 7,
+      "exp_related_id": [
+        52572996,
+        35844801,
+        67634572,
+        24637257
+      ],
+      "time_first": 60,
+      "time_total": 480,
+      "post_nums": [],
+      "key_words": ""
+    },
+    {
+      "id": 8,
+      "exp_related_id": [
+        36674584,
+        15465407,
+        11999982,
+        19100316,
+        22819886
+      ],
+      "time_first": 120,
+      "time_total": 480,
+      "post_nums": [],
+      "key_words": ""
+    },
+    {
+      "id": 9,
+      "exp_related_id": [
+        41025200
+      ],
+      "time_first": 120,
+      "time_total": 420,
+      "post_nums": [],
+      "key_words": ""
+    },
+    {
+      "id": 10,
+      "exp_related_id": [
+        3093112,
+        24061279,
+        60056854,
+        26792813
+      ],
+      "time_first": 10,
+      "time_total": 360,
+      "post_nums": [],
+      "key_words": ""
+    },
+    {
+      "id": 11,
+      "exp_related_id": [
+        36454039,
+        29942793,
+        5325640,
+        22320004
+      ],
+      "time_first": 240,
+      "time_total": 360,
+      "post_nums": [],
+      "key_words": ""
+    },
+    {
+      "id": 12,
+      "exp_related_id": [
+        32807587,
+        36121789,
+        34749193,
+        35378076,
+        34760586,
+        38208776
+      ],
+      "time_first": 10,
+      "time_total": 360,
+      "post_nums": [],
+      "key_words": ""
+    }
+  ],
+  [
+    {
+      "id": 1,
+      "exp_related_id": [
+        38687209
+      ],
+      "time_first": 184,
+      "time_total": 302,
+      "post_nums": [],
+      "key_words": ""
+    },
+    {
+      "id": 2,
+      "exp_related_id": [
+        32839886
+      ],
+      "time_first": 128,
+      "time_total": 237,
+      "post_nums": [],
+      "key_words": ""
+    },
+    {
+      "id": 3,
+      "exp_related_id": [
+        52671412
+      ],
+      "time_first": 51,
+      "time_total": 101,
+      "post_nums": [],
+      "key_words": ""
+    },
+    {
+      "id": 4,
+      "exp_related_id": [
+        57646184,
+        59291144,
+        35723085,
+        49980858,
+        11023647
+      ],
+      "time_first": 72,
+      "time_total": 438,
+      "post_nums": [],
+      "key_words": ""
+    },
+    {
+      "id": 5,
+      "exp_related_id": [
+        37575714,
+        25086515,
+        21248341
+      ],
+      "time_first": 98,
+      "time_total": 380,
+      "post_nums": [],
+      "key_words": ""
+    },
+    {
+      "id": 6,
+      "exp_related_id": [
+        26628161,
+        585599,
+        18947088
+      ],
+      "time_first": 37,
+      "time_total": 291,
+      "post_nums": [],
+      "key_words": ""
+    },
+    {
+      "id": 7,
+      "exp_related_id": [
+        34628110,
+        52572996,
+        34974306
+      ],
+      "time_first": 12,
+      "time_total": 165,
+      "post_nums": [],
+      "key_words": ""
+    },
+    {
+      "id": 8,
+      "exp_related_id": [
+        36674584,
+        11999982
+      ],
+      "time_first": 17,
+      "time_total": 148,
+      "post_nums": [],
+      "key_words": ""
+    },
+    {
+      "id": 9,
+      "exp_related_id": [
+        25708823,
+        36459575
+      ],
+      "time_first": 23,
+      "time_total": 198,
+      "post_nums": [],
+      "key_words": ""
+    },
+    {
+      "id": 10,
+      "exp_related_id": [
+        24061279
+      ],
+      "time_first": 32,
+      "time_total": 230,
+      "post_nums": [],
+      "key_words": ""
+    },
+    {
+      "id": 11,
+      "exp_related_id": [
+        13952630,
+        30699097,
+        29942793,
+        30014285
+      ],
+      "time_first": 51,
+      "time_total": 167,
+      "post_nums": [],
+      "key_words": ""
+    },
+    {
+      "id": 12,
+      "exp_related_id": [
+        32807587,
+        46121730
+      ],
+      "time_first": 23,
+      "time_total": 152,
+      "post_nums": [],
+      "key_words": ""
+    }
+  ],
+  [
+    {
+      "id": 1,
+      "exp_related_id": [
+        21322312
+      ],
+      "time_first": 70,
+      "time_total": 150,
+      "post_nums": [],
+      "key_words": ""
+    },
+    {
+      "id": 2,
+      "exp_related_id": [
+        32839886
+      ],
+      "time_first": 10,
+      "time_total": 120,
+      "post_nums": [],
+      "key_words": ""
+    },
+    {
+      "id": 3,
+      "exp_related_id": [
+        52671412
+      ],
+      "time_first": 30,
+      "time_total": 180,
+      "post_nums": [],
+      "key_words": ""
+    },
+    {
+      "id": 4,
+      "exp_related_id": [],
+      "time_first": 600,
+      "time_total": 300,
+      "post_nums": [],
+      "key_words": ""
+    },
+    {
+      "id": 5,
+      "exp_related_id": [
+        25086515,
+        6451929,
+        50387509
+      ],
+      "time_first": 60,
+      "time_total": 180,
+      "post_nums": [],
+      "key_words": ""
+    },
+    {
+      "id": 6,
+      "exp_related_id": [
+        26628161,
+        26628161,
+        50574949
+      ],
+      "time_first": 10,
+      "time_total": 180,
+      "post_nums": [],
+      "key_words": ""
+    },
+    {
+      "id": 7,
+      "exp_related_id": [
+        34974306,
+        67634572
+      ],
+      "time_first": 37,
+      "time_total": 178,
+      "post_nums": [],
+      "key_words": ""
+    },
+    {
+      "id": 8,
+      "exp_related_id": [
+        36674584,
+        15465407,
+        11999982,
+        19100316,
+        22819886
+      ],
+      "time_first": 14,
+      "time_total": 169,
+      "post_nums": [],
+      "key_words": ""
+    },
+    {
+      "id": 9,
+      "exp_related_id": [
+        25708825
+      ],
+      "time_first": 23,
+      "time_total": 280,
+      "post_nums": [],
+      "key_words": ""
+    },
+    {
+      "id": 10,
+      "exp_related_id": [
+        3093112,
+        22467084,
+        60056854,
+        39858254
+      ],
+      "time_first": 12,
+      "time_total": 224,
+      "post_nums": [],
+      "key_words": ""
+    },
+    {
+      "id": 11,
+      "exp_related_id": [
+        8577545
+      ],
+      "time_first": 24,
+      "time_total": 163,
+      "post_nums": [],
+      "key_words": ""
+    },
+    {
+      "id": 12,
+      "exp_related_id": [
+        32807587,
+        36121789,
+        38208776
+      ],
+      "time_first": 7,
+      "time_total": 145,
+      "post_nums": [],
+      "key_words": ""
+    }
+  ],
+  [
+    {
+      "id": 1,
+      "exp_related_id": [
+        21322312,
+        59722381,
+        48919383
+      ],
+      "time_first": 134,
+      "time_total": 215,
+      "post_nums": [],
+      "key_words": ""
+    },
+    {
+      "id": 2,
+      "exp_related_id": [
+        32839886,
+        60179279,
+        52026671,
+        9385395,
+        23688213
+      ],
+      "time_first": 5,
+      "time_total": 110,
+      "post_nums": [],
+      "key_words": ""
+    },
+    {
+      "id": 3,
+      "exp_related_id": [
+        4227624
+      ],
+      "time_first": 140,
+      "time_total": 190,
+      "post_nums": [],
+      "key_words": ""
+    },
+    {
+      "id": 4,
+      "exp_related_id": [
+        57646184,
+        49339111,
+        49980858
+      ],
+      "time_first": 56,
+      "time_total": 335,
+      "post_nums": [],
+      "key_words": ""
+    },
+    {
+      "id": 5,
+      "exp_related_id": [
+        4242154,
+        37575714,
+        66263157,
+        25086515,
+        6451929,
+        50387509,
+        38617598
+      ],
+      "time_first": 45,
+      "time_total": 209,
+      "post_nums": [],
+      "key_words": ""
+    },
+    {
+      "id": 6,
+      "exp_related_id": [
+        26628161,
+        585599,
+        36979706,
+        18947088
+      ],
+      "time_first": 35,
+      "time_total": 273,
+      "post_nums": [],
+      "key_words": ""
+    },
+    {
+      "id": 7,
+      "exp_related_id": [
+        34974306,
+        35844801
+      ],
+      "time_first": 48,
+      "time_total": 138,
+      "post_nums": [],
+      "key_words": ""
+    },
+    {
+      "id": 8,
+      "exp_related_id": [
+        36674584,
+        15465407,
+        11999982,
+        22819886
+      ],
+      "time_first": 25,
+      "time_total": 380,
+      "post_nums": [],
+      "key_words": ""
+    },
+    {
+      "id": 9,
+      "exp_related_id": [
+        41025200
+      ],
+      "time_first": 21,
+      "time_total": 102,
+      "post_nums": [],
+      "key_words": ""
+    },
+    {
+      "id": 10,
+      "exp_related_id": [],
+      "time_first": 600,
+      "time_total": 600,
+      "post_nums": [],
+      "key_words": ""
+    },
+    {
+      "id": 11,
+      "exp_related_id": [
+        13952630
+      ],
+      "time_first": 78,
+      "time_total": 96,
+      "post_nums": [],
+      "key_words": ""
+    },
+    {
+      "id": 12,
+      "exp_related_id": [
+        36121789
+      ],
+      "time_first": 67,
+      "time_total": 122,
+      "post_nums": [],
+      "key_words": ""
+    }
+  ],
+  [
+    {
+      "id": 1,
+      "exp_related_id": [
+        38687209
+      ],
+      "time_first": 27,
+      "time_total": 291,
+      "post_nums": [],
+      "key_words": ""
+    },
+    {
+      "id": 2,
+      "exp_related_id": [
+        32839886,
+        6920157,
+        60660709
+      ],
+      "time_first": 49,
+      "time_total": 303,
+      "post_nums": [],
+      "key_words": ""
+    },
+    {
+      "id": 3,
+      "exp_related_id": [
+        36190837
+      ],
+      "time_first": 71,
+      "time_total": 414,
+      "post_nums": [],
+      "key_words": ""
+    },
+    {
+      "id": 4,
+      "exp_related_id": [
+        57646184,
+        59291144,
+        35723085,
+        49339111,
+        36473046
+      ],
+      "time_first": 42,
+      "time_total": 376,
+      "post_nums": [],
+      "key_words": ""
+    },
+    {
+      "id": 5,
+      "exp_related_id": [
+        4242154,
+        37575714,
+        66263157,
+        6451929,
+        21248341,
+        36713928,
+        38617598
+      ],
+      "time_first": 49,
+      "time_total": 251,
+      "post_nums": [],
+      "key_words": ""
+    },
+    {
+      "id": 6,
+      "exp_related_id": [
+        26628161,
+        585599,
+        50574949,
+        18947088
+      ],
+      "time_first": 12,
+      "time_total": 164,
+      "post_nums": [],
+      "key_words": ""
+    },
+    {
+      "id": 7,
+      "exp_related_id": [
+        52572996,
+        34974306,
+        35844801,
+        4469843
+      ],
+      "time_first": 124,
+      "time_total": 199,
+      "post_nums": [],
+      "key_words": ""
+    },
+    {
+      "id": 8,
+      "exp_related_id": [
+        19100316,
+        36674584,
+        15465407,
+        28816943,
+        22819886
+      ],
+      "time_first": 212,
+      "time_total": 272,
+      "post_nums": [],
+      "key_words": ""
+    },
+    {
+      "id": 9,
+      "exp_related_id": [
+        41025200,
+        36459575
+      ],
+      "time_first": 56,
+      "time_total": 85,
+      "post_nums": [],
+      "key_words": ""
+    },
+    {
+      "id": 10,
+      "exp_related_id": [
+        3093112
+      ],
+      "time_first": 17,
+      "time_total": 86,
+      "post_nums": [],
+      "key_words": ""
+    },
+    {
+      "id": 11,
+      "exp_related_id": [
+        8577545
+      ],
+      "time_first": 167,
+      "time_total": 207,
+      "post_nums": [],
+      "key_words": ""
+    },
+    {
+      "id": 12,
+      "exp_related_id": [
+        32807587
+      ],
+      "time_first": 74,
+      "time_total": 120,
+      "post_nums": [],
+      "key_words": ""
+    }
+  ]
+]

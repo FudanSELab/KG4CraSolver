@@ -1,0 +1,14 @@
+{
+  "bleu": {
+    "baseline_purpose": 0.5645785302137666,
+    "baseline_environment": 0.18942260883674397,
+    "prompt_purpose": 0.8596257045414714,
+    "prompt_environment": 0.850195093642932
+  },
+  "em": {
+    "baseline_purpose": 0.5636363636363636,
+    "baseline_environment": 0.23376623376623376,
+    "prompt_purpose": 0.8272727272727273,
+    "prompt_environment": 0.8596938775510204
+  }
+}

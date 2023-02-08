@@ -1,0 +1,858 @@
+[
+  [
+    {
+      "id": 1,
+      "exp_related_id": [
+        52456449,
+        38687209,
+        56888111
+      ],
+      "time_first": 120,
+      "time_total": 480,
+      "post_nums": [
+        2
+      ],
+      "key_words": "Caused by: java.lang.IllegalArgume\nntException: Cannot pass a null GrantedAuthority collection"
+    },
+    {
+      "id": 2,
+      "exp_related_id": [
+        25844995,
+        26475810,
+        33641084,
+        37175264
+      ],
+      "time_first": 180,
+      "time_total": 360,
+      "post_nums": [
+        1
+      ],
+      "key_words": "MySQL ERROR: Error 1005: Can't create table "
+    },
+    {
+      "id": 3,
+      "exp_related_id": [
+        41674896,
+        57890927,
+        22381202
+      ],
+      "time_first": 180,
+      "time_total": 360,
+      "post_nums": [
+        2
+      ],
+      "key_words": "Error: A JNI error has occurred, please check your installation "
+    },
+    {
+      "id": 4,
+      "exp_related_id": [
+        49851421
+      ],
+      "time_first": 480,
+      "time_total": 600,
+      "post_nums": [
+        4
+      ],
+      "key_words": "disposable.dispose() "
+    },
+    {
+      "id": 5,
+      "exp_related_id": [
+        6920352,
+        20157595,
+        285793,
+        14274480
+      ],
+      "time_first": 120,
+      "time_total": 360,
+      "post_nums": [
+        2
+      ],
+      "key_words": "java.io.InvalidClassException   serialVersionUID"
+    },
+    {
+      "id": 6,
+      "exp_related_id": [
+        585599,
+        44747140,
+        62929,
+        38151578
+      ],
+      "time_first": 60,
+      "time_total": 300,
+      "post_nums": [
+        1
+      ],
+      "key_words": "java.net.SocketException: Connection reset"
+    },
+    {
+      "id": 7,
+      "exp_related_id": [
+        38966213,
+        26381424
+      ],
+      "time_first": 50,
+      "time_total": 300,
+      "post_nums": [
+        3
+      ],
+      "key_words": "Infinite loop while creating an object,Infinite loop"
+    },
+    {
+      "id": 8,
+      "exp_related_id": [
+        56039087,
+        8360510,
+        36674584,
+        10402979,
+        65160245
+      ],
+      "time_first": 100,
+      "time_total": 300,
+      "post_nums": [
+        4
+      ],
+      "key_words": "Java reflection getMethod,Java reflection"
+    },
+    {
+      "id": 9,
+      "exp_related_id": [
+        46810118
+      ],
+      "time_first": 120,
+      "time_total": 400,
+      "post_nums": [
+        4
+      ],
+      "key_words": "Exception on new WebView"
+    },
+    {
+      "id": 10,
+      "exp_related_id": [
+        49276019,
+        7213541
+      ],
+      "time_first": 250,
+      "time_total": 300,
+      "post_nums": [
+        7
+      ],
+      "key_words": "Call java servlet,java servlet"
+    },
+    {
+      "id": 11,
+      "exp_related_id": [
+        35769911,
+        18725521,
+        17235206
+      ],
+      "time_first": 100,
+      "time_total": 300,
+      "post_nums": [
+        2
+      ],
+      "key_words": "EL call boolean method,EL call"
+    },
+    {
+      "id": 12,
+      "exp_related_id": [
+        7829549,
+        28486494,
+        44721818,
+        32807587
+      ],
+      "time_first": 100,
+      "time_total": 500,
+      "post_nums": [
+        4
+      ],
+      "key_words": "Transform Exception,android build Transform Exception"
+    }
+  ],
+  [
+    {
+      "id": 1,
+      "exp_related_id": [
+        36736730,
+        71711357,
+        9768873
+      ],
+      "time_first": 44,
+      "time_total": 205,
+      "post_nums": [
+        1
+      ],
+      "key_words": "spring security fail"
+    },
+    {
+      "id": 2,
+      "exp_related_id": [
+        4061293,
+        36321808,
+        64703702
+      ],
+      "time_first": 20,
+      "time_total": 195,
+      "post_nums": [
+        3
+      ],
+      "key_words": "create table fail"
+    },
+    {
+      "id": 3,
+      "exp_related_id": [
+        63641940,
+        18806410
+      ],
+      "time_first": 23,
+      "time_total": 180,
+      "post_nums": [
+        3
+      ],
+      "key_words": "JDK and JRE installed on windows run java"
+    },
+    {
+      "id": 4,
+      "exp_related_id": [
+        56382253
+      ],
+      "time_first": 27,
+      "time_total": 275,
+      "post_nums": [
+        1
+      ],
+      "key_words": "handle dispose in RxJava "
+    },
+    {
+      "id": 5,
+      "exp_related_id": [],
+      "time_first": 600,
+      "time_total": 220,
+      "post_nums": [],
+      "key_words": "serializing/deserializing error java InvalidClassException"
+    },
+    {
+      "id": 6,
+      "exp_related_id": [
+        62929,
+        34836008,
+        585599,
+        32974030
+      ],
+      "time_first": 25,
+      "time_total": 202,
+      "post_nums": [
+        1
+      ],
+      "key_words": "java.net.SocketException Connection reset"
+    },
+    {
+      "id": 7,
+      "exp_related_id": [
+        2153184
+      ],
+      "time_first": 267,
+      "time_total": 570,
+      "post_nums": [
+        3
+      ],
+      "key_words": "Infinite loop while creating an object stackoverflow\uff0c infinite creating an object in constructor,"
+    },
+    {
+      "id": 8,
+      "exp_related_id": [
+        50760404,
+        47934178
+      ],
+      "time_first": 63,
+      "time_total": 245,
+      "post_nums": [
+        1
+      ],
+      "key_words": "Java reflection  NoSuchMethodException"
+    },
+    {
+      "id": 9,
+      "exp_related_id": [
+        29843131,
+        49606995
+      ],
+      "time_first": 132,
+      "time_total": 341,
+      "post_nums": [
+        3
+      ],
+      "key_words": "android.content.res.Resources NotFoundException WebView"
+    },
+    {
+      "id": 10,
+      "exp_related_id": [
+        40254097
+      ],
+      "time_first": 145,
+      "time_total": 386,
+      "post_nums": [
+        3
+      ],
+      "key_words": " java.security.cert.CertificateException: No name matching"
+    },
+    {
+      "id": 11,
+      "exp_related_id": [
+        7318004,
+        5283390,
+        29942793
+      ],
+      "time_first": 45,
+      "time_total": 132,
+      "post_nums": [
+        1
+      ],
+      "key_words": "javax.el.PropertyNotFoundException: The class does not have the property"
+    },
+    {
+      "id": 12,
+      "exp_related_id": [
+        31605291,
+        29720831
+      ],
+      "time_first": 31,
+      "time_total": 113,
+      "post_nums": [
+        1
+      ],
+      "key_words": "org.gradle.process.internal.ExecException: Process 'command finished with non-zero exit value 3"
+    }
+  ],
+  [
+    {
+      "id": 1,
+      "exp_related_id": [
+        36286112,
+        27499100,
+        36573780
+      ],
+      "time_first": 21,
+      "time_total": 231,
+      "post_nums": [
+        3,
+        4,
+        5
+      ],
+      "key_words": "spring security fail execute"
+    },
+    {
+      "id": 2,
+      "exp_related_id": [
+        53283494,
+        4556968,
+        54248830,
+        53846207
+      ],
+      "time_first": 12,
+      "time_total": 176,
+      "post_nums": [
+        2,
+        5,
+        6,
+        7
+      ],
+      "key_words": "can not create table in sql"
+    },
+    {
+      "id": 3,
+      "exp_related_id": [
+        60154108,
+        54495242,
+        11535490,
+        2277275
+      ],
+      "time_first": 31,
+      "time_total": 148,
+      "post_nums": [
+        4,
+        5,
+        8,
+        10
+      ],
+      "key_words": "run java after install jdk and jre"
+    },
+    {
+      "id": 4,
+      "exp_related_id": [
+        47552523,
+        46303486,
+        50173009,
+        44339364,
+        55462286
+      ],
+      "time_first": 52,
+      "time_total": 383,
+      "post_nums": [
+        2,
+        5,
+        6,
+        7,
+        9
+      ],
+      "key_words": "Rxjava handle dispose"
+    },
+    {
+      "id": 5,
+      "exp_related_id": [
+        3555777,
+        285793,
+        44112477,
+        14841526
+      ],
+      "time_first": 47,
+      "time_total": 318,
+      "post_nums": [
+        1,
+        7,
+        9,
+        10
+      ],
+      "key_words": "invalidClassException  java serializing  deserializing"
+    },
+    {
+      "id": 6,
+      "exp_related_id": [
+        62929,
+        34836008,
+        62929,
+        36981087,
+        70358344,
+        44747140,
+        19309652
+      ],
+      "time_first": 29,
+      "time_total": 263,
+      "post_nums": [
+        1,
+        2,
+        4,
+        6,
+        7,
+        8,
+        10
+      ],
+      "key_words": "java.net.SocketException: Connection reset"
+    },
+    {
+      "id": 7,
+      "exp_related_id": [
+        221202
+      ],
+      "time_first": 60,
+      "time_total": 200,
+      "post_nums": [
+        1
+      ],
+      "key_words": "stackoverflow error in class constructor java"
+    },
+    {
+      "id": 8,
+      "exp_related_id": [],
+      "time_first": 600,
+      "time_total": 600,
+      "post_nums": [],
+      "key_words": "entityClass.getMethod"
+    },
+    {
+      "id": 9,
+      "exp_related_id": [
+        31528366
+      ],
+      "time_first": 300,
+      "time_total": 300,
+      "post_nums": [
+        3
+      ],
+      "key_words": "WebView() exception lollipop"
+    },
+    {
+      "id": 10,
+      "exp_related_id": [
+        40254097
+      ],
+      "time_first": 120,
+      "time_total": 180,
+      "post_nums": [
+        1
+      ],
+      "key_words": "java.security.cert.CertificateException: No name matching"
+    },
+    {
+      "id": 11,
+      "exp_related_id": [
+        29942793
+      ],
+      "time_first": 90,
+      "time_total": 240,
+      "post_nums": [
+        1
+      ],
+      "key_words": "javax.el.PropertyNotFoundException: The class does not have the property"
+    },
+    {
+      "id": 12,
+      "exp_related_id": [
+        33717886
+      ],
+      "time_first": 120,
+      "time_total": 300,
+      "post_nums": [
+        2
+      ],
+      "key_words": "com.android.build.transform.api.TransformException: com.android.ide.common.process.ProcessException: org.gradle.process.internal.ExecException: Process"
+    }
+  ],
+  [
+    {
+      "id": 1,
+      "exp_related_id": [
+        19767267
+      ],
+      "time_first": 23,
+      "time_total": 209,
+      "post_nums": [
+        1
+      ],
+      "key_words": "Spring security exception"
+    },
+    {
+      "id": 2,
+      "exp_related_id": [
+        14896862,
+        30001788,
+        25844995,
+        18747193
+      ],
+      "time_first": 31,
+      "time_total": 328,
+      "post_nums": [
+        3
+      ],
+      "key_words": "Error 1005"
+    },
+    {
+      "id": 3,
+      "exp_related_id": [
+        2896566
+      ],
+      "time_first": 69,
+      "time_total": 218,
+      "post_nums": [
+        5
+      ],
+      "key_words": "How to run java code"
+    },
+    {
+      "id": 4,
+      "exp_related_id": [
+        56382253
+      ],
+      "time_first": 77,
+      "time_total": 182,
+      "post_nums": [
+        1
+      ],
+      "key_words": "Rxjava dispose interrupted exception"
+    },
+    {
+      "id": 5,
+      "exp_related_id": [
+        14726862,
+        24077412,
+        12125076
+      ],
+      "time_first": 48,
+      "time_total": 253,
+      "post_nums": [
+        1
+      ],
+      "key_words": "Serialize invalidclassexception"
+    },
+    {
+      "id": 6,
+      "exp_related_id": [
+        43079588,
+        37376991
+      ],
+      "time_first": 73,
+      "time_total": 199,
+      "post_nums": [
+        4
+      ],
+      "key_words": "Tomcat szocketexception connection reset"
+    },
+    {
+      "id": 7,
+      "exp_related_id": [
+        13720659
+      ],
+      "time_first": 156,
+      "time_total": 245,
+      "post_nums": [
+        2
+      ],
+      "key_words": "Infinite loop while creating an object in a class with constructor"
+    },
+    {
+      "id": 8,
+      "exp_related_id": [
+        8360510,
+        36674584,
+        50760404,
+        10402979,
+        5454249
+      ],
+      "time_first": 76,
+      "time_total": 212,
+      "post_nums": [
+        1
+      ],
+      "key_words": "Java reflection getMethod "
+    },
+    {
+      "id": 9,
+      "exp_related_id": [
+        58519749,
+        59659906,
+        56029895,
+        30883409,
+        23927924
+      ],
+      "time_first": 77,
+      "time_total": 265,
+      "post_nums": [
+        2
+      ],
+      "key_words": " Exception on new WebView"
+    },
+    {
+      "id": 10,
+      "exp_related_id": [
+        11455640,
+        2298130
+      ],
+      "time_first": 108,
+      "time_total": 305,
+      "post_nums": [
+        3
+      ],
+      "key_words": " Call java servlet other project"
+    },
+    {
+      "id": 11,
+      "exp_related_id": [
+        9257755,
+        16438815,
+        60786684,
+        42880595,
+        64961262
+      ],
+      "time_first": 69,
+      "time_total": 271,
+      "post_nums": [
+        1
+      ],
+      "key_words": "call boolean method"
+    },
+    {
+      "id": 12,
+      "exp_related_id": [
+        74527446,
+        73197218
+      ],
+      "time_first": 46,
+      "time_total": 332,
+      "post_nums": [
+        1
+      ],
+      "key_words": " Transform Exception when building a project"
+    }
+  ],
+  [
+    {
+      "id": 1,
+      "exp_related_id": [
+        38687209,
+        72523953,
+        52456449
+      ],
+      "time_first": 104,
+      "time_total": 137,
+      "post_nums": [
+        1
+      ],
+      "key_words": "spring security java.lang.IllegalArgumentException: Cannot pass a null GrantedAuthority collection"
+    },
+    {
+      "id": 2,
+      "exp_related_id": [
+        22712553,
+        66535768,
+        14294561,
+        4412693
+      ],
+      "time_first": 113,
+      "time_total": 227,
+      "post_nums": [
+        3
+      ],
+      "key_words": "mysql  Can't create table  (errno: 121)"
+    },
+    {
+      "id": 3,
+      "exp_related_id": [
+        54185363,
+        63171964
+      ],
+      "time_first": 236,
+      "time_total": 258,
+      "post_nums": [
+        4
+      ],
+      "key_words": "java A JNI error has occurred"
+    },
+    {
+      "id": 4,
+      "exp_related_id": [
+        57646184
+      ],
+      "time_first": 46,
+      "time_total": 62,
+      "post_nums": [
+        2
+      ],
+      "key_words": "RxJava InterruptedException"
+    },
+    {
+      "id": 5,
+      "exp_related_id": [
+        37575714,
+        34110340,
+        17714003
+      ],
+      "time_first": 157,
+      "time_total": 217,
+      "post_nums": [
+        1
+      ],
+      "key_words": "java static final long serializing/deserializing"
+    },
+    {
+      "id": 6,
+      "exp_related_id": [
+        585599,
+        26628161
+      ],
+      "time_first": 183,
+      "time_total": 201,
+      "post_nums": [
+        3
+      ],
+      "key_words": "tomcat java.net.SocketException: Connection reset"
+    },
+    {
+      "id": 7,
+      "exp_related_id": [
+        2153184,
+        65266617
+      ],
+      "time_first": 30,
+      "time_total": 293,
+      "post_nums": [
+        1,
+        2
+      ],
+      "key_words": "infinite loop when create constructor"
+    },
+    {
+      "id": 8,
+      "exp_related_id": [
+        8127413,
+        4093175,
+        7252665,
+        891071
+      ],
+      "time_first": 151,
+      "time_total": 552,
+      "post_nums": [
+        3,
+        4,
+        7,
+        14
+      ],
+      "key_words": "getDeclaredMethods"
+    },
+    {
+      "id": 9,
+      "exp_related_id": [
+        51231676,
+        41363329,
+        18425066,
+        26960027
+      ],
+      "time_first": 29,
+      "time_total": 385,
+      "post_nums": [
+        6,
+        9,
+        10,
+        13
+      ],
+      "key_words": "Unable to start activity ComponentInfo"
+    },
+    {
+      "id": 10,
+      "exp_related_id": [
+        40254097,
+        66723363,
+        57179970,
+        47427145,
+        64576452
+      ],
+      "time_first": 51,
+      "time_total": 507,
+      "post_nums": [
+        1,
+        2,
+        5,
+        6,
+        9
+      ],
+      "key_words": "java.security.cert.CertificateException: No name matching"
+    },
+    {
+      "id": 11,
+      "exp_related_id": [
+        5283390,
+        55035954
+      ],
+      "time_first": 67,
+      "time_total": 292,
+      "post_nums": [
+        3,
+        4
+      ],
+      "key_words": "javax.el.PropertyNotFoundException: The class"
+    },
+    {
+      "id": 12,
+      "exp_related_id": [
+        32807587,
+        36561103
+      ],
+      "time_first": 95,
+      "time_total": 591,
+      "post_nums": [
+        5,
+        9
+      ],
+      "key_words": "com.android.build.transform.api.TransformException"
+    }
+  ]
+]

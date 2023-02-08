@@ -1,0 +1,121 @@
+[
+  {
+    "post_id": "56888111",
+    "answer_id": [
+      38687209,
+      59722381,
+      48919383
+    ],
+    "exception_type": "IllegalArgumentException"
+  },
+  {
+    "post_id": "12623651",
+    "answer_id": [
+      60660709,
+      32839886,
+      52026671,
+      60179279,
+      9385395,
+      23688213
+    ],
+    "exception_type": "SQLException"
+  },
+  {
+    "post_id": "63641940",
+    "answer_id": [
+      52671412
+    ],
+    "exception_type": "UnknownHostException"
+  },
+  {
+    "post_id": "56382253",
+    "answer_id": [
+      57646184,
+      49980858,
+      36473046,
+      11023647
+    ],
+    "exception_type": "InterruptedException"
+  },
+  {
+    "post_id": "6920352",
+    "answer_id": [
+      37575714,
+      4242154,
+      25086515,
+      21248341,
+      50387509,
+      38617598
+    ],
+    "exception_type": "InvalidClassException"
+  },
+  {
+    "post_id": "5712783",
+    "answer_id": [
+      18947088,
+      26628161,
+      585599
+    ],
+    "exception_type": "SocketException"
+  },
+  {
+    "post_id": "38966213",
+    "answer_id": [
+      35844801,
+      34974306,
+      52572996,
+      67634572,
+      4469843
+    ],
+    "exception_type": "StackOverflowError"
+  },
+  {
+    "post_id": "56039087",
+    "answer_id": [
+      22819886,
+      28816943,
+      36674584,
+      19100316,
+      15465407
+    ],
+    "exception_type": "NoSuchMethodException"
+  },
+  {
+    "post_id": "46810118",
+    "answer_id": [
+      41025200
+    ],
+    "exception_type": "InflateException"
+  },
+  {
+    "post_id": "49276019",
+    "answer_id": [
+      3093112,
+      6659360,
+      60056854
+    ],
+    "exception_type": "CertificateException"
+  },
+  {
+    "post_id": "35769911",
+    "answer_id": [
+      8577545,
+      29942793,
+      30014285,
+      13952630,
+      36454039
+    ],
+    "exception_type": "PropertyNotFoundException"
+  },
+  {
+    "post_id": "33515018",
+    "answer_id": [
+      32807587,
+      34749193,
+      34760586,
+      35378076,
+      36121789
+    ],
+    "exception_type": "TransformException"
+  }
+]

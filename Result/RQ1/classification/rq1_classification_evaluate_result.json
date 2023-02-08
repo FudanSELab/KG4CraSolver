@@ -1,0 +1,42 @@
+{
+  "acc": {
+    "baseline_purpose": 0.8977099236641222,
+    "baseline_symptom": 0.9099236641221374,
+    "baseline_reason": 0.798469387755102,
+    "baseline_solution": 0.8137755102040817,
+    "prompt_purpose": 0.9709923664122138,
+    "prompt_symptom": 0.9755725190839695,
+    "prompt_reason": 0.8826530612244898,
+    "prompt_solution": 0.8596938775510204
+  },
+  "precision": {
+    "baseline_purpose": 0.8015267175572519,
+    "baseline_symptom": 0.8982384015206772,
+    "baseline_reason": 0.7832862873272917,
+    "baseline_solution": 0.8152073732718894,
+    "prompt_purpose": 0.9390325271059217,
+    "prompt_symptom": 0.9781936470640391,
+    "prompt_reason": 0.8861600114498354,
+    "prompt_solution": 0.8621446488294314
+  },
+  "recall": {
+    "baseline_purpose": 0.8611964260784588,
+    "baseline_symptom": 0.8906233062330623,
+    "baseline_reason": 0.7702380952380952,
+    "baseline_solution": 0.8121088861076345,
+    "prompt_purpose": 0.9557575757575758,
+    "prompt_symptom": 0.9652508195307108,
+    "prompt_reason": 0.8672383285694842,
+    "prompt_solution": 0.861247947454844
+  },
+  "f1": {
+    "baseline_purpose": 0.826284017812964,
+    "baseline_symptom": 0.8942742003879394,
+    "baseline_reason": 0.7756576040104608,
+    "baseline_solution": 0.8127506985205106,
+    "prompt_purpose": 0.9471381544016142,
+    "prompt_symptom": 0.971367997726925,
+    "prompt_reason": 0.874484909232654,
+    "prompt_solution": 0.9038235468533615
+  }
+}
