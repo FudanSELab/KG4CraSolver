@@ -1,0 +1,2312 @@
+[
+  {
+    "post_id": 44947734,
+    "sentence": "Friends I have stuck in a Problem in Hibernate composite key.",
+    "answer": "Hibernate composite key"
+  },
+  {
+    "post_id": 60727479,
+    "sentence": "I guess it can be connected with export default eventData so that eventdata can be object but not array in this case.event-data.js: -CODE-event-filter-bar.js: -CODE-filter-toolbar.js: -CODE-dropdown-maker.js: -CODE-",
+    "answer": "export default eventData"
+  },
+  {
+    "post_id": 44947734,
+    "sentence": "Error : org.hibernate.MappingException: Could not determine type for: java.util.Set, at table: IDP_UserManagerMapping, for columns: [org.hibernate.mapping.Column(idps)].I have Tried wit @transient and other things but not effective Please Help.-CODE-",
+    "answer": "IDP_UserManagerMapping"
+  },
+  {
+    "post_id": 21129563,
+    "sentence": "I'm getting this error in browser console.",
+    "answer": "browser console"
+  },
+  {
+    "post_id": 21129563,
+    "sentence": "I'm working on a magento website where on the product view page I've to use jqzoom.",
+    "answer": "magento website"
+  },
+  {
+    "post_id": 58846807,
+    "sentence": "When I try to add anything to JFrame in constructor and I have IllegalArgumentException.",
+    "answer": "JFrame"
+  },
+  {
+    "post_id": 15636263,
+    "sentence": "I'm writing an android client which is communicating between a Hessian Servlet and Hessdroid.",
+    "answer": "Hessian Servlet and Hessdroid"
+  },
+  {
+    "post_id": 58846807,
+    "sentence": "Similar code is working in documentation: https://docs.oracle.com/javase/tutorial/uiswing/layout/none.html.",
+    "answer": ""
+  },
+  {
+    "post_id": 21129563,
+    "sentence": "[-]Added jqzoom library.",
+    "answer": "jqzoom library"
+  },
+  {
+    "post_id": 15636263,
+    "sentence": "Everything went fine until i wanted to transmit this selfimplemented type: [-]client & server are communicating between IUserService.java interface.",
+    "answer": "client & server"
+  },
+  {
+    "post_id": 21129563,
+    "sentence": "[-]Added my custom js.",
+    "answer": "my custom js"
+  },
+  {
+    "post_id": 58846807,
+    "sentence": "It is created in Netbeans 10.",
+    "answer": "Netbeans 10"
+  },
+  {
+    "post_id": 21129563,
+    "sentence": "The code in product-view-config.js is: -CODE-.",
+    "answer": ""
+  },
+  {
+    "post_id": 58846807,
+    "sentence": "Edit: I also tried add label with position and sieze (setBounds.it doesn't help",
+    "answer": "position and sieze"
+  },
+  {
+    "post_id": 21129563,
+    "sentence": "In this case, bxSlider working well but jqzoom not working.",
+    "answer": "bxSlider"
+  },
+  {
+    "post_id": 58846807,
+    "sentence": "I changed the code with setBounds method.",
+    "answer": "setBounds method"
+  },
+  {
+    "post_id": 58846807,
+    "sentence": "First, main class in JavaTestApp.java: -CODE-.",
+    "answer": "JavaTestApp"
+  },
+  {
+    "post_id": 21129563,
+    "sentence": "I'd figured out why jqzoom not working and added in my answer.",
+    "answer": "jqzoom"
+  },
+  {
+    "post_id": 21129563,
+    "sentence": "But why jqzoom is not working with jquery 1.10.",
+    "answer": "jquery 1.10"
+  },
+  {
+    "post_id": 13760849,
+    "sentence": "I am running Tomcat 5.0 and I have problem with getting a resource from tomcats 'webapps' from Java.",
+    "answer": "Tomcat 5.0"
+  },
+  {
+    "post_id": 15636263,
+    "sentence": "Just say it, if you want to see more code...",
+    "answer": ""
+  },
+  {
+    "post_id": 58846807,
+    "sentence": "Link to project uploaded on weetransfer: Project (scanned via my Bitdefender antivir.",
+    "answer": "weetransfer"
+  },
+  {
+    "post_id": 13760849,
+    "sentence": "There is a html file that I check if it's available after server start in: -CODE-.",
+    "answer": "html"
+  },
+  {
+    "post_id": 15636263,
+    "sentence": "Edit: RetrieveData calls IUserService function...",
+    "answer": "IUserService function"
+  },
+  {
+    "post_id": 63852369,
+    "sentence": "I want a int value from edit text so I can use it on .setCounterInSeconds(long.but I'm getting this error",
+    "answer": "int value"
+  },
+  {
+    "post_id": 13760849,
+    "sentence": "In Java I run this code when server is started: -CODE-.getContent(throws FileNotFoundException",
+    "answer": "Java"
+  },
+  {
+    "post_id": 15636263,
+    "sentence": "PageOne code from above is kind of pseudo code to understand it easier.-CODE-maybe this could be relevant too: -CODE-",
+    "answer": "PageOne"
+  },
+  {
+    "post_id": 13760849,
+    "sentence": "But when I put \"http://localhost:8080/myProject/site.html.into browser, the site is displayed without problems",
+    "answer": ""
+  },
+  {
+    "post_id": 15636263,
+    "sentence": "Edit: I set DebugMode on the HessianProxyFactory and now i get this one: -CODE-.",
+    "answer": "HessianProxyFactory"
+  },
+  {
+    "post_id": 63852369,
+    "sentence": "I only want to get the time entered by the user so it start by user entered time, .",
+    "answer": ""
+  },
+  {
+    "post_id": 13760849,
+    "sentence": "Also I tested that on 4 machines .on 2 everything is fine, on other 2 FileNotFoundException",
+    "answer": "FileNotFoundException"
+  },
+  {
+    "post_id": 38882568,
+    "sentence": "So I am reading in a CSV file which works fine if everything is a string.",
+    "answer": "CSV file"
+  },
+  {
+    "post_id": 13234475,
+    "sentence": "I want to serialize a same object on file, each time when i run a program.",
+    "answer": ""
+  },
+  {
+    "post_id": 13760849,
+    "sentence": "I thought it might be some folder security access problem or user rights, but in the end I have no clue.",
+    "answer": ""
+  },
+  {
+    "post_id": 38882568,
+    "sentence": "But when i try and parse Integers out of the file it no longer will work.-CODE-",
+    "answer": ""
+  },
+  {
+    "post_id": 13234475,
+    "sentence": "In the begening i store a String on writer.in the last i read a file",
+    "answer": "writer"
+  },
+  {
+    "post_id": 34473301,
+    "sentence": "When saveDepartment(.is invoked, I am getting exception mentioned in the title",
+    "answer": ""
+  },
+  {
+    "post_id": 48757753,
+    "sentence": "I am getting this unexpected token || error for the below code.-CODE-but not if i separate the if statements like below-CODE-",
+    "answer": ""
+  },
+  {
+    "post_id": 13234475,
+    "sentence": "The goal of this program is if i run my program X time, i store and i print on screen X time my object.-CODE-",
+    "answer": ""
+  },
+  {
+    "post_id": 34473301,
+    "sentence": "After searching for solution for a while I came up with another similar post on stackoverflow which doesn't match the problem scenario I am facing.",
+    "answer": "stackoverflow"
+  },
+  {
+    "post_id": 13234475,
+    "sentence": "When i run this program i have this error : -CODE-.",
+    "answer": ""
+  },
+  {
+    "post_id": 15061210,
+    "sentence": "I have registration form and posting the values to register function where it will validate form values with node-validator.",
+    "answer": "values with node-validator"
+  },
+  {
+    "post_id": 69198136,
+    "sentence": "A problem has appeared on my React project which I was not previously experiencing.",
+    "answer": ""
+  },
+  {
+    "post_id": 15061210,
+    "sentence": "But, when I tried with node-validator, it keeps getting error as TypeError: Object # has no method 'onValidationError'.",
+    "answer": "node-validator"
+  },
+  {
+    "post_id": 69198136,
+    "sentence": "I am quite certain that the problem began after I updated React to v17.0.0 and a number of other libraries as well.",
+    "answer": "v17.0.0"
+  },
+  {
+    "post_id": 15061210,
+    "sentence": "The validator already installed in my app.",
+    "answer": ""
+  },
+  {
+    "post_id": 69198136,
+    "sentence": "Basically, one of my pages has an input for uploading an image, which makes the file into an array buffer to be uploaded to IPFS.",
+    "answer": "IPFS"
+  },
+  {
+    "post_id": 69198136,
+    "sentence": "It used to work, but I tested it again recently (after doing a number of package/library updates as mentioned.and it now gives me the error TypeError: _utils_ipfs__WEBPACK_IMPORTED_MODULE_5__.default.files.add is not a function",
+    "answer": "package/library"
+  },
+  {
+    "post_id": 15061210,
+    "sentence": "In test.js: -CODE-.",
+    "answer": "test.js"
+  },
+  {
+    "post_id": 69198136,
+    "sentence": "To try to rectify this error I tried npm update to make sure that everything was up to date, but that didn't work.",
+    "answer": "npm update"
+  },
+  {
+    "post_id": 69198136,
+    "sentence": "Here's what I am pretty sure are the parts of NewReview.js relevant to the error: -CODE-.",
+    "answer": "NewReview"
+  },
+  {
+    "post_id": 60809568,
+    "sentence": "In the end while running this code on Intellij i am getting this error: -CODE-.",
+    "answer": "Intellij"
+  },
+  {
+    "post_id": 69198136,
+    "sentence": "Here is what ipfs.js looks like: -CODE-.",
+    "answer": "ipfs.js"
+  },
+  {
+    "post_id": 35536984,
+    "sentence": "I build a android widget, and in the WidgetService class which extends BroadcastReceiver.",
+    "answer": "WidgetService class"
+  },
+  {
+    "post_id": 69198136,
+    "sentence": "As another attempt to rectify this issue I tried using ipfs.default.files.add as I had seen that suggested as a solution on another Stack Overflow post, but that didn't work unfortunately.",
+    "answer": "ipfs.default.files"
+  },
+  {
+    "post_id": 35536984,
+    "sentence": "A vary strange thing happens, when I try to get an integer from an ArrayList, it throws an exception: -CODE-.",
+    "answer": ""
+  },
+  {
+    "post_id": 69198136,
+    "sentence": "Again, the code used to work perfectly as it is so I'm not sure that the cause of this issue is due to a mistake in how the code is written.",
+    "answer": ""
+  },
+  {
+    "post_id": 35536984,
+    "sentence": "I have check if it was caused by NullPointer though, no clue.",
+    "answer": ""
+  },
+  {
+    "post_id": 35536984,
+    "sentence": "Is it the problem with my jdk (version 1.8.0_74.or android studio ?(version 1.51",
+    "answer": "my jdk (version 1.8.0_74"
+  },
+  {
+    "post_id": 35536984,
+    "sentence": "Android SDK Version: 6.0(but I have tried 4.4, still the same.",
+    "answer": "Android SDK Version: 6.0"
+  },
+  {
+    "post_id": 4281143,
+    "sentence": "I am trying to read the files inside a folder, but when I run the program it throws this exception.",
+    "answer": ""
+  },
+  {
+    "post_id": 35536984,
+    "sentence": "I try to start a new project and copy to it, but still not working.",
+    "answer": ""
+  },
+  {
+    "post_id": 4281143,
+    "sentence": "I tried with some other folders also.",
+    "answer": ""
+  },
+  {
+    "post_id": 35536984,
+    "sentence": "Since \"staredIndex.is an ArrayList with Integer paramater and randomIndex is an int, currentIndex is and int",
+    "answer": "Integer paramater"
+  },
+  {
+    "post_id": 10001610,
+    "sentence": "My project work ok on the emulator.",
+    "answer": ""
+  },
+  {
+    "post_id": 10001610,
+    "sentence": "I get something like that from stack report.",
+    "answer": ""
+  },
+  {
+    "post_id": 10001610,
+    "sentence": "I was looking for solution of this problem and i found hint to add all used libraries to manifest, but it doesn t help me anyway.-CODE-",
+    "answer": "libraries"
+  },
+  {
+    "post_id": 18444785,
+    "sentence": "I am working on an application that executes a Jython 2.5.3 script from JAVA 1.6.027.",
+    "answer": "Jython 2.5.3"
+  },
+  {
+    "post_id": 61113195,
+    "sentence": "In order to execute a java project using maven, I put on the terminal this two commands: To build project: -CODE-.",
+    "answer": "maven"
+  },
+  {
+    "post_id": 18444785,
+    "sentence": "The script just open a file using codecs library and it looks like this: -CODE-.",
+    "answer": "codecs library"
+  },
+  {
+    "post_id": 31878414,
+    "sentence": "And an implementing class SimpleProductManager: -CODE-.",
+    "answer": "SimpleProductManager"
+  },
+  {
+    "post_id": 7392296,
+    "sentence": "EDIT: Here are the two SQL statements I'm using, but I'm not sure if either are causing the problem.-CODE-",
+    "answer": "SQL statements"
+  },
+  {
+    "post_id": 18444785,
+    "sentence": "When I execute this script debugging in Eclipse, everything works OK, but when I execute the part of the JAVA application that invokes this script, I get this error: -CODE-.",
+    "answer": "JAVA"
+  },
+  {
+    "post_id": 31878414,
+    "sentence": "I am using the Spring official docs and trying to understand the following 3 tests for the increasePrice(.method: -CODE-",
+    "answer": "Spring official docs"
+  },
+  {
+    "post_id": 7392296,
+    "sentence": "The parameter in the second statement is filled with: -CODE-.",
+    "answer": ""
+  },
+  {
+    "post_id": 61113195,
+    "sentence": "The build always execute with success, but every time I try to run the project, I receive this error: -CODE-.",
+    "answer": ""
+  },
+  {
+    "post_id": 18444785,
+    "sentence": "The JAVA application is able to execute others similar jython scripts.",
+    "answer": "JAVA"
+  },
+  {
+    "post_id": 31878414,
+    "sentence": "Question: Why is it that when I run the ant tests for these 3 methods, the testcase testIncreasePriceWithEmptyListOfProducts fails with a junit.framework.AssertionFailedError: Products list is empty.-CODE-",
+    "answer": "junit.framework"
+  },
+  {
+    "post_id": 18807532,
+    "sentence": "I am trying to implement a chat application in Java using UDP for multiple clients.",
+    "answer": "UDP"
+  },
+  {
+    "post_id": 18444785,
+    "sentence": "I have detected that the class sun.nio.ch.FileChannelImpl is in the library rt.jar, which is inside /bin/common/ folder and included in my classpath via jvm.cfg file: -CODE-.",
+    "answer": "library rt.jar, which is inside /bin/common/ folder"
+  },
+  {
+    "post_id": 31878414,
+    "sentence": "Shouldn't it throw a java.lang.UnsupportedOperationException(like the other 2 test cases.since the method increasePrice has not yet been implemented",
+    "answer": "increasePrice"
+  },
+  {
+    "post_id": 18807532,
+    "sentence": "I used thread to accept input on server side and another thread to handle the input as well.",
+    "answer": "server"
+  },
+  {
+    "post_id": 61113195,
+    "sentence": "This is my Application.java file, with main function inside: -CODE-.",
+    "answer": "Application.java file"
+  },
+  {
+    "post_id": 18444785,
+    "sentence": "The same way I do it with other libraries that work fine.",
+    "answer": ""
+  },
+  {
+    "post_id": 42653340,
+    "sentence": "I have an Xtext project with an issue I can't seem to solve.",
+    "answer": "Xtext project"
+  },
+  {
+    "post_id": 18807532,
+    "sentence": "My code is: Server side: -CODE-.and the client side is : -CODE-stacktrace after execution gives me : -CODE-",
+    "answer": ""
+  },
+  {
+    "post_id": 29196165,
+    "sentence": "can you explain to me why I get \"FATAL EXCEPTION: java.lang.UnsupportedOperationException.on refreshing my content",
+    "answer": ""
+  },
+  {
+    "post_id": 42653340,
+    "sentence": "The object \"file.is an IFile passed as an argument of this function and is not null, as I am able to access its contents and even print them out as strings, for example",
+    "answer": ""
+  },
+  {
+    "post_id": 29196165,
+    "sentence": "In normal case, the function should download the data and creates a recycler / card for every line...-CODE-",
+    "answer": ""
+  },
+  {
+    "post_id": 46237315,
+    "sentence": "I had developed a Java Application Project using Netbeans IDE 8.2 on Ubuntu14.",
+    "answer": "Netbeans IDE 8.2"
+  },
+  {
+    "post_id": 42653340,
+    "sentence": "I can also access its IProject field and perform operations on it.",
+    "answer": "IProject field"
+  },
+  {
+    "post_id": 56719439,
+    "sentence": "I already tried a lot but every time i get this error: \"Uncaught TypeError: content.getElementById is not a function.",
+    "answer": ""
+  },
+  {
+    "post_id": 46237315,
+    "sentence": "How can I have its installers for Linux Systems using Netbeans IDE(.deb.",
+    "answer": "Linux Systems"
+  },
+  {
+    "post_id": 42653340,
+    "sentence": "However, I'm getting a NullPointerException on the ResourceSet line, namely on the \".get(project).function",
+    "answer": "ResourceSet line"
+  },
+  {
+    "post_id": 42653340,
+    "sentence": "What could cause a NullPointerException to occur at this step, given that said project is definitely not null.",
+    "answer": ""
+  },
+  {
+    "post_id": 29196165,
+    "sentence": "RecyclerViewHolder.java: -CODE-.import android.view.View; import android.widget.TextView; -CODE-",
+    "answer": "RecyclerViewHolder"
+  },
+  {
+    "post_id": 46237315,
+    "sentence": "I had packaged it by following instruction in this link.",
+    "answer": ""
+  },
+  {
+    "post_id": 56239449,
+    "sentence": "I have a separated parser and lexer grammar and want to run org.antlr.v4.gui.TestRig to debug/test my grammar.",
+    "answer": "org.antlr.v4.gui.TestRig"
+  },
+  {
+    "post_id": 46237315,
+    "sentence": "But, this tutorial above mentioned is NetBeans 7.4 native packaging in Windows.",
+    "answer": "NetBeans 7.4"
+  },
+  {
+    "post_id": 19852209,
+    "sentence": "I receive the following exceptions org.zkoss.zk.ui.UiException and java.lang.NumberFormatException.",
+    "answer": ""
+  },
+  {
+    "post_id": 56239449,
+    "sentence": "My lexer grammar start with: -CODE-.and my parser grammar start with: -CODE-",
+    "answer": "lexer grammar"
+  },
+  {
+    "post_id": 49207043,
+    "sentence": "After running normally during several hours (and sometimes a few minutes), my app stops connecting to the server with HTTPost.",
+    "answer": "server with HTTPost"
+  },
+  {
+    "post_id": 46237315,
+    "sentence": "But I followed this tutorial in Netbeans8.2 in Ubuntu(my system).",
+    "answer": "Netbeans8.2"
+  },
+  {
+    "post_id": 56239449,
+    "sentence": "My classpath env variable points to complete antlr.jar and current directory.",
+    "answer": ""
+  },
+  {
+    "post_id": 49207043,
+    "sentence": "I set the Timeout to 20 sec and It's a good time since the connection is good (wifi).",
+    "answer": ""
+  },
+  {
+    "post_id": 46237315,
+    "sentence": "And I got .deb file in specified folder in the tutorial mentioned above.",
+    "answer": ".deb file"
+  },
+  {
+    "post_id": 19852209,
+    "sentence": "My stacktrace is as follows: -CODE-.",
+    "answer": ""
+  },
+  {
+    "post_id": 54066540,
+    "sentence": "When i put on browser address: http://localhost:5000/points/1 i'm normally getting point with id 1.",
+    "answer": "localhost:5000/points/1"
+  },
+  {
+    "post_id": 56239449,
+    "sentence": "[-]antlr is an alias to java org.antlr.v4.Tool.",
+    "answer": "java org"
+  },
+  {
+    "post_id": 49207043,
+    "sentence": "I have tested it in two servers: my own computer and a virtual private server.",
+    "answer": "servers: my own computer and a virtual private server"
+  },
+  {
+    "post_id": 46237315,
+    "sentence": "The Project-name-1.0.deb file could be successfully installed in my Ubuntu System, but while running this installed application it shows error: \"java.sql.SQLException: Opening db:'DB-NAME.sqlite' : Permission denied.",
+    "answer": "Project-name-1.0.deb file"
+  },
+  {
+    "post_id": 19852209,
+    "sentence": "My Zul file: -CODE-.",
+    "answer": ""
+  },
+  {
+    "post_id": 56239449,
+    "sentence": "[-]grun is an alias to java org.antlr.v4.gui.TestRig.",
+    "answer": "java"
+  },
+  {
+    "post_id": 46237315,
+    "sentence": "My project uses sqlite DB for data storage.",
+    "answer": "sqlite DB"
+  },
+  {
+    "post_id": 19852209,
+    "sentence": "Viewmodel (FolderInfoEditViewModel.java): -CODE-.",
+    "answer": "Viewmodel"
+  },
+  {
+    "post_id": 56239449,
+    "sentence": "When I run antlr TestParser.g4 && javac *.java the parser code gets generated and compiled.",
+    "answer": "antlr TestParser.g4 && javac *.java"
+  },
+  {
+    "post_id": 49207043,
+    "sentence": "Is there some way or reason for Android to avoid connecting to the http server.",
+    "answer": "http server"
+  },
+  {
+    "post_id": 46237315,
+    "sentence": "I had used JAR sqlite-JDBC-3.19.3.jar for its Library.",
+    "answer": "JAR sqlite-JDBC-3.19.3.jar"
+  },
+  {
+    "post_id": 56239449,
+    "sentence": "When I run grun TestParser testRule -gui I get the error: -CODE-.",
+    "answer": "grun TestParser testRule -gui"
+  },
+  {
+    "post_id": 54066540,
+    "sentence": "I'm setting up a Rest Server along with client and i'm facing a problem for few hours already.",
+    "answer": "Server"
+  },
+  {
+    "post_id": 46237315,
+    "sentence": "I had used Netbeans IDE 8.2 in Ubuntu and created the new Java Application Project in it.",
+    "answer": "Netbeans IDE 8.2"
+  },
+  {
+    "post_id": 56239449,
+    "sentence": "And when I run grun Test testRule -gui I get the error: -CODE-.",
+    "answer": "grun Test testRule -gui"
+  },
+  {
+    "post_id": 46237315,
+    "sentence": "Now, how can I package this Java Application project to get its installer for Linux(.deb.without this Permission denied error",
+    "answer": "Linux"
+  },
+  {
+    "post_id": 71949161,
+    "sentence": "Using <spring-boot.version>2.3.9.RELEASE</spring-boot.version> added following dependencies : -CODE-.",
+    "answer": "<spring-boot.version>2.3.9"
+  },
+  {
+    "post_id": 56239449,
+    "sentence": "I don't have any problems when using a combined grammar.",
+    "answer": "combined grammar"
+  },
+  {
+    "post_id": 46237315,
+    "sentence": "The java Connect.java class is as follows: -CODE-.",
+    "answer": ""
+  },
+  {
+    "post_id": 71949161,
+    "sentence": "Trying to create dynamic ES Index: -CODE-.-CODE-",
+    "answer": ""
+  },
+  {
+    "post_id": 46237315,
+    "sentence": "The application execute successfully in NetBeans without any permission denied error.",
+    "answer": "NetBeans"
+  },
+  {
+    "post_id": 64153440,
+    "sentence": "My goal is to encrypt cache assets (in this case 3D models using a custom format.that are being decrypted by a client distributed to users",
+    "answer": "cache assets"
+  },
+  {
+    "post_id": 50113126,
+    "sentence": "I am doing a small POC in AWS.",
+    "answer": "AWS"
+  },
+  {
+    "post_id": 46237315,
+    "sentence": "But, it shows the error when the Packaged (.deb.installer when installed and executed in Ubuntu",
+    "answer": "Ubuntu"
+  },
+  {
+    "post_id": 64153440,
+    "sentence": "For this I used the following implementation: -CODE-.",
+    "answer": ""
+  },
+  {
+    "post_id": 50113126,
+    "sentence": "I trying to read a csv file from S3 bucket and displaying in the CloudWatch log files .",
+    "answer": "CloudWatch log files"
+  },
+  {
+    "post_id": 7888252,
+    "sentence": "I have this method getData as shown .",
+    "answer": "method getData"
+  },
+  {
+    "post_id": 26796932,
+    "sentence": "The following code was working and then for some reason the next day it keeps throwing: Uncaught TypeError: Illegal invocation.",
+    "answer": ""
+  },
+  {
+    "post_id": 64153440,
+    "sentence": "This implementation works perfectly fine for the latest java versions but fails for java versions equal to or below 1.8.131 (not sure on the exact version that it breaks, but the latest java versions in the 1.8.2xx range appear to work fine).",
+    "answer": "1.8.131"
+  },
+  {
+    "post_id": 50113126,
+    "sentence": "Everything is going fine but while accessing the file getting java.io.FileNotFoundException.",
+    "answer": ""
+  },
+  {
+    "post_id": 7888252,
+    "sentence": "It is expecting an array of bag Objects as shown please see the code below : -CODE-.",
+    "answer": "array of bag Objects"
+  },
+  {
+    "post_id": 26796932,
+    "sentence": "I can't seem to figure out where it's going bust.-CODE-",
+    "answer": ""
+  },
+  {
+    "post_id": 64153440,
+    "sentence": "Users running these java versions get the following exception: -CODE-.",
+    "answer": ""
+  },
+  {
+    "post_id": 7888252,
+    "sentence": "But , when i tried i am getting ClassCastException .",
+    "answer": "ClassCastException"
+  },
+  {
+    "post_id": 26796932,
+    "sentence": "This code gets the get_start_times it's the same for get_start_times.-CODE-",
+    "answer": ""
+  },
+  {
+    "post_id": 64153440,
+    "sentence": "I did do some research on this error and I found several posts stating this might have to do with some part of the JCE library not being shipped with the JRE, and the provided solution was to manually install these into your JRE.",
+    "answer": "JCE library"
+  },
+  {
+    "post_id": 50113126,
+    "sentence": "CloudWatch Log file output.",
+    "answer": "CloudWatch Log file"
+  },
+  {
+    "post_id": 26796932,
+    "sentence": "The html: -CODE-.",
+    "answer": ""
+  },
+  {
+    "post_id": 64153440,
+    "sentence": "My manager does not want to force users to update their java version, and obviously we cannot ask users to modify their JRE manually, so I am at a bit of a loss on how to continue.",
+    "answer": "JRE"
+  },
+  {
+    "post_id": 64153440,
+    "sentence": "I have tried doing some more research but I am not well versed in the security libraries or any related JVM settings.",
+    "answer": "security libraries"
+  },
+  {
+    "post_id": 50113126,
+    "sentence": "I am inside lambda function.",
+    "answer": "lambda function"
+  },
+  {
+    "post_id": 23789555,
+    "sentence": "My eclipse with pydev has been working quite well without any problems for past 1-2 years until now.",
+    "answer": ""
+  },
+  {
+    "post_id": 26796932,
+    "sentence": "I don't know who changed what but it's broken.",
+    "answer": ""
+  },
+  {
+    "post_id": 64153440,
+    "sentence": "I would appreciate it if someone can shed some light on why this happens, and if it can be made compatible for older java version (from 1.8.xxx onwards).",
+    "answer": "older java version (from 1.8.xxx onwards)"
+  },
+  {
+    "post_id": 50113126,
+    "sentence": "I am inside lambda function2.",
+    "answer": "lambda function2"
+  },
+  {
+    "post_id": 23789555,
+    "sentence": "I don't know what caused it, but possibly it could be due to java upgrade I did (however, this is happening first time).",
+    "answer": "java upgrade"
+  },
+  {
+    "post_id": 59856341,
+    "sentence": "I have implemented google sign-in with Firebase authentication in my Android app succesfully.",
+    "answer": "Firebase authentication"
+  },
+  {
+    "post_id": 50113126,
+    "sentence": "I am inside lambda function3.",
+    "answer": "lambda function3"
+  },
+  {
+    "post_id": 23789555,
+    "sentence": "Problem: My eclipse pydev autocomplete hangs and doesn't work.",
+    "answer": "eclipse pydev autocomplete"
+  },
+  {
+    "post_id": 63226786,
+    "sentence": "i have little problem when i want to insert image into form, the code work on other form but in this form it not work with Uncaught TypeError: Cannot set property 'src' of null here is my code javascript : -CODE-.form : -CODE-",
+    "answer": "javascript"
+  },
+  {
+    "post_id": 59856341,
+    "sentence": "As you see, I have logged-in with my account and it appears on the Firebase console.",
+    "answer": "Firebase console"
+  },
+  {
+    "post_id": 50113126,
+    "sentence": "I am inside lambda function5.",
+    "answer": "lambda function5"
+  },
+  {
+    "post_id": 52466242,
+    "sentence": "trying to create a keycloak object to register new user with keycloak with following code: -CODE-.",
+    "answer": "keycloak object to register new user with keycloak"
+  },
+  {
+    "post_id": 50113126,
+    "sentence": "I am inside lambda function4.",
+    "answer": "lambda function4"
+  },
+  {
+    "post_id": 59856341,
+    "sentence": "The function firebaseAuthWithGoogle authenticates the user with Firebase after he logs-in with Google Sign-in: -CODE-.",
+    "answer": "firebaseAuthWithGoogle"
+  },
+  {
+    "post_id": 7392296,
+    "sentence": "If you need to see more of the JSP, the Bug Class, or the Bug Table within the database, just let me know; any help is appreciated.",
+    "answer": "JSP, the Bug Class"
+  },
+  {
+    "post_id": 23789555,
+    "sentence": "Setup: -CODE-.eclipse.ini file: -CODE-",
+    "answer": ""
+  },
+  {
+    "post_id": 52466242,
+    "sentence": "But get following error: -CODE-.",
+    "answer": ""
+  },
+  {
+    "post_id": 61126610,
+    "sentence": "I am getting an error while accessing parameter by the getParam method like following .-CODE-",
+    "answer": "getParam method"
+  },
+  {
+    "post_id": 59856341,
+    "sentence": "Another thing the function firebaseAuthWithGoogle does is: Connect to the http Apache server and save the user information in a MySQL users table through this code snippet: -CODE-.",
+    "answer": "http Apache server"
+  },
+  {
+    "post_id": 18538160,
+    "sentence": "I am getting this error when my page loads: -CODE-.",
+    "answer": ""
+  },
+  {
+    "post_id": 59856341,
+    "sentence": "So after the user has been succesfully authenticated, the call to the server fails and this line is obviously executed: -CODE-.",
+    "answer": "server"
+  },
+  {
+    "post_id": 23789555,
+    "sentence": "I have tried the following things: [-]Reinstalled java.",
+    "answer": "java"
+  },
+  {
+    "post_id": 59856341,
+    "sentence": "I am using Retrofit as an http client along with okhttp as an http body interceptor to log the http requests as follows: -CODE-.-CODE-",
+    "answer": "Retrofit"
+  },
+  {
+    "post_id": 23789555,
+    "sentence": "[-]Removed and readded Workspace/pydev/Python Interpreter.",
+    "answer": "Workspace/pydev/Python"
+  },
+  {
+    "post_id": 18538160,
+    "sentence": "I thought it may have to do with a Jquery conflict, so I add $.noConflict(); before the function call.",
+    "answer": "Jquery conflict"
+  },
+  {
+    "post_id": 59856341,
+    "sentence": "So after the Toast Text \"Login failed AFTER API CALL.appears on the emulator, I have this on the log: -CODE-",
+    "answer": "API CALL.appears"
+  },
+  {
+    "post_id": 18538160,
+    "sentence": "Still I am not sure how can we see if there is Jquery conflict present in our page or not.",
+    "answer": "Jquery conflict"
+  },
+  {
+    "post_id": 59856341,
+    "sentence": "So I found-out that this is causing the error: -CODE-.",
+    "answer": ""
+  },
+  {
+    "post_id": 23789555,
+    "sentence": "I believe its because, the java isn't starting (I can't find any process named java from the taskmgr.",
+    "answer": "taskmgr"
+  },
+  {
+    "post_id": 59856341,
+    "sentence": "After going through StackOverflow, I found-out that I needed to create this file: -CODE-.-CODE-",
+    "answer": "StackOverflow"
+  },
+  {
+    "post_id": 54066540,
+    "sentence": "When i call getPoints(.method everything works fine, but when i call getPoint(Long id), deletePoint(Long idand postPoint(i'm getting: Exception in thread \"mainorg.springframework.web.client.HttpClientErrorException: 404 null",
+    "answer": "getPoint"
+  },
+  {
+    "post_id": 29776289,
+    "sentence": "I am just running sample sikuli script in Java on Eclipse & I am getting the following error: -CODE-.-CODE-} I'd followed lot of post & tired ..no luck.",
+    "answer": "sikuli script"
+  },
+  {
+    "post_id": 59856341,
+    "sentence": "Having tested my database with Postman, I am sure the problem lies in my Android project.",
+    "answer": "Postman"
+  },
+  {
+    "post_id": 29776289,
+    "sentence": "My system environment details, [-]64bit Windows 7 SP1, [-]Java 6 (32bit.& eclipse JUNO (32bit",
+    "answer": "[-]64bit Windows 7 SP1"
+  },
+  {
+    "post_id": 25473706,
+    "sentence": "I want to get PGConnection from PosgreSQL connection in JBOSS AS7 (Data source postgresql-9.0-801.jdbc4.jar.",
+    "answer": "PGConnection from PosgreSQL connection"
+  },
+  {
+    "post_id": 37878750,
+    "sentence": "I'm trying to fix the code of an annoyingly large program (I didn't create it.and I keep getting the famous IndexOutOfBoundsException",
+    "answer": ""
+  },
+  {
+    "post_id": 29776289,
+    "sentence": "[-]Added JAVA_HOME = \"C:\\Program Files (x86)\\Java\\jdk1.6.0_45\\.& path = %JAVA_HOME%bin;%JAVA_HOME%jre\\bin; [-]Also added SIKULI_HOME = \"C:\\Program Files (x86)\\Sikuli X\\& path = %SIKULI_HOME%libs; ",
+    "answer": "JAVA_HOME"
+  },
+  {
+    "post_id": 25473706,
+    "sentence": "I've got cast exception when used (WrappedConnection)connection.",
+    "answer": "(WrappedConnection)connection"
+  },
+  {
+    "post_id": 59856341,
+    "sentence": "But, I still have the exact same issue.",
+    "answer": ""
+  },
+  {
+    "post_id": 14103310,
+    "sentence": "I created a little android game but I am getting weird error.",
+    "answer": "android"
+  },
+  {
+    "post_id": 61126610,
+    "sentence": "I have passed the parameter using the following method: -CODE-.",
+    "answer": ""
+  },
+  {
+    "post_id": 25473706,
+    "sentence": "So now I use reflection (JDK 1.7): -CODE-.and catch exception: -CODE-",
+    "answer": "reflection (JDK 1.7)"
+  },
+  {
+    "post_id": 59856341,
+    "sentence": "I still get this error in the log: -CODE-.",
+    "answer": ""
+  },
+  {
+    "post_id": 30472422,
+    "sentence": "When I debug code , it stop working at line : Transport transport = mailSession.getTransport(\"smtp\"); I have added following JARs : -CODE-.",
+    "answer": ""
+  },
+  {
+    "post_id": 72029761,
+    "sentence": "When I use pyspark to write to the csv file: -CODE-.a problem occurs: -CODE-",
+    "answer": "pyspark"
+  },
+  {
+    "post_id": 30472422,
+    "sentence": "Also I want to ask that firewall can prevent this things to send mail.",
+    "answer": "firewall"
+  },
+  {
+    "post_id": 15545326,
+    "sentence": "I am trying to run a simple Struts2 application but it always throw the following exception: -CODE-.",
+    "answer": "Struts2"
+  },
+  {
+    "post_id": 30472422,
+    "sentence": "As we have some firewall installed but I able to open and send mail thrugh gmail manually.",
+    "answer": "firewall"
+  },
+  {
+    "post_id": 15545326,
+    "sentence": "I have followed the step by step tutorial in Create Struts 2 Web Application Using Maven To Manage Artifacts and To Build The Application, but I cannot make it work.",
+    "answer": "Struts 2"
+  },
+  {
+    "post_id": 51809494,
+    "sentence": "When building my project that uses the Room library, Dagger for dependency injection, and Kotlin, I encounter this error: -CODE-.",
+    "answer": "Room library"
+  },
+  {
+    "post_id": 15545326,
+    "sentence": "I also managed to find other Struts2 tutorial which uses maven but all failed.",
+    "answer": "Struts2"
+  },
+  {
+    "post_id": 15545326,
+    "sentence": "It throws the same exception when I try to run the application.",
+    "answer": ""
+  },
+  {
+    "post_id": 51809494,
+    "sentence": "Here is an example of how I use my DAO: -CODE-.",
+    "answer": "DAO"
+  },
+  {
+    "post_id": 15545326,
+    "sentence": "I used the following: [-]Eclipse.",
+    "answer": ""
+  },
+  {
+    "post_id": 14417049,
+    "sentence": "I am attempting to use FullCalendar with ROR 3.2.11 on Ubuntu 12.",
+    "answer": "FullCalendar with ROR 3.2.11"
+  },
+  {
+    "post_id": 14417049,
+    "sentence": "I've downloaded a working example and verified the calender does display in the sample app.",
+    "answer": "calender"
+  },
+  {
+    "post_id": 15545326,
+    "sentence": "According to other discussions, the dependencies jar files(e.g.struts2-coremust be put on the lib folder but as for me, I am using Maven so all the dependencies are already included in my build path under Maven Dependencies",
+    "answer": "dependencies jar files"
+  },
+  {
+    "post_id": 14417049,
+    "sentence": "However, it does not in my app.",
+    "answer": ""
+  },
+  {
+    "post_id": 15545326,
+    "sentence": "I even tried running the sample project given in Struts2 website (Basic_Struts_2_Maven_2_3_1_2.zip.but I still have no luck",
+    "answer": "Struts2 website"
+  },
+  {
+    "post_id": 14417049,
+    "sentence": "I installed Firebug to see if there are any JavaScript errors and there are 2: -CODE-.",
+    "answer": "JavaScript"
+  },
+  {
+    "post_id": 15545326,
+    "sentence": "Building it is successful but running it on server always fail.",
+    "answer": "server"
+  },
+  {
+    "post_id": 15545326,
+    "sentence": "Here's the web.xml: -CODE-.pom.xml: -CODE-struts.xml: -CODE-.classpath: -CODE-",
+    "answer": "web.xml"
+  },
+  {
+    "post_id": 13152669,
+    "sentence": "-CODE-.when running the above code the following exception occured-CODE-what i am doing wrong herewhat is the actual problemcan anyone suggest a solutioni tried both addRow(and insertRow(but the same problem occured",
+    "answer": "insertRow"
+  },
+  {
+    "post_id": 61295487,
+    "sentence": "I am trying to enable my app as admin using this plugin.",
+    "answer": "plugin"
+  },
+  {
+    "post_id": 8618358,
+    "sentence": "I use Guice along with GWT 2.4 but I get a javax.validation.ValidationException NoClassDefFoundError when I run the server.",
+    "answer": "Guice"
+  },
+  {
+    "post_id": 8618358,
+    "sentence": "In the pom.xml file I referenced the correct dependency: -CODE-.but in Eclipse I can't see the validation-api-1.0.0.GA.jar in the Maven Dependencies tree",
+    "answer": "Maven Dependencies tree"
+  },
+  {
+    "post_id": 8618358,
+    "sentence": "The behavior is pretty strange: [-]I can find validation-api-1.0.0.GA-sources.jar and javax.validation-validation-api-1.0.0.GA-sources.jar under the target directory.",
+    "answer": ""
+  },
+  {
+    "post_id": 8618358,
+    "sentence": "[-]In the Maven Dependencies tree of eclipse, I can see a reference to javax.validation-validation-api-1.0.0.GA-sources.jar which contains 5 packages but no classes.",
+    "answer": "Maven Dependencies tree of eclipse"
+  },
+  {
+    "post_id": 16990482,
+    "sentence": "I get this error: -CODE-.",
+    "answer": ""
+  },
+  {
+    "post_id": 8618358,
+    "sentence": "Running the app outside eclipse works.",
+    "answer": "eclipse"
+  },
+  {
+    "post_id": 16990482,
+    "sentence": "I placed the image file next to the java source code file but the file is not found.",
+    "answer": "java"
+  },
+  {
+    "post_id": 8618358,
+    "sentence": "I run it using mvn gwt:run.",
+    "answer": "mvn"
+  },
+  {
+    "post_id": 10609045,
+    "sentence": "Ok so this is my first applet, I tried many times to bypass this Exception.",
+    "answer": ""
+  },
+  {
+    "post_id": 19680275,
+    "sentence": "I get this java.lang.ClassCastException by trying to communicate with my Webservice which has SOAPHeader Handler implimentation.",
+    "answer": "SOAPHeader Handler"
+  },
+  {
+    "post_id": 19680275,
+    "sentence": "The error occurs by: -CODE-.in the incomming method this class \"oracle.j2ee.ws.saaj.soap.TextImpl",
+    "answer": "oracle.j2ee.ws.saaj.soap.TextImpl"
+  },
+  {
+    "post_id": 19680275,
+    "sentence": "I can not explain from where it comes i didn't bind it anywhere.",
+    "answer": ""
+  },
+  {
+    "post_id": 19680275,
+    "sentence": "I'am using Weblogic Server 12c 2.",
+    "answer": "Weblogic Server 12c 2"
+  },
+  {
+    "post_id": 35292694,
+    "sentence": "I'm trying to send some JSON notifications to the GCM servers and I'm getting this list of errors: -CODE-.",
+    "answer": "GCM servers"
+  },
+  {
+    "post_id": 19680275,
+    "sentence": "I search after TextImpl class in the hole server but no result.",
+    "answer": "hole server"
+  },
+  {
+    "post_id": 35292694,
+    "sentence": "Weird thing is, this only happens if I try to send to a single device.it works if I try to send to multiple devices, using the registration_id field",
+    "answer": "registration_id field"
+  },
+  {
+    "post_id": 35292694,
+    "sentence": "The reference says error 400 means the JSON couldn't be parsed, but I tried printing it out and it seems fine: Multicast sending: (response code: 200, invalid registration.-CODE-",
+    "answer": "JSON"
+  },
+  {
+    "post_id": 35292694,
+    "sentence": "Sending to single device: (responce code: 400, errors above.-CODE-",
+    "answer": ""
+  },
+  {
+    "post_id": 29578980,
+    "sentence": "hello everybody I write my java project with eclipse and run in eclipse too but I got error, this is my code: -CODE-.my project is in c:\\wamp\\www\\projectFolder and my library that I added to my project is in this path D:\\arshad-comp\\terme2\\expertSys\\protege-5.0.0-beta-15\\Protege_5.0_beta\\test\\bin and this is my classpath content: -CODE-and this is the error lines: -CODE-",
+    "answer": "eclipse"
+  },
+  {
+    "post_id": 35292694,
+    "sentence": "The functions to send to a single or multiple devices have only one different line.",
+    "answer": ""
+  },
+  {
+    "post_id": 29578980,
+    "sentence": "I don't know really what to do :( I can't remember what changed I made.mycode works 1day ago I do any solution in the internet help me please",
+    "answer": "internet"
+  },
+  {
+    "post_id": 35292694,
+    "sentence": "One of them adds the to field, the other a registration_id field.-CODE-",
+    "answer": ""
+  },
+  {
+    "post_id": 45510916,
+    "sentence": "I am making an app that hosts widgets and it works well except for when I add the email widget.",
+    "answer": ""
+  },
+  {
+    "post_id": 45510916,
+    "sentence": "When I do that I get a java.lang.SecurityException: Permission Denial error : starting intent.",
+    "answer": ""
+  },
+  {
+    "post_id": 35292694,
+    "sentence": "Edit: The third line below is line 181 mentioned in the errors: -CODE-.",
+    "answer": ""
+  },
+  {
+    "post_id": 22892908,
+    "sentence": "I'm using ng-table to display information from an API call which I group like the example on the website.",
+    "answer": "ng-table"
+  },
+  {
+    "post_id": 45510916,
+    "sentence": "Here is the method configureWidget which is mentioned in the log: -CODE-.",
+    "answer": "method configureWidget"
+  },
+  {
+    "post_id": 22892908,
+    "sentence": "However, the example on the website makes use of static information where as I need to make a new API call each time.",
+    "answer": ""
+  },
+  {
+    "post_id": 22892908,
+    "sentence": "When I don't include the $scope.$watch('groupby', function(value.function, I am amble to display the table for the first, initial call-CODE-",
+    "answer": "$scope.$watch('groupby', function(value.function"
+  },
+  {
+    "post_id": 22892908,
+    "sentence": "EDIT: I am now able to display the data, however the groups are not displayed: -CODE-.",
+    "answer": ""
+  },
+  {
+    "post_id": 31878414,
+    "sentence": "Scenario: I have a ProductManager interface: -CODE-.",
+    "answer": "Scenario"
+  },
+  {
+    "post_id": 50681732,
+    "sentence": "Here is my UpdateSubscriberInfoImpl.java : -CODE-.",
+    "answer": "UpdateSubscriberInfoImpl"
+  },
+  {
+    "post_id": 51788764,
+    "sentence": "However, this is not intercepting RequestRejectedException (as indicated by the lack of \"Server Error.in the first log sample above)",
+    "answer": ""
+  },
+  {
+    "post_id": 51788764,
+    "sentence": "How can I intercept RequestRejectedException in an error controller.",
+    "answer": ""
+  },
+  {
+    "post_id": 61065060,
+    "sentence": "I am creating a word-by-word palindrome (\"yes I can, can I yes?\".as follows: ''' public class Palindrome { -CODE-} ''' In here, it says I receive a nullpointerexception during my for each loop where I enqueue and push each string in the string array, I have tested the strings in the string array and they do exist, so why am I receiving this error",
+    "answer": "palindrome"
+  },
+  {
+    "post_id": 2458699,
+    "sentence": "My Project has 2 java files (A.java and B.java in same package).",
+    "answer": "java"
+  },
+  {
+    "post_id": 50113126,
+    "sentence": "I am inside lambda function6.",
+    "answer": "lambda function6"
+  },
+  {
+    "post_id": 50113126,
+    "sentence": "I am inside lambda function8.",
+    "answer": "lambda function8"
+  },
+  {
+    "post_id": 21378017,
+    "sentence": "I'm new to dozer and I'm trying to create a map for ClassA and ClassB: -CODE-.",
+    "answer": "ClassA"
+  },
+  {
+    "post_id": 2458699,
+    "sentence": "And, an external jar has been added in the project build path.",
+    "answer": "project build path"
+  },
+  {
+    "post_id": 50113126,
+    "sentence": "I am inside lambda function9.",
+    "answer": "lambda function9"
+  },
+  {
+    "post_id": 21378017,
+    "sentence": "I tried the mapping below: -CODE-.classC is an abstract class and ClassD is a concrete",
+    "answer": "classC"
+  },
+  {
+    "post_id": 2458699,
+    "sentence": "In order to create a web service (bottom up.from the class, I created a new Dynamic Web Project in Eclipse with axis2 as the runtime platform, and imported A.java and B.java source files",
+    "answer": "Eclipse with axis2"
+  },
+  {
+    "post_id": 21378017,
+    "sentence": "When I map A->B there is no problem but when I map B->A, I'm getting InstantiationException.",
+    "answer": ""
+  },
+  {
+    "post_id": 2458699,
+    "sentence": "Next, since all my methods that need to be exposed are contained in A.java, I right click on it and created web service using the standard settings.",
+    "answer": "A.java"
+  },
+  {
+    "post_id": 21378017,
+    "sentence": "I suspect that the dozer is trying to instantiate abstract class classC.",
+    "answer": "abstract class classC"
+  },
+  {
+    "post_id": 2458699,
+    "sentence": "When I deploy the web service on my apache, I get \"Fault Service.and a few ClassNotFound Exceptions for some of the classes in my external jar file (I have already imported it as an external jar)",
+    "answer": "apache"
+  },
+  {
+    "post_id": 2458699,
+    "sentence": "Does the external jar needs to be imported in another way.",
+    "answer": "jar"
+  },
+  {
+    "post_id": 50113126,
+    "sentence": "I am inside lambda function7.",
+    "answer": "lambda function7"
+  },
+  {
+    "post_id": 17808188,
+    "sentence": "I have an ear running on WebLogic that contains an ejb.",
+    "answer": "WebLogic"
+  },
+  {
+    "post_id": 17808188,
+    "sentence": "All runs well until the ejb tries to instantiate an object of ServiceFactory .one of our own classes",
+    "answer": "object of ServiceFactory"
+  },
+  {
+    "post_id": 17808188,
+    "sentence": "In my unit tests, I could create an object of the class locally.",
+    "answer": "unit tests"
+  },
+  {
+    "post_id": 21666357,
+    "sentence": "So, I'm experimenting with the Calendar class in Java, and I'm writing a method which returns a Calendar object.",
+    "answer": "Calendar class"
+  },
+  {
+    "post_id": 17808188,
+    "sentence": "It's on the server that the error occurs.",
+    "answer": "server"
+  },
+  {
+    "post_id": 21666357,
+    "sentence": "What I want for said method is to return a Calendar object containing \"Sun Feb 09 22:49:36 +0000 2014\".",
+    "answer": "Calendar object"
+  },
+  {
+    "post_id": 17808188,
+    "sentence": "I'm guessing this is either a build/packaging issue or a WebLogic 10.3.6 quirk but don't know where to proceed from here given that the dependency exists in the ear (in APP-INF/lib).",
+    "answer": "WebLogic 10.3.6"
+  },
+  {
+    "post_id": 21666357,
+    "sentence": "Now I'm (debatably.not lazy and I have done some work on my method-CODE-",
+    "answer": ""
+  },
+  {
+    "post_id": 17808188,
+    "sentence": "I've also tried moving the dependency that contains the class to the root of the ear.\"Class-Path: is blank in the MANIFEST.MF file for the ejb and the ear, but the product has run fine until now without them",
+    "answer": "MANIFEST.MF file for the ejb and the ear"
+  },
+  {
+    "post_id": 21666357,
+    "sentence": "The problem is it keeps telling me that I got a ParseException, that it's an \"Unparseable date\".",
+    "answer": ""
+  },
+  {
+    "post_id": 17808188,
+    "sentence": "I'm building with Maven.-CODE-",
+    "answer": "Maven.-CODE-"
+  },
+  {
+    "post_id": 21666357,
+    "sentence": "I thought my logic was pretty correct, but I'm starting to doubt it.",
+    "answer": ""
+  },
+  {
+    "post_id": 71251696,
+    "sentence": "I get this error when trying to access app's storage (tried both.private and shared)",
+    "answer": "app's storage"
+  },
+  {
+    "post_id": 21666357,
+    "sentence": "I'd prefer it without importing any more than Calendar, but SimpleDateFormat seems to be pretty handy too.",
+    "answer": "SimpleDateFormat"
+  },
+  {
+    "post_id": 71251696,
+    "sentence": "I tried adding file:// but it doesn`t seem to help.-CODE-error: -CODE-",
+    "answer": ""
+  },
+  {
+    "post_id": 71251696,
+    "sentence": "The file does load as expected(without adding 'file://'.but the error keeps happening",
+    "answer": ""
+  },
+  {
+    "post_id": 42742357,
+    "sentence": "I'm trying to decompose a crash on my Android app from a device with the following specs: -CODE-.",
+    "answer": "Android app"
+  },
+  {
+    "post_id": 21666357,
+    "sentence": "Tried to run the code in a main method and just print out the result, with no difference in Exception.",
+    "answer": ""
+  },
+  {
+    "post_id": 42742357,
+    "sentence": "Is it really pointing me to line 120.",
+    "answer": "line 120"
+  },
+  {
+    "post_id": 21666357,
+    "sentence": "The following is my main: -CODE-.",
+    "answer": ""
+  },
+  {
+    "post_id": 21666357,
+    "sentence": "For those interested, the following is my entire console text after the main crashed: -CODE-.",
+    "answer": ""
+  },
+  {
+    "post_id": 20239588,
+    "sentence": "I'm developping an entreprise application on jboss AS 7.1.",
+    "answer": "jboss"
+  },
+  {
+    "post_id": 42742357,
+    "sentence": "I researched the ClassCastException thrown but I can't seem to put the two together.",
+    "answer": "ClassCastException thrown"
+  },
+  {
+    "post_id": 20239588,
+    "sentence": "I was reading answers to those question (Q1 and Q2.asking for the same problem then mine and the solution was to upgrade to the Mojarra 2.1.9",
+    "answer": "Mojarra 2.1.9"
+  },
+  {
+    "post_id": 42742357,
+    "sentence": "What does drawable.ColorDrawable have to do with my bitmap here.",
+    "answer": ""
+  },
+  {
+    "post_id": 23519442,
+    "sentence": "I'm having a InstantiationException, I have searched the other answers and questions on here but can't find anything related to my problem.",
+    "answer": ""
+  },
+  {
+    "post_id": 64479028,
+    "sentence": "Apparently, the point of error is occuring while loading a certs/cacerts file as a property used in some Apache Kakfa Connector TLS Configuration.",
+    "answer": "certs/cacerts file"
+  },
+  {
+    "post_id": 23519442,
+    "sentence": "The app crashes on the MainActivity looking at the logcat it gives an error with this: -CODE-.",
+    "answer": "logcat"
+  },
+  {
+    "post_id": 50681732,
+    "sentence": "i'm trying to deploy my war in wildfly (JBOSS 8.but i have this error when deploying : -CODE-",
+    "answer": "wildfly"
+  },
+  {
+    "post_id": 23519442,
+    "sentence": "I have declared it with: -CODE-.",
+    "answer": ""
+  },
+  {
+    "post_id": 36086292,
+    "sentence": "However, when I tried to organize my methods, separating testLogin(.and testCreateAccount into 2 test classes which consist of exact same @Before and @After, I'm getting InstantiationException, seemingly on any classes that execute after the first, occurring on the line of RequestBuilder: -CODE-",
+    "answer": ""
+  },
+  {
+    "post_id": 23519442,
+    "sentence": "It is taken from the \"Navigation Drawer.example provided by google, I'm just playing and modifying it (learningbut this problem has become a real pain",
+    "answer": "Navigation Drawer.example provided by google"
+  },
+  {
+    "post_id": 23519442,
+    "sentence": "Heres the log: -CODE-.",
+    "answer": ""
+  },
+  {
+    "post_id": 64479028,
+    "sentence": "I am facing a very tough situation running MUnit on my project.",
+    "answer": "MUnit"
+  },
+  {
+    "post_id": 36086292,
+    "sentence": "I'm following the documentations here, which doesn't show the setup with multiple classes: https://www.playframework.com/documentation/2.4.x/JavaTestingWithGuice https://www.playframework.com/documentation/2.4.x/JavaDependencyInjection.",
+    "answer": "multiple classes"
+  },
+  {
+    "post_id": 36635204,
+    "sentence": "I am facing a strange situation, where I am able to run my db integration unit test fine, when run standalone, but fails when run with some other tests which use the same autowired DB configuration.",
+    "answer": "db integration unit test"
+  },
+  {
+    "post_id": 50437002,
+    "sentence": "BTW: I know that the files the import statement is using exist.",
+    "answer": "BTW"
+  },
+  {
+    "post_id": 50437002,
+    "sentence": "Also, isn't Node.js server-side.",
+    "answer": "Node.js"
+  },
+  {
+    "post_id": 36635204,
+    "sentence": "Now, suppose there is a class(in the same package.using the configuration: -CODE-",
+    "answer": ""
+  },
+  {
+    "post_id": 64479028,
+    "sentence": "I have tried many ways to get this resolved with my team, but couldn't fix it.",
+    "answer": ""
+  },
+  {
+    "post_id": 36635204,
+    "sentence": "There is another class in another package using the same EmbeddedDBTestConfiguration: -CODE-.",
+    "answer": "EmbeddedDBTestConfiguration"
+  },
+  {
+    "post_id": 20239588,
+    "sentence": "I'm using maven but i'm not referencing any Mojarra jar dependency as it's provided by jboss server and i don't know which version it uses itself and since those questions have been asked a long time ago then i don't know if the solution is just to add dependencies to my pom to override the version used by jboss(normally, jboss AS 7.1 has overcome this problem already, i don't understand why it still happen to me)..",
+    "answer": "maven"
+  },
+  {
+    "post_id": 36086292,
+    "sentence": "I'm trying to do Guice testing of my controllers in Play framework 2.4.6.",
+    "answer": "Play framework 2.4.6"
+  },
+  {
+    "post_id": 36635204,
+    "sentence": "When I run a mvn goal for all integration tests, XyzIntegrationTest results in the following error: -CODE-.",
+    "answer": "XyzIntegrationTest"
+  },
+  {
+    "post_id": 64479028,
+    "sentence": "Its working absolutely fine when running the normal Mule code (having the TLS Context).",
+    "answer": "Mule code"
+  },
+  {
+    "post_id": 36635204,
+    "sentence": "So, testA(.fails, but testB and the rest of the other tests within the class runs fine",
+    "answer": ""
+  },
+  {
+    "post_id": 64479028,
+    "sentence": "But fails to work, when running MUnit.",
+    "answer": "MUnit"
+  },
+  {
+    "post_id": 64479028,
+    "sentence": "I am using Mule 4.3.0 and Anypoint Studio 7.4.",
+    "answer": "Mule 4.3.0"
+  },
+  {
+    "post_id": 36086292,
+    "sentence": "The following code works fine: -CODE-.",
+    "answer": ""
+  },
+  {
+    "post_id": 36635204,
+    "sentence": "AbcIntegrationTest, this test and other tests within the \"xyz.package(using the DB configurationrun fine",
+    "answer": "AbcIntegrationTest"
+  },
+  {
+    "post_id": 37878750,
+    "sentence": "I'd like to mention that I know what the error means, as I've already searched far and wide for an answer but I simply don't understand why I'm getting it, so here goes...",
+    "answer": ""
+  },
+  {
+    "post_id": 37878750,
+    "sentence": "Here is the part of ObservationFactDAO.java causing the problem (as referenced by the error): -CODE-.",
+    "answer": "ObservationFactDAO.java"
+  },
+  {
+    "post_id": 37878750,
+    "sentence": "More specifically, the first line Object[] objs = new Object[] is referenced.",
+    "answer": ""
+  },
+  {
+    "post_id": 37878750,
+    "sentence": "As you can see, the list is being defined here so I don't understand why the exception is sent here.",
+    "answer": ""
+  },
+  {
+    "post_id": 37878750,
+    "sentence": "The methods called in the Object declaration are valid and simple 'return' statements.",
+    "answer": ""
+  },
+  {
+    "post_id": 37878750,
+    "sentence": "Furthermore, I've tried replacing them with actual values with the same results.",
+    "answer": ""
+  },
+  {
+    "post_id": 37878750,
+    "sentence": "I'm still researching on my end but most of the existing posts about this exception concern adding values to an existing empty list and not its initialization.",
+    "answer": ""
+  },
+  {
+    "post_id": 38148704,
+    "sentence": "I've set up Elixir to use Vueify with hot reload plugin.",
+    "answer": "Vueify with hot reload plugin"
+  },
+  {
+    "post_id": 38148704,
+    "sentence": "Everything compiles ok but I get a console error on my compiled file and the Vue component doesn't appear to be transforming to html, it still shows the <app></app> tags.",
+    "answer": "Vue"
+  },
+  {
+    "post_id": 38148704,
+    "sentence": "If I remove the hot reload plugin from elixir, the page renders fine.",
+    "answer": "elixir"
+  },
+  {
+    "post_id": 38148704,
+    "sentence": "The error is: Uncaught TypeError: Cannot read property 'indexOf' of undefined.",
+    "answer": ""
+  },
+  {
+    "post_id": 38148704,
+    "sentence": "The console output it: -CODE-.",
+    "answer": ""
+  },
+  {
+    "post_id": 38148704,
+    "sentence": "So it's worth mentioning that it is receiving messages from hot reloading, it just doesn't render the page because of this error.",
+    "answer": "hot reloading"
+  },
+  {
+    "post_id": 38148704,
+    "sentence": "The error is happening on the following lines in the compiled app.js file.-CODE-",
+    "answer": "app.js file"
+  },
+  {
+    "post_id": 38148704,
+    "sentence": "Here are my files.gulpfile.js: -CODE-main.js: -CODE-app.vue: -CODE-index.blade.php: -CODE-",
+    "answer": ""
+  },
+  {
+    "post_id": 11289579,
+    "sentence": "I have a simple example of a socket server where the user connects to it and may or may not immediately send input (in this case it does not).",
+    "answer": "socket server"
+  },
+  {
+    "post_id": 64184076,
+    "sentence": "I am implementing Room database in my new app.",
+    "answer": "Room database"
+  },
+  {
+    "post_id": 64184076,
+    "sentence": "When setting up the database I get this error: -CODE-.",
+    "answer": ""
+  },
+  {
+    "post_id": 64184076,
+    "sentence": "This is how my database class looks like: -CODE-.",
+    "answer": ""
+  },
+  {
+    "post_id": 64184076,
+    "sentence": "When I remove @Database annotation the error is gone, so I thought maybe something is wrong with entity itself.",
+    "answer": "@Database"
+  },
+  {
+    "post_id": 64184076,
+    "sentence": "Tried changing val to var, adding @ColumnInfo(name=....but nothing helped--stacktrace gives this: -CODE-",
+    "answer": "@ColumnInfo(name="
+  },
+  {
+    "post_id": 7392296,
+    "sentence": "I have a JSP file which I am deploying within a Java Project with the help of Eclipse, Maven, and Tomcat.",
+    "answer": "Eclipse, Maven, and Tomcat"
+  },
+  {
+    "post_id": 7392296,
+    "sentence": "I've got a few other JSP files almost identical to this one, though they run different operations.",
+    "answer": "JSP files"
+  },
+  {
+    "post_id": 7392296,
+    "sentence": "Anyway, when I go to the page, I've given this: -CODE-.",
+    "answer": ""
+  },
+  {
+    "post_id": 7392296,
+    "sentence": "Bug is a custom class that can take in a result set -.rsBug -and performs the following operations: -CODE-",
+    "answer": "custom class"
+  },
+  {
+    "post_id": 7392296,
+    "sentence": "Where BUG_ID, PERSON_OPENED_BY, PERSON_ASSIGNED_TO, TITLE, and PROJECT_ID are all string members of the Bug class that correspond to the column names within the Bug table stored in the database.",
+    "answer": ""
+  },
+  {
+    "post_id": 7392296,
+    "sentence": "Now, there is a ixPersonOpenedBy column in the table, but it's never given me any problems before.",
+    "answer": "ixPersonOpenedBy column"
+  },
+  {
+    "post_id": 7392296,
+    "sentence": "I'm not sure if it has anything to do with the SQL statement I try to execute or not, but I've used the EXACT same statement before in one of my other JSP's and it hasn't given me any trouble.",
+    "answer": "SQL statement"
+  },
+  {
+    "post_id": 7392296,
+    "sentence": "In addition, this error wasn't popping up in earlier deployments of the project.",
+    "answer": ""
+  },
+  {
+    "post_id": 7392296,
+    "sentence": "I had a typo in an unrelated variable, and once it was fixed, this guy popped up outta nowhere.",
+    "answer": ""
+  },
+  {
+    "post_id": 64479028,
+    "sentence": "Given below are the two snapshots of the Configuration used, and the error reported in the MUnit console: Kafka Consumer TLS Configuration Snapshot: Error Snapshot: Compete error report given below: -CODE-.",
+    "answer": "MUnit console"
+  },
+  {
+    "post_id": 6833396,
+    "sentence": "I was trying to run the CHARVA Tutorial thru Eclipse after setting up the JAR, but I receive.",
+    "answer": "CHARVA Tutorial thru Eclipse"
+  },
+  {
+    "post_id": 61269706,
+    "sentence": "I am using Apache Tomcat v9.0 and when I am running the simple MVC project I am getting the error.",
+    "answer": "Apache Tomcat v9.0"
+  },
+  {
+    "post_id": 6833396,
+    "sentence": "Exception in thread \"main.java.lang.UnsatisfiedLinkError: no Terminal in java.library.pathin the console",
+    "answer": "Exception"
+  },
+  {
+    "post_id": 61269706,
+    "sentence": "[-]Alien.class.-CODE-2.AlienDao: -CODE-3.HomeController: -CODE-4.dispatcherServlet-servlet.xml: -CODE-",
+    "answer": "dispatcherServlet-servlet.xml"
+  },
+  {
+    "post_id": 19000720,
+    "sentence": "I have a wsdl file, lot of xsd files, jxb binding file.",
+    "answer": "wsdl file"
+  },
+  {
+    "post_id": 61269706,
+    "sentence": "I am trying to simply call the URL http://localhost:8080/ORMMVC/getAliens in the address bar and I am getting the below error: -CODE-.",
+    "answer": "localhost:8080/ORMMVC/getAliens"
+  },
+  {
+    "post_id": 19000720,
+    "sentence": "I created a web service client using Apache CXF cxf-codegen-plugin.",
+    "answer": "Apache CXF cxf-codegen-plugin"
+  },
+  {
+    "post_id": 34259069,
+    "sentence": "I'm just getting started with Apache Kafka/Zookeeper and have been running into issues trying to set up a cluster on AWS.",
+    "answer": "Apache Kafka/Zookeeper"
+  },
+  {
+    "post_id": 34259069,
+    "sentence": "Currently I have three servers: One running Zookeeper and two running Kafka.",
+    "answer": "Kafka"
+  },
+  {
+    "post_id": 19000720,
+    "sentence": "But when I try to call any of the generated methods, I get an exception: -CODE-.",
+    "answer": ""
+  },
+  {
+    "post_id": 34259069,
+    "sentence": "I can start the Kafka servers without issue and can create topics on both of them.",
+    "answer": "Kafka servers"
+  },
+  {
+    "post_id": 19000720,
+    "sentence": "I call the webservice method like this (don't worry about the nulls): -CODE-.",
+    "answer": "webservice method"
+  },
+  {
+    "post_id": 34259069,
+    "sentence": "However, the trouble comes when I try to start a producer on one machine and a consumer on the other: on the Kafka producer: -CODE-.on the Kafka consumer: -CODE-",
+    "answer": "Kafka producer"
+  },
+  {
+    "post_id": 34259069,
+    "sentence": "I type in a message on the producer (\"hi\".and nothing happens for a while",
+    "answer": ""
+  },
+  {
+    "post_id": 34259069,
+    "sentence": "On the consumer side I get this message, which repeats periodically: -CODE-.",
+    "answer": ""
+  },
+  {
+    "post_id": 19000720,
+    "sentence": "I am jus trying to create very simple web service client.",
+    "answer": ""
+  },
+  {
+    "post_id": 34259069,
+    "sentence": "After a while, the producer will then start rapidly throwing this error message with # increasing incrementally: -CODE-.",
+    "answer": "the producer"
+  },
+  {
+    "post_id": 19000720,
+    "sentence": "I've put sample project with all the wsdl and xsd files I'm using on GitHub.",
+    "answer": "GitHub"
+  },
+  {
+    "post_id": 34259069,
+    "sentence": "Let me know if more details about my configuration files are needed.",
+    "answer": ""
+  },
+  {
+    "post_id": 43946738,
+    "sentence": "So, this my Api Service Component, I'm using Axios: -CODE-.and some feed component: -CODE-and now the error: -CODE-can anybody help",
+    "answer": "Axios"
+  },
+  {
+    "post_id": 32881074,
+    "sentence": "I am picking images form Gallery but the following code snippet create the FileNotFoundException.",
+    "answer": "FileNotFoundException"
+  },
+  {
+    "post_id": 42827712,
+    "sentence": "i am trying to create a blob in azure using the below tutorial project in Android.https://github.com/Azure/azure-storage-androidi have created my own account with free trial and replaced storageConnectionString using created account name and access key-CODE-",
+    "answer": "Android"
+  },
+  {
+    "post_id": 32881074,
+    "sentence": "Code is fine but I don't know why it raises the exception.",
+    "answer": ""
+  },
+  {
+    "post_id": 42827712,
+    "sentence": "But i got the below exception: -CODE-.i am doubting on the storageConnectionStringthe way i write the storageConnectionString is rite",
+    "answer": "storageConnectionStringthe"
+  },
+  {
+    "post_id": 32881074,
+    "sentence": "Here is the Logcat Message: Unable to decode stream: java.io.FileNotFoundException: /storage/emulated/0/Pictures/Screenshots/Screenshot_2015-09-15-17-27-49.png: open failed: EACCES (Permission denied.",
+    "answer": "Logcat Message"
+  },
+  {
+    "post_id": 19011747,
+    "sentence": "It results in (Chrome): -CODE-.",
+    "answer": ""
+  },
+  {
+    "post_id": 51788764,
+    "sentence": "I am seeing a ton of RequestRejectedException entries in my Tomcat log (sample pasted below).",
+    "answer": "Tomcat log"
+  },
+  {
+    "post_id": 19011747,
+    "sentence": "Btw: Firefox does the same.ps: Don't know what the object is",
+    "answer": "Firefox"
+  },
+  {
+    "post_id": 51788764,
+    "sentence": "These started appearing in my log file after a minor version upgrade (Spring Security 4.2.4, IIRC.a few months ago, so this is clearly a new security feature in Spring that is enabled by default",
+    "answer": "Spring Security 4.2.4"
+  },
+  {
+    "post_id": 51788764,
+    "sentence": "A similar issue is reported here, but my question involves specifically how to intercept these exceptions in a controller.",
+    "answer": ""
+  },
+  {
+    "post_id": 13720753,
+    "sentence": "After googling a lot and seeing the answers here on SO of similar questions, I am still getting this error of ClassNotFoundException.",
+    "answer": ""
+  },
+  {
+    "post_id": 51788764,
+    "sentence": "There is a Spring Security bug documented for this problem (Provide a way to handle RequestRejectedException).",
+    "answer": ""
+  },
+  {
+    "post_id": 13720753,
+    "sentence": "My apache tomcat webapps directory is C:\\Program Files\\Apache Software Foundation\\Tomcat 6.0\\webapps.",
+    "answer": "apache tomcat webapps"
+  },
+  {
+    "post_id": 51788764,
+    "sentence": "However, they aren't targeting a fix for this problem until Spring 5.1.",
+    "answer": ""
+  },
+  {
+    "post_id": 51788764,
+    "sentence": "I want to gain some control over this feature so that: [-]I know I'm not blocking legitimate users from my site.",
+    "answer": ""
+  },
+  {
+    "post_id": 70840304,
+    "sentence": "Can we handle this exception in configuration to return null instead of exception if there is no connection.-CODE--CODE-",
+    "answer": ""
+  },
+  {
+    "post_id": 51788764,
+    "sentence": "[-]I can see what requests are triggering this (are they SQL Injection attacks?.",
+    "answer": "SQL Injection attacks"
+  },
+  {
+    "post_id": 51788764,
+    "sentence": "[-]I can adjust the server response.",
+    "answer": "server"
+  },
+  {
+    "post_id": 64479028,
+    "sentence": "I need your help in resolving this and making my test work, but with TLS configurations present in its rightful place.",
+    "answer": "TLS configurations"
+  },
+  {
+    "post_id": 51788764,
+    "sentence": "The Spring Security firewall dumps a complete stack trace to the web client (information disclosure), along with a 500 Internal Server Error (which is wildly incorrect, this should be a 400 Bad Request).",
+    "answer": "Spring Security firewall"
+  },
+  {
+    "post_id": 51788764,
+    "sentence": "I want to find a way to log the URL that was requested, but also suppress the stack trace specifically for these exceptions because they are polluting my log files without giving me any helpful information.",
+    "answer": "URL"
+  },
+  {
+    "post_id": 51788764,
+    "sentence": "Optimally, I'd like to intercept these exceptions and handle them in my application layer instead of reporting them in the Tomcat log at all.",
+    "answer": "Tomcat log"
+  },
+  {
+    "post_id": 70840304,
+    "sentence": "So what We do are when a client request API it first go to Redis to get data if there is no data it returns null so the second step go to the MYSQL database to get data, But the problem when we lose the Redis connection it returns JedisConnectionException.",
+    "answer": "MYSQL database"
+  },
+  {
+    "post_id": 51788764,
+    "sentence": "For example, this is one of thousands of these log entries that appear every day in my catalina.out: -CODE-.",
+    "answer": "catalina.out"
+  },
+  {
+    "post_id": 70840304,
+    "sentence": "We are developing an application that uses the Redis server as a cache server.",
+    "answer": "Redis server"
+  },
+  {
+    "post_id": 42044074,
+    "sentence": "I am new in Android studio, I am creating an app and I can't get it to run properly.",
+    "answer": "Android studio"
+  },
+  {
+    "post_id": 51788764,
+    "sentence": "I'm seeing over 3,200 of these in a two day period, and it has quickly become the single largest contributor to my catalina.out log file, to the point that it prevents me from seeing other, legitimate problems.",
+    "answer": "catalina.out"
+  },
+  {
+    "post_id": 13720753,
+    "sentence": "In my webapps/jsp folder I created an index.jsp file but it shows an error in the line Class.forName(\"com.mysql.jdbc.Driver\").newInstance(); My current folder structure is: -CODE-.",
+    "answer": "my webapps/jsp folder"
+  },
+  {
+    "post_id": 51788764,
+    "sentence": "Essentially, this new Spring Security feature is a form of built-in Denial-of-Service, and it has wasted hours of my time since April.",
+    "answer": "Denial-of-Service"
+  },
+  {
+    "post_id": 64479028,
+    "sentence": "Although similar errors been reported by other developers occasionally, I couldn't concluded that this as a possible bug with the mule runtime or especially a Kafka Connector problem.-CODE-",
+    "answer": "Kafka Connector problem"
+  },
+  {
+    "post_id": 51788764,
+    "sentence": "I am not saying that it is not an important feature, simply that the default implementation is completely botched, and I want to find a way gain some control over it, both as a developer and as a systems administrator.",
+    "answer": "systems administrator"
+  },
+  {
+    "post_id": 51788764,
+    "sentence": "I use a custom Error Controller for intercepting many other Exception types (including IOException.in Spring",
+    "answer": "a custom Error Controller"
+  },
+  {
+    "post_id": 13720753,
+    "sentence": "I also uploaded the mysql-connector-java-5.1.22-bin.jar file in C:\\Program Files\\Java\\jre7\\lib as mentioned in some of answers here in SO.",
+    "answer": "mysql"
+  },
+  {
+    "post_id": 51788764,
+    "sentence": "However, RequestRejectedException seems to be falling through for some reason.",
+    "answer": ""
+  },
+  {
+    "post_id": 42044074,
+    "sentence": "The purpose is When I press the button order, one of the textView's shows in text \"5\", by default is 0.",
+    "answer": ""
+  },
+  {
+    "post_id": 51788764,
+    "sentence": "This is the relevant part of my ErrorController.java, to give an idea of what I'm trying to accomplish: -CODE-.",
+    "answer": "ErrorController.java"
+  },
+  {
+    "post_id": 42044074,
+    "sentence": "This is the MainActivity.java: -CODE-.",
+    "answer": "MainActivity.java"
+  },
+  {
+    "post_id": 51788764,
+    "sentence": "This error controller works for many exceptions.",
+    "answer": ""
+  },
+  {
+    "post_id": 51788764,
+    "sentence": "For example, it successfully intercepted this IllegalStateException: -CODE-.",
+    "answer": "IllegalStateException"
+  },
+  {
+    "post_id": 30472422,
+    "sentence": "I have read and tried all solution given in stackoverflow and in other various sites but still getting issue and getting exception.",
+    "answer": "stackoverflow"
+  },
+  {
+    "post_id": 66335148,
+    "sentence": "I am coding a discord bot with discord.js and after adding an event folder to clen up my index.js file the ready event that I had doesn't work anymore and I haven't changed a single line.",
+    "answer": "discord.js"
+  },
+  {
+    "post_id": 66335148,
+    "sentence": "This is the error I get: -CODE-.",
+    "answer": ""
+  },
+  {
+    "post_id": 66335148,
+    "sentence": "And this is my index.js: -CODE-.",
+    "answer": ""
+  },
+  {
+    "post_id": 16759264,
+    "sentence": "Hi i needed to add a new exception in Spring security login form, everything work perfectly except that i want to have my own error message (until now it display the \"wrong login/password.one)",
+    "answer": "Spring security login form"
+  },
+  {
+    "post_id": 16759264,
+    "sentence": "I have override default attempt authentication method from Username password Authentication Filter : -CODE-.",
+    "answer": "Username password Authentication Filter"
+  },
+  {
+    "post_id": 16759264,
+    "sentence": "In my controller i see my exception under SPRING_SECURITY_LAST_EXCEPTION but the error message is always the one from bad credentials, how could i change that .",
+    "answer": ""
+  },
+  {
+    "post_id": 19537113,
+    "sentence": "I want to parse a Turtle file using this simple code: -CODE-.",
+    "answer": "Turtle file"
+  },
+  {
+    "post_id": 19537113,
+    "sentence": "Sometimes it complains about some URIs: -CODE-.",
+    "answer": ""
+  },
+  {
+    "post_id": 19537113,
+    "sentence": "Obviously some URIs are violating the grammar rules for URIs so do I need to preprocess my input data, or is there an option to configure this using Jena.",
+    "answer": "Jena"
+  },
+  {
+    "post_id": 19565974,
+    "sentence": "I've just started with Java and so I'm doing plenty of mistakes, I've solved and understood many of them, but now I'm having problems with input.",
+    "answer": "Java"
+  },
+  {
+    "post_id": 19565974,
+    "sentence": "I saw that there are two kinds of input: InputBufferedReader and Scanner, but I read that the first is better (I don't know why yet), so I' m using that.",
+    "answer": "InputBufferedReader and Scanner"
+  },
+  {
+    "post_id": 19565974,
+    "sentence": "The error that I get is: Code: -CODE-.",
+    "answer": ""
+  },
+  {
+    "post_id": 50437002,
+    "sentence": "I have a website hosted on Firebase hosting.",
+    "answer": "Firebase hosting"
+  },
+  {
+    "post_id": 50437002,
+    "sentence": "I would like to add material theming to it(Buttons, Textfields, etc...).",
+    "answer": "Buttons, Textfields, etc..."
+  },
+  {
+    "post_id": 50437002,
+    "sentence": "So, I ran the command npm install --save @material/textfield.",
+    "answer": "@material"
+  },
+  {
+    "post_id": 50437002,
+    "sentence": "I then extracted the folder called @material to my styles directory so that the structure looked like this: -CODE-.",
+    "answer": "@material"
+  },
+  {
+    "post_id": 50437002,
+    "sentence": "I can reference css files from my main.css by adding @import \"@material/textfield/dist/mdc.textfield.css\"; to the start of my stylesheet.",
+    "answer": "css files"
+  },
+  {
+    "post_id": 50437002,
+    "sentence": "However, when I deploy the code, and look at the console, the following error is returned: Uncaught SyntaxError: Unexpected token {.",
+    "answer": ""
+  },
+  {
+    "post_id": 50437002,
+    "sentence": "However, when I go to do the same thing for js, it doesn't work.",
+    "answer": ""
+  },
+  {
+    "post_id": 50437002,
+    "sentence": "According to Material Design's Github Repo, I should just be able to add: -CODE-.to the top of my script",
+    "answer": "Github Repo"
+  },
+  {
+    "post_id": 50437002,
+    "sentence": "If I do: import * as MDCRipple from '../styles/@material/ripple/dist/mdc.ripple.js';, the same error is also thrown(except instead of the \"{.character, it does not expect the \"*character)",
+    "answer": "MDCRipple"
+  },
+  {
+    "post_id": 50437002,
+    "sentence": "This was supposed to be an easy conversion for my site, but it has given my tons of headaches.",
+    "answer": ""
+  },
+  {
+    "post_id": 50437002,
+    "sentence": "This correctly changes the styling of the button.",
+    "answer": "button"
+  },
+  {
+    "post_id": 50437002,
+    "sentence": "I have tried to require(.the files, and change the path to import {MDCRipple} from '../styles/@material/ripple/dist/mdc.ripple.js';",
+    "answer": "MDCRipple"
+  },
+  {
+    "post_id": 11097760,
+    "sentence": "I am getting below exception when I try to run class file from command prompt,the same I run in eclipse,there I don't get any error.",
+    "answer": "eclipse"
+  },
+  {
+    "post_id": 11097760,
+    "sentence": "Trying to run from the same folder: -CODE-.",
+    "answer": ""
+  },
+  {
+    "post_id": 46502937,
+    "sentence": "I am trying to understand the Java 8 Stream-feature.",
+    "answer": "Java 8"
+  },
+  {
+    "post_id": 46502937,
+    "sentence": "I would like to catch all files in an array (could als be list.in all subdirectories of a specific directory path",
+    "answer": ""
+  },
+  {
+    "post_id": 46502937,
+    "sentence": "My code throws an java.lang.ArrayStoreException Error: -CODE-.",
+    "answer": ""
+  },
+  {
+    "post_id": 46502937,
+    "sentence": "Another thing I tried is just add the file names to an existing ArrayList: -CODE-.",
+    "answer": ""
+  },
+  {
+    "post_id": 46502937,
+    "sentence": "This throws a java.lang.ArrayStoreException Error as well.",
+    "answer": ""
+  },
+  {
+    "post_id": 46502937,
+    "sentence": "Something else I tried with the same result was: -CODE-.",
+    "answer": ""
+  },
+  {
+    "post_id": 25015622,
+    "sentence": "I have a question: I'm loading a RDF file (.nt format.in my model using Web Service",
+    "answer": "RDF file"
+  },
+  {
+    "post_id": 25015622,
+    "sentence": "When I run this code with \"Test Web Service.",
+    "answer": ""
+  },
+  {
+    "post_id": 25015622,
+    "sentence": "(and I insert the Strings), I get this error on GlassFish Server 4: -CODE-.",
+    "answer": "GlassFish Server"
+  },
+  {
+    "post_id": 25015622,
+    "sentence": "I have noted that this error is given on: -CODE-.",
+    "answer": ""
+  },
+  {
+    "post_id": 25015622,
+    "sentence": "I have read some post on StackOverflow to increase java heap memory as How to increase the java heap size in netbeans?, but, I get the same error, also if I increase 8192Mb.",
+    "answer": "netbeans"
+  },
+  {
+    "post_id": 25015622,
+    "sentence": "The file that I pass in input, is big, but in java application environment I don't get this error.",
+    "answer": "java"
+  },
+  {
+    "post_id": 72411714,
+    "sentence": "When I try to show the title of a movie (line 8 of App.js.",
+    "answer": ""
+  },
+  {
+    "post_id": 72411714,
+    "sentence": "I get the error \"Uncaught TypeError: movies[0] is undefined\".",
+    "answer": ""
+  },
+  {
+    "post_id": 72411714,
+    "sentence": "If I do a log of the variable \"movies.after line 5 the console makes two logs: Frist, logs movies as an empty array and then logs movies as an array with all the content, like I want",
+    "answer": ""
+  },
+  {
+    "post_id": 72411714,
+    "sentence": "The weird thing is that if I delete the line 8 {movies[0].title} and save the error dissapears as normal, but then if I add it again and save the movie title renders on screen like I'm trying to do.",
+    "answer": ""
+  },
+  {
+    "post_id": 72411714,
+    "sentence": "My useApi returns an array with a list of movies: -CODE-.",
+    "answer": ""
+  },
+  {
+    "post_id": 72411714,
+    "sentence": "Knowing that if I print movies it logs an empty array but then it prints it normal like I said, i guess I'm having a problem with asynchrony but I can't figure out what.",
+    "answer": "asynchrony"
+  },
+  {
+    "post_id": 72411714,
+    "sentence": "And the fact that it works when removing and readding line 8 makes me more confused.",
+    "answer": ""
+  },
+  {
+    "post_id": 33188178,
+    "sentence": "I am trying to make a simple java program and trying to implement JDBC over it.",
+    "answer": "JDBC"
+  },
+  {
+    "post_id": 33188178,
+    "sentence": "But I am getting an exception ClassNotFoundException com.mysql.jdbc.Driver.",
+    "answer": ""
+  },
+  {
+    "post_id": 31979057,
+    "sentence": "I have unfortunately hit a roadblock in my work.",
+    "answer": ""
+  },
+  {
+    "post_id": 31979057,
+    "sentence": "I have a node.js+ExpressJS back end hooked up to a front end via Socket.io and have created the server and client as follows: app.js: -CODE-.",
+    "answer": "server and client"
+  },
+  {
+    "post_id": 50113126,
+    "sentence": "If we will look into the log output it is telling that no such file, but I have kept it in S3 bucket.",
+    "answer": "S3 bucket"
+  },
+  {
+    "post_id": 31979057,
+    "sentence": "What happens when I crack open my console in browser is: -CODE-.",
+    "answer": ""
+  },
+  {
+    "post_id": 50113126,
+    "sentence": "S3 Event Received: readfilefromcsvfile/def_nhtsa_crash_test.csv.",
+    "answer": "S3 Event"
+  },
+  {
+    "post_id": 31979057,
+    "sentence": "Did I miss something, or is a stroke of misfortune fall into my code.",
+    "answer": ""
+  },
+  {
+    "post_id": 44039385,
+    "sentence": "I have a redux container which I want to mount in my test case.",
+    "answer": "redux container"
+  },
+  {
+    "post_id": 50113126,
+    "sentence": "Can anyone tell me how to access S3 file in java .or What is the path name I should give while accessing the S3 bucket file ",
+    "answer": "S3 bucket file"
+  },
+  {
+    "post_id": 60727479,
+    "sentence": "I have this message in browser: TypeError: data.map is not a function.",
+    "answer": ""
+  },
+  {
+    "post_id": 50113126,
+    "sentence": "I am inside lambda function10.java.io.FileNotFoundException: readfilefromcsvfile/def_nhtsa_crash_test.csv (No such file or directoryjava.io.FileNotFoundException: readfilefromcsvfile/def_nhtsa_crash_test.csv (No such file or directoryat java.io.FileInputStream.open0(Native Method",
+    "answer": "lambda"
+  },
+  {
+    "post_id": 60727479,
+    "sentence": "I am passing an array from another component here as props.",
+    "answer": "array"
+  },
+  {
+    "post_id": 44039385,
+    "sentence": "It has a component which is using react-router link.",
+    "answer": "react-router link"
+  },
+  {
+    "post_id": 44039385,
+    "sentence": "Mounting the container was throwing me history not defined error, after reading this https://github.com/ReactTraining/react-router/blob/master/packages/react-router/docs/guides/testing.md I implemented MemoryRouter, now the history error is gone, but I am getting following error: -CODE-.",
+    "answer": "MemoryRouter"
+  }
+]

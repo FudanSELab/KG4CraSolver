@@ -1,0 +1,31 @@
+sentence,label
+"Hey Everyone I am developing an application that plays YouTube Video, I extend YoutubeBaseActivity for the activity that should play the video but I keep getting an error when the activity is reached.",1
+I would like to use httpclient-4.2.5 and tried using an isolated shared library as suggested in the previous post.,1
+I'm having a weird problem with BigDecimal.,1
+I'm trying to create a user-generated table that can be stored and accessed across multiple sessions on the same computer.,1
+I am trying to build a program that will take a sentence from user and return the language of the text to the user.,1
+"I expect get result, print ""a.and ""b"", but only print ""aand an error: -CODE-kotlin version: 1.3.72",1
+I'm trying to extend one class from another inside the module.,1
+I am running a server on go.,1
+I'm new with Laravel and I wanted to get started with Bootstrap Modal.,1
+I'm using library DataTables and I build the Update function around it but I'm getting this error: -CODE-.,1
+I want to add support for unit tests on an existing Android Studio 1.1 project.,1
+I'm trying to get my karma tests running in a travis-ci build.,1
+When I try to use an @EachPattern on a List with: -CODE-.,1
+I am trying to connect my hive jdbc client to hiveserver2.i am using following maven: -CODE-but when i start my jdbc client with followin code : -CODE-it gives me following exception : -CODE-,1
+"When I try deploy my war file, I get error In catalina.out: -CODE-.",1
+I upgraded my Java application from Spring 4 to Spring 5 and i am getting java.lang.NoClassDefFoundError: Lorg/springframework/beans/factory/access/BeanFactoryReference error while running on tomcat server.followed by java.lang.ClassNotFoundException: org.springframework.beans.factory.access.BeanFactoryReference,1
+"I tried to display a todo.html page by connecting to http://localhost:3000 , but I'm getting an error when i open the http://localhost:3000 page , the error i have uploaded above as a snippet.",1
+I am trying a simple program with hibernate but while retrieving data from db i am getting this error.,1
+"I'm having a trouble using Hibernate in a Maven/JEE project, and still getting this error each time I try to use it (Hibernate).",1
+I am trying to communicate my web page script with my content script of my web extension with the code below.,1
+I am trying to run corda-bootcamp test case for Contract.,1
+I am trying to encode bytes to Base64 in groovy and I am getting returned the above error when I am trying to run it.,1
+I am trying to get list of object in an S3 bucket using AWS SDK for Java version 2.,1
+I am creating an app in play 2.2.1 and trying to add email facility to it.For that I have added dependency in my build.sbt file.,1
+"I'm new to Vue, and been trying to import a variable that consists of API key necessary for my app.js where Vue CDN is used.",1
+"I have the following code, where I am selecting all matching elements that start with the same name, excluding one I do not want included in the group.-CODE-",1
+"So, I'm trying to build routes in my Ember application dynamically with data from an API endpoint, /categories, with Ember Data.",1
+I need a time differnce in my react componenet.,1
+I want to include attachments when email is sent to a recipient.,1
+I am receiving a NPE from this bit of code.,1

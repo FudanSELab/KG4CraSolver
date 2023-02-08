@@ -1,0 +1,134 @@
+sentence,label
+Second view gets open when any of row is selected.,2
+I have the following entity: -CODE-.,2
+The rest inherit from it (one of them for example): -CODE-.,2
+A parent entity that contains a collection of Compensations: -CODE-.,2
+"Last but not least, I have a the main entity CompensationFile which has a collection of CompensationCase entities: -CODE-.",2
+It's strange because this used to work and suddenly it started working up.,2
+For some reason it only happens when updating and existing CompensationCase and adding a new Compensation.,2
+"For example, if I am persisting an entirely new main CompensationCase, it works without a hitch.",2
+I use the JpaRepository method save on the main entity CompensationFile to persist the entire thing as shown below (and where it is throwing the exception): CompensationFileFormService: -CODE-.,2
+I'm seeing the same issue as posted in this thread NoSuchMethodError org.apache.http.conn.scheme.Scheme.,2
+"(shared library was associated to the app, 2 jars (httpclient-4.2.5.jar and httpcore-4.2.4.jar.were added to the shared lib",2
+"However, it seems to still be loading some classes from com.ibm.ws.prereq.jaxrs.jar.",2
+Is there a step I'm missing in setting up the shared lib.,2
+I have a parse method as follows: -CODE-.,2
+Now when I run my test the code properly works.-CODE-,2
+"But when I execute my application passing exactly the same String ""0.",2
+"I got a ""java.lang.NumberFormatException.",2
+Following is the log: -CODE-.,2
+I know that when my app starts I'm setting a specific Locale: -CODE-.but I don't see how this should break my parseBigDecimalFromText method,2
+Looking at the BigDecimal source code it looks like it falls while parsing the exponent: -CODE-.,2
+"So, let's see, I have three bundles: Provider interface, Provider implementation and Client.",2
+"Everything is running smoothly on Eclipse, but when I export the bundles and run em, the following error appears when I try to retrieve the Provider Service: -CODE-.",2
+"The interface is exporting his package, so there should be no errors with that.",2
+"Alongside, Client is also importing the providerInterface package in its manifest.",2
+"The .jar of the Provider interface bundle does have the ProviderService class inside, so there are no error exporting either.",2
+"Provider and Client are just symbolic names, the ""Client.bundle imports and uses a lot of other classes from many other bundles with no errors whatsoever",2
+"However, every time I try to parse the JSON string I stored in localStorage, an error pops up.",2
+"I have tried to look up other questions similar to this, but could not find anything that seemed to be the exact problem I am facing.-CODE-",2
+"This is supposed to pull the stored JSON string and convert it back into an object stored in an array, but for some reason, it can not read the JSON string that was stored.",2
+Maven-formatted source code is at: https://github.com/jjYBdx4IL/my.bugs.smtpserver: -CODE-.,2
+"Exception thrown during ""mvn test"": -CODE-.",2
+"When I run my application, I get this error: -CODE-.",2
+Does this mean I have to download jsonic and add it as a jar file to my application.-CODE-,2
+The code looks like that: -CODE-.in the result console throws the TypeError: Uncaught TypeError: class heritage this.MyClass is not an object or null referring to line *,2
+"When I access the localhost:8888/static/ajax.html, I get no errors.",2
+But when I just access localhost:8888 I get an error saying: -CODE-.,2
+"By default ""/.serves ajax.html file, but doing so I don't get the expected result",2
+On the other hand on calling /static/ajax.html I am getting the expected result without any errors.server.go contains the following : -CODE-ajax.html contains the following: -CODE-socket.js : http://www.grideads.net/redmine/attachments/download/113/socket.js model.js : http://www.grideads.net/redmine/attachments/download/112/model.js,2
+Tomcat Console: -CODE-.when i inspect this line in debbug mode: -CODE-,2
+My file config: .,2
+And here is the JS function where I'm using DataTables: -CODE-.,2
+"I've seen that this error is usually caused by a mismatch between the amount of th and td, but I cannot see a mismatch in this code.",2
+"Some devices throw a NullPointerException when launching this app, but others seem to work fine.",2
+I cannot seem to figure out what to do as ivMonkeyStart that the error references is not null.,2
+I have tried different ways of setting ivMonkeyStart but have not found a way that makes a difference...-CODE-,2
+The error references this line: ivMonkeyStart.startAnimation(startMonkeyScaleIn); Any idea.,2
+I followed this tutorial but I am getting the error: -CODE-.,2
+"I found this solution but that only applies to mac, and I can't find a similar way to do it in windows.",2
+When using spark-submit this error always happen: -CODE-.although I have import the lib (I'm using scala: -CODE-,2
+"I figured out how to get chromium going, but now it throws an error.",2
+"However, I do not experience this error locally, so I assume it must have something to do with with the travis-ci environment.-CODE-spec-bundle.js: -CODE-app.spec.ts: -CODE-karma.conf.js: -CODE-",2
+I noticed some of my users are getting this exception.,2
+"I don't know how to reproduce it, I only have the reports on Crashlytics.",2
+Seems to be deep inside Google's code.,2
+Out of thousands who have used this code only 39 have had the exception.,2
+The following small count down application cause Uncaught TypeError: Cannot read property 'counter' of undefined at the timing of evaluation of this.counter.-CODE-,2
+"Uncaught TypeError: Cannot read property 'counter' of undefined as follows: I have no idea why coutner is evaluated as undefined despite I'm using arrow function, which means the scope of ""this pointer.must be lexical",2
+"The app runs but when I click the ""privacy.button it crashes it gives me the error named in the tile",2
+"I suspect it is something in the setClickListener, but I don't see anything wrong with it.",2
+It worked fine when I used Arrays isnstead of ArrayLists.,2
+I get the following error: -CODE-.,2
+"But the class that has the problem is not mine, it's the @EachPattern itself, which has: @Constraint(validatedBy = CommonEachValidator.class.and that class has public class CommonEachValidator implements ConstraintValidator<Annotation, Collection<?>> which seems to cause the issue",2
+Can anybody either help me to identify the reason of this or solution please.,2
+The 95% of the Project is working at some point i am getting this specific error.i tryed to solve own my own but i couldn't: -CODE-,2
+"I calculate the sum of to variable getting from 2 request, the result is recovered but when I want to exploit it an NullPointerException is thrown: -CODE-.in this line where the exception is thrown: -CODE-",2
+After debbuggin I get this in result: -CODE-.this is the error : -CODE-,2
+"But, I have webservices-api.jar In lib folder: ls -l /tomcat/lib/: -CODE-.",2
+"How can I tell a tom��at that he ignores the versions, and uses what is.",2
+Also how can I disable the search for language libraries.,2
+But the insertion is working fine.,2
+I have provided the all the annotations properly in the Bean class.,2
+I'm using IntelliJ IDEA as an IDE.,2
+Here's what my pom.xml file looks like : -CODE-.and I'm using a persistenence.xml as well : -CODE-,2
+"Concerning my project structure, it's like the following : but still get this error message : I think it may be related to an unloaded Jar, but still got no effective result after a long search.",2
+"However, I keep getting the error TypeError: browser is undefined.",2
+The same goes if I use chrome.runtime.sendMessage(.instead,2
+"I am following as given in the video, but when trying to run the contract test .",2
+I get the error: -CODE-.,2
+"I found a similar issue .here , but that did not work",2
+Code Snippet: -CODE-.,2
+I have verified my AWS Credentials and my account has PowerUser access.,2
+I Looked at following links but it didn't help as I am using 'AwsSessionCredentials' class.,2
+[-]https://stackoverflow.com/a/30519762/948268 -.,2
+Mentions about key starting with a period.,2
+[-]https://github.com/aws/aws-sdk-js/issues/86 -.,2
+Talks about Ensuring proper encoding of URI query string parameter-values.but in my case I am using AwsSessionCredentials class,2
+Also posted the issue on: https://github.com/aws/aws-sdk-java-v2/issues/1767.,2
+Does someone know where this JavaScript error comes from.-CODE-,2
+"I get this error when using a regular expression with a slash (escaped.like el.href.match(/video\/(.*)@/)[1]; as a string passed to a function like createTextNode, textContent or innerHTML",2
+This regex works when not stored as text.,2
+"A regex without slash as text works, you can see my code example: HTML: -CODE-.",2
+Working and failing tests can be found here: https://github.com/baptx/baptx.github.io/blob/65f11b77df5a7464365374b3505921a4ef9b1272/get_m3u8_debug/get_m3u8_debug.htm.,2
+You can test it live on GitHub Pages (JSFiddle did not work in my case): https://baptx.github.io/get_m3u8_debug/get_m3u8_debug.htm.,2
+I'm getting a null pointer exception despite initialising all of my objects correctly (to my knowledge).,2
+The runtime NPE occurs here: -CODE-.,2
+And the code calling the constructor: -CODE-.,2
+"I think I'm initialising everything properly, so I can't see where this null pointer exception is coming from.",2
+But getting an exception explained below.my code: -CODE-,2
+Included code in application.conf: -CODE-.,2
+But I am getting an exception: -CODE-.,2
+"Everything else works fine, only I have issue with importing.",2
+P.S.is there a way to make it work without using Vue CLI,2
+I have a DAO class with the following implementation: -CODE-.and a service class with the below implementation: -CODE-,2
+When I execute this code it throws me a StaleObjectStateException .org.hibernate.StaleObjectStateException: Row was updated or deleted by another transaction (or unsaved-value mapping was incorrect,2
+"But if I set the id before calling the DAO class, it works fine .-CODE-",2
+This gives me the following error in firefox: -CODE-.,2
+"I'm working from this example and I am running into this error after adding log4j, slf4j and bonecp to the project: -CODE-.",2
+i use ActionBarSherlock Library and it hold Reference of current Fragment instance when user pause application-CODE-,2
+"In order to do this, I'm adding a didLoad method to my model, which is called by the controller and set to a property of that controller.",2
+"I map the route to my router, and all that works fine.",2
+The real trouble starts when I try to set up a controller with a content property set by data from the server retrieved by findQuery.,2
+"I have a method that return the entity manager for particular DB.Now when i use the method for the first time to get entity manager everything works fine.I can save data into any tables A,B,C using entity manager.Now say i get a exception while saving in table B.",2
+"Now when I try to perform any operation on DB after geting exception above, the next time i try to run same code it fails when updating in table A itself.I can see folloing eception: -CODE-.",2
+"But when I run the following code, it works just fine and doesn't throw the UnsupportedOperationException.-CODE-",2
+"While debugging our product, I already found a NoClassDefFoundError which is however weird to me.",2
+I noticed following output from the class loading log(by turning on -verbose:class): -CODE-.,2
+PreferencesMgr is just the class that causes NoClassDefFoundError: -CODE-.,2
+So it seems that jvm actually has already loaded the class sucessfully.,2
+I have used MobX for my state management.Some Part of the code: -CODE-.,2
+In the above code books.returnDate is bind successfully.,2
+Now I need the time difference between books.returnDate and current Date so I called a function timeDiff: -CODE-.,2
+In timeDiff function the values of both dates are:.but the difference is not calculated,2
+I have been able to set and get the attachments but when the attachFile method is called from the Javaxmail I get an error.,2
+This code is written in Java using the javax library.,2
+I've tried adding encoding as well but same results.,2
+This code fails when the attachFile method is called.-CODE-,2
+Hello guys here is my code: -CODE-.and here is my error: -CODE-when i changed my alignedSeqA.length(with an integer (like 7it works just finei.e--> output when i change it to 7 20100201what am i doing wrong,2
+I'm having the error: Uncaught (in promise.,2
+"SyntaxError: Unexpected end of input on try to post refs to my dedicated express server, can you guys help me.-CODE-",2
+The error is here: .then(res => res.json().,2
+"NOTE: the firstName, lastName, username and password consts are the input values.",2
+"I've been trying to figure out how to use the Eclipse Debugger, but I always get stuff like ""Class File Editor not found..",2
+Anyways here is an image of what the debugger says: http://imageshack.us/photo/my-images/687/debuggingexception.png/ Code: -CODE-.,2

@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/layui/2.6.8/css/layui.min.css">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/layui/2.6.8/layui.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.8/vue.min.js"></script>
+</head>
+<style type="text/css">
+body {
+  background-color: #F4F5F6;
+  margin: 0;
+  padding: 0;
+}
+
+.layui-container {
+  margin-top: 50px;
+  width: 80vw;
+  line-height: 40px;
+}
+
+.layui-table {
+  margin: 0;
+  width: 100%;
+  table-layout: fixed;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI Adjusted", "Segoe UI", "Liberation Sans", sans-serif;
+}
+
+.layui-table ol li {
+  list-style: decimal;
+  margin-left: 30px;
+}
+
+.layui-table td {
+  padding: 5px 15px;
+  font-size: 14px;
+  color: #232629;
+  line-height: 20px;
+  border: none;
+  border-bottom: 0px solid #FFFFFF;
+}
+
+.layui-table a {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.layui-table .left-font {
+  text-align: right;
+  vertical-align: top;
+  font-size: 15px;
+  background-color: #F2F3F4;
+}
+
+.layui-table[lay-even] tr:nth-child(even) {
+  background-color: #F2F3F4;
+}
+
+.layui-table[lay-even] tr:nth-child(odd) {
+  background-color: #F2F3F4;
+}
+
+.layui-panel {
+  font-size: 12px;
+  color: #232629;
+  margin: 10px 0 50px;
+  padding: 9px 0;
+  background-color: #F2F3F4;
+}
+
+.layui-panel a:hover {
+  color: #3B4045;
+}
+
+.layui-panel .title {
+  padding: 5px;
+  font-size: 25px;
+  line-height: 40px;
+  margin: 0 20px 0;
+  color: #3B4045;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI Adjusted", "Segoe UI", "Liberation Sans", sans-serif;
+}
+
+/*mark {*/
+/*    background-color: #F0B27A;*/
+/*    padding: 1px 3px 1px;*/
+/*    border-radius: 3px;*/
+/*    line-height: 16px;*/
+/*    margin: 0 1px;*/
+/*}*/
+
+/*em {*/
+/*    font-family: Georgia, Cambria, "Times New Roman", Times, serif;*/
+/*    font-size: 15px;*/
+/*    margin: 0 5px;*/
+/*    text-decoration: underline;*/
+/*}*/
+
+/*.layui-table ol li mark {*/
+/*    background-color: #CACFD2;*/
+/*}*/
+
+code {
+  font-family: ui-monospace, "Cascadia Mono", "Segoe UI Mono", "Liberation Mono", Menlo, Monaco, Consolas, monospace;
+  font-size: 12px;
+  border-radius: 3px;
+  line-height: 20px;
+  word-wrap: normal;
+}
+
+pre {
+  padding: 12px;
+  width: auto;
+  overflow: auto;
+  background-color: #E7E8E9;
+  border-radius: 3px;
+}
+
+.answer-title a {
+  font-size: 18px;
+  font-weight: bold;
+}
+</style>
+
+<body>
+  <div id="app" class="layui-container">
+    <div class="layui-row layui-col-space15">
+      <div class="layui-col-md12">
+        <div class="layui-panel" style="margin-bottom: 30px;">
+          <div class="title"><strong>Query:&nbsp;&nbsp;</strong>
+            <a :href="'https://stackoverflow.com/questions/'+post_id" target="_blank" v-html="title">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="layui-panel" v-for="(answer, index) in answer">
+      <table class="layui-table" lay-even>
+        <colgroup>
+          <col width="14%">
+          <col width="86%">
+        </colgroup>
+        <tbody>
+          <tr>
+            <td rowspan="1" class="left-font">
+              <strong>Id&nbsp;[<span>{{answer.answer_id}}</span>]</strong>
+            </td>
+            <td>
+              <div class="answer-title">
+                <a :href="'https://stackoverflow.com/questions/'+answer.answer_id" target="_blank" v-html="answer.title">
+                </a>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" class="left-font">
+              <strong>Environment</strong>
+            </td>
+            <td>
+              <strong>{{answer.environment.join(", ")}}</strong>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" class="left-font">
+              <strong>Extra Info</strong>
+            </td>
+            <td>
+              <span class="layui-badge layui-bg-black">ViewCount:&nbsp;{{answer.ViewCount}}</span>
+              <span class="layui-badge layui-bg-black">Score:&nbsp;{{answer.Score}}</span>
+              <span class="layui-badge layui-bg-black">AnswerScore:&nbsp;{{answer.AnswerScore}}</span>
+              <span class="layui-badge layui-bg-black">Environment Score:&nbsp;{{answer.environment_score}}</span>
+              <span v-show="answer.exception_message_score" class="layui-badge layui-bg-black">Exception Message Score:&nbsp;{{answer.exception_message_score}}</span>
+              <span v-show="answer.exception_stack_score" class="layui-badge layui-bg-black">Exception Stack
+                Score:&nbsp;{{answer.exception_stack_score}}</span>
+              <span v-show="answer.code_score" class="layui-badge layui-bg-black">Code
+                Score:&nbsp;{{answer.code_score}}</span>
+              <span v-show="answer.symptom_score" class="layui-badge layui-bg-black">Symptom
+                Score:&nbsp;{{answer.symptom_score}}</span>
+              <span v-show="answer.purpose_score" class="layui-badge layui-bg-black">Purpose
+                Score:&nbsp;{{answer.purpose_score}}</span>
+            </td>
+          </tr>
+          <!--          <tr>-->
+          <!--            <td rowspan="1" class="left-font">-->
+          <!--              <strong>Exception Stack</strong>-->
+          <!--            </td>-->
+          <!--            <td>-->
+          <!--              <div v-for="(exc,) in answer.exception_stack">-->
+          <!--                <pre style="max-height: 300px"><code>{{exc}}</code></pre>-->
+          <!--              </div>-->
+          <!--            </td>-->
+          <!--          </tr>-->
+          <tr v-show="answer.exception_message">
+            <td rowspan="1" class="left-font">
+              <strong>Exception Message</strong>
+            </td>
+            <td>
+              <div>
+                <pre style="max-height: 300px"><code>{{answer.exception_message}}</code></pre>
+              </div>
+            </td>
+          </tr>
+          <tr v-show="answer.symptom">
+            <td rowspan="1" class="left-font">
+              <strong>Symptom</strong>
+            </td>
+            <td>
+              <p v-for="(symptom,) in answer.symptom">{{symptom}}</p>
+            </td>
+          </tr>
+          <tr v-show="answer.code.length>0">
+            <td rowspan="1" class="left-font">
+              <strong></strong>
+            </td>
+            <td>
+              <div class="layui-collapse">
+                <div class="layui-colla-item" v-for="(code,i) in answer.code">
+                  <h2 class="layui-colla-title">code {{i + 1}}</h2>
+                  <pre class="layui-colla-content" style="max-height: 300px"><code>{{code}}</code></pre>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr v-show="answer.reason.length>0">
+            <td rowspan="1" class="left-font">
+              <strong>Reason</strong>
+            </td>
+            <td>
+              <p v-for="(reason,) in answer.reason">{{reason}}</p>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" class="left-font">
+              <strong>Solution</strong>
+            </td>
+            <td>
+              <p v-for="(solution,) in answer.solution">{{solution}}</p>
+            </td>
+          </tr>
+          <tr v-show="answer.answer_code.length>0">
+            <td rowspan="1" class="left-font">
+              <strong></strong>
+            </td>
+            <td>
+              <div class="layui-collapse">
+                <div class="layui-colla-item" v-for="(answer_code, i) in answer.answer_code">
+                  <h2 class="layui-colla-title">code {{i + 1}}</h2>
+                  <pre class="layui-colla-content" style="max-height: 600px"><code>{{answer_code}}</code></pre>
+                </div>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <script type="text/javascript">
+  const vm = new Vue({
+    el: '#app',
+    data: JSON.parse(JSON.stringify({"post_id": "56039087", "title": "Is there a reason Java reflection getMethod sometimes does not work?", "answer": [{"answer_id": "36674584", "title": "Java Reflection getMethod giving Exception", "Score": 1, "ViewCount": 1013, "LastEditDate": "", "LastActivityDate": "2016-04-17 09:17:12", "AnswerScore": 3, "reason": ["Basically, you parameter values are been autoboxed to their Object equivalents (int to Integer. which means that the reflection API is looking for a method with the formal parameters of Integer[][], Integer, Integer, which it obviously can't find", "The \"main. reason I'd approach it this way, is in the past, I've wasted a lot of time chasing down which parameter/value pair broke, and it's much easier to read and comprehend using a builder pattern in this way, but that's just me"], "solution": ["If, however, I change your run method to something like... -CODE-", "And then use: -CODE-. it works", "Me, personally, I'd wrap a lot of this up into a class of sometype, so you can specify not only the parameter value, but it's type in a single call... -CODE-", "I'd also be looking for just about any other solution other then using reflection, it has it's place and can do a lot, but it's not really a reliable, long term solution, especially when you need to refactor code. "], "answer_code": [["public static void run(Class<?> classType, String methodName, Object[] paramValues, Class[] types) {\n\n    try {\n        Object o = classType.newInstance();\n        int n = paramValues.length;\n\n        Method[] declaredMethods = classType.getMethods();\n        System.out.println(Arrays.toString(declaredMethods));\n\n        System.out.println(\"------------------------\");\n\n        Method method = classType.getDeclaredMethod(methodName, types);\n        long s = System.currentTimeMillis();\n        method.invoke(o, paramValues);\n        long t = System.currentTimeMillis();\n        System.out.println(\"Time Taken : \" + (t - s));\n    } catch (Exception e) {\n        e.printStackTrace();\n    }\n\n}\n", "run(ShortestPathAlgorithm.class, \"show\", new Object[]{graph, from, des}, new Class[]{int[][].class, int.class, int.class});\n", "Runner runner = new Runner(ShortestPathAlgorithm.class)\n                        .execute(\"show\")\n                        .withParameter(int[][].class, graph)\n                        .withParameter(int.class, from)\n                        .withParameter(int.class, des);\nrunner.run();\n"]], "environment": ["reflection", "java", "getmethods"], "symptom": ["I am getting \"java.lang.NoSuchMethodException. even though i can see my method in classType.getMethods(); Please help", "RunWithTimeTrace.java public class RunWithTimeTrace { -CODE-. ", "I am able to see my method in getMethods but not in reflection. "], "exception_stack": ["[public void demo.ds.graph.main.ShortestPathAlgorithm.show(int[][],int,int), public final void java.lang.Object.wait() throws java.lang.InterruptedException, public final void java.lang.Object.wait(long,int) throws java.lang.InterruptedException, public final native void java.lang.Object.wait(long) throws java.lang.InterruptedException, public boolean java.lang.Object.equals(java.lang.Object), public java.lang.String java.lang.Object.toString(), public native int java.lang.Object.hashCode(), public final native java.lang.Class java.lang.Object.getClass(), public final native void java.lang.Object.notify(), public final native void java.lang.Object.notifyAll()]\n------------------------\njava.lang.NoSuchMethodException: demo.ds.graph.main.ShortestPathAlgorithm.show([[I, java.lang.Integer, java.lang.Integer)\n    at java.lang.Class.getDeclaredMethod(Class.java:2130)\n    at demo.ds.graph.test.RunWithTimeTrace.run(RunWithTimeTrace.java:23)\n    at demo.ds.graph.test.SPATest.main(SPATest.java:20)\n"], "code": ["public class ShortestPathAlgorithm {\n\n    public void show(int[][] graph, int from, int des){\n\n          // some complex code :D \n    }\n}\n", "public class SPATest {\n    public static void main(String[] args) {\n\n         int graph[][] = {  \n                    {0, 1, 5, 4, 0},\n                    {1, 0, 0, 2, 4},\n                    {5, 0, 0, 1, 0},\n                    {4, 2, 1, 0, 1},\n                    {0, 4, 0, 1, 0},\n                };\n\n         Integer from = 1;\n         Integer des = 2;\n\n\n         RunWithTimeTrace.run(ShortestPathAlgorithm.class, \"show\", graph, from, des);\n\n    }\n}\n", "    public static void run(Class<?> classType, String methodName, Object... paramValues ){\n\n        try{\n            Object o = classType.newInstance();\n            int n = paramValues.length;\n            Class<?>[] arr = new Class[n];\n            for(int i=0; i < n; i++){\n                arr[i] = paramValues[i].getClass();\n            }\n\n            Method[] declaredMethods = classType.getMethods();\n            System.out.println(Arrays.toString(declaredMethods));\n\n            System.out.println(\"------------------------\");\n\n            Method method = classType.getDeclaredMethod(methodName, arr);\n            long s = System.currentTimeMillis();\n            method.invoke(o, paramValues);\n            long t = System.currentTimeMillis();\n            System.out.println(\"Time Taken : \" + (t - s));\n        }catch(Exception e){\n            e.printStackTrace();\n        }\n\n    }\n\n}\n"], "environment_rank": 7, "title_rank": 0, "exception_message": "java.lang.NoSuchMethodException: demo.ds.graph.main.ShortestPathAlgorithm.show([[I, java.lang.Integer, java.lang.Integer)\n", "environment_score": 79}, {"answer_id": "15465407", "title": "getDeclaredMethod doesn't work, NoSuchMethodException", "Score": 16, "ViewCount": 28516, "LastEditDate": "2015-08-05 07:08:18", "LastActivityDate": "2015-08-05 07:08:18", "AnswerScore": 33, "reason": ["You specify a name in getDeclaredMethod but no parameter, although the Test method does have a parameter in its signature. ", "However this argument is ignored in case of static methods: -CODE-. "], "solution": ["Try this: -CODE-. along with this: -CODE-"], "answer_code": [["Method m = test.getClass().getDeclaredMethod(\"Test\", String.class);\n", "m.invoke(test, \"Cool story bro\");\n", "\nIf the underlying method is static, then the specified obj argument is\n  ignored. It may be null.\n"]], "environment": ["getmethod", "reflection", "java"], "symptom": ["I've been trying to use Reflection in Java, but it doesn't end up pretty well. ", "I just get the java.lang.NoSuchMethodException error, and I've tried pretty much everything. ", "Like using getMethod instead of getDeclaredMethod, add test.getClass(. after \"Testin getDeclaredMethod and more", "I have been Googling for many days now but with no luck. "], "exception_stack": ["java.lang.NoSuchMethodException: ReflectionTest.Test()\nat java.lang.Class.getDeclaredMethod(Unknown Source)\nat ReflectionTest.main(ReflectionTest.java:10)\n"], "code": ["public class ReflectionTest {\n    public static void main(String[] args) {\n        ReflectionTest test = new ReflectionTest();\n        try {\n            Method m = test.getClass().getDeclaredMethod(\"Test\");\n            m.invoke(test.getClass(), \"Cool story bro\");\n        } catch (NoSuchMethodException | SecurityException e) {\n            // TODO Auto-generated catch block\n            e.printStackTrace();\n        } catch (IllegalAccessException e) {\n            // TODO Auto-generated catch block\n            e.printStackTrace();\n        } catch (IllegalArgumentException e) {\n            // TODO Auto-generated catch block\n            e.printStackTrace();\n        } catch (InvocationTargetException e) {\n            // TODO Auto-generated catch block\n            e.printStackTrace();\n        }\n    }\n\n    public void Test(String someawesometext) {\n        System.out.println(someawesometext);\n    }\n}\n"], "environment_rank": 5, "title_rank": 13, "exception_message": "java.lang.NoSuchMethodException: ReflectionTest.Test()\n", "environment_score": 85}, {"answer_id": "11999982", "title": "Java Reflection not working and getting java.lang.NoSuchMethodException", "Score": 0, "ViewCount": 1835, "LastEditDate": "2013-11-23 04:32:32", "LastActivityDate": "2013-11-23 04:38:31", "AnswerScore": 1, "reason": ["You dont call contextClass.getClass(. again"], "solution": ["Instead say this: -CODE-. ", "Instead to get an instance of a class you call contextClass.newInstance(. to create an instance of that object and use that while invoking the method", "Read this tutorial: http://docs.oracle.com/javase/tutorial/reflect/index.html. "], "answer_code": [["Object contextClass = PageContextHelper.getContextBoundedClass( \"authentication\");\n", " Class contextClass = PageContextHelper.getContextBoundedClass( \"authentication\");\n"]], "environment": ["java", "tomcat7", "java 1.6.0_32 and tomcat 7", "tomcat", "nosuchmethod", "reflection", "servlet class"], "symptom": ["I have a Servlet class which do some dynamic class initialization and method invocation using reflection. ", "It has the following code to do that. -CODE-", "The class which get the context bounded class has the following code : PageContextHelper.java: -CODE-. ", "The class which is looking for is com.proj.context.AuthenticationContextHelper and it has the following content : com.proj.context.AuthenticationContextHelper: -CODE-. ", "When I run the code get the following trace : Trace: -CODE-. ", "It says NoSuchMethod but the method is there in the class com.proj.context.AuthenticationContextHelper. ", "The environment I am using is Java 1.6.0_32 and Tomcat 7. "], "exception_stack": ["reqActionContext :loginProcess \nContextclass : class com.proj.context.AuthenticationContextHelper\nthisClass : class java.lang.Class\njava.lang.NoSuchMethodException: java.lang.Class.loginProcess(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)\n        at java.lang.Class.getDeclaredMethod(Class.java:1937)\n        at com.proj.servlet.ContentServlet.doGet(ContentServlet.java:81)\n        at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)\n        at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)\n...\n"], "code": ["@Override\nprotected void doGet( HttpServletRequest request, HttpServletResponse response ) throws ServletException, IOException {\n    try {\n        String reqActionContext = PageContextHelper.getFunctionName( \"login\" );\n         // Trace reqActionContext\n        System.out .println(\"reqActionContext : \" + reqActionContext );\n        // Get the page context related class object\n        Object contextClass = PageContextHelper.getContextBoundedClass( \"authentication\");\n        Class < ? >[ ] paramTypes = new Class < ? >[2];\n\n        paramTypes[0] = HttpServletRequest.class ;\n        paramTypes[1] = HttpServletResponse.class ;\n\n        // Is there a class associated with the current context\n        if ( contextClass != null ) {\n            // Trace contextClassSystem. out .println(\"Contextclass : \" + contextClass);\n            // get the Class\n            Class < ? > thisClass = contextClass.getClass();\n            // Trace thisClass\n            System.out .println(\"thisClass : \" + thisClass );\n            // get the method\n            Method contextMethod = thisClass.getDeclaredMethod( reqActionContext, paramTypes );\n\n            if ( contextMethod != null ) {\n                contextMethod.invoke ( contextClass, request, response );\n            }\n        }\n    }  catch ( IllegalArgumentException e ) {\n        e.printStackTrace();\n    } catch ( IllegalAccessException e ) {\n        e.printStackTrace();\n    } catch ( InvocationTargetException e ) {\n        e.printStackTrace();\n    } catch ( Exception e ) {\n        e.printStackTrace();\n    }\n}\n", "public class PageContextHelper {\n\n    private static final String CONTEXT_CLASS_SUFFIX = \"ContextHelper\" ;\n\n    private static final String CONTEXT_CLASS_PACKAGE = \"com.proj.context.\" ;\n\n    /**\n    * Get the base path related context class object.\n    *\n    *@param basePath\n    *@return\n    */\n    public static Object getContextBoundedClass ( String basePath ) {\n        Class < ? > classOBJ = null ;\n\n        try{\n\n            if(basePath != null && !basePath.isEmpty() && basePath.length() > 1 ) {\n                basePath = basePath .substring( 0,1 ).toUpperCase() + basePath.substring( 1 ).toLowerCase();\n            }\n            // Get the class object\n            classOBJ = Class.forName( CONTEXT_CLASS_PACKAGE + basePath + CONTEXT_CLASS_SUFFIX);\n        } catch ( ClassNotFoundException e ) {\n            // Do nothing and return null object\n        }\n        return classOBJ;\n    }\n\n    .....\n\n}\n", "package com.proj.context;\n\n    public class AuthenticationContextHelper{\n\n    public void loginProcess (HttpServletRequest request, HttpServletResponse response) throws Exception {\n        try {\n            // Do some processing here\n        } catch ( Exception e ) {\n            // TODO : Remove this trace line and do something meaningful\n            e.printStackTrace();\n        }\n    }\n}\n"], "symptom_rank": 17, "code_rank": 12, "title_rank": 4, "exception_message": "java.lang.NoSuchMethodException: java.lang.Class.loginProcess(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)\n", "symptom_score": 49, "code_score": 64}, {"answer_id": "19100316", "title": "Java Reflection ArrayList.class.getMethod(\"get\") returns NoSuchMethodException", "Score": 1, "ViewCount": 1536, "LastEditDate": "", "LastActivityDate": "2013-09-30 18:01:08", "AnswerScore": 4, "reason": ["Note that Class#getMethod(. has two parameters: a String and an vararg of Class objects"], "solution": ["You need to use: -CODE-. since the ArrayList#get(intmethod has an int parameter", "The .class already gets the Class instance for ArrayList. ", "Calling getClass on that will return the Class instance for class Class. ", "You don't want that. "], "answer_code": [["\nthe list of parameters\n", "ArrayList.class.getMethod(\"get\", int.class);\n", "ArrayList.class.getClass().getMethod(\"get\")\n          ^     ^ \n          |     |----------------------------- gets Class<Class>\n          |----------------------------------- gets Class<ArrayList>\n"]], "environment": ["java", "reflection", "nosuchmethoderror", "arraylist"], "symptom": ["Why can't I get the \"get. method of an ArrayList and invoke it", "I am using reflection to modify within my nested classes. ", "One of my classes has a list of classes so I wanted to be able to use the same logic to get and invoke the get method. simplified, the line that fails is: -CODE-and it fails, giving me a NoSuchMethodException", "I understand that I could use aList.get(. but that's not the point, I need to use reflection since this is in a deeply nested class", "TL;DR How can I get the \"get. method of an array list"], "exception_stack": [], "code": ["ArrayList.class.getClass().getMethod(\"get\")\n"], "environment_rank": 15, "title_rank": 21, "exception_message": "", "environment_score": 55}, {"answer_id": "28816943", "title": "Java Reflection invoking method NoSuchMethodException", "Score": 1, "ViewCount": 4069, "LastEditDate": "2015-03-02 19:06:14", "LastActivityDate": "2015-03-02 19:06:14", "AnswerScore": 5, "reason": ["You are attempting to invoke the equals(String. method in the String class, which does not exist", "The method to invoke is equals(Object). "], "solution": ["Pass Object.class as the parameter type to getDeclaredMethod. -CODE-"], "answer_code": [["Method m = c.getDeclaredMethod(\"equals\", Object.class);\n"]], "environment": ["reflection", "java"], "symptom": ["I'm trying to invoking a method from a class which the name of that class is given by the user. ", "The program looks like this: -CODE-. ", "I'm trying to execute this program by giving the input: java.lang.String. ", "But I always get NoSuchMethodException: -CODE-. ", "And I know that the method equals is declared in the class java.lang.String. ", "I hid the try catch blocks because I didn't think it was necessary to express my doubt here. ", "EDIT: Say now that i wanted to execute the method: getDeclaredConstructors On the class i receieved. ", "I would only have to change the program to: -CODE-. ", "If i do this i get the same exception. "], "exception_stack": ["Exception in thread \"main\" java.lang.NoSuchMethodException: java.lang.String.equals(java.lang.String)\n    at java.lang.Class.getDeclaredMethod(Class.java:2122)\n    at Test.main(Test.java:14)\n"], "code": ["import java.lang.reflect.InvocationTargetException;\nimport java.lang.reflect.Method;\nimport java.util.Scanner;\n\npublic class Test {\n\npublic static void main(String[] args) throws ClassNotFoundException, IllegalAccessException, IllegalArgumentException, InvocationTargetException, NoSuchMethodException, SecurityException, InstantiationException {\n    Scanner in = new Scanner(System.in);\n    String className = in.nextLine();\n    Class c = Class.forName(className);\n    Object myObj = c.newInstance();\n    Method m = c.getDeclaredMethod(\"equals\", new String(\"test\").getClass());\n    Object retn = m.invoke(myObj, new String(\"testing\").getClass());\n}\n}\n", "import java.lang.reflect.InvocationTargetException;\nimport java.lang.reflect.Method;\nimport java.util.Scanner;\n\npublic class Teste {\n\npublic static void main(String[] args) throws ClassNotFoundException, IllegalAccessException, IllegalArgumentException, InvocationTargetException, NoSuchMethodException, SecurityException, InstantiationException {\n    Scanner in = new Scanner(System.in);\n    String className = in.nextLine();\n    Class c = Class.forName(className);\n    Object myObj = c.newInstance();\n    Method m = c.getMethod(\"getDeclaredConstructor\");\n    Object retn = m.invoke(myObj);\n    System.out.println(retn);\n}\n}\n"], "environment_rank": 2, "title_rank": 19, "exception_message": "Exception in thread \"main\" java.lang.NoSuchMethodException: java.lang.String.equals(java.lang.String)\n", "environment_score": 94}, {"answer_id": "22819886", "title": "Java getMethod() results in NoSuchMethodException error", "Score": 0, "ViewCount": 1097, "LastEditDate": "", "LastActivityDate": "2014-04-02 18:36:15", "AnswerScore": 2, "reason": ["Seems to me the problem is that you're looking for methods with no parameters while these methods all seem to have a parameter of type Command. "], "solution": ["Try this. pClass.getMethod(commandWord, Command.class)", "For more details see here: Class.getMethod JavaDoc. "], "answer_code": [], "environment": ["terminal, the go(method of the player class)", "reflection", "java"], "symptom": ["I am trying to use reflection to launch the appropriate method when the user inputs a string command. ", "For instance, if the user inputs \"go. in the terminal, the go(method of the Player class will be called by the process(method of the Command class", "However, I cannot get my code working and I get a NoSuchMethodException error that I do not know how to fix. ", "The lines at the source of the problem are half-way through the Command class (complete classes reproduced at the bottom): -CODE-. "], "exception_stack": [], "code": ["        try {\n            Method method = pClass.getMethod(commandWord);\n            method.invoke(player, this);\n        }\n        catch (NoSuchMethodException err1) {\n            System.out.println(\"No such method\");\n        }\n", "import java.util.ArrayList;\nimport java.lang.reflect.*;\n\npublic class Command\n{\n\n    private String commandWord;\n    private String secondWord;\n\n    public Command(String firstWord, String secondWord)\n    {\n        commandWord = firstWord;\n        this.secondWord = secondWord;\n    }\n\n    public boolean process(Player player) \n    {\n        ArrayList<String> validCommands = new ArrayList<String>();\n        String methodName;\n        int index;\n\n        Class pClass = player.getClass();\n        Method[] methods = pClass.getDeclaredMethods();\n        for (int i = 0; i < methods.length; i++) {\n            if (Modifier.isPublic(methods[i].getModifiers())) {\n                validCommands.add(methods[i].getName());\n            }\n        }\n\n        boolean wantToQuit = false;\n\n        if(commandWord == null) {\n            System.out.println(\"I don't know what you mean...\");\n            return false;\n        }\n\n        if (commandWord.equals(\"help\")) {\n            System.out.println(\"You are lost. You are alone. You wander\");\n            System.out.println(\"around at the university.\");\n            System.out.println();\n            System.out.println(\"Your command words are:\");\n\n            for(String command: validCommands) {\n                System.out.print(command + \"  \");\n            }\n            System.out.println();\n        }\n        else if (commandWord.equals(\"quit\")) {\n            wantToQuit = quit();\n        }\n\n        //THIS IS WHERE I GET THE ERROR\n        try {\n            Method method = pClass.getMethod(commandWord);\n            method.invoke(player, this);\n        }\n        catch (NoSuchMethodException err1) {\n            System.out.println(\"No such method\");\n        }\n        catch (IllegalAccessException err2) {\n            System.out.println(\"Illegal access\");\n        }\n        catch (InvocationTargetException err3) {\n            System.out.println(\"Illegal access\");\n        }\n\n        return wantToQuit;\n    }\n\n    [...] //some methods omitted\n}\n", "public class Player\n{\n    private String name;\n    private Room currentRoom;\n    private ArrayList<Item> items;\n\n    Player (String name, Room startingRoom)\n    {\n        this.name = name;\n        items = new ArrayList<Item>();\n        this.currentRoom = startingRoom;\n        printWelcome();\n    }\n\n    public void engage()\n    {\n        [...]\n    }\n\n    public void trade(Command command) \n    {\n        [...]       }\n\n    public void goRoom(Command command) \n    {   \n        [...]       }\n\n    public void search(Command command) \n    {\n        [...]       }\n\n    public void takeItem(Command command) \n    {\n        [...]       }\n\n    public void dropItem(Command command) \n    {\n        [...]       }\n\n    public void lock(Command command)\n    {   \n        [...]       }\n\n    public void unlock(Command command)\n    {   \n        [...]\n    }\n\n}\n"], "symptom_rank": 19, "code_rank": 0, "title_rank": 6, "exception_message": "", "symptom_score": 43, "code_score": 100}, {"answer_id": "57672156", "title": "Java reflection getDeclaredMethod throws NoSuchMethodException", "Score": 0, "ViewCount": 733, "LastEditDate": "2019-08-27 10:05:37", "LastActivityDate": "2019-08-27 10:09:39", "AnswerScore": 1, "reason": ["I think your problem is that you give a HashMap class instance as an argument to getDeclaredMethod while the method actually accepts Map class instance. ", "Remember, that all generic arguments are stripped out on compilation, so a Map<Whatever,WhateverElse> simply becomes a Map when doing reflection at runtime. ", "On a related note, basing tests on reflectively calling private API is probably not a good way to keep tests maintainable in the long run. ", "I'm not sure why you would need to do this trickery, but if you can, try to find a way that works with public API. "], "solution": ["So try: -CODE-. "], "answer_code": [[" Method method = sonarRestApi.getClass().getDeclaredMethod(\"getListSonarMetricsFromRegistry\", Map.class);\n\n"]], "environment": ["java", "sonarrestapiserviceimpl", "java reflection", "stackoverflow", "reflection", "getlistsonarmetricsfromregistry method declaration"], "symptom": ["I have a private method getListSonarMetricsFromRegistry declared in the Class SonarRestApiServiceImpl that I want to call, with Java reflection, but I get the exception: -CODE-. ", "I tried to use Java reflection, like below : -CODE-. ", "Here is the getListSonarMetricsFromRegistry method declaration: -CODE-. ", "When I look at the Exception, the trace print my Class with the right package, right name, right method name and right parameters: -CODE-. ", "The similar questions provided by Stackoverflow did help, but I still have the same Exception. "], "exception_stack": ["\njava.lang.NoSuchMethodException: com.cma.kpibatch.rest.impl.SonarRestApiServiceImpl.getListSonarMetricsFromRegistry(java.util.HashMap)\n      at java.lang.Class.getDeclaredMethod(Class.java:2130)\n      at com.test.service.rest.SonarRestApiServiceImplTest.testGetListSonarMetricsFromRegistry(SonarRestApiServiceImplTest.java:81)\n"], "code": ["    @Test\n    public void initTest() throws NoSuchMethodException, SecurityException, IllegalAccessException,\n            IllegalArgumentException, InvocationTargetException {\n        Map<Long, KpiMetric> tmp = new HashMap<>();\n        Method method = sonarRestApi.getClass().getDeclaredMethod(\"getListSonarMetricsFromRegistry\", tmp.getClass());\n        method.setAccessible(true);\n        List<String> list = (List<String>) method.invoke(sonarRestApi, registry.getKpiMetricMap());\n    }\n\n", "//This method works correctly, it returns a List of String without error\nprivate List<String> getListSonarMetricsFromRegistry(Map<Long, KpiMetric> map) {\n    return //something\n}\n", "\ncom.test.rest.impl.SonarRestApiServiceImpl.getListSonarMetricsFromRegistry(java.util.HashMap)\n  But it say that this method does not exist, which is strange.\n"], "symptom_rank": 3, "environment_rank": 4, "title_rank": 20, "exception_message": "java.lang.NoSuchMethodException: com.cma.kpibatch.rest.impl.SonarRestApiServiceImpl.getListSonarMetricsFromRegistry(java.util.HashMap)\n", "symptom_score": 91, "environment_score": 88}, {"answer_id": "25544946", "title": "IOException in Java (Android): Transport endpoint is not connected", "Score": 1, "ViewCount": 1533, "LastEditDate": "2017-05-23 12:05:03", "LastActivityDate": "2014-08-30 08:27:20", "AnswerScore": 1, "reason": ["The problem was that EML327 needed channel 16, so the second argument of the method invoke should be 16. "], "solution": ["I didn't just wait and the aswers to questions here and here helped me out of troubles. "], "answer_code": [], "environment": ["java", "uuid address", "edit1", "samsung galaxy tabs", "obd-ii", "ioexception", "android", "bluetooth", "eml327", "samsung phone"], "symptom": ["In my Android application, which was copied from answer to this question (and then slightly changed due to UUID-related problems with Samsung Galaxy tabs. ", "I successfully connect to OBD device via bluetooth. ", "Then, when I try to send any command (which is done by sendData()), the exception from the title (Transport endpoint is not connected. is thrown and nothing is sent", "When I connected to my computer (the only difference in code is hardware address), I can send command without any problem (of course, I don't get any response, since computer is not OBD-device). ", "Therefore, I believe I got all the permissions I need and UUID address is fine also. ", "EDIT1: I installed Komunikacija.apk on the tablet again. ", "I have only added some comments and have encountered two new problems: [-]mmSocket.connect(. in openBT(fails (nothing happens for a long time after the last toast \"5\"", "[-]if bluetooth is turned off, the application shows a request for turning bluetoot on, but then \"unfortunately stops\". ", "EDIT2: I went to the car again and test the app on Samsung phone and again onf the tablet also. ", "Results: [-]tablet: when running the application for the first time, connections, mentioned in EDIT1, wasn't made successfully. ", "I succeed in all of my next attempts, but IOException was thrown: when I pressed the button SEND for the first time, exception.getMessage(. returned Connection reset by peer every next time, I got message Transport endpoint is not connected", "[-]phone: I successfully made a connection already in the first attempt, everything else was the same. ", "EDIT3: I found out that the OBD-device EML327 was at least part of the problems, because today, I tested get another OBD-device (OBDLink LX. and everything works fine, if I use it", "EDIT4: I didn't find this important earlier, but the only response from my EML327 was AT+BRSF=24. ", "After googling it around, I found an answer. "], "exception_stack": [], "code": ["\nWhy are those two OBD-devices behaving completely different and how to fix errors which occur, if I use OBD327?\n", "package com.example.komunikacija;\n\nimport java.io.IOException;\nimport java.io.InputStream;\nimport java.io.OutputStream;\nimport java.lang.reflect.InvocationTargetException;\nimport java.lang.reflect.Method;\nimport java.util.Set;\nimport java.util.UUID;\n\nimport android.app.Activity;\nimport android.bluetooth.BluetoothAdapter;\nimport android.bluetooth.BluetoothDevice;\nimport android.bluetooth.BluetoothSocket;\nimport android.content.Intent;\nimport android.os.Bundle;\nimport android.os.Handler;\nimport android.view.View;\nimport android.widget.Button;\nimport android.widget.EditText;\nimport android.widget.TextView;\nimport android.widget.Toast;\n\npublic class MainActivity extends Activity {\n    TextView myLabel;\n    EditText myTextbox;\n    BluetoothAdapter mBluetoothAdapter;\n    BluetoothSocket mmSocket;\n    BluetoothDevice mmDevice;\n    OutputStream mmOutputStream;\n    InputStream mmInputStream;\n    Thread workerThread;\n    byte[] readBuffer;\n    int readBufferPosition;\n    int counter, stevec;\n    volatile boolean stopWorker;\n\n@Override\npublic void onCreate(Bundle savedInstanceState){\n    super.onCreate(savedInstanceState);\n    setContentView(R.layout.activity_main);\n\n    Button openButton = (Button)findViewById(R.id.open);\n    Button sendButton = (Button)findViewById(R.id.send);\n    Button closeButton = (Button)findViewById(R.id.close);\n    myLabel = (TextView)findViewById(R.id.label);\n    myTextbox = (EditText)findViewById(R.id.entry);\n\n    //Open Button\n    openButton.setOnClickListener(new View.OnClickListener(){\n        public void onClick(View v){\n            try {\n                findBT();\n                openBT();\n            }\n            catch (IOException ex) { }\n        }\n    });\n\n    //Send Button\n    sendButton.setOnClickListener(new View.OnClickListener(){\n        public void onClick(View v){\n            try{\n                sendData();\n            }\n            catch (IOException ex) { \n                Toast.makeText(getApplicationContext(), \"error when sending:\"+ ex.getMessage(), Toast.LENGTH_SHORT).show();;\n\n            }\n        }\n    });\n\n    //Close button\n    closeButton.setOnClickListener(new View.OnClickListener(){\n        public void onClick(View v){\n            try \n            {\n                closeBT();\n            }\n            catch (IOException ex) { }\n        }\n    });\n}\n\nvoid findBT() {\n    mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();\n    if(mBluetoothAdapter == null){\n        myLabel.setText(\"No bluetooth adapter available\");\n    }\n\n    else{\n        if (!mBluetoothAdapter.isEnabled()){\n            Intent enableBluetooth = new Intent(BluetoothAdapter.ACTION_REQUEST_ENABLE);\n            startActivityForResult(enableBluetooth, 0);\n        }\n\n        Set<BluetoothDevice> pairedDevices = mBluetoothAdapter.getBondedDevices();\n        Toast.makeText(this, \"we found \"+Integer.toString(pairedDevices.size()), Toast.LENGTH_SHORT).show();//number of devices found\n        if(pairedDevices.size() > 0){\n            for(BluetoothDevice device : pairedDevices){\n                //computer's addres: \"00:22:68:E6:7D:D7\"\n                //obd device's(\"00:0D:18:00:00:01\")\n                //device.getName().equals(\"MattsBlueTooth\")\n                if(device.getAddress().equals(\"00:22:68:E6:7D:D7\")) {\n                    Toast.makeText(this, \"Found.\", Toast.LENGTH_SHORT).show();\n                    mmDevice = device;\n                    break;\n                }\n            }\n        }\n        myLabel.setText(\"Bluetooth Device Found\");\n\n    }\n}\n\nvoid openBT() throws IOException{\n    Toast.makeText(this, \"openBT.\", Toast.LENGTH_SHORT).show();\n//      UUID uuid = UUID.fromString(\"00001101-0000-1000-8000-00805F9B34FB\");   //Standard SerialPortService ID\n    UUID uuid = mmDevice.getUuids()[0].getUuid();\n    BluetoothSocket tmp = null;\n    try {\n        tmp = mmDevice.createRfcommSocketToServiceRecord(uuid);\n\n        // for others devices its works with:\n        // Method m = device.getClass().getMethod(\"createRfcommSocket\", new Class[] {int.class});\n\n        // for galaxy tab 2 with:\n        Method m = mmDevice.getClass().getMethod(\"createInsecureRfcommSocket\", new Class[] {int.class});\n\n        tmp = (BluetoothSocket) m.invoke(mmDevice, 1);\n    } catch (IOException e) {\n\n    } catch (NoSuchMethodException e) {\n        // TODO Auto-generated catch block\n        Toast.makeText(this, \"1\", Toast.LENGTH_SHORT).show();;\n    } catch (IllegalAccessException e) {\n        // TODO Auto-generated catch block\n        Toast.makeText(this, \"2\", Toast.LENGTH_SHORT).show();;\n    } catch (IllegalArgumentException e) {\n        // TODO Auto-generated catch block\n        Toast.makeText(this, \"3\", Toast.LENGTH_SHORT).show();;\n    } catch (InvocationTargetException e) {\n        // TODO Auto-generated catch block\n        Toast.makeText(this, \"4\", Toast.LENGTH_SHORT).show();;\n    }\n    mmSocket = tmp;\n    Toast.makeText(this, \"5\", Toast.LENGTH_SHORT).show();;\n\n    mmSocket.connect();\n//        Log.i(TAG, \"Client Connected!\");\n\n\n//      mmSocket = mmDevice.createInsecureRfcommSocketToServiceRecord(uuid);        \n    Toast.makeText(this, \"before connect\", Toast.LENGTH_SHORT).show();\n//      mmSocket.connect();\n    Toast.makeText(this, \"before stream\", Toast.LENGTH_SHORT).show();\n    mmOutputStream = mmSocket.getOutputStream();\n    mmInputStream = mmSocket.getInputStream();\n    Toast.makeText(this, \"before listening\", Toast.LENGTH_SHORT).show();\n\n    beginListenForData();\n\n    myLabel.setText(\"Bluetooth Opened\");\n}\n\nvoid beginListenForData(){\n    final Handler handler = new Handler(); \n    final byte delimiter = 10; //This is the ASCII code for a newline character\n    final byte konec = 90; //ASCII for char Z\n\n    stopWorker = false;\n    readBufferPosition = 0;\n    readBuffer = new byte[1024];\n    workerThread = new Thread(new Runnable() {\n        public void run(){                \n           while(!Thread.currentThread().isInterrupted() && !stopWorker){\n             try\n                {\n                    int bytesAvailable = mmInputStream.available();                        \n                    if(bytesAvailable > 0)\n                    {\n                        byte[] packetBytes = new byte[bytesAvailable];\n                        mmInputStream.read(packetBytes);\n                        packetBytes[bytesAvailable - 1] = konec;\n\n                        for(int i=0;i<bytesAvailable;i++)\n                        {\n                            byte b = packetBytes[i];\n\n                            if(b == konec)//originally if(b == delimiter)\n                            {\n                                 byte[] encodedBytes = new byte[readBufferPosition];\n                                 System.arraycopy(readBuffer, 0, encodedBytes, 0, encodedBytes.length);\n                                 final String data = new String(encodedBytes, \"US-ASCII\");\n                                 readBufferPosition = 0; \n\n                                handler.post(new Runnable()\n                                {\n                                    public void run()\n                                    {\n                                        Toast.makeText(getApplicationContext(), \"setting \" + Integer.toString(stevec++)+data, Toast.LENGTH_SHORT).show();\n\n                                        myLabel.setText(data);\n                                    }\n                                });\n                            }\n                            else\n                            {\n                                readBuffer[readBufferPosition++] = b;\n                            }\n                        }\n                    }\n                } \n                catch (IOException ex) \n                {\n                    stopWorker = true;\n                }\n           }\n        }\n    });\n\n    workerThread.start();\n}\n\nvoid sendData() throws IOException {\n    String msg = myTextbox.getText().toString();\n    Toast.makeText(this, \"sending:\"+msg, Toast.LENGTH_SHORT).show();;\n\n    //msg += \"\\n\";    <-- dont want to have that.\n    mmOutputStream.write(msg.getBytes());\n    myLabel.setText(\"Data Sent\");\n}\n\nvoid closeBT() throws IOException {\n    stopWorker = true;\n    mmOutputStream.close();\n    mmInputStream.close();\n    mmSocket.close();\n    myLabel.setText(\"Bluetooth Closed\");\n}\n}\n"], "code_rank": 22, "title_rank": 3, "exception_message": "", "code_score": 34}, {"answer_id": "5667420", "title": "NoSuchMethodException problem with reflection", "Score": 1, "ViewCount": 1422, "LastEditDate": "2011-04-14 18:03:51", "LastActivityDate": "2011-04-14 18:07:12", "AnswerScore": 4, "reason": [], "solution": ["try using getMethod(. instead of getDeclaredMethodthe former restricts you to the specific class instance, the latter includes the whole hierarchy", "Also, i assume the heuristic (e.g. \"Manhattan\"is capitalized appropriatelythat said, something like this is probably much better handled through the use of enums and some sort of internal strategy classyou then map your enums to the relevant strategy implementation"], "answer_code": [], "environment": ["reflection", "java"], "symptom": ["So, I've got something along the lines of: -CODE-. } I'm stumped..", "I keep getting NoSuchMethodException, but I've no idea why. ", "I thought the problem might have been that myClass is abstract so I tried this with getClass(. and had the same exception, so I'm thinking it's something else (unless this doesn't find superclass methods?)"], "exception_stack": [], "code": ["public abstract class myClass {  \n  String myString;\n  int test;\n\n  public myClass(String heuristic) {\n     mystring = heuristic;\n     test = heuristicSwitch();\n  }\n\n  public int heuristicSwitch() {\n     int hTest = 0;\n\n     try {\n        String methodName = \"getHeuristic\" + myString;\n        Method actionMethod = myClass.class.getDeclaredMethod(methodName);\n        hTest = (Integer)actionMethod.invoke(this);\n     }\n     catch(Exception e) {\n     }\n\n     return hTest;\n  }\n\n  public int getHeuristicManhattan() {\n     return 100;\n  }\n"], "environment_rank": 1, "exception_message": "", "environment_score": 97}, {"answer_id": "38972178", "title": "Unable to invoke method by java reflection: NoSuchMethodException", "Score": 1, "ViewCount": 2359, "LastEditDate": "2016-08-16 14:27:21", "LastActivityDate": "2016-08-25 06:37:28", "AnswerScore": 0, "reason": [], "solution": ["URLClassLoader loader = new URLClassLoader(new URL[] { new URL(\"file:/opt/jars/Tracking.jar\". }, this.getClass().getClassLoader()); Rest everything same..as I said, with-out adding the current class loader also worked when run in eclipse"], "answer_code": [], "environment": ["java", "reflection api", "eclipse", "jdk 1.6 & 1.7", "server", "urlclassloader", "reflection"], "symptom": ["We are working on a dynamic class loader project and trying to invoke a method in a dynamically loaded class via URLClassLoader. ", "It works pretty well when it's run in Eclipse, so the invoking and dynamically loaded classes are bundled in to two different jars then deployed into Server because it\u2019s part of requirement to split into two jars. ", "NoSuchMethodException exception thrown when calling mapClass.getDeclaredMethod(\"run\", oneParam. using reflection api", "We have verified Jar and it confirms methods being invoked is present in class. ", "Only difference I doubt is Input(in method signature. and FileInput (in the parameter)", "It works well in Eclipse, but not in server. ", "It's tested with JDK 1.6 & 1.7, but server runs on jdk 1.7. ", "Second option.. tried as shown below but this time it throwsjava.lang.IllegalArgumentException: argument type mismatch"], "exception_stack": ["java.lang.NoSuchMethodException:      \n    com.sample.test.TrackingService.run(com.altova.io.Input)\n"], "code": ["import com.altova.io.Input; \nimport com.altova.io.FileInput;\n\nInput sourceInput = new FileInput(inputFileFullPath);\n\nClass oneParam[] = { Input.class };\nObject mapObj = mapClass.newInstance();\nMethod method = mapClass.getDeclaredMethod(RUN, oneParam);\nli = (List) method.invoke(mapObj, sourceInput);\n", "for (Method method : mapClass.getDeclaredMethods()) {\nmethod.setAccessible(true);\nif (method.getName().equals(\"run\")) {\n    Class<?>[] params = method.getParameterTypes();\n    if (params.length == 2) {\n        if (params[0].isInstance(sourceInput) && params[1].isInstance(outputStream)) {\n            li = (List<ByteArrayOutputStream>) method.invoke(mapObj, sourceInput, outputStream);\n            System.out.println(\" Parsing is complete:\");\n        }\n    }\n}}\n"], "environment_rank": 12, "code_rank": 9, "title_rank": 27, "exception_message": "java.lang.NoSuchMethodException: com.sample.test.TrackingService.run(com.altova.io.Input)\n", "environment_score": 64, "code_score": 73}]}))
+  })
+  </script>
+</body>
+
+</html>

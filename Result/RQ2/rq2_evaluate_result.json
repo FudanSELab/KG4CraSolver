@@ -1,0 +1,51 @@
+{
+  "MRR": {
+    "baseline_sentence_bert": 0.16152474146820647,
+    "baseline_sentence_bert_title": 0.14606727555010007,
+    "baseline_bm25": 0.09540838170353237,
+    "baseline_word2vec": 0.15089811188685293,
+    "baseline_word2vec_title": 0.17919733709781163,
+    "kg4crasolver": 0.2028136092979097
+  },
+  "H_1": {
+    "baseline_sentence_bert": 0.08538011695906433,
+    "baseline_sentence_bert_title": 0.0783625730994152,
+    "baseline_bm25": 0.10994152046783626,
+    "baseline_word2vec": 0.08421052631578947,
+    "baseline_word2vec_title": 0.09941520467836257,
+    "kg4crasolver": 0.10292397660818714
+    
+  },
+  "H_3": {
+    "baseline_sentence_bert": 0.1742690058479532,
+    "baseline_sentence_bert_title": 0.15321637426900586,
+    "baseline_bm25": 0.17894736842105263,
+    "baseline_word2vec": 0.14736842105263157,
+    "baseline_word2vec_title": 0.19415204678362574,
+    "kg4crasolver": 0.21403508771929824
+  },
+  "H_5": {
+    "baseline_sentence_bert": 0.21754385964912282,
+    "baseline_sentence_bert_title": 0.1976608187134503,
+    "baseline_bm25": 0.2198830409356725,
+    "baseline_word2vec": 0.19883040935672514,
+    "baseline_word2vec_title": 0.23976608187134502,
+    "kg4crasolver": 0.28654970760233917
+  },
+  "H_10": {
+    "baseline_sentence_bert": 0.2830409356725146,
+    "baseline_sentence_bert_title": 0.2783625730994152,
+    "baseline_bm25": 0.29239766081871343,
+    "baseline_word2vec": 0.26432748538011697,
+    "baseline_word2vec_title": 0.3192982456140351,
+    "kg4crasolver": 0.4058479532163743
+  },
+  "H_50": {
+    "baseline_sentence_bert": 0.5906432748538012,
+    "baseline_sentence_bert_title": 0.41637426900584795,
+    "baseline_bm25": 0.5906432748538012,
+    "baseline_word2vec": 0.5719298245614035,
+    "baseline_word2vec_title": 0.6058479532163743,
+    "kg4crasolver": 0.743859649122807
+  }
+}

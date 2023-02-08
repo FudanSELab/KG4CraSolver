@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/layui/2.6.8/css/layui.min.css">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/layui/2.6.8/layui.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.8/vue.min.js"></script>
+</head>
+<style type="text/css">
+body {
+  background-color: #F4F5F6;
+  margin: 0;
+  padding: 0;
+}
+
+.layui-container {
+  margin-top: 50px;
+  width: 80vw;
+  line-height: 40px;
+}
+
+.layui-table {
+  margin: 0;
+  width: 100%;
+  table-layout: fixed;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI Adjusted", "Segoe UI", "Liberation Sans", sans-serif;
+}
+
+.layui-table ol li {
+  list-style: decimal;
+  margin-left: 30px;
+}
+
+.layui-table td {
+  padding: 5px 15px;
+  font-size: 14px;
+  color: #232629;
+  line-height: 20px;
+  border: none;
+  border-bottom: 0px solid #FFFFFF;
+}
+
+.layui-table a {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.layui-table .left-font {
+  text-align: right;
+  vertical-align: top;
+  font-size: 15px;
+  background-color: #F2F3F4;
+}
+
+.layui-table[lay-even] tr:nth-child(even) {
+  background-color: #F2F3F4;
+}
+
+.layui-table[lay-even] tr:nth-child(odd) {
+  background-color: #F2F3F4;
+}
+
+.layui-panel {
+  font-size: 12px;
+  color: #232629;
+  margin: 10px 0 50px;
+  padding: 9px 0;
+  background-color: #F2F3F4;
+}
+
+.layui-panel a:hover {
+  color: #3B4045;
+}
+
+.layui-panel .title {
+  padding: 5px;
+  font-size: 25px;
+  line-height: 40px;
+  margin: 0 20px 0;
+  color: #3B4045;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI Adjusted", "Segoe UI", "Liberation Sans", sans-serif;
+}
+
+/*mark {*/
+/*    background-color: #F0B27A;*/
+/*    padding: 1px 3px 1px;*/
+/*    border-radius: 3px;*/
+/*    line-height: 16px;*/
+/*    margin: 0 1px;*/
+/*}*/
+
+/*em {*/
+/*    font-family: Georgia, Cambria, "Times New Roman", Times, serif;*/
+/*    font-size: 15px;*/
+/*    margin: 0 5px;*/
+/*    text-decoration: underline;*/
+/*}*/
+
+/*.layui-table ol li mark {*/
+/*    background-color: #CACFD2;*/
+/*}*/
+
+code {
+  font-family: ui-monospace, "Cascadia Mono", "Segoe UI Mono", "Liberation Mono", Menlo, Monaco, Consolas, monospace;
+  font-size: 12px;
+  border-radius: 3px;
+  line-height: 20px;
+  word-wrap: normal;
+}
+
+pre {
+  padding: 12px;
+  width: auto;
+  overflow: auto;
+  background-color: #E7E8E9;
+  border-radius: 3px;
+}
+
+.answer-title a {
+  font-size: 18px;
+  font-weight: bold;
+}
+</style>
+
+<body>
+  <div id="app" class="layui-container">
+    <div class="layui-row layui-col-space15">
+      <div class="layui-col-md12">
+        <div class="layui-panel" style="margin-bottom: 30px;">
+          <div class="title"><strong>Query:&nbsp;&nbsp;</strong>
+            <a :href="'https://stackoverflow.com/questions/'+post_id" target="_blank" v-html="title">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="layui-panel" v-for="(answer, index) in answer">
+      <table class="layui-table" lay-even>
+        <colgroup>
+          <col width="14%">
+          <col width="86%">
+        </colgroup>
+        <tbody>
+          <tr>
+            <td rowspan="1" class="left-font">
+              <strong>Id&nbsp;[<span>{{answer.answer_id}}</span>]</strong>
+            </td>
+            <td>
+              <div class="answer-title">
+                <a :href="'https://stackoverflow.com/questions/'+answer.answer_id" target="_blank" v-html="answer.title">
+                </a>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" class="left-font">
+              <strong>Environment</strong>
+            </td>
+            <td>
+              <strong>{{answer.environment.join(", ")}}</strong>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" class="left-font">
+              <strong>Extra Info</strong>
+            </td>
+            <td>
+              <span class="layui-badge layui-bg-black">ViewCount:&nbsp;{{answer.ViewCount}}</span>
+              <span class="layui-badge layui-bg-black">Score:&nbsp;{{answer.Score}}</span>
+              <span class="layui-badge layui-bg-black">AnswerScore:&nbsp;{{answer.AnswerScore}}</span>
+              <span class="layui-badge layui-bg-black">Environment Score:&nbsp;{{answer.environment_score}}</span>
+              <span v-show="answer.exception_message_score" class="layui-badge layui-bg-black">Exception Message Score:&nbsp;{{answer.exception_message_score}}</span>
+              <span v-show="answer.exception_stack_score" class="layui-badge layui-bg-black">Exception Stack
+                Score:&nbsp;{{answer.exception_stack_score}}</span>
+              <span v-show="answer.code_score" class="layui-badge layui-bg-black">Code
+                Score:&nbsp;{{answer.code_score}}</span>
+              <span v-show="answer.symptom_score" class="layui-badge layui-bg-black">Symptom
+                Score:&nbsp;{{answer.symptom_score}}</span>
+              <span v-show="answer.purpose_score" class="layui-badge layui-bg-black">Purpose
+                Score:&nbsp;{{answer.purpose_score}}</span>
+            </td>
+          </tr>
+          <!--          <tr>-->
+          <!--            <td rowspan="1" class="left-font">-->
+          <!--              <strong>Exception Stack</strong>-->
+          <!--            </td>-->
+          <!--            <td>-->
+          <!--              <div v-for="(exc,) in answer.exception_stack">-->
+          <!--                <pre style="max-height: 300px"><code>{{exc}}</code></pre>-->
+          <!--              </div>-->
+          <!--            </td>-->
+          <!--          </tr>-->
+          <tr v-show="answer.exception_message">
+            <td rowspan="1" class="left-font">
+              <strong>Exception Message</strong>
+            </td>
+            <td>
+              <div>
+                <pre style="max-height: 300px"><code>{{answer.exception_message}}</code></pre>
+              </div>
+            </td>
+          </tr>
+          <tr v-show="answer.symptom">
+            <td rowspan="1" class="left-font">
+              <strong>Symptom</strong>
+            </td>
+            <td>
+              <p v-for="(symptom,) in answer.symptom">{{symptom}}</p>
+            </td>
+          </tr>
+          <tr v-show="answer.code.length>0">
+            <td rowspan="1" class="left-font">
+              <strong></strong>
+            </td>
+            <td>
+              <div class="layui-collapse">
+                <div class="layui-colla-item" v-for="(code,i) in answer.code">
+                  <h2 class="layui-colla-title">code {{i + 1}}</h2>
+                  <pre class="layui-colla-content" style="max-height: 300px"><code>{{code}}</code></pre>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr v-show="answer.reason.length>0">
+            <td rowspan="1" class="left-font">
+              <strong>Reason</strong>
+            </td>
+            <td>
+              <p v-for="(reason,) in answer.reason">{{reason}}</p>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" class="left-font">
+              <strong>Solution</strong>
+            </td>
+            <td>
+              <p v-for="(solution,) in answer.solution">{{solution}}</p>
+            </td>
+          </tr>
+          <tr v-show="answer.answer_code.length>0">
+            <td rowspan="1" class="left-font">
+              <strong></strong>
+            </td>
+            <td>
+              <div class="layui-collapse">
+                <div class="layui-colla-item" v-for="(answer_code, i) in answer.answer_code">
+                  <h2 class="layui-colla-title">code {{i + 1}}</h2>
+                  <pre class="layui-colla-content" style="max-height: 600px"><code>{{answer_code}}</code></pre>
+                </div>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <script type="text/javascript">
+  const vm = new Vue({
+    el: '#app',
+    data: JSON.parse(JSON.stringify({"post_id": "49276019", "exception_type": "CertificateException", "environment": "java, Jav, jdk 1.8.0_60, Tomcat 8, https, Servlet URL, Apache Tomcat Version 8.0.33, Ubuntu 14.04 Server", "title": "Call java servlet from other project", "answer": [{"answer_id": "3093112", "title": "CertificateException: No name matching ssl.someUrl.de found", "Score": 60, "ViewCount": 170782, "LastEditDate": "2012-08-03 00:05:09", "LastActivityDate": "2021-09-03 06:50:02", "AnswerScore": 78, "reason": ["It looks like the certificate of the server you are trying to connect to doesn't match its hostname. ", "When an HTTPS client connects to a server, it verifies that the hostname in the certificate matches the hostname of the server. ", "It's not enough for a certificate to be trusted, it has to match the server you want to talk to too.", "In HTTP, this is done by checking that: [-]the certificate contains a DNS subject alternative name (this is a standard extension. entry matching the hostname; [-]failing that, the last CN of your subject distinguished name (this is the main name if you wantmatches the hostname", "It's hard to tell what the subject alternative name is without having the certificate (although, if you connect with your browser and check its content in more details, you should be able to see it.) -CODE- "], "solution": ["You may be able to bypass the hostname verification using https://docs.oracle.com/javase/6/docs/api/javax/net/ssl/HttpsURLConnection.html#setHostnameVerifier%28javax.net.ssl.HostnameVerifier%29", "It shouldn't be too hard to write a custom HostnameVerifier that bybasses the verification, although I would suggest doing it only when the certificate its the one concerned here specifically. ", "You should be able to get that using the SSLSession argument and its getPeerCertificates(. method", "(In addition, you don't need to set the javax.net.ssl.* properties the way you've done it, since you're using the default values anyway.. ", "Alternatively, if you have control over the server you're connecting to and its certificate, you can create a certificate of it that matches the naming rules above (CN should be sufficient, although subject alternative name is an improvement). ", "If a self-signed certificate is good enough for what you name, make sure its common name (CN. is the host name you're trying to talk to (no the full URL, just the hostname)"], "answer_code": ["EMAILADDRESS=info@plesk.com, CN=plesk, OU=Plesk, O=Parallels, L=Herndon, ST=Virginia, C=US\n"], "environment": ["java truststore", "plesk", "ssl", "plesk certificate", "java", "jssecacerts"], "symptom": ["I'm trying to connect to one of my servers through ssl, with Java. ", "I tried a lot of options here is my best try: I generate a jssecacerts with the recommendet script: http://blogs.oracle.com/andreas/resource/InstallCert.java with the command: java InstallCert ssl.someUrl.de changeit. after this I did the command a second time: -CODE-", "I copied the file to the default directory and I loaded the certificate in Java trustStore: -CODE-. ", "And I get Error on 3rd line: (No name matching ssl.someUrl.de found. -CODE-", "Is this cause of the default plesk certificate or is something else wrong. ", "Setup: JRE 6.20, Netbeans 6.8, Windows7 64bit. "], "exception_stack": ["javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching ssl.someUrl.de found\n"], "code": ["Loading KeyStore jssecacerts...\nOpening connection to ssl.someUrl.de:443...\nStarting SSL handshake...\n\nNo errors, certificate is already trusted\n\nServer sent 1 certificate(s):\n\n 1 Subject EMAILADDRESS=info@plesk.com, CN=plesk, OU=Plesk, O=Parallels, L=Hernd\non, ST=Virginia, C=US\n   Issuer  EMAILADDRESS=info@plesk.com, CN=plesk, OU=Plesk, O=Parallels, L=Hernd\non, ST=Virginia, C=US\n   sha1    f1 0d 2c 54 05 e1 32 19 a0 52 5e e1 81 6c a3 a5 83 0d dd 67\n   md5     f0 b3 be 5e 5f 6e 90 d1 bc 57 7a b2 81 ce 7d 3d\n\nEnter certificate to add to trusted keystore or 'q' to quit: [1]\n", "System.setProperty(\"javax.net.ssl.trustStore\", \"C:\\\\Program Files (x86)\\\\Java\\\\jre6\\\\lib\\\\security\\\\jssecacerts\");\nSystem.setProperty(\"javax.net.ssl.trustStorePassword\",\"changeit\");\n", "URL url = new URL(\"https://ssl.someUrl.de/\");\nURLConnection conn = url.openConnection();\nBufferedReader rd = new BufferedReader(new InputStreamReader(conn.getInputStream()));\n"], "purpose": ["I copied the file to the default directory and I loaded the certificate in Java trustStore: -CODE-. ", "Then I try to connect: -CODE-. ", "I'm trying to connect to one of my servers through ssl, with Java. "], "purpose_rank": 12, "symptom_rank": 12, "environment_rank": 0, "exception_message_rank": 0, "exception_stack_rank": 0, "code_rank": 5, "exception_message": "javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching ssl.someUrl.de found\n", "purpose_score": 64, "symptom_score": 64, "environment_score": 100, "exception_message_score": 100, "exception_stack_score": 100, "code_score": 85}, {"answer_id": "24061279", "title": "java.security.cert.CertificateException when connecting to server with multiple certificates", "Score": 0, "ViewCount": 1159, "LastEditDate": "", "LastActivityDate": "2014-06-05 14:54:10", "AnswerScore": 1, "reason": ["Having multiple certificates on the same IP address and port relies on Server Name Indication. "], "solution": ["Your server supports it, but your client needs to support it too. ", "Client-side support for SNI was only introduced in Java in Java 7 (see release notes)(*). ", "(You may also need additional settings if you're using another client library, such as Apache HTTP Client, depending on the version.)"], "answer_code": [], "environment": ["browser", "destination server", "ssl", "virtual hosts", "wget", "browser or curl", "url", "java", "ssl verification", "java or wget", "certificate"], "symptom": ["I'm trying to create SSL connection to a website (https://www.otten-markenshop.de/), and using browser or curl it works, but neither wget, no Java manages to connect. ", "Here are the error details: Using WGET: -CODE-. results in: -CODE-", "What else I have noticed is that certificate I receive in browser is different from the certificate I receive when running Java program: in browser: -CODE-. in Java: -CODE-", "And the certificate I get in Java is the same as I would receive in browser if I try to access the host by IP address: https://217.24.213.167 Thus it appears that server has multiple certificates installed and uses virtual hosts to detect which certificate should be used. ", "But for some reason this detection does not work when client is Java or wget. ", "I don't have access to the destination server to see how it is configured. ", "I am interested more in understanding why the simple Java code does not work, rather than making it work by, for instance, disabling the SSL verification. ", "After all I can connect to the mentioned URL over HTTP without any issues. "], "exception_stack": ["Resolving www.otten-markenshop.de... 217.24.213.167\nConnecting to www.otten-markenshop.de|217.24.213.167|:443... connected.\nERROR: certificate common name \u201cwww.plentymarkets.eu\u201d doesn\u2019t match requested \nhost name \u201cwww.otten-markenshop.de\u201d.\n", "Exception in thread \"main\" javax.net.ssl.SSLHandshakeException: \njava.security.cert.CertificateException: No subject alternative DNS \nname matching www.otten-markenshop.de found.\n"], "code": ["wget https://www.otten-markenshop.de/\n", "public static void main(String[] args) throws IOException\n{\n    URL url = new URL(\"https://www.otten-markenshop.de\");\n    URLConnection connection = url.openConnection();\n    connection.getInputStream();\n}\n", "Common Name (CN): \n    www.otten-markenshop.de\nSubject Alternative Name: \n    DNS Name=www.otten-markenshop.de \n    DNS Name=otten-markenshop.de\n", "Common Name (CN): \n    www.plentymarkets.eu\nSubject Alternative Name: \n"], "purpose": ["I'm trying to create SSL connection to a website (https://www.otten-markenshop.de/), and using browser or curl it works, but neither wget, no Java manages to connect. ", "After all I can connect to the mentioned URL over HTTP without any issues. "], "purpose_rank": 3, "symptom_rank": 11, "environment_rank": 8, "exception_message_rank": 11, "exception_stack_rank": 2, "code_rank": 24, "exception_message": "", "purpose_score": 91, "symptom_score": 67, "environment_score": 76, "exception_message_score": 67, "exception_stack_score": 94, "code_score": 28}, {"answer_id": "22467084", "title": "javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No X509TrustManager implementation available", "Score": 1, "ViewCount": 6488, "LastEditDate": "", "LastActivityDate": "2014-03-17 22:52:56", "AnswerScore": 0, "reason": ["This framework contains a /keystore file inside the jar that produce this problem. "], "solution": ["When we remove this dependency from the pom, all works fine. "], "answer_code": ["     <dependency>\n        <groupId>com.github.tomakehurst</groupId>\n        <artifactId>wiremock</artifactId>\n        <version>1.43</version>\n        <exclusions>\n             <exclusion>\n              <groupId>org.mortbay.jetty</groupId>\n              <artifactId>servlet-api</artifactId>\n            </exclusion>\n         </exclusions> \n    </dependency>\n"], "environment": ["ssl", "spring-boot", "java", "https", "spring"], "symptom": ["I have code in my application that try to connect to an external host using HTTPS with a specified certificate. ", "The variable cerPath contains the path to the certificate (xxxx.pfx. used to establish the connection", "In a standalone application, this works perfectly, but in my spring-boot application, the same code throws this exception: -CODE-. ", "I've tested this code inside a normal Spring application, and it works too. ", "The normal SSL properties (. don't work either"], "exception_stack": ["javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No X509TrustManager implementation available\n"], "code": ["    //Load Two Keystores\n    KeyStore keystore = KeyStore.getInstance(\"pkcs12\", \"SunJSSE\");\n    InputStream keystoreInput = new FileInputStream(cerPath);\n    keystore.load(keystoreInput, passwd.toCharArray());\n    System.out.println(\"Keystore has \" + keystore.size() + \" keys\");\n\n    // load the truststore, leave it null to rely on cacerts distributed with the JVM\n    KeyStore truststore = KeyStore.getInstance(\"pkcs12\", \"SunJSSE\");\n    InputStream truststoreInput = new FileInputStream(cerPath);\n    truststore.load(truststoreInput, passwd.toCharArray());\n    System.out.println(\"Truststore has \" + truststore.size() + \" keys\");\n\n    //ssl context\n    SSLContext sslcontext = SSLContext.getInstance(\"TLS\");\n    sslcontext.init(null, null, null);\n    SSLSocketFactory sf = new SSLSocketFactory(keystore, passwd);\n    Scheme https = new Scheme(\"https\", 443, sf);\n\n    SchemeRegistry schemeRegistry = new SchemeRegistry();\n    schemeRegistry.register(https);\n    ...\n    client = new DefaultHttpClient(new PoolingClientConnectionManager(schemeRegistry));\n    ...\n    HttpResponse httpResponse = client.execute( targetHost, httpMethod);\n"], "purpose": ["I have code in my application that try to connect to an external host using HTTPS with a specified certificate. "], "purpose_rank": 21, "symptom_rank": 8, "environment_rank": 7, "exception_message_rank": 9, "exception_stack_rank": 7, "exception_message": "javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No X509TrustManager implementation available\n", "purpose_score": 37, "symptom_score": 76, "environment_score": 79, "exception_message_score": 73, "exception_stack_score": 79}, {"answer_id": "60056854", "title": "Gettig CertificateException: \"No name matching localhost found\" in Playframework java application", "Score": 1, "ViewCount": 1354, "LastEditDate": "", "LastActivityDate": "2020-02-04 12:11:45", "AnswerScore": 2, "reason": ["Thats a keystore problem, your client is configured in a way that it checks the hostname used against metadata in the keystore. ", "So you either have to set the \"Subject\" CN to \"localhost\", or add Subject Alternative Names with \"localhost\" in the hostname."], "solution": ["I like https://keystore-explorer.org/ tool for creating keystore best, adding the SAN is easy there. "], "answer_code": [], "environment": ["playframework", "ssl", "spring-boot", "java", "certificate", "spring"], "symptom": ["I have 2 applications, one app is in Spring Boot and other is in Playframework. ", "I am trying to consume REST endpoint of Spring Boot application in Playframework application. ", "I am accessing the REST endpoint using the certificate I've got. ", "In my play application I've disabled the host name verification, but still I am getting this error. ", "Spring Boot Application Configuration. application.properties: -CODE-", "Playframework Application Configuration. application.conf: -CODE-", "If I set play.ws.ssl.loose.acceptAnyCertificate = true then it is working. ", "I want to keep it as false and then access the end point. ", "If more information is required, I will add the code snippets too. "], "exception_stack": ["AsyncHttpClient-2-1, fatal error: 46: General SSLEngine problem\njava.security.cert.CertificateException: No name matching localhost found\n"], "code": ["server.port=8085\nserver.ssl.key-alias=demo\nserver.ssl.key-password=changeit\nserver.ssl.key-store-provider=SUN\nserver.ssl.key-store-type=JKS\nserver.ssl.key-store=server.jks\n", "play.ws.ssl.loose.acceptAnyCertificate = false\nplay.ws.ssl.loose.disableHostnameVerification = true\n\nplay.ws.ssl {\n  trustManager = {\n    stores = [\n      { type = \"PEM\", path = \"public.crt\" }\n    ]\n  }\n}\n\nplay.ws.ssl.debug = {\n    all = false\n    ssl = true\n    certpath = true\n}\n"], "purpose": ["I have 2 applications, one app is in Spring Boot and other is in Playframework. ", "I am trying to consume REST endpoint of Spring Boot application in Playframework application. ", "I want to keep it as false and then access the end point. ", "I am accessing the REST endpoint using the certificate I've got. "], "purpose_rank": 29, "environment_rank": 11, "exception_message_rank": 2, "exception_stack_rank": 3, "exception_message": "java.security.cert.CertificateException: No name matching localhost found\n", "purpose_score": 13, "environment_score": 67, "exception_message_score": 94, "exception_stack_score": 91}, {"answer_id": "22505312", "title": "CertificateException: No subject alternative names present", "Score": 4, "ViewCount": 31930, "LastEditDate": "2014-03-21 11:17:55", "LastActivityDate": "2014-03-21 11:26:59", "AnswerScore": 3, "reason": ["When a name is present in the Common Name (CN), it must also be present in the Subject Alternate Name (SAN). ", "You have a malformed certificate (and it might have other problems). "], "solution": ["See Baseline Requirements for the Issuance and Management of Publicly-Trusted Certificates, Section 9 (pages 9 & 10): ", "9.2.2 Subject Common Name Field\n\nCertificate Field: subject:commonName (OID 2.5.4.3)\n\nRequired/Optional: Deprecated (Discouraged, but not prohibited)\n\nContents: If present, this field MUST contain a single IP address or Fully-Qualified Domain Name that is one of the values contained in the Certificate\u9225\u6a9a subjectAltName extension (see Section 9.2.1)."], "answer_code": [], "environment": ["keystore of java", "linux", "php webservice", "ssl", "openssl", "java", "https webservice", "server", "the cn (common name. i.ethe ip address on certificate"], "symptom": ["I am getting following exception while calling https webservice. -CODE-", "I am calling a php webservice from Java code. ", "The CN (Common Name. i.ethe IP address on certificate and the IP address I am calling are different", "I have added the certificate in keystore of java. ", "The CN is the server IP address. ", "I am calling that server using its external IP address given too us because of firewall issue. "], "exception_stack": ["com.sun.xml.internal.ws.client.ClientTransportException: HTTP transport error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative names present.\n"], "code": [], "purpose": ["I am getting following exception while calling https webservice. -CODE-", "I am calling a php webservice from Java code. "], "purpose_rank": 6, "symptom_rank": 18, "environment_rank": 13, "exception_message_rank": 13, "exception_stack_rank": 9, "exception_message": "com.sun.xml.internal.ws.client.ClientTransportException: HTTP transport error: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative names present.\n", "purpose_score": 82, "symptom_score": 46, "environment_score": 61, "exception_message_score": 61, "exception_stack_score": 73}, {"answer_id": "39858254", "title": "javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException while connecting to a secure port", "Score": 1, "ViewCount": 1637, "LastEditDate": "2016-10-04 17:29:30", "LastActivityDate": "2016-10-05 01:17:06", "AnswerScore": 2, "reason": ["Keystore is defined exactly as defined above but add TrustStore in server.xml. ", "Assumption is that TrustStore.jks has the signer certificates to establish trust with the server."], "solution": ["You might want to try defining SSL configuration on Liberty as below. "], "answer_code": ["<ssl id=\"defaultSSLConfig\" keyStoreRef=\"defaultKeyStore\" trustStoreRef=\u201cmyTrustStore\"/>\n        <<keyStore id=\"defaultKeyStore\" location=\"/root/ssl/bmx-zuu.net.jks\" password=\"passw0rd\" />\n        <keyStore id=\u201cmyTrustStore\" location=\"${server.config.dir}/TrustStore.jks\" password=\"mypassword\" type=\"JKS\"/>\n"], "environment": ["java", "websphere-liberty", "ssl", "server.xml"], "symptom": ["I am getting a SSL exception when one of my servers tries to connect to a secure port. -CODE-", "I have set the trust store in jvm.options: -CODE-. ", "In server.xml I have added: -CODE-. "], "exception_stack": ["javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: PKIXCertPathBuilderImpl could not build a valid CertPath. java.security.cert.CertificateException: PKIXCertPathBuilderImpl could not build a valid CertPath. PKIXCertPathBuilderImpl could not build a valid CertPath\n"], "code": ["-Djavax.net.ssl.trustStore=/home/rpp/TrustStore\n-Djavax.net.ssl.trustStorePassword=passw0rd\n-Djavax.net.ssl.trustStoreType=jks\n", "<keyStore id=\"defaultKeyStore\" location=\"/root/ssl/bmx-zuu.net.jks\" password=\"passw0rd\" />\n"], "purpose": ["I am getting a SSL exception when one of my servers tries to connect to a secure port. -CODE-"], "purpose_rank": 23, "symptom_rank": 3, "environment_rank": 6, "exception_message_rank": 23, "exception_stack_rank": 14, "exception_message": "javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: PKIXCertPathBuilderImpl could not build a valid CertPath. java.security.cert.CertificateException: PKIXCertPathBuilderImpl could not build a valid CertPath. PKIXCertPathBuilderImpl could not build a valid CertPath\n", "purpose_score": 31, "symptom_score": 91, "environment_score": 82, "exception_message_score": 31, "exception_stack_score": 58}, {"answer_id": "54643334", "title": "Android Error connecting to a database on remote server", "Score": -1, "ViewCount": 396, "LastEditDate": "2019-06-11 23:37:02", "LastActivityDate": "2019-06-11 23:37:02", "AnswerScore": 0, "reason": ["https://snipy.unaux.com/ This website ssl certificate is not trusted by the system. ", "String reg_url = \"http://snipy.unaux.com/MySQLDemo/register.php\"; String login_url = \"http://snipy.unaux.com/MySQLDemo/login.php\"; . "], "solution": ["You can according okhttp doc trust your certificate. ", "Or you can replace https with http to solve this problem for now. "], "answer_code": [], "environment": ["remote server", "following are my java files", "java", "android", "mysql and php"], "symptom": ["I am trying to connect my android application to a database on a remote server. ", "I created a login form but it shows the following error. -CODE-", "Following are my Java files. ", "I am stuck in here for a long time and if you could give any resources on how to connect an android app to a database on the server using MySQL and PHP it would be highly appreciable. "], "exception_stack": ["\n02/11 21:14:24: Launching app\nNo apk changes detected since last installation, skipping installation of C:\\Users\\manav\\AndroidStudioProjects\\MySQLConnect\\app\\build\\outputs\\apk\\debug\\app-debug.apk\n$ adb shell am force-stop com.example.mysqlconnect\n$ adb shell am start -n \"com.example.mysqlconnect/com.example.mysqlconnect.MainActivity\" -a android.intent.action.MAIN -c android.intent.category.LAUNCHER\nConnected to process 31621 on device xiaomi-redmi_note_3-dbdeee7e\nCapturing and displaying logcat messages from application. This behavior can be disabled in the \"Logcat output\" section of the \"Debugger\" settings page.\nW/System: ClassLoader referenced unknown path: /data/app/com.example.mysqlconnect-1/lib/arm64\nD/AccessibilityManager: current package=com.example.mysqlconnect, accessibility manager mIsFinalEnabled=false, mOptimizeEnabled=false, mIsUiAutomationEnabled=false, mIsInterestedPackage=false\nD/OpenGLRenderer: Use EGL_SWAP_BEHAVIOR_PRESERVED: true\nI/Adreno: QUALCOMM build                   : a7823f5, I59a6815413\n    Build Date                       : 09/23/16\n    OpenGL ES Shader Compiler Version: XE031.07.00.00\n    Local Branch                     : mybranch22028469\n    Remote Branch                    : quic/LA.BR.1.3.3_rb2.26\n    Remote Branch                    : NONE\n    Reconstruct Branch               : NOTHING\nI/OpenGLRenderer: Initialized EGL, version 1.4\nE/HAL: hw_get_module_by_class: module name gralloc\n    hw_get_module_by_class: module name gralloc\nI/Timeline: Timeline: Activity_launch_request time:71856102\nD/OpenGLRenderer: endAllStagingAnimators on 0x559d757b20 (RippleDrawable) with handle 0x559d759ed0\nI/DpmTcmClient: RegisterTcmMonitor from: com.android.okhttp.TcmIdleTimerMonitor\nD/OpenGLRenderer: endAllStagingAnimators on 0x559d874d50 (RippleDrawable) with handle 0x559d89f8a0\nW/System.err: javax.net.ssl.SSLHandshakeException: java.security.cert.CertPathValidatorException: Trust anchor for certification path not found.\n        at com.android.org.conscrypt.OpenSSLSocketImpl.startHandshake(OpenSSLSocketImpl.java:328)\n        at com.android.okhttp.internal.http.SocketConnector.connectTls(SocketConnector.java:103)\n        at com.android.okhttp.Connection.connect(Connection.java:143)\n        at com.android.okhttp.Connection.connectAndSetOwner(Connection.java:185)\nW/System.err:     at com.android.okhttp.OkHttpClient$1.connectAndSetOwner(OkHttpClient.java:128)\n        at com.android.okhttp.internal.http.HttpEngine.nextConnection(HttpEngine.java:342)\n        at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:331)\n        at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:249)\n        at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:437)\n        at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:114)\n        at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:245)\n        at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getOutputStream(DelegatingHttpsURLConnection.java:218)\n        at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:25)\n        at com.example.mysqlconnect.BackgroundTask.doInBackground(BackgroundTask.java:52)\n        at com.example.mysqlconnect.BackgroundTask.doInBackground(BackgroundTask.java:23)\n        at android.os.AsyncTask$2.call(AsyncTask.java:295)\n        at java.util.concurrent.FutureTask.run(FutureTask.java:237)\n        at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:234)\n        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)\n        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)\n        at java.lang.Thread.run(Thread.java:818)\n    Caused by: java.security.cert.CertificateException: java.security.cert.CertPathValidatorException: Trust anchor for certification path not found.\nW/System.err:     at com.android.org.conscrypt.TrustManagerImpl.checkTrusted(TrustManagerImpl.java:324)\n        at com.android.org.conscrypt.TrustManagerImpl.checkServerTrusted(TrustManagerImpl.java:225)\n        at com.android.org.conscrypt.Platform.checkServerTrusted(Platform.java:115)\n        at com.android.org.conscrypt.OpenSSLSocketImpl.verifyCertificateChain(OpenSSLSocketImpl.java:556)\n        at com.android.org.conscrypt.NativeCrypto.SSL_do_handshake(Native Method)\n        at com.android.org.conscrypt.OpenSSLSocketImpl.startHandshake(OpenSSLSocketImpl.java:324)\n        ... 20 more\n    Caused by: java.security.cert.CertPathValidatorException: Trust anchor for certification path not found.\nW/System.err:   ... 26 more\nV/BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@b7340e\nV/BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@b19e2f\nD/AndroidRuntime: Shutting down VM\nE/AndroidRuntime: FATAL EXCEPTION: main\n    Process: com.example.mysqlconnect, PID: 31621\n    android.view.WindowManager$BadTokenException: Unable to add window -- token android.os.BinderProxy@965df6d is not valid; is your activity running?\n        at android.view.ViewRootImpl.setView(ViewRootImpl.java:584)\n        at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:313)\n        at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:86)\n        at android.app.Dialog.show(Dialog.java:322)\n        at com.example.mysqlconnect.BackgroundTask.onPostExecute(BackgroundTask.java:134)\n        at com.example.mysqlconnect.BackgroundTask.onPostExecute(BackgroundTask.java:23)\n        at android.os.AsyncTask.finish(AsyncTask.java:651)\n        at android.os.AsyncTask.access$500(AsyncTask.java:180)\n        at android.os.AsyncTask$InternalHandler.handleMessage(AsyncTask.java:668)\n        at android.os.Handler.dispatchMessage(Handler.java:102)\n        at android.os.Looper.loop(Looper.java:157)\n        at android.app.ActivityThread.main(ActivityThread.java:5604)\n        at java.lang.reflect.Method.invoke(Native Method)\n        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:774)\n        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:652)\nI/Process: Sending signal. PID: 31621 SIG: 9\nApplication terminated.\n\n"], "code": ["package com.example.mysqlconnect;\n\nimport android.app.Activity;\nimport android.content.Intent;\nimport android.os.Bundle;\nimport android.view.View;\nimport android.widget.EditText;\n\npublic class MainActivity extends Activity {\n    EditText ET_NAME,ET_PASS;\n    String login_name,login_pass;\n\n    @Override\n    protected void onCreate(Bundle savedInstanceState) {\n        super.onCreate(savedInstanceState);\n        setContentView(R.layout.activity_main);\n        ET_NAME = (EditText)findViewById(R.id.user_name);\n        ET_PASS = (EditText)findViewById(R.id.user_pass);\n    }\n\n    public void userReg(View view) {\n        startActivity(new Intent(this,Register.class));\n    }\n\n    public void userLogin(View view) {\n        login_name = ET_NAME.getText().toString();\n        login_pass = ET_PASS.getText().toString();\n        String method = \"login\";\n        BackgroundTask backgroundTask = new BackgroundTask(this);\n        backgroundTask.execute(method,login_name,login_pass);\n    }\n}\n", "public class BackgroundTask extends AsyncTask<String,Void,String> {\n    AlertDialog alertDialog;\n    Context ctx;\n\n    BackgroundTask(Context ctx) {\n        this.ctx =ctx;\n    }\n\n    @Override\n    protected void onPreExecute() {\n        alertDialog = new AlertDialog.Builder(ctx).create();\n        alertDialog.setTitle(\"Login Information....\");\n    }\n\n    @Override\n    protected String doInBackground(String... params) {\n        String reg_url = \"https://snipy.unaux.com/MySQLDemo/register.php\";\n        String login_url = \"https://snipy.unaux.com/MySQLDemo/login.php\";\n        String method = params[0];\n\n        if (method.equals(\"register\")) {\n            String name = params[1];\n            String user_name = params[2];\n            String user_pass = params[3];\n            try {\n                URL url = new URL(reg_url);\n                HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();\n                httpURLConnection.setRequestMethod(\"POST\");\n                httpURLConnection.setDoOutput(true);\n\n                //httpURLConnection.setDoInput(true);\n                OutputStream OS = httpURLConnection.getOutputStream();\n                BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(OS, \"UTF-8\"));\n                String data = URLEncoder.encode(\"user\", \"UTF-8\") + \"=\" + URLEncoder.encode(name, \"UTF-8\") + \"&\" +\n                        URLEncoder.encode(\"user_name\", \"UTF-8\") + \"=\" + URLEncoder.encode(user_name, \"UTF-8\") + \"&\" +\n                        URLEncoder.encode(\"user_pass\", \"UTF-8\") + \"=\" + URLEncoder.encode(user_pass, \"UTF-8\");\n                bufferedWriter.write(data);\n                bufferedWriter.flush();\n                bufferedWriter.close();\n                OS.close();\n                InputStream IS = httpURLConnection.getInputStream();\n                IS.close();\n                //httpURLConnection.connect();\n                httpURLConnection.disconnect();\n                String string= new String(\"Registration Success...\");\n\n                return string;\n            } catch (MalformedURLException e) {\n                e.printStackTrace();\n            } catch (IOException e) {\n                e.printStackTrace();\n            }\n        } else if(method.equals(\"login\")) {\n            String login_name = params[1];\n            String login_pass = params[2];\n            try {\n                URL url = new URL(login_url);\n                HttpURLConnection httpURLConnection = (HttpURLConnection)url.openConnection();\n                httpURLConnection.setRequestMethod(\"POST\");\n                httpURLConnection.setDoOutput(true);\n                httpURLConnection.setDoInput(true);\n                OutputStream outputStream = httpURLConnection.getOutputStream();\n                BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(outputStream,\"UTF-8\"));\n                String data = URLEncoder.encode(\"login_name\",\"UTF-8\")+\"=\"+URLEncoder.encode(login_name,\"UTF-8\")+\"&\"+\n                    URLEncoder.encode(\"login_pass\",\"UTF-8\")+\"=\"+URLEncoder.encode(login_pass,\"UTF-8\");\n                bufferedWriter.write(data);\n                bufferedWriter.flush();\n                bufferedWriter.close();\n                outputStream.close();\n\n                InputStream inputStream = httpURLConnection.getInputStream();\n                BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream,\"iso-8859-1\"));\n                String response = \"\";\n                String line  = \"\";\n                while ((line = bufferedReader.readLine()) != null) {\n                    response+= line;\n                }\n                bufferedReader.close();\n                inputStream.close();\n                httpURLConnection.disconnect();\n\n                return response;\n            } catch (MalformedURLException e) {\n                e.printStackTrace();\n            } catch (IOException e) {\n                e.printStackTrace();\n            }\n        }\n        return null;\n    }\n\n    @Override\n    protected void onProgressUpdate(Void... values) {\n        super.onProgressUpdate(values);\n    }\n\n    @Override\n    protected void onPostExecute(String result) {\n        if (result ==\"Registration Success...\") {\n            Toast.makeText(ctx, result, Toast.LENGTH_LONG).show();\n        } else {\n            alertDialog.setMessage(result);\n            alertDialog.show();\n        }\n    }\n}\n\n", "package com.example.mysqlconnect;\n\nimport android.app.Activity;\nimport android.os.Bundle;\nimport android.view.View;\nimport android.widget.EditText;\n\npublic class Register extends Activity {\n    EditText ET_NAME,ET_USER_NAME,ET_USER_PASS;\n    String name,user_name,user_pass;\n\n    @Override\n    protected void onCreate(Bundle savedInstanceState) {\n        super.onCreate(savedInstanceState);\n        setContentView(R.layout.register_layout);\n\n        ET_NAME = (EditText)findViewById(R.id.name);\n        ET_USER_NAME= (EditText)findViewById(R.id.new_user_name);\n        ET_USER_PASS = (EditText)findViewById(R.id.new_user_pass);\n    }\n\n    public void userReg(View view) {\n        name = ET_NAME.getText().toString();\n        user_name = ET_USER_NAME.getText().toString();\n        user_pass =ET_USER_PASS.getText().toString();\n        String method = \"register\";\n        BackgroundTask backgroundTask = new BackgroundTask(this);\n        backgroundTask.execute(method,name,user_name,user_pass);\n        finish();\n    }\n}\n\n"], "environment_rank": 3, "exception_message_rank": 8, "exception_stack_rank": 6, "code_rank": 3, "exception_message": "W/System.err: javax.net.ssl.SSLHandshakeException: java.security.cert.CertPathValidatorException: Trust anchor for certification path not found.\n    Caused by: java.security.cert.CertificateException: java.security.cert.CertPathValidatorException: Trust anchor for certification path not found.\n    Caused by: java.security.cert.CertPathValidatorException: Trust anchor for certification path not found.\n    android.view.WindowManager$BadTokenException: Unable to add window -- token android.os.BinderProxy@965df6d is not valid; is your activity running?\n", "environment_score": 91, "exception_message_score": 76, "exception_stack_score": 82, "code_score": 91}, {"answer_id": "26792813", "title": "Why do I get \"No name matching found\" CertificateException?", "Score": 4, "ViewCount": 14214, "LastEditDate": "2017-04-13 12:13:42", "LastActivityDate": "2014-11-07 06:48:57", "AnswerScore": 6, "reason": [], "solution": ["In the end all I had to do was: [-]Disable hostname verification: -CODE-. ", "[-]Make sure that the default cacerts file is used, as while researching I tried to disable ssl certificate verification and used code which can be found in a great number of threads on SO (implementing own X509TrustManager), i.e. in Java: Overriding function to disable SSL certificate check", "So I had to delete all this stuff and use code disabling hostname verification only. ", "I left HttpURLConnection. ", "No need to replace it with HttpsURLConnection. ", "Definitely it would be much better if I managed to avoid disabling hostname verification as well, but I couldn't. "], "answer_code": ["// Create all-trusting host name verifier\nHostnameVerifier allHostsValid = new HostnameVerifier() {\n    public boolean verify(String hostname, SSLSession session) {\n        return true;\n    }\n};\n// Install the all-trusting host verifier\nHttpsURLConnection.setDefaultHostnameVerifier(allHostsValid);\n"], "environment": ["https", "solaris", "remote server", "apache-tomcat 6", "apache", "windows pc", "unixtippse", "java", "url", "tomcat"], "symptom": ["As far as I understand in the majority of cases this exception states, that the certificate owner CN (common name. does not match the host name in the url", "However in my case they do match, but the exception still raises.. ", "The remote server certificate hierachy is: [-]a self signed certificate with CN=sms.main.ru. ", "[-]a certificate signed with the first one and CN=client.sms.main.ru. ", "My java client is launched under apache-tomcat 6 and tries to connect to https://client.sms.main.ru/ and the following exception is thrown: -CODE-. ", "Both certificates are added to $JAVA_HOME/jre/lib/security/cacerts via $JAVA_HOME/bin/keytool as shown in How do you configure Apache/Tomcat to trust internal Certificate Authorities for server-to-server https requests in the answer by unixtippse. ", "Interesting thing is that when I try to access this url with a browser on a Windows PC, it says that the certificate is not trusted, I add it to the browser exception list and it works fine. ", "So it looks like I added these certificates to cacerts incorrectly, so that java cannot use them. ", "But I can easily find them by alias or by CN with: -CODE-. "], "exception_stack": [], "code": ["No name matching client.sms.main.ru found\n", "URL url = new URL(strurl);\nHttpURLConnection con = (HttpURLConnection) url.openConnection();\ncon.setRequestMethod(\"GET\");\ncon.setRequestProperty(\"Connection\", \"close\");\ncon.setDoOutput(true);\ncon.connect();\n", "$JAVA_HOME/bin/keytool -list -keystore $JAVA_HOME/jre/lib/security/cacerts | less\n"], "purpose": ["My java client is launched under apache-tomcat 6 and tries to connect to https://client.sms.main.ru/ and the following exception is thrown: -CODE-. "], "purpose_rank": 0, "symptom_rank": 2, "environment_rank": 12, "code_rank": 14, "exception_message": "", "purpose_score": 100, "symptom_score": 94, "environment_score": 64, "code_score": 58}, {"answer_id": "51736167", "title": "Lucee Error - java.security.cert.CertificateException: No X509TrustManager implementation available", "Score": 0, "ViewCount": 735, "LastEditDate": "2018-08-08 01:49:50", "LastActivityDate": "2018-10-04 21:57:30", "AnswerScore": 0, "reason": ["Essentially, the keystore that came with Lucee5 didn't work out of the box. "], "solution": ["(where /opt/tomcatXXX/webapps/XXX/WEB-INF/ is the path to the lucee instance. step 2: make a symbolic link between the java keystore and the lucee keystore: -CODE-", "Pointing the lucee keystore to the working Java keystore fixed it. "], "answer_code": ["mv /opt/tomcatxxx/webapps/xxxx/WEB-INF/lucee-server/context/security/cacerts /opt/tomcatxxx/webapps/xxxx/WEB-INF/lucee-server/context/security/cacerts.bak\n", "ln -s /opt/tomcatxxx/conf/s2s-ubertruststore_01_10_18.jks /opt/tomcatxxx/webapps/xxxx/WEB-INF/lucee-server/context/security/cacerts\n"], "environment": ["lucee server", "lucee5, tomcat7, and java", "ssl", "wsdl", "endpoint webservice", "lucee", "java", "tomcat container", "tomcat"], "symptom": ["In converting an ACF website to Lucee, we're facing some configuration issues. ", "Our environment is Lucee5, Tomcat7, and Java. ", "There seems to be something not configured correctly for Lucee to be able to access an endpoint webservice via SSL. ", "The same code works without any issues on CF9 on the same sever in a different Tomcat container. ", "The test call: -CODE-. results in a: -CODE-", "It's been suggested that the endpoint serving the WSDL is the issue and that either Tomcat or Apache needs to be configured. ", "Since Lucee is the program throwing the error, how can I determine what's preventing Lucee from accessing the endpoint. ", "The WSDL can be accessed no problem from a browser. ", "[-]importing the SSL into Lucee from the target domain using Lucee server admin and restarting. ", "[-]Spinning up an instance of Lucee using CommandBox, and then copying the cacerts file from CommandBox to the Lucee Server. "], "exception_stack": ["java.security.cert.CertificateException: No X509TrustManager implementation available\n"], "code": ["cfhttp(method=\"GET\", charset=\"utf-8\", url=\"https://our_lucee_server.org/wf/webservice/wf_webservice.cfc?wsdl\", result=\"result\") {\n}\nwriteDump(result);\n"], "purpose": ["In converting an ACF website to Lucee, we're facing some configuration issues. ", "[-]Spinning up an instance of Lucee using CommandBox, and then copying the cacerts file from CommandBox to the Lucee Server. "], "purpose_rank": 10, "symptom_rank": 16, "environment_rank": 21, "exception_message_rank": 19, "exception_stack_rank": 17, "exception_message": "java.security.cert.CertificateException: No X509TrustManager implementation available\n", "purpose_score": 70, "symptom_score": 52, "environment_score": 37, "exception_message_score": 43, "exception_stack_score": 49}, {"answer_id": "35084462", "title": "javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative names present", "Score": 1, "ViewCount": 1843, "LastEditDate": "", "LastActivityDate": "2016-01-30 19:43:28", "AnswerScore": 0, "reason": [], "solution": ["First download Installcert.java file and compile it . ", "After compiling run that java file by passing argument as url with port (Ws url with port) . ", "hen it create jssecacert file that file you put into the /jre/lib/security folder . "], "answer_code": [], "environment": ["spring-integration", "ssl", "spring-boot", "ssl-certificate", "spring integration, spring boot and maven"], "symptom": ["I My application used to call WS with Https. ", "I use spring integration, spring boot and maven. ", "I have always this exception: -CODE-. "], "exception_stack": ["javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative names present\n"], "code": ["System.setProperty(\"javax.net.ssl.trustStore\", \"/usr/lib/jvm/jre-1.7.0-openjdk.x86_64/lib/security/jssecacerts\");\n    System.setProperty(\"javax.net.ssl.trustStoreType\", \"JKS\"); \n    System.setProperty(\"javax.net.ssl.trustStorePassword\",\"changeit\");\n"], "purpose": ["I My application used to call WS with Https. ", "I use spring integration, spring boot and maven. "], "purpose_rank": 20, "symptom_rank": 29, "exception_message_rank": 10, "exception_stack_rank": 8, "code_rank": 29, "exception_message": "javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative names present\n", "purpose_score": 40, "symptom_score": 13, "exception_message_score": 70, "exception_stack_score": 76, "code_score": 13}]}))
+  })
+  </script>
+</body>
+
+</html>

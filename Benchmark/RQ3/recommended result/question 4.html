@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/layui/2.6.8/css/layui.min.css">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/layui/2.6.8/layui.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.8/vue.min.js"></script>
+</head>
+<style type="text/css">
+body {
+  background-color: #F4F5F6;
+  margin: 0;
+  padding: 0;
+}
+
+.layui-container {
+  margin-top: 50px;
+  width: 80vw;
+  line-height: 40px;
+}
+
+.layui-table {
+  margin: 0;
+  width: 100%;
+  table-layout: fixed;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI Adjusted", "Segoe UI", "Liberation Sans", sans-serif;
+}
+
+.layui-table ol li {
+  list-style: decimal;
+  margin-left: 30px;
+}
+
+.layui-table td {
+  padding: 5px 15px;
+  font-size: 14px;
+  color: #232629;
+  line-height: 20px;
+  border: none;
+  border-bottom: 0px solid #FFFFFF;
+}
+
+.layui-table a {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.layui-table .left-font {
+  text-align: right;
+  vertical-align: top;
+  font-size: 15px;
+  background-color: #F2F3F4;
+}
+
+.layui-table[lay-even] tr:nth-child(even) {
+  background-color: #F2F3F4;
+}
+
+.layui-table[lay-even] tr:nth-child(odd) {
+  background-color: #F2F3F4;
+}
+
+.layui-panel {
+  font-size: 12px;
+  color: #232629;
+  margin: 10px 0 50px;
+  padding: 9px 0;
+  background-color: #F2F3F4;
+}
+
+.layui-panel a:hover {
+  color: #3B4045;
+}
+
+.layui-panel .title {
+  padding: 5px;
+  font-size: 25px;
+  line-height: 40px;
+  margin: 0 20px 0;
+  color: #3B4045;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI Adjusted", "Segoe UI", "Liberation Sans", sans-serif;
+}
+
+/*mark {*/
+/*    background-color: #F0B27A;*/
+/*    padding: 1px 3px 1px;*/
+/*    border-radius: 3px;*/
+/*    line-height: 16px;*/
+/*    margin: 0 1px;*/
+/*}*/
+
+/*em {*/
+/*    font-family: Georgia, Cambria, "Times New Roman", Times, serif;*/
+/*    font-size: 15px;*/
+/*    margin: 0 5px;*/
+/*    text-decoration: underline;*/
+/*}*/
+
+/*.layui-table ol li mark {*/
+/*    background-color: #CACFD2;*/
+/*}*/
+
+code {
+  font-family: ui-monospace, "Cascadia Mono", "Segoe UI Mono", "Liberation Mono", Menlo, Monaco, Consolas, monospace;
+  font-size: 12px;
+  border-radius: 3px;
+  line-height: 20px;
+  word-wrap: normal;
+}
+
+pre {
+  padding: 12px;
+  width: auto;
+  overflow: auto;
+  background-color: #E7E8E9;
+  border-radius: 3px;
+}
+
+.answer-title a {
+  font-size: 18px;
+  font-weight: bold;
+}
+</style>
+
+<body>
+  <div id="app" class="layui-container">
+    <div class="layui-row layui-col-space15">
+      <div class="layui-col-md12">
+        <div class="layui-panel" style="margin-bottom: 30px;">
+          <div class="title"><strong>Query:&nbsp;&nbsp;</strong>
+            <a :href="'https://stackoverflow.com/questions/'+post_id" target="_blank" v-html="title">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="layui-panel" v-for="(answer, index) in answer">
+      <table class="layui-table" lay-even>
+        <colgroup>
+          <col width="14%">
+          <col width="86%">
+        </colgroup>
+        <tbody>
+          <tr>
+            <td rowspan="1" class="left-font">
+              <strong>Id&nbsp;[<span>{{answer.answer_id}}</span>]</strong>
+            </td>
+            <td>
+              <div class="answer-title">
+                <a :href="'https://stackoverflow.com/questions/'+answer.answer_id" target="_blank" v-html="answer.title">
+                </a>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" class="left-font">
+              <strong>Environment</strong>
+            </td>
+            <td>
+              <strong>{{answer.environment.join(", ")}}</strong>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" class="left-font">
+              <strong>Extra Info</strong>
+            </td>
+            <td>
+              <span class="layui-badge layui-bg-black">ViewCount:&nbsp;{{answer.ViewCount}}</span>
+              <span class="layui-badge layui-bg-black">Score:&nbsp;{{answer.Score}}</span>
+              <span class="layui-badge layui-bg-black">AnswerScore:&nbsp;{{answer.AnswerScore}}</span>
+              <span class="layui-badge layui-bg-black">Environment Score:&nbsp;{{answer.environment_score}}</span>
+              <span v-show="answer.exception_message_score" class="layui-badge layui-bg-black">Exception Message Score:&nbsp;{{answer.exception_message_score}}</span>
+              <span v-show="answer.exception_stack_score" class="layui-badge layui-bg-black">Exception Stack
+                Score:&nbsp;{{answer.exception_stack_score}}</span>
+              <span v-show="answer.code_score" class="layui-badge layui-bg-black">Code
+                Score:&nbsp;{{answer.code_score}}</span>
+              <span v-show="answer.symptom_score" class="layui-badge layui-bg-black">Symptom
+                Score:&nbsp;{{answer.symptom_score}}</span>
+              <span v-show="answer.purpose_score" class="layui-badge layui-bg-black">Purpose
+                Score:&nbsp;{{answer.purpose_score}}</span>
+            </td>
+          </tr>
+          <!--          <tr>-->
+          <!--            <td rowspan="1" class="left-font">-->
+          <!--              <strong>Exception Stack</strong>-->
+          <!--            </td>-->
+          <!--            <td>-->
+          <!--              <div v-for="(exc,) in answer.exception_stack">-->
+          <!--                <pre style="max-height: 300px"><code>{{exc}}</code></pre>-->
+          <!--              </div>-->
+          <!--            </td>-->
+          <!--          </tr>-->
+          <tr v-show="answer.exception_message">
+            <td rowspan="1" class="left-font">
+              <strong>Exception Message</strong>
+            </td>
+            <td>
+              <div>
+                <pre style="max-height: 300px"><code>{{answer.exception_message}}</code></pre>
+              </div>
+            </td>
+          </tr>
+          <tr v-show="answer.symptom">
+            <td rowspan="1" class="left-font">
+              <strong>Symptom</strong>
+            </td>
+            <td>
+              <p v-for="(symptom,) in answer.symptom">{{symptom}}</p>
+            </td>
+          </tr>
+          <tr v-show="answer.code.length>0">
+            <td rowspan="1" class="left-font">
+              <strong></strong>
+            </td>
+            <td>
+              <div class="layui-collapse">
+                <div class="layui-colla-item" v-for="(code,i) in answer.code">
+                  <h2 class="layui-colla-title">code {{i + 1}}</h2>
+                  <pre class="layui-colla-content" style="max-height: 300px"><code>{{code}}</code></pre>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr v-show="answer.reason.length>0">
+            <td rowspan="1" class="left-font">
+              <strong>Reason</strong>
+            </td>
+            <td>
+              <p v-for="(reason,) in answer.reason">{{reason}}</p>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" class="left-font">
+              <strong>Solution</strong>
+            </td>
+            <td>
+              <p v-for="(solution,) in answer.solution">{{solution}}</p>
+            </td>
+          </tr>
+          <tr v-show="answer.answer_code.length>0">
+            <td rowspan="1" class="left-font">
+              <strong></strong>
+            </td>
+            <td>
+              <div class="layui-collapse">
+                <div class="layui-colla-item" v-for="(answer_code, i) in answer.answer_code">
+                  <h2 class="layui-colla-title">code {{i + 1}}</h2>
+                  <pre class="layui-colla-content" style="max-height: 600px"><code>{{answer_code}}</code></pre>
+                </div>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <script type="text/javascript">
+  const vm = new Vue({
+    el: '#app',
+    data: JSON.parse(JSON.stringify({"post_id": "56382253", "exception_type": "InterruptedException", "environment": "rx-java2, rx-java, interrupted-exception, java", "title": "How to handle dispose in RxJava without InterruptedException", "answer": [{"answer_id": "57646184", "title": "InterruptedException not caught on RxJava onError callback?", "Score": 0, "ViewCount": 495, "LastEditDate": "", "LastActivityDate": "2019-08-26 13:25:51", "AnswerScore": 0, "reason": [], "solution": ["To address the issue just need to register: -CODE-. "], "answer_code": [" RxJavaPlugins.setErrorHandler { e -> /*Do whatever we need with the error*/ }\n"], "environment": ["sleep", "thread-sleep", "rx-java2", "kotlin", "exception", "onerror", "java", "rxjava chain"], "symptom": ["I have a simple code below: -CODE-. ", "It purposely use Thread.sleep(1000), just to trigger the InterruptedException. ", "I purposely delay 100 milliseconds, so that ensure the sleep in the chain has started, and dispose it. ", "(Note, I know using of Thread.sleep is not preferred. ) ", "I'm just writing this code to test and understand why onError is not called on this scenario, and how to prevent the crash elegantly without need to use try-catch in the RxJava chain. ", "At that time, when it is triggered, the error is not cause onError (i.e. doesn't reach the Log", "But instead it throws the below error and crash the App. -CODE-", "Why was't the InterruptedException caught by the onError in RxJava. "], "exception_stack": ["io.reactivex.exceptions.UndeliverableException: java.lang.InterruptedException\n    at io.reactivex.plugins.RxJavaPlugins.onError(RxJavaPlugins.java:366)\n    at io.reactivex.internal.operators.observable.ObservableCreate$CreateEmitter.onError(ObservableCreate.java:74)\n    at io.reactivex.internal.operators.observable.ObservableCreate.subscribeActual(ObservableCreate.java:43)\n    at io.reactivex.Observable.subscribe(Observable.java:11194)\n    at io.reactivex.internal.operators.observable.ObservableSubscribeOn$SubscribeTask.run(ObservableSubscribeOn.java:96)\n    at io.reactivex.Scheduler$DisposeTask.run(Scheduler.java:463)\n    at io.reactivex.internal.schedulers.ScheduledRunnable.run(ScheduledRunnable.java:66)\n    at io.reactivex.internal.schedulers.ScheduledRunnable.call(ScheduledRunnable.java:57)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:266)\n    at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:301)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)\n    at java.lang.Thread.run(Thread.java:764)\n Caused by: java.lang.InterruptedException\n    at java.lang.Thread.sleep(Native Method)\n    at java.lang.Thread.sleep(Thread.java:373)\n    at java.lang.Thread.sleep(Thread.java:314)\n    at com.elyeproj.porterduff.AnimateDrawPorterDuffView$startAnimate$1.subscribe(AnimateDrawPorterDuffView.kt:45)\n    at io.reactivex.internal.operators.observable.ObservableCreate.subscribeActual(ObservableCreate.java:40)\n    at io.reactivex.Observable.subscribe(Observable.java:11194)\u00a0\n    at io.reactivex.internal.operators.observable.ObservableSubscribeOn$SubscribeTask.run(ObservableSubscribeOn.java:96)\u00a0\n    at io.reactivex.Scheduler$DisposeTask.run(Scheduler.java:463)\u00a0\n    at io.reactivex.internal.schedulers.ScheduledRunnable.run(ScheduledRunnable.java:66)\u00a0\n    at io.reactivex.internal.schedulers.ScheduledRunnable.call(ScheduledRunnable.java:57)\u00a0\n    at java.util.concurrent.FutureTask.run(FutureTask.java:266)\u00a0\n    at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:301)\u00a0\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)\u00a0\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)\u00a0\n    at java.lang.Thread.run(Thread.java:764)\u00a0\n"], "code": ["    compositeDisposable.add(Observable.create<Int> { Thread.sleep(1000) }\n        .subscribeOn(Schedulers.io())\n        .observeOn(AndroidSchedulers.mainThread())\n        .subscribe({}, {Log.d(\"Track\", it.localizedMessage)}, {}))\n    Handler().postDelayed({compositeDisposable.clear()}, 100)\n"], "environment_rank": 2, "code_rank": 20, "exception_message": "io.reactivex.exceptions.UndeliverableException: java.lang.InterruptedException\n Caused by: java.lang.InterruptedException\n", "environment_score": 94, "code_score": 40}, {"answer_id": "59291144", "title": "How to handle Java InterruptedException without business logic break?", "Score": 2, "ViewCount": 105, "LastEditDate": "", "LastActivityDate": "2019-12-11 17:50:55", "AnswerScore": 1, "reason": ["The interrupt will come from some other place in your program. ", "It's not something the OS is going to do of its own volition. ", "Typically interrupts indicate that the code should get out of there. ", "Currently your code, once interrupted, will keep interrupting itself. ", "It is not an entirely unreasonable attitude to simply clear and ignore the interrupt. "], "solution": ["This could be handled by throwing a more appropriate exception.", "This is solvable by keeping the interrupt state in a local flag. -CODE-"], "answer_code": ["private StorageConnection allocateConnection() {\n    boolean interrupted = false;\n    boolean allocated = false;\n    while( !allocated ){\n        try {\n            semaphore.acquire();\n            allocated = true;\n        } catch (InterruptedException e) {\n            interrupted = true;\n        }\n    }\n\n    StorageConnection connection = connectionQueue.poll();\n    // OTHER LOGIC\n\n    if (interrupted) {\n        Thread.currentThread().interrupt();\n    }\n\n    return connection;\n}\n"], "environment": ["java", "the os", "interrupted-exception", "semaphore"], "symptom": ["First of all I read other question about this item and know how to use Thread.currentThread().interrupt(); But the problem is that I need my business logic to be done even if this exception occurred. ", "As far as I understand \"InterruptedException. is a situation when the OS ask my thread to stop execution for some time, and after this time thread could proceed execution", "I use a semaphore.acquire(. and I want to retry \"acquireaction if \"InterruptedExceptionexception occurred"], "exception_stack": [], "code": ["  private final Semaphore semaphore = new Semaphore(1);\n  ...\n\n  private StorageConnection allocateConnection() {\n        boolean allocated = false;\n        while( !allocated ){\n            try {\n                semaphore.acquire();\n                allocated = true;\n            } catch (InterruptedException e) {\n                Thread.currentThread().interrupt();\n            }\n        }\n\n        StorageConnection connection = connectionQueue.poll();\n        // OTHER LOGIC\n        return connection;\n    }\n"], "environment_rank": 21, "exception_message": "", "environment_score": 37}, {"answer_id": "35723085", "title": "Best way to handle InterruptedException", "Score": 2, "ViewCount": 9467, "LastEditDate": "2016-03-01 14:10:17", "LastActivityDate": "2016-03-01 14:59:58", "AnswerScore": 3, "reason": ["If you have a dedicated thread that is looping and polling, that sounds to me like something that needs to be terminated when the program ends; unless it is a daemon thread (implying you are happy with it going away with no chance to cleanup or close resources. it needs to be able to handle interruption", "If you are writing a Runnable or Callable that sleeps, you can use the InterruptedException to exit whatever looping you're doing, or you can catch the exception and restore the interrupt flag so that the next check of the interrupt flag (using Thread.currentThread().isInterrupted(). can see that the thread has been interrupted: -CODE-", "If you are developing an object that you expect to nest inside other objects, then throw the exception and add it to the method signature. "], "solution": ["Using WatchService seems like a good idea, but the code that uses the WatchService still has to know how to handle interruption. ", "Alternatively you can use the InterruptedException to get out of the loop: -CODE-. ", "As an example look at the API doc for classes in the java.util.concurrent packages, like BlockingQueue, see how methods like put and offer throw InterruptedException. ", "When objects made for concurrency are composed together they need to cooperate (and make sure they don't lose track of interrupted status. in order to make sure that they can clean up and terminate in a responsive manner"], "answer_code": ["while(!Thread.currentThread().isInterrupted()){  \n   //do something   \n   try{  \n     Thread.sleep(5000);    \n   } catch(InterruptedException e){  \n        Thread.currentThread().interrupt();\n   }\n}\n", "try {\n    while (!Thread.currentThread().isInterrupted()) {\n        // do something\n        Thread.sleep(5000);\n    }\n} catch (InterruptedException e) {\n    // flag value is not used here\n    Thread.currentThread().interrupt(); \n}\n"], "environment": ["interrupted-exception", "interruption", "multithreading", "java", "thread.sleep(10000)"], "symptom": ["I am using Thread.sleep(10000); hence i need to handle InterruptedException. ", "I can call Thread.currentThread.interrupt (. and then throw the exception to calling class or i can directly throw it to calling class or is there any better way to handle it "], "exception_stack": [], "code": [], "environment_rank": 24, "exception_message": "", "environment_score": 28}, {"answer_id": "49339111", "title": "RxJava2 amb Operator throws java.lang.InterruptedException", "Score": 0, "ViewCount": 570, "LastEditDate": "2018-03-17 17:21:44", "LastActivityDate": "2018-03-18 12:26:17", "AnswerScore": 1, "reason": ["With plain Threads you start, that reference is lost and you haven't wired up those to the cancellation mechanism: -CODE-. "], "solution": ["The using a Scheduler, the backing thread pool remembers which thread is serving the method that sleeps and can interrupt it upon cancellation. "], "answer_code": ["@Override\npublic void subscribe(final ObservableEmitter<String> emitter) throws Exception {\n    Thread t = new Thread(new Runnable() {\n        @Override\n        public void run() {\n            long sleepTime = getRandomNumber();\n            Log.i(TAG, \"Oservable1 : Sleep: \" + sleepTime + \n                  \" Thread: \" + Thread.currentThread().getName());\n            try {\n                Thread.sleep(sleepTime);\n            } catch (InterruptedException e) {\n                e.printStackTrace();\n                Log.e(TAG, e.getMessage());\n            }\n            emitter.onNext( \"From Observable1 Result\" );\n            emitter.onComplete();\n        }\n    });\n    t.start();\n    emitter.setCancellable(() -> t.interrupt());\n}\n"], "environment": ["rx-java2", "observable", "android", "when i remove sleep from observables ambarray", "rx-java", "rxjava2 ambarray operator"], "symptom": ["I am working with Rxjava2 ambArray operator. ", "I have created 2 observable for experiment. ", "Observable 2: -CODE-. getRandomNumber method: -CODE-", "I am creating a random delay to return a String. ambArray: -CODE-", "This cause me java.lang.InterruptedException. ", "When i remove sleep from observables ambArray works fine. ", "And if i create a new Thread manually then use sleep this also works fine. ", "If i use Thread this way in both observable it works fine. "], "exception_stack": ["     W/System.err: java.lang.InterruptedException\n     W/System.err:     at java.lang.Thread.sleep(Native Method)\n     W/System.err:     at java.lang.Thread.sleep(Thread.java:1031)\n     W/System.err:     at java.lang.Thread.sleep(Thread.java:985)\n     W/System.err:     at com.yousuf.shawon.rxandroidsamples.fragments.AmdExampleFragment$5$1.subscribe(AmdExampleFragment.java:306)\n     W/System.err:     at io.reactivex.internal.operators.observable.ObservableCreate.subscribeActual(ObservableCreate.java:40)\n     W/System.err:     at io.reactivex.Observable.subscribe(Observable.java:11442)\n     W/System.err:     at io.reactivex.internal.operators.observable.ObservableSubscribeOn$SubscribeTask.run(ObservableSubscribeOn.java:96)\n     W/System.err:     at io.reactivex.Scheduler$DisposeTask.run(Scheduler.java:571)\n     W/System.err:     at io.reactivex.internal.schedulers.ScheduledRunnable.run(ScheduledRunnable.java:66)\n     W/System.err:     at io.reactivex.internal.schedulers.ScheduledRunnable.call(ScheduledRunnable.java:57)\n     W/System.err:     at java.util.concurrent.FutureTask.run(FutureTask.java:237)\n     W/System.err:     at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:152)\n     W/System.err:     at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:265)\n     W/System.err:     at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)\n     W/System.err:     at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)\n     W/System.err:     at java.lang.Thread.run(Thread.java:818)\n"], "code": ["Observable<String> observable1 =\nObservable.defer(new Callable<ObservableSource<? extends String>>() {\n    @Override\n    public ObservableSource<? extends String> call() throws Exception {\n        return  Observable.create(new ObservableOnSubscribe<String>() {\n            @Override\n            public void subscribe(final ObservableEmitter<String> emitter) throws Exception {\n\n                long sleepTime = getRandomNumber();\n                Log.i(TAG, \"Oservable1 : Sleep: \" + sleepTime + \" Thread: \" + Thread.currentThread().getName());\n\n                Thread.sleep(sleepTime);\n\n                emitter.onNext( \"From Observable1 Result\" );\n                emitter.onComplete();\n\n            }\n        })\n                .subscribeOn(Schedulers.newThread() );\n    }\n});\n", "Observable<String> observable2 =\n        Observable.defer(new Callable<ObservableSource<? extends String>>() {\n            @Override\n            public ObservableSource<? extends String> call() throws Exception {\n                return Observable.create(new ObservableOnSubscribe<String>() {\n                    @Override\n                    public void subscribe(final ObservableEmitter<String> emitter) throws Exception {\n\n                        long sleepTime = getRandomNumber();\n                        Log.i(TAG, \"Oservable2 :  Sleep: \" + sleepTime + \" Thread: \" + Thread.currentThread().getName());\n\n                        Thread.sleep(sleepTime);\n\n                        emitter.onNext(\"From Observable2 Result\" );\n                        emitter.onComplete();\n\n                    }\n                })\n                        .subscribeOn(Schedulers.newThread());\n            }\n        });\n", "private long getRandomNumber() {\n    return (long) (Math.random() * 100);\n}\n", "    Observable.ambArray(observable1, observable2)\n            .subscribeOn(Schedulers.io())\n            .subscribe(new Consumer<String>() {\n                @Override\n                public void accept(String s) throws Exception {\n                    Log.i(TAG, \"Result : \" + s);\n                }\n            });\n", "Observable<String> observable1 =\nObservable.defer(new Callable<ObservableSource<? extends String>>() {\n    @Override\n    public ObservableSource<? extends String> call() throws Exception {\n        return  Observable.create(new ObservableOnSubscribe<String>() {\n            @Override\n            public void subscribe(final ObservableEmitter<String> emitter) throws Exception {\n\n\n                new Thread(new Runnable() {\n                    @Override\n                    public void run() {\n                        long sleepTime = getRandomNumber();\n                        Log.i(TAG, \"Oservable1 : Sleep: \" + sleepTime + \" Thread: \" + Thread.currentThread().getName());\n                        try {\n                            Thread.sleep(sleepTime);\n                        } catch (InterruptedException e) {\n                            e.printStackTrace();\n                            Log.e(TAG, e.getMessage());\n                        }\n                        emitter.onNext( \"From Observable1 Result\" );\n                        emitter.onComplete();\n                    }\n                }).start();\n\n\n            }\n        })\n               /* .subscribeOn(Schedulers.newThread() )*/;\n    }\n});\n"], "environment_rank": 3, "code_rank": 1, "exception_message": "     W/System.err: java.lang.InterruptedException\n", "environment_score": 91, "code_score": 97}, {"answer_id": "49980858", "title": "Caused by: java.lang.RuntimeException: java.lang.InterruptedException", "Score": 0, "ViewCount": 1701, "LastEditDate": "2018-04-23 12:44:01", "LastActivityDate": "2018-04-23 12:44:01", "AnswerScore": 3, "reason": [], "solution": ["Just used emitter.tryOnError: -CODE-. "], "answer_code": ["   try{\n\n    ....\n\n    } catch (error: InterruptedException) {\n         emitter.tryOnError(BackupException(error.message ?: \"unknown exception\"))\n    }\n"], "environment": ["android", "rx-java2", "java", "kotlin", "implementation", "interrupted-exception", "method"], "symptom": ["Use implementation 'io.reactivex.rxjava2:rxjava:2.1.9' I am trying parsing withe rxJava. ", "So my parse take time. ", "But if user leave screen my parsing need finish work but instead my app crashes. ", "Method for parsing: -CODE-. then i call: -CODE-but when calling during long data parsing: -CODE-i get crash: -CODE-"], "exception_stack": ["  04-23 14:57:27.456 28001-28063/com.jellyworkz.udark.debug E/AndroidRuntime: FATAL EXCEPTION: RxCachedThreadScheduler-1\n    Process: com.jellyworkz.udark.debug, PID: 28001\n    io.reactivex.exceptions.UndeliverableException: java.lang.RuntimeException: java.lang.InterruptedException\n\n\n....\n\n    Caused by: java.lang.RuntimeException: java.lang.InterruptedException\n        at io.reactivex.internal.util.ExceptionHelper.wrapOrThrow(ExceptionHelper.java:45)\n        at io.reactivex.internal.observers.BlockingBaseObserver.blockingGet(BlockingBaseObserver.java:74)\n        at io.reactivex.Observable.blockingFirst(Observable.java:4987)\n        at com.jellyworkz.udark.backup.source.BackupRepositoryImpl$restore$1$1.subscribe(BackupRepositoryImpl.kt:113)\n"], "code": ["    override fun restore(): Observable<List<Pair<String, String>?>> {\nreturn backupRemoteSource.getBackup()\n                .flatMap { urlBackup ->\n                    Observable.create<Boolean> { emitter ->\n                        var isRestore = true\n                        try {\n                            val url = URL(urlBackup)\n                            url.openConnection()\n                            InputStreamReader(url.openStream(), \"UTF-8\").use {\n                                val jsonReader = JsonReader(it)\n\n                                jsonReader.beginArray()\n\n                                var tour: Tour? = null\n\n                                /* tours */\n                                while (jsonReader.hasNext() ) {\n\n                                    /* tour item*/\n                                    jsonReader.beginObject()\n                                    while (jsonReader.hasNext() && isRestore) {\n\n                                        val name = jsonReader.nextName()\n\n                                        when (name) {\n\n                                            \"tourInfo\" -> {\n\n                                                tour = tourMapper.fromRx(gsonParser.fromJson<TourBackup>(jsonReader, TourBackup::class.java))\n                                                        .flatMap {\n\n\n                                                            tourLocalSource.save(it)\n                                                        }.blockingFirst()\n\n                                                Log.i(tag, \"\\n@saved tour\")\n                                            }\n\n                                      jsonReader.endArray()\n                                            }\n                                        }\n\n                                    }\n                                    jsonReader.endObject()\n                                }\n                                jsonReader.endArray()\n\n                                emitter.onNext(true)\n                            }\n                        } catch (error: InterruptedException) {\n                            emitter.onError(BackupException(error.message ?: \"unknown exception\"))\n                        } catch (error: NoSuchFileException) {\n                            emitter.onError(BackupException(error.message ?: \"unknown exception\"))\n                        } catch (error: IOException) {\n                            emitter.onError(BackupException(error.message ?: \"unknown exception\"))\n                        }\n\n                        emitter.setCancellable({\n                            Log.d(tag,\"cancel restore\")\n                            isRestore = false\n                        })\n                    }\n\n                }\n....}\n", "fun restore() {\n\n    disposables.add(backUpRepo.restore()\n            .compose(RxUtils.ioToMainTransformer())\n            .subscribe()\n}\n", "disposables.dispose()\n"], "environment_rank": 1, "code_rank": 13, "exception_message": "    io.reactivex.exceptions.UndeliverableException: java.lang.RuntimeException: java.lang.InterruptedException\n    Caused by: java.lang.RuntimeException: java.lang.InterruptedException\n", "environment_score": 97, "code_score": 61}, {"answer_id": "36808407", "title": "How does one correctly handle InterruptedException that may not be passed to client code?", "Score": 6, "ViewCount": 3096, "LastEditDate": "2016-06-20 13:55:29", "LastActivityDate": "2016-06-20 13:55:29", "AnswerScore": 6, "reason": ["This is wrong. ", "It is never right to swallow the exception when you are implementing something like a library which other users will come to rely upon. ", "An InterruptedException is basically a request to cancel your thread and this information should never be suppressed from the client irrespective of whether the lock would be unlocked later. ", "This is wrong as well for exactly the same reason as above. the reason for propagating an InterruptedException is to let a client know that a request has been made to cancel an executing thread and hence wrapping it in a RuntimeException is wrong because this information is lost-CODE-", "This may be right or wrong depending on the use case. ", "[-]If it is ok to do so (it is not in your case but), then you can declare that your method throws InterruptedException and let the callers above worry about what needs to be done. ", "This would typically be the case when you make a call to a method (say operation(). that throws an InterruptedException and you won't be able to proceed further unless this call completes", "Suppose operation(. throws InterruptedException then there is nothing much you can do other than propagating this exception", "In this case just declare that your method throws InterruptedException and you are done. ", "Using this you suppress the exception but you still give the client the option of checking the flag to see if an interruption request was made. ", "This requires the client side to poll rather than processing the interruption. ", "But this is not always possible and your example is one such use case. ", "And there are many cases where a thread of execution can return some meaningful information even when it is Interrupted. ", "So in this cases the exception is suppressed but the information that there was a request for termination can still be passed above by calling interrupt(. method", "So the client can either just use the result that was returned from a partial computation or poll to check if the interrupt flag was set depending on the use case. ", "So you are giving the client more flexibility by doing this. "], "solution": ["Let me discuss each one of your available options. -CODE-", "In these cases, it would never be prudent to swallow an exception unless you propagate it as a different exception which provides more meaningful information to the client. ", "The client needs to know that someone wants the unit of work being carried out by this thread to be stopped. -CODE-", "Ask yourself if it would be ok for you to propagate the InterruptedException. ", "So you shouldn't catch the exception. ", "[-]If it is not ok to do so then the correct way to handle it would be to force an interrupt(. call", "Using this you suppress the exception but you still give the client the option of checking the flag to see if an interruption request was made. ", "This requires the client side to poll rather than processing the interruption. ", "But this is not always possible and your example is one such use case. ", "And there are many cases where a thread of execution can return some meaningful information even when it is Interrupted. ", "So in this cases the exception is suppressed but the information that there was a request for termination can still be passed above by calling interrupt(. method", "So the client can either just use the result that was returned from a partial computation or poll to check if the interrupt flag was set depending on the use case. ", "So you are giving the client more flexibility by doing this. "], "answer_code": [], "environment": ["ttl", "interrupted-exception", "distributed lock implementation", "client", "java", "runtimeexception heir"], "symptom": ["I've stumbled upon a situation where i have to deal with InterruptedException, but can't pass it upwards and don't feel that my code should be allowed to swallow it. ", "To be precise, i'm working on a distributed lock implementation, and request to backing service may be interrupted or even time out . and, of course, java.util.concurrent.Lock doesn't account for such cases and doesn't allow me to spit out InterruptedException", "I'm struggling to write correct implementation for non-throwing lock(), tryLock(. and unlock(methods", "From current point of view i see only three options (and i feel smell for every of them): [-]Ignore interrupted exception in lock / tryLock / unlock methods, retrying / returning false / assuming that even if request hasn't got to it's destination, TTL will eventually unlock record. ", "[-]Wrap in RuntimeException heir. ", "This seems to be awful solution as well, since client code will have to work with concrete implementation rather than original interface, and unchecked exception certainly were not made for purpose like that. ", "[-]Use the force Thread.currentThread().interrupt(. call", "I don't like this way because it basically tells thread to process it's own interrupt rather than pass a notice about call being interrupted; also, as far as i understand, if there's no outside polling, it will make thread eventually, but not instantly process interrupt, probably, in completely another place. ", "(And, of course there's an option to allow client code configure desired behavior, but that still doesn't provide me with a really good solution. "], "exception_stack": [], "code": [], "symptom_rank": 20, "title_rank": 6, "exception_message": "", "symptom_score": 40}, {"answer_id": "30822627", "title": "Error handling for zipped observables", "Score": 9, "ViewCount": 7756, "LastEditDate": "", "LastActivityDate": "2015-06-14 11:11:32", "AnswerScore": 6, "reason": [], "solution": ["First of all, the right way to notify a Subscriber about an error is to call subscriber.onError method: -CODE-. ", "Even if you don't want the whole stream to fail, you still need to call a subscriber.onError(. method", "There are some other ways to shallow the errors. ", "One of them is an onErrorResumeNext operator: -CODE-. ", "EDIT: -CODE-. ", "Yes, returning Observable.empty(. is totally wrong", "Throwing an exception from zip function seems like the best solution: -CODE-"], "answer_code": ["class SubscribingRestCallback implements RestCallback {\n    private final Subscriber<? super Content> subscriber;\n\n    public SubscribingRestCallback(Subscriber<? super Content> subscriber) {\n        this.subscriber = subscriber;\n    }\n\n    @Override\n    public void onSuccess(Content content) {\n        subscriber.onNext(content);\n        subscriber.onCompleted();\n    }\n\n    @Override\n    public void onFailure(int code, String message) {\n        subscriber.onError(new Exception(message));\n    }\n}\n", "Observable\n        .from(cm.getPermalinks(10))\n        .flatMap(permalink -> Observable.zip(\n                Observable.<Content>create(subscriber -> cm.getDataByPermalink(permalink, new SubscribingRestCallback(subscriber))),\n                Observable.<Content>create(subscriber -> cm.getStreamByPermalink(permalink, new SubscribingRestCallback(subscriber))),\n                (dataContent, streamUrlContent) -> {\n                    return new Content(dataContent.permalink, dataContent.logoUrl, streamUrlContent.streamUrl);\n                }).onErrorResumeNext(Observable.empty()))\n        .subscribe(System.out::println);\n", "\nI have one last question: if you notice my zipper functions, I return\n  Observable.empty() if the two objects cannot be zipped, and once I\n  return Content. This seems wrong. How should I handle such error\n  conditions in the zipper function?\n", "Observable\n        .from(cm.getPermalinks(10))\n        .flatMap(permalink -> Observable.zip(\n                Observable.<Content>create(subscriber -> cm.getDataByPermalink(permalink, new SubscribingRestCallback(subscriber))),\n                Observable.<Content>create(subscriber -> cm.getStreamByPermalink(permalink, new SubscribingRestCallback(subscriber))),\n                (dataContent, streamUrlContent) -> {\n                    if (!isDataValid(dataContent, streamUrlContent)) {\n                        throw new RuntimeException(\"Something went wrong.\");\n                    }\n                    return new Content(dataContent.permalink, dataContent.logoUrl, streamUrlContent.streamUrl);\n                }).onErrorResumeNext(Observable.empty()))\n        .subscribe(System.out::println);\n"], "environment": ["filter operator", "zip operator", "permalinks", "zip function", "onfailure method", "rx-java"], "symptom": ["My use case is: I get a list of permalinks, and need to issue two REST requests per permalink to get their data in parts. ", "When both requests are back, I want to merge their info together and do something with it (here . print it out)", "I want to do it with code using the zip operator. ", "Here is my current code (together with mocks for the library I'm using): -CODE-. ", "In general, it works, but I don't like the error handling in this implementation. ", "Basically, the REST requests may fail, in which case the onFailure method calls subscriber.onNext(null. so that the zip method always has something to work with (one request may have failed, but the other one may have not, and I don't know which failed)", "Then, in the zip function I need an if which checks that both are not null (my code will crash if any of the partial Contents is null). ", "I would like to be able to filter out the null using the filter operator somewhere, if possible. ", "Or maybe there is a better way than emitting null values for the failure case but so that it still works with the zip function. "], "exception_stack": [], "code": ["public class Main {\n\n    public static void main(String[] args) {\n        ContentManager cm = new ContentManager();\n\n        Observable\n                .from(cm.getPermalinks(10))\n                .flatMap(permalink -> Observable.zip(\n                        Observable.<Content>create(subscriber -> cm.getDataByPermalink(permalink, new SubscribingRestCallback(subscriber))),\n                        Observable.<Content>create(subscriber -> cm.getStreamByPermalink(permalink, new SubscribingRestCallback(subscriber))),\n                        (dataContent, streamUrlContent) -> {\n                            if (dataContent == null || streamUrlContent == null) {\n                                System.err.println(\"not zipping \" + dataContent + \" and \" + streamUrlContent);\n                                return Observable.empty();\n                            }\n\n                            return new Content(dataContent.permalink, dataContent.logoUrl, streamUrlContent.streamUrl);\n                        }))\n                .subscribe(System.out::println);\n    }\n}\n\nclass SubscribingRestCallback implements RestCallback {\n\n    private final Subscriber<? super Content> subscriber;\n\n    public SubscribingRestCallback(Subscriber<? super Content> subscriber) {\n        this.subscriber = subscriber;\n    }\n\n    @Override\n    public void onSuccess(Content content) {\n        subscriber.onNext(content);\n        subscriber.onCompleted();\n    }\n\n    @Override\n    public void onFailure(int code, String message) {\n        System.err.println(message);\n        subscriber.onNext(null);\n        subscriber.onCompleted();\n    }\n}\n\npublic class Content {\n\n    public final String permalink;\n\n    public final String logoUrl;\n\n    public final String streamUrl;\n\n    public Content(String permalink, String logoUrl, String streamUrl) {\n        this.permalink = permalink;\n        this.logoUrl = logoUrl;\n        this.streamUrl = streamUrl;\n    }\n\n    @Override\n    public String toString() {\n        return String.format(\"Content [%s, %s, %s]\", permalink, logoUrl, streamUrl);\n    }\n}\n\npublic interface RestCallback {\n\n    void onSuccess(Content content);\n\n    void onFailure(int code, String message);\n}\n\nclass ContentManager {\n\n    private final Random random = new Random();\n\n    public List<String> getPermalinks(int n) {\n        List<String> permalinks = new ArrayList<>(n);\n        for (int i = 1; i <= n; ++i) {\n            permalinks.add(\"perma_\" + i);\n        }\n\n        return permalinks;\n    }\n\n    public void getDataByPermalink(String permalink, RestCallback callback) {\n        getByPermalink(permalink, callback, false);\n    }\n\n    public void getStreamByPermalink(String permalink, RestCallback callback) {\n        getByPermalink(permalink, callback, true);\n    }\n\n    private void getByPermalink(String permalink, RestCallback callback, boolean stream) {\n        // simulate network latency and unordered results\n        new Thread(() -> {\n            try {\n                Thread.sleep(random.nextInt(1000) + 200);\n            } catch (InterruptedException e) {\n                e.printStackTrace();\n            }\n            if (random.nextInt(100) < 95) {\n                String logoUrl;\n                String streamUrl;\n                if (stream) {\n                    logoUrl = null;\n                    streamUrl = \"http://\" + permalink + \"/stream\";\n                } else {\n                    logoUrl = \"http://\" + permalink + \"/logo.png\";\n                    streamUrl = null;\n                }\n                callback.onSuccess(new Content(permalink, logoUrl, streamUrl));\n            } else {\n                callback.onFailure(-1, permalink + \" data failure\");\n            }\n        }).start();\n    }\n}\n"], "environment_rank": 4, "code_rank": 2, "exception_message": "", "environment_score": 88, "code_score": 94}, {"answer_id": "32367929", "title": "InterruptedException using FileSystemView without other swing components", "Score": 2, "ViewCount": 907, "LastEditDate": "2017-05-23 12:22:05", "LastActivityDate": "2015-09-03 16:55:52", "AnswerScore": 1, "reason": ["I suspect that something to do with the FileSystemView requires the code to be executed on the Even Dispatch Thread . the thread used for event dispatching & processing in rich client desktop apps"], "solution": ["See Concurrency in Swing for more details. "], "answer_code": [], "environment": ["filesystemview object", "swing", "interrupted-exception", "windows", "jna", "filesystemview", "i", "filesystemview class", "daemon threads", "\"main. thread", "java", "dialog . 1.6.0_26"], "symptom": ["I'm getting frustrated trying to get rid of this pesky exception that displays when my Java program completes: -CODE-. ", "The source of my woes is the use of the FileSystemView class. ", "My code is adapted from code on this page, using File.listRoots(. and then the FileSystemView to display friendly names/descriptions of my Windows drives", "A simplified version of the code which runs fine, but leaves daemon threads running which cause problems, is this: -CODE-. ", "Use of the FileSystemView appears to start up some daemon threads (Java2D Disposer, AWT-Windows, Swing-shell, etc.. that cause the issue", "Running it in association with a lot more windows resources using JNA causes the problem to occur much more regularly. ", "A full example of the problematic code can be found by executing the test class here, on Windows. ", "I've searched high and low for answers and have hints at things to try, but nothing seems to work (yet). ", "For reference, I've looked at these two threads, among others, which describe my symptoms but don't provide helpful results: [-]Occasional InterruptedException when quitting a Swing application. ", "[-]InterruptedException after cancel file open dialog . 1.6.0_26", "The first link above discusses daemon vs. non-daemon threads", "I've confirmed that the \"main. thread, which is reaching the end of the program when this issue occurs, is the only non-daemon thread running", "Both threads above, and many other sources, refer to disposing of other swing components as a solution, but the only \"swing. code I'm using is the FileSystemView, and I don't see any options for disposing of it", "Questions: [-]Is there a way to nicely shutdown the daemon threads that swing starts when using the FileSystemView. ", "[-]Is there a way I can easily \"wrap. my FileSystemView object inside a container (never displayed to the userthat I can then easily dispose(of, to possibly answer the previous question", "[-]Is there an alternative to FileSystemView that gives a rich description of windows drive names and volume names (e.g., A: (Floppy Drive), D: (CD-Rom), etc.. that avoids starting swing daemon threads that seem to cause these problems"], "exception_stack": [], "code": ["\nException while removing reference: java.lang.InterruptedException\n  java.lang.InterruptedException    at java.lang.Object.wait(Native\n  Method)   at java.lang.ref.ReferenceQueue.remove(Unknown Source)  at\n  java.lang.ref.ReferenceQueue.remove(Unknown Source)   at\n  sun.java2d.Disposer.run(Unknown Source)   at\n  java.lang.Thread.run(Unknown Source)\n", "File[] roots = File.listRoots();\nFileSystemView fsv = FileSystemView.getFileSystemView();\nfor (File f : roots) {\n    System.out.format(\"%s (%s) %d/%d%n\", fsv.getSystemDisplayName(f), fsv.getSystemTypeDescription(f),\n            f.getUsableSpace(), f.getTotalSpace());\n}\n"], "symptom_rank": 15, "title_rank": 10, "exception_message": "", "symptom_score": 55}, {"answer_id": "11023647", "title": "How to handle an InterruptedException", "Score": 1, "ViewCount": 673, "LastEditDate": "2017-05-23 11:55:48", "LastActivityDate": "2012-06-13 21:48:03", "AnswerScore": 2, "reason": ["The point of InterruptedException is to allow a blocking method to cancel early, when requested. ", "If you can't throw the exception from your method, calling Thread.currentThread().interrupt(. is usually a good bet"], "solution": ["The one thing you shouldn't do is nothing; don't just swallow the exception. ", "If you can't throw the exception from your method, calling Thread.currentThread().interrupt(. is usually a good bet", "Check out Brian Goetz's article, http://www.ibm.com/developerworks/java/library/j-jtp05236/index.html, for a good discussion on this topic. "], "answer_code": [], "environment": ["java", "higher level class", "multithreading"], "symptom": ["I wonder how InterruptedException should be properly handled. ", "Are there any circumstances when the exception should be delegated to the higher level class. "], "exception_stack": [], "code": ["\nPossible Duplicate:\nHandling InterruptedException in Java \n"], "title_rank": 2, "exception_message": ""}, {"answer_id": "36473046", "title": "How to handle InterruptedException of BlockingQueue?", "Score": 5, "ViewCount": 4209, "LastEditDate": "2016-04-07 11:09:14", "LastActivityDate": "2016-04-07 11:09:14", "AnswerScore": 2, "reason": [], "solution": ["Are there places where you intentionally interrupt the thread, for example to tell it to finish up (for example during shutdown)? ", "If not, you just need to handle possible spurious interrupts that will wake up the thread. ", "They're in absolutely no way fatal exceptions, and you don't need to log them (especially as errors). "], "answer_code": [], "environment": ["blockingqueue", "concurrency", "multithreading", "where contractnums", "java", "contractnum queue"], "symptom": ["I have a code similar to this which is inside run(. method of a Runnable and multiple instances of that Runnable get launched, -CODE-", "Where contractNums is a BlockingQueue<String> shared by multiple threads. ", "I am not sure about next steps after catching InterruptedException, should I terminate this thread by re throwing a RuntimeException ( so my while loop terminates . or try to take next element from contractNum queue again and ignoring InterruptedException", "I am not sure if InterruptedException to be treated as a fatal condition for thread to terminate or keep it in while loop. "], "exception_stack": [], "code": ["do{\n        try{\n            String contractNum=contractNums.take();\n           }catch(InterruptedException e){\n            logger.error(e.getMessage(), e);\n        }\n  }while(!(\"*\".equals(contractNum)));\n"], "title_rank": 3, "exception_message": ""}]}))
+  })
+  </script>
+</body>
+
+</html>

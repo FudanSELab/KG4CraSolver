@@ -1,0 +1,4622 @@
+[
+  {
+    "context": "Friends I have stuck in a Problem in Hibernate composite key.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9975212216377258,
+      "start": 37,
+      "end": 60,
+      "answer": "Hibernate composite key"
+    }
+  },
+  {
+    "context": "I guess it can be connected with export default eventData so that eventdata can be object but not array in this case.event-data.js: -CODE-event-filter-bar.js: -CODE-filter-toolbar.js: -CODE-dropdown-maker.js: -CODE-",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.4898824393749237,
+      "start": 33,
+      "end": 57,
+      "answer": "export default eventData"
+    }
+  },
+  {
+    "context": "Error : org.hibernate.MappingException: Could not determine type for: java.util.Set, at table: IDP_UserManagerMapping, for columns: [org.hibernate.mapping.Column(idps)].I have Tried wit @transient and other things but not effective Please Help.-CODE-",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.33714431524276733,
+      "start": 182,
+      "end": 196,
+      "answer": "wit @transient"
+    }
+  },
+  {
+    "context": "I'm getting this error in browser console.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.7453180551528931,
+      "start": 26,
+      "end": 41,
+      "answer": "browser console"
+    }
+  },
+  {
+    "context": "I'm working on a magento website where on the product view page I've to use jqzoom.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.8586280941963196,
+      "start": 76,
+      "end": 82,
+      "answer": "jqzoom"
+    }
+  },
+  {
+    "context": "When I try to add anything to JFrame in constructor and I have IllegalArgumentException.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9881615042686462,
+      "start": 40,
+      "end": 51,
+      "answer": "constructor"
+    }
+  },
+  {
+    "context": "I'm writing an android client which is communicating between a Hessian Servlet and Hessdroid.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.8475633263587952,
+      "start": 63,
+      "end": 92,
+      "answer": "Hessian Servlet and Hessdroid"
+    }
+  },
+  {
+    "context": "Similar code is working in documentation: https://docs.oracle.com/javase/tutorial/uiswing/layout/none.html.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9616023898124695,
+      "start": 0,
+      "end": 7,
+      "answer": "Similar"
+    }
+  },
+  {
+    "context": "[-]Added jqzoom library.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9821128249168396,
+      "start": 9,
+      "end": 23,
+      "answer": "jqzoom library"
+    }
+  },
+  {
+    "context": "Everything went fine until i wanted to transmit this selfimplemented type: [-]client & server are communicating between IUserService.java interface.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.8050284385681152,
+      "start": 78,
+      "end": 93,
+      "answer": "client & server"
+    }
+  },
+  {
+    "context": "[-]Added my custom js.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.002478845650330186,
+      "start": 9,
+      "end": 21,
+      "answer": "my custom js"
+    }
+  },
+  {
+    "context": "It is created in Netbeans 10.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9995891451835632,
+      "start": 17,
+      "end": 28,
+      "answer": "Netbeans 10"
+    }
+  },
+  {
+    "context": "The code in product-view-config.js is: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9735143184661865,
+      "start": 0,
+      "end": 3,
+      "answer": "The"
+    }
+  },
+  {
+    "context": "Edit: I also tried add label with position and sieze (setBounds.it doesn't help",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.5706653594970703,
+      "start": 34,
+      "end": 52,
+      "answer": "position and sieze"
+    }
+  },
+  {
+    "context": "In this case, bxSlider working well but jqzoom not working.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.6572666168212891,
+      "start": 14,
+      "end": 46,
+      "answer": "bxSlider working well but jqzoom"
+    }
+  },
+  {
+    "context": "I changed the code with setBounds method.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.6010373830795288,
+      "start": 24,
+      "end": 40,
+      "answer": "setBounds method"
+    }
+  },
+  {
+    "context": "First, main class in JavaTestApp.java: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9367185831069946,
+      "start": 21,
+      "end": 32,
+      "answer": "JavaTestApp"
+    }
+  },
+  {
+    "context": "I'd figured out why jqzoom not working and added in my answer.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.572919487953186,
+      "start": 20,
+      "end": 26,
+      "answer": "jqzoom"
+    }
+  },
+  {
+    "context": "But why jqzoom is not working with jquery 1.10.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9989646077156067,
+      "start": 35,
+      "end": 46,
+      "answer": "jquery 1.10"
+    }
+  },
+  {
+    "context": "I am running Tomcat 5.0 and I have problem with getting a resource from tomcats 'webapps' from Java.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9970664978027344,
+      "start": 13,
+      "end": 23,
+      "answer": "Tomcat 5.0"
+    }
+  },
+  {
+    "context": "Just say it, if you want to see more code...",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9764288067817688,
+      "start": 0,
+      "end": 4,
+      "answer": "Just"
+    }
+  },
+  {
+    "context": "Link to project uploaded on weetransfer: Project (scanned via my Bitdefender antivir.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.017222320660948753,
+      "start": 28,
+      "end": 39,
+      "answer": "weetransfer"
+    }
+  },
+  {
+    "context": "There is a html file that I check if it's available after server start in: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.4553636610507965,
+      "start": 58,
+      "end": 64,
+      "answer": "server"
+    }
+  },
+  {
+    "context": "Edit: RetrieveData calls IUserService function...",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.34807661175727844,
+      "start": 0,
+      "end": 46,
+      "answer": "Edit: RetrieveData calls IUserService function"
+    }
+  },
+  {
+    "context": "I want a int value from edit text so I can use it on .setCounterInSeconds(long.but I'm getting this error",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9987055063247681,
+      "start": 0,
+      "end": 1,
+      "answer": "I"
+    }
+  },
+  {
+    "context": "In Java I run this code when server is started: -CODE-.getContent(throws FileNotFoundException",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.548908531665802,
+      "start": 0,
+      "end": 35,
+      "answer": "In Java I run this code when server"
+    }
+  },
+  {
+    "context": "PageOne code from above is kind of pseudo code to understand it easier.-CODE-maybe this could be relevant too: -CODE-",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9704476594924927,
+      "start": 0,
+      "end": 7,
+      "answer": "PageOne"
+    }
+  },
+  {
+    "context": "But when I put \"http://localhost:8080/myProject/site.html.into browser, the site is displayed without problems",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.10010021924972534,
+      "start": 0,
+      "end": 3,
+      "answer": "But"
+    }
+  },
+  {
+    "context": "Edit: I set DebugMode on the HessianProxyFactory and now i get this one: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.999639630317688,
+      "start": 29,
+      "end": 48,
+      "answer": "HessianProxyFactory"
+    }
+  },
+  {
+    "context": "I only want to get the time entered by the user so it start by user entered time, .",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9999393224716187,
+      "start": 0,
+      "end": 1,
+      "answer": "I"
+    }
+  },
+  {
+    "context": "Also I tested that on 4 machines .on 2 everything is fine, on other 2 FileNotFoundException",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.20639318227767944,
+      "start": 70,
+      "end": 91,
+      "answer": "FileNotFoundException"
+    }
+  },
+  {
+    "context": "So I am reading in a CSV file which works fine if everything is a string.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9998217821121216,
+      "start": 21,
+      "end": 29,
+      "answer": "CSV file"
+    }
+  },
+  {
+    "context": "I want to serialize a same object on file, each time when i run a program.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9984683990478516,
+      "start": 0,
+      "end": 1,
+      "answer": "I"
+    }
+  },
+  {
+    "context": "I thought it might be some folder security access problem or user rights, but in the end I have no clue.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.980994701385498,
+      "start": 0,
+      "end": 1,
+      "answer": "I"
+    }
+  },
+  {
+    "context": "But when i try and parse Integers out of the file it no longer will work.-CODE-",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9777745008468628,
+      "start": 0,
+      "end": 3,
+      "answer": "But"
+    }
+  },
+  {
+    "context": "In the begening i store a String on writer.in the last i read a file",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.7073863744735718,
+      "start": 36,
+      "end": 42,
+      "answer": "writer"
+    }
+  },
+  {
+    "context": "When saveDepartment(.is invoked, I am getting exception mentioned in the title",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9796574711799622,
+      "start": 0,
+      "end": 4,
+      "answer": "When"
+    }
+  },
+  {
+    "context": "I am getting this unexpected token || error for the below code.-CODE-but not if i separate the if statements like below-CODE-",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9997071027755737,
+      "start": 0,
+      "end": 1,
+      "answer": "I"
+    }
+  },
+  {
+    "context": "The goal of this program is if i run my program X time, i store and i print on screen X time my object.-CODE-",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9984431266784668,
+      "start": 0,
+      "end": 3,
+      "answer": "The"
+    }
+  },
+  {
+    "context": "After searching for solution for a while I came up with another similar post on stackoverflow which doesn't match the problem scenario I am facing.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9996247887611389,
+      "start": 80,
+      "end": 93,
+      "answer": "stackoverflow"
+    }
+  },
+  {
+    "context": "When i run this program i have this error : -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.999376654624939,
+      "start": 0,
+      "end": 4,
+      "answer": "When"
+    }
+  },
+  {
+    "context": "I have registration form and posting the values to register function where it will validate form values with node-validator.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9653159379959106,
+      "start": 0,
+      "end": 1,
+      "answer": "I"
+    }
+  },
+  {
+    "context": "A problem has appeared on my React project which I was not previously experiencing.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9999562501907349,
+      "start": 0,
+      "end": 1,
+      "answer": "A"
+    }
+  },
+  {
+    "context": "But, when I tried with node-validator, it keeps getting error as TypeError: Object # has no method 'onValidationError'.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9679219126701355,
+      "start": 23,
+      "end": 37,
+      "answer": "node-validator"
+    }
+  },
+  {
+    "context": "I am quite certain that the problem began after I updated React to v17.0.0 and a number of other libraries as well.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9898470044136047,
+      "start": 67,
+      "end": 74,
+      "answer": "v17.0.0"
+    }
+  },
+  {
+    "context": "The validator already installed in my app.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.998680830001831,
+      "start": 0,
+      "end": 3,
+      "answer": "The"
+    }
+  },
+  {
+    "context": "Basically, one of my pages has an input for uploading an image, which makes the file into an array buffer to be uploaded to IPFS.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9998888969421387,
+      "start": 124,
+      "end": 128,
+      "answer": "IPFS"
+    }
+  },
+  {
+    "context": "It used to work, but I tested it again recently (after doing a number of package/library updates as mentioned.and it now gives me the error TypeError: _utils_ipfs__WEBPACK_IMPORTED_MODULE_5__.default.files.add is not a function",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.3526451289653778,
+      "start": 73,
+      "end": 88,
+      "answer": "package/library"
+    }
+  },
+  {
+    "context": "In test.js: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.97171950340271,
+      "start": 0,
+      "end": 2,
+      "answer": "In"
+    }
+  },
+  {
+    "context": "To try to rectify this error I tried npm update to make sure that everything was up to date, but that didn't work.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.5257107615470886,
+      "start": 37,
+      "end": 47,
+      "answer": "npm update"
+    }
+  },
+  {
+    "context": "Here's what I am pretty sure are the parts of NewReview.js relevant to the error: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.5384227633476257,
+      "start": 46,
+      "end": 55,
+      "answer": "NewReview"
+    }
+  },
+  {
+    "context": "In the end while running this code on Intellij i am getting this error: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9998782873153687,
+      "start": 38,
+      "end": 46,
+      "answer": "Intellij"
+    }
+  },
+  {
+    "context": "Here is what ipfs.js looks like: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9759624004364014,
+      "start": 13,
+      "end": 20,
+      "answer": "ipfs.js"
+    }
+  },
+  {
+    "context": "I build a android widget, and in the WidgetService class which extends BroadcastReceiver.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9521710276603699,
+      "start": 37,
+      "end": 56,
+      "answer": "WidgetService class"
+    }
+  },
+  {
+    "context": "As another attempt to rectify this issue I tried using ipfs.default.files.add as I had seen that suggested as a solution on another Stack Overflow post, but that didn't work unfortunately.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.4148789048194885,
+      "start": 55,
+      "end": 73,
+      "answer": "ipfs.default.files"
+    }
+  },
+  {
+    "context": "A vary strange thing happens, when I try to get an integer from an ArrayList, it throws an exception: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9949789047241211,
+      "start": 0,
+      "end": 1,
+      "answer": "A"
+    }
+  },
+  {
+    "context": "Again, the code used to work perfectly as it is so I'm not sure that the cause of this issue is due to a mistake in how the code is written.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9886184334754944,
+      "start": 0,
+      "end": 5,
+      "answer": "Again"
+    }
+  },
+  {
+    "context": "I have check if it was caused by NullPointer though, no clue.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9997583031654358,
+      "start": 0,
+      "end": 1,
+      "answer": "I"
+    }
+  },
+  {
+    "context": "Is it the problem with my jdk (version 1.8.0_74.or android studio ?(version 1.51",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.02776532992720604,
+      "start": 23,
+      "end": 47,
+      "answer": "my jdk (version 1.8.0_74"
+    }
+  },
+  {
+    "context": "Android SDK Version: 6.0(but I have tried 4.4, still the same.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.342033326625824,
+      "start": 0,
+      "end": 24,
+      "answer": "Android SDK Version: 6.0"
+    }
+  },
+  {
+    "context": "I am trying to read the files inside a folder, but when I run the program it throws this exception.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9994428157806396,
+      "start": 0,
+      "end": 1,
+      "answer": "I"
+    }
+  },
+  {
+    "context": "I try to start a new project and copy to it, but still not working.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9999592304229736,
+      "start": 0,
+      "end": 1,
+      "answer": "I"
+    }
+  },
+  {
+    "context": "I tried with some other folders also.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9996418356895447,
+      "start": 0,
+      "end": 1,
+      "answer": "I"
+    }
+  },
+  {
+    "context": "Since \"staredIndex.is an ArrayList with Integer paramater and randomIndex is an int, currentIndex is and int",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.7597475647926331,
+      "start": 40,
+      "end": 57,
+      "answer": "Integer paramater"
+    }
+  },
+  {
+    "context": "My project work ok on the emulator.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9996199607849121,
+      "start": 0,
+      "end": 2,
+      "answer": "My"
+    }
+  },
+  {
+    "context": "I get something like that from stack report.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9931066632270813,
+      "start": 0,
+      "end": 1,
+      "answer": "I"
+    }
+  },
+  {
+    "context": "I was looking for solution of this problem and i found hint to add all used libraries to manifest, but it doesn t help me anyway.-CODE-",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9969854354858398,
+      "start": 76,
+      "end": 85,
+      "answer": "libraries"
+    }
+  },
+  {
+    "context": "I am working on an application that executes a Jython 2.5.3 script from JAVA 1.6.027.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.33065298199653625,
+      "start": 47,
+      "end": 59,
+      "answer": "Jython 2.5.3"
+    }
+  },
+  {
+    "context": "In order to execute a java project using maven, I put on the terminal this two commands: To build project: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9554906487464905,
+      "start": 41,
+      "end": 46,
+      "answer": "maven"
+    }
+  },
+  {
+    "context": "The script just open a file using codecs library and it looks like this: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9731638431549072,
+      "start": 34,
+      "end": 48,
+      "answer": "codecs library"
+    }
+  },
+  {
+    "context": "And an implementing class SimpleProductManager: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.10440558940172195,
+      "start": 26,
+      "end": 46,
+      "answer": "SimpleProductManager"
+    }
+  },
+  {
+    "context": "EDIT: Here are the two SQL statements I'm using, but I'm not sure if either are causing the problem.-CODE-",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.5398388504981995,
+      "start": 0,
+      "end": 37,
+      "answer": "EDIT: Here are the two SQL statements"
+    }
+  },
+  {
+    "context": "When I execute this script debugging in Eclipse, everything works OK, but when I execute the part of the JAVA application that invokes this script, I get this error: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.2283618003129959,
+      "start": 105,
+      "end": 109,
+      "answer": "JAVA"
+    }
+  },
+  {
+    "context": "I am using the Spring official docs and trying to understand the following 3 tests for the increasePrice(.method: -CODE-",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9916703701019287,
+      "start": 15,
+      "end": 35,
+      "answer": "Spring official docs"
+    }
+  },
+  {
+    "context": "The parameter in the second statement is filled with: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9974334836006165,
+      "start": 0,
+      "end": 3,
+      "answer": "The"
+    }
+  },
+  {
+    "context": "The build always execute with success, but every time I try to run the project, I receive this error: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9919946193695068,
+      "start": 0,
+      "end": 3,
+      "answer": "The"
+    }
+  },
+  {
+    "context": "The JAVA application is able to execute others similar jython scripts.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.8965919017791748,
+      "start": 0,
+      "end": 69,
+      "answer": "The JAVA application is able to execute others similar jython scripts"
+    }
+  },
+  {
+    "context": "Question: Why is it that when I run the ant tests for these 3 methods, the testcase testIncreasePriceWithEmptyListOfProducts fails with a junit.framework.AssertionFailedError: Products list is empty.-CODE-",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.0008352749864570796,
+      "start": 138,
+      "end": 153,
+      "answer": "junit.framework"
+    }
+  },
+  {
+    "context": "I am trying to implement a chat application in Java using UDP for multiple clients.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9930881857872009,
+      "start": 58,
+      "end": 61,
+      "answer": "UDP"
+    }
+  },
+  {
+    "context": "I have detected that the class sun.nio.ch.FileChannelImpl is in the library rt.jar, which is inside /bin/common/ folder and included in my classpath via jvm.cfg file: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.28836286067962646,
+      "start": 68,
+      "end": 119,
+      "answer": "library rt.jar, which is inside /bin/common/ folder"
+    }
+  },
+  {
+    "context": "Shouldn't it throw a java.lang.UnsupportedOperationException(like the other 2 test cases.since the method increasePrice has not yet been implemented",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.6594085097312927,
+      "start": 106,
+      "end": 119,
+      "answer": "increasePrice"
+    }
+  },
+  {
+    "context": "I used thread to accept input on server side and another thread to handle the input as well.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9550957083702087,
+      "start": 33,
+      "end": 39,
+      "answer": "server"
+    }
+  },
+  {
+    "context": "This is my Application.java file, with main function inside: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.4617254436016083,
+      "start": 0,
+      "end": 32,
+      "answer": "This is my Application.java file"
+    }
+  },
+  {
+    "context": "The same way I do it with other libraries that work fine.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.8525879979133606,
+      "start": 0,
+      "end": 3,
+      "answer": "The"
+    }
+  },
+  {
+    "context": "I have an Xtext project with an issue I can't seem to solve.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.6597397923469543,
+      "start": 0,
+      "end": 1,
+      "answer": "I"
+    }
+  },
+  {
+    "context": "My code is: Server side: -CODE-.and the client side is : -CODE-stacktrace after execution gives me : -CODE-",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.3233214020729065,
+      "start": 0,
+      "end": 2,
+      "answer": "My"
+    }
+  },
+  {
+    "context": "can you explain to me why I get \"FATAL EXCEPTION: java.lang.UnsupportedOperationException.on refreshing my content",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9968905448913574,
+      "start": 0,
+      "end": 3,
+      "answer": "can"
+    }
+  },
+  {
+    "context": "The object \"file.is an IFile passed as an argument of this function and is not null, as I am able to access its contents and even print them out as strings, for example",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9763168692588806,
+      "start": 0,
+      "end": 3,
+      "answer": "The"
+    }
+  },
+  {
+    "context": "In normal case, the function should download the data and creates a recycler / card for every line...-CODE-",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9981808066368103,
+      "start": 68,
+      "end": 83,
+      "answer": "recycler / card"
+    }
+  },
+  {
+    "context": "I had developed a Java Application Project using Netbeans IDE 8.2 on Ubuntu14.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.7478859424591064,
+      "start": 49,
+      "end": 65,
+      "answer": "Netbeans IDE 8.2"
+    }
+  },
+  {
+    "context": "I can also access its IProject field and perform operations on it.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.999062180519104,
+      "start": 22,
+      "end": 36,
+      "answer": "IProject field"
+    }
+  },
+  {
+    "context": "I already tried a lot but every time i get this error: \"Uncaught TypeError: content.getElementById is not a function.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.5765058994293213,
+      "start": 0,
+      "end": 1,
+      "answer": "I"
+    }
+  },
+  {
+    "context": "How can I have its installers for Linux Systems using Netbeans IDE(.deb.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.0717659518122673,
+      "start": 34,
+      "end": 47,
+      "answer": "Linux Systems"
+    }
+  },
+  {
+    "context": "However, I'm getting a NullPointerException on the ResourceSet line, namely on the \".get(project).function",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9937503933906555,
+      "start": 51,
+      "end": 67,
+      "answer": "ResourceSet line"
+    }
+  },
+  {
+    "context": "What could cause a NullPointerException to occur at this step, given that said project is definitely not null.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.999981164932251,
+      "start": 0,
+      "end": 4,
+      "answer": "What"
+    }
+  },
+  {
+    "context": "RecyclerViewHolder.java: -CODE-.import android.view.View; import android.widget.TextView; -CODE-",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9758155941963196,
+      "start": 0,
+      "end": 18,
+      "answer": "RecyclerViewHolder"
+    }
+  },
+  {
+    "context": "I had packaged it by following instruction in this link.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9998576641082764,
+      "start": 0,
+      "end": 1,
+      "answer": "I"
+    }
+  },
+  {
+    "context": "I have a separated parser and lexer grammar and want to run org.antlr.v4.gui.TestRig to debug/test my grammar.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.958386242389679,
+      "start": 19,
+      "end": 43,
+      "answer": "parser and lexer grammar"
+    }
+  },
+  {
+    "context": "But, this tutorial above mentioned is NetBeans 7.4 native packaging in Windows.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.7986780405044556,
+      "start": 38,
+      "end": 50,
+      "answer": "NetBeans 7.4"
+    }
+  },
+  {
+    "context": "I receive the following exceptions org.zkoss.zk.ui.UiException and java.lang.NumberFormatException.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9997498989105225,
+      "start": 0,
+      "end": 1,
+      "answer": "I"
+    }
+  },
+  {
+    "context": "My lexer grammar start with: -CODE-.and my parser grammar start with: -CODE-",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9544033408164978,
+      "start": 0,
+      "end": 16,
+      "answer": "My lexer grammar"
+    }
+  },
+  {
+    "context": "After running normally during several hours (and sometimes a few minutes), my app stops connecting to the server with HTTPost.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.3936012387275696,
+      "start": 106,
+      "end": 125,
+      "answer": "server with HTTPost"
+    }
+  },
+  {
+    "context": "But I followed this tutorial in Netbeans8.2 in Ubuntu(my system).",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.999228298664093,
+      "start": 32,
+      "end": 43,
+      "answer": "Netbeans8.2"
+    }
+  },
+  {
+    "context": "My classpath env variable points to complete antlr.jar and current directory.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9994824528694153,
+      "start": 0,
+      "end": 2,
+      "answer": "My"
+    }
+  },
+  {
+    "context": "I set the Timeout to 20 sec and It's a good time since the connection is good (wifi).",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.6754137873649597,
+      "start": 21,
+      "end": 27,
+      "answer": "20 sec"
+    }
+  },
+  {
+    "context": "And I got .deb file in specified folder in the tutorial mentioned above.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.7878848314285278,
+      "start": 0,
+      "end": 19,
+      "answer": "And I got .deb file"
+    }
+  },
+  {
+    "context": "My stacktrace is as follows: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.999718964099884,
+      "start": 0,
+      "end": 2,
+      "answer": "My"
+    }
+  },
+  {
+    "context": "When i put on browser address: http://localhost:5000/points/1 i'm normally getting point with id 1.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.8672744035720825,
+      "start": 38,
+      "end": 61,
+      "answer": "localhost:5000/points/1"
+    }
+  },
+  {
+    "context": "[-]antlr is an alias to java org.antlr.v4.Tool.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.1359522044658661,
+      "start": 24,
+      "end": 32,
+      "answer": "java org"
+    }
+  },
+  {
+    "context": "I have tested it in two servers: my own computer and a virtual private server.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.7035679221153259,
+      "start": 24,
+      "end": 77,
+      "answer": "servers: my own computer and a virtual private server"
+    }
+  },
+  {
+    "context": "The Project-name-1.0.deb file could be successfully installed in my Ubuntu System, but while running this installed application it shows error: \"java.sql.SQLException: Opening db:'DB-NAME.sqlite' : Permission denied.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.14803792536258698,
+      "start": 0,
+      "end": 29,
+      "answer": "The Project-name-1.0.deb file"
+    }
+  },
+  {
+    "context": "My Zul file: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9997196793556213,
+      "start": 0,
+      "end": 2,
+      "answer": "My"
+    }
+  },
+  {
+    "context": "[-]grun is an alias to java org.antlr.v4.gui.TestRig.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.5020083785057068,
+      "start": 23,
+      "end": 27,
+      "answer": "java"
+    }
+  },
+  {
+    "context": "My project uses sqlite DB for data storage.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9965276718139648,
+      "start": 16,
+      "end": 25,
+      "answer": "sqlite DB"
+    }
+  },
+  {
+    "context": "Viewmodel (FolderInfoEditViewModel.java): -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.8954139947891235,
+      "start": 0,
+      "end": 9,
+      "answer": "Viewmodel"
+    }
+  },
+  {
+    "context": "When I run antlr TestParser.g4 && javac *.java the parser code gets generated and compiled.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9836307168006897,
+      "start": 11,
+      "end": 46,
+      "answer": "antlr TestParser.g4 && javac *.java"
+    }
+  },
+  {
+    "context": "Is there some way or reason for Android to avoid connecting to the http server.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9997879266738892,
+      "start": 67,
+      "end": 78,
+      "answer": "http server"
+    }
+  },
+  {
+    "context": "I had used JAR sqlite-JDBC-3.19.3.jar for its Library.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.8968748450279236,
+      "start": 11,
+      "end": 37,
+      "answer": "JAR sqlite-JDBC-3.19.3.jar"
+    }
+  },
+  {
+    "context": "When I run grun TestParser testRule -gui I get the error: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.6283735632896423,
+      "start": 11,
+      "end": 40,
+      "answer": "grun TestParser testRule -gui"
+    }
+  },
+  {
+    "context": "I'm setting up a Rest Server along with client and i'm facing a problem for few hours already.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.6381351351737976,
+      "start": 22,
+      "end": 28,
+      "answer": "Server"
+    }
+  },
+  {
+    "context": "I had used Netbeans IDE 8.2 in Ubuntu and created the new Java Application Project in it.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.8679695725440979,
+      "start": 11,
+      "end": 27,
+      "answer": "Netbeans IDE 8.2"
+    }
+  },
+  {
+    "context": "And when I run grun Test testRule -gui I get the error: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9404205679893494,
+      "start": 15,
+      "end": 38,
+      "answer": "grun Test testRule -gui"
+    }
+  },
+  {
+    "context": "Now, how can I package this Java Application project to get its installer for Linux(.deb.without this Permission denied error",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.99691241979599,
+      "start": 78,
+      "end": 83,
+      "answer": "Linux"
+    }
+  },
+  {
+    "context": "Using <spring-boot.version>2.3.9.RELEASE</spring-boot.version> added following dependencies : -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.8118324875831604,
+      "start": 6,
+      "end": 32,
+      "answer": "<spring-boot.version>2.3.9"
+    }
+  },
+  {
+    "context": "I don't have any problems when using a combined grammar.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.8567299842834473,
+      "start": 0,
+      "end": 1,
+      "answer": "I"
+    }
+  },
+  {
+    "context": "The java Connect.java class is as follows: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.5967286229133606,
+      "start": 0,
+      "end": 3,
+      "answer": "The"
+    }
+  },
+  {
+    "context": "Trying to create dynamic ES Index: -CODE-.-CODE-",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9734483957290649,
+      "start": 0,
+      "end": 6,
+      "answer": "Trying"
+    }
+  },
+  {
+    "context": "The application execute successfully in NetBeans without any permission denied error.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9991787075996399,
+      "start": 40,
+      "end": 48,
+      "answer": "NetBeans"
+    }
+  },
+  {
+    "context": "My goal is to encrypt cache assets (in this case 3D models using a custom format.that are being decrypted by a client distributed to users",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.43293532729148865,
+      "start": 22,
+      "end": 34,
+      "answer": "cache assets"
+    }
+  },
+  {
+    "context": "I am doing a small POC in AWS.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9952476024627686,
+      "start": 26,
+      "end": 29,
+      "answer": "AWS"
+    }
+  },
+  {
+    "context": "But, it shows the error when the Packaged (.deb.installer when installed and executed in Ubuntu",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.8459175825119019,
+      "start": 89,
+      "end": 95,
+      "answer": "Ubuntu"
+    }
+  },
+  {
+    "context": "For this I used the following implementation: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.02579544298350811,
+      "start": 9,
+      "end": 10,
+      "answer": "I"
+    }
+  },
+  {
+    "context": "I trying to read a csv file from S3 bucket and displaying in the CloudWatch log files .",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.34783443808555603,
+      "start": 65,
+      "end": 85,
+      "answer": "CloudWatch log files"
+    }
+  },
+  {
+    "context": "I have this method getData as shown .",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9980745315551758,
+      "start": 0,
+      "end": 1,
+      "answer": "I"
+    }
+  },
+  {
+    "context": "The following code was working and then for some reason the next day it keeps throwing: Uncaught TypeError: Illegal invocation.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9999278783798218,
+      "start": 0,
+      "end": 3,
+      "answer": "The"
+    }
+  },
+  {
+    "context": "This implementation works perfectly fine for the latest java versions but fails for java versions equal to or below 1.8.131 (not sure on the exact version that it breaks, but the latest java versions in the 1.8.2xx range appear to work fine).",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.03786579519510269,
+      "start": 116,
+      "end": 123,
+      "answer": "1.8.131"
+    }
+  },
+  {
+    "context": "Everything is going fine but while accessing the file getting java.io.FileNotFoundException.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.3912799656391144,
+      "start": 0,
+      "end": 10,
+      "answer": "Everything"
+    }
+  },
+  {
+    "context": "It is expecting an array of bag Objects as shown please see the code below : -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9881054162979126,
+      "start": 0,
+      "end": 2,
+      "answer": "It"
+    }
+  },
+  {
+    "context": "I can't seem to figure out where it's going bust.-CODE-",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9998522996902466,
+      "start": 0,
+      "end": 1,
+      "answer": "I"
+    }
+  },
+  {
+    "context": "Users running these java versions get the following exception: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9544093608856201,
+      "start": 0,
+      "end": 5,
+      "answer": "Users"
+    }
+  },
+  {
+    "context": "But , when i tried i am getting ClassCastException .",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.8964375853538513,
+      "start": 32,
+      "end": 50,
+      "answer": "ClassCastException"
+    }
+  },
+  {
+    "context": "This code gets the get_start_times it's the same for get_start_times.-CODE-",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9996002316474915,
+      "start": 0,
+      "end": 4,
+      "answer": "This"
+    }
+  },
+  {
+    "context": "I did do some research on this error and I found several posts stating this might have to do with some part of the JCE library not being shipped with the JRE, and the provided solution was to manually install these into your JRE.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9875872731208801,
+      "start": 115,
+      "end": 126,
+      "answer": "JCE library"
+    }
+  },
+  {
+    "context": "CloudWatch Log file output.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.8633531332015991,
+      "start": 0,
+      "end": 10,
+      "answer": "CloudWatch"
+    }
+  },
+  {
+    "context": "The html: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9858500957489014,
+      "start": 0,
+      "end": 3,
+      "answer": "The"
+    }
+  },
+  {
+    "context": "My manager does not want to force users to update their java version, and obviously we cannot ask users to modify their JRE manually, so I am at a bit of a loss on how to continue.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.3436333239078522,
+      "start": 120,
+      "end": 123,
+      "answer": "JRE"
+    }
+  },
+  {
+    "context": "I have tried doing some more research but I am not well versed in the security libraries or any related JVM settings.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9993219375610352,
+      "start": 70,
+      "end": 88,
+      "answer": "security libraries"
+    }
+  },
+  {
+    "context": "I am inside lambda function.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.35486021637916565,
+      "start": 0,
+      "end": 1,
+      "answer": "I"
+    }
+  },
+  {
+    "context": "My eclipse with pydev has been working quite well without any problems for past 1-2 years until now.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.7466275095939636,
+      "start": 0,
+      "end": 2,
+      "answer": "My"
+    }
+  },
+  {
+    "context": "I don't know who changed what but it's broken.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9994855523109436,
+      "start": 0,
+      "end": 1,
+      "answer": "I"
+    }
+  },
+  {
+    "context": "I would appreciate it if someone can shed some light on why this happens, and if it can be made compatible for older java version (from 1.8.xxx onwards).",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.16914552450180054,
+      "start": 0,
+      "end": 1,
+      "answer": "I"
+    }
+  },
+  {
+    "context": "I am inside lambda function2.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9997472763061523,
+      "start": 12,
+      "end": 28,
+      "answer": "lambda function2"
+    }
+  },
+  {
+    "context": "I don't know what caused it, but possibly it could be due to java upgrade I did (however, this is happening first time).",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.5119122266769409,
+      "start": 61,
+      "end": 73,
+      "answer": "java upgrade"
+    }
+  },
+  {
+    "context": "I have implemented google sign-in with Firebase authentication in my Android app succesfully.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9993095397949219,
+      "start": 39,
+      "end": 62,
+      "answer": "Firebase authentication"
+    }
+  },
+  {
+    "context": "I am inside lambda function3.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9996288418769836,
+      "start": 12,
+      "end": 28,
+      "answer": "lambda function3"
+    }
+  },
+  {
+    "context": "Problem: My eclipse pydev autocomplete hangs and doesn't work.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.8496232032775879,
+      "start": 12,
+      "end": 38,
+      "answer": "eclipse pydev autocomplete"
+    }
+  },
+  {
+    "context": "i have little problem when i want to insert image into form, the code work on other form but in this form it not work with Uncaught TypeError: Cannot set property 'src' of null here is my code javascript : -CODE-.form : -CODE-",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9993416666984558,
+      "start": 0,
+      "end": 1,
+      "answer": "i"
+    }
+  },
+  {
+    "context": "As you see, I have logged-in with my account and it appears on the Firebase console.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.999836802482605,
+      "start": 67,
+      "end": 83,
+      "answer": "Firebase console"
+    }
+  },
+  {
+    "context": "I am inside lambda function5.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9995830059051514,
+      "start": 12,
+      "end": 28,
+      "answer": "lambda function5"
+    }
+  },
+  {
+    "context": "trying to create a keycloak object to register new user with keycloak with following code: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.3483898639678955,
+      "start": 19,
+      "end": 69,
+      "answer": "keycloak object to register new user with keycloak"
+    }
+  },
+  {
+    "context": "I am inside lambda function4.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9992913603782654,
+      "start": 12,
+      "end": 28,
+      "answer": "lambda function4"
+    }
+  },
+  {
+    "context": "The function firebaseAuthWithGoogle authenticates the user with Firebase after he logs-in with Google Sign-in: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.5643265843391418,
+      "start": 13,
+      "end": 35,
+      "answer": "firebaseAuthWithGoogle"
+    }
+  },
+  {
+    "context": "If you need to see more of the JSP, the Bug Class, or the Bug Table within the database, just let me know; any help is appreciated.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.928030252456665,
+      "start": 31,
+      "end": 49,
+      "answer": "JSP, the Bug Class"
+    }
+  },
+  {
+    "context": "Setup: -CODE-.eclipse.ini file: -CODE-",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.3844429850578308,
+      "start": 0,
+      "end": 5,
+      "answer": "Setup"
+    }
+  },
+  {
+    "context": "But get following error: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.995047390460968,
+      "start": 0,
+      "end": 3,
+      "answer": "But"
+    }
+  },
+  {
+    "context": "I am getting an error while accessing parameter by the getParam method like following .-CODE-",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9972789883613586,
+      "start": 55,
+      "end": 70,
+      "answer": "getParam method"
+    }
+  },
+  {
+    "context": "Another thing the function firebaseAuthWithGoogle does is: Connect to the http Apache server and save the user information in a MySQL users table through this code snippet: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9087898135185242,
+      "start": 74,
+      "end": 92,
+      "answer": "http Apache server"
+    }
+  },
+  {
+    "context": "I am getting this error when my page loads: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9996952414512634,
+      "start": 0,
+      "end": 1,
+      "answer": "I"
+    }
+  },
+  {
+    "context": "So after the user has been succesfully authenticated, the call to the server fails and this line is obviously executed: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9998058080673218,
+      "start": 70,
+      "end": 76,
+      "answer": "server"
+    }
+  },
+  {
+    "context": "I have tried the following things: [-]Reinstalled java.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9590766429901123,
+      "start": 50,
+      "end": 54,
+      "answer": "java"
+    }
+  },
+  {
+    "context": "I am using Retrofit as an http client along with okhttp as an http body interceptor to log the http requests as follows: -CODE-.-CODE-",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.7032971382141113,
+      "start": 11,
+      "end": 19,
+      "answer": "Retrofit"
+    }
+  },
+  {
+    "context": "[-]Removed and readded Workspace/pydev/Python Interpreter.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.6474196910858154,
+      "start": 23,
+      "end": 45,
+      "answer": "Workspace/pydev/Python"
+    }
+  },
+  {
+    "context": "I thought it may have to do with a Jquery conflict, so I add $.noConflict(); before the function call.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9996940493583679,
+      "start": 35,
+      "end": 50,
+      "answer": "Jquery conflict"
+    }
+  },
+  {
+    "context": "So after the Toast Text \"Login failed AFTER API CALL.appears on the emulator, I have this on the log: -CODE-",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9217503666877747,
+      "start": 0,
+      "end": 2,
+      "answer": "So"
+    }
+  },
+  {
+    "context": "Still I am not sure how can we see if there is Jquery conflict present in our page or not.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.5323343873023987,
+      "start": 47,
+      "end": 62,
+      "answer": "Jquery conflict"
+    }
+  },
+  {
+    "context": "So I found-out that this is causing the error: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9725338816642761,
+      "start": 0,
+      "end": 2,
+      "answer": "So"
+    }
+  },
+  {
+    "context": "I believe its because, the java isn't starting (I can't find any process named java from the taskmgr.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.387469083070755,
+      "start": 93,
+      "end": 100,
+      "answer": "taskmgr"
+    }
+  },
+  {
+    "context": "After going through StackOverflow, I found-out that I needed to create this file: -CODE-.-CODE-",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.09838194400072098,
+      "start": 20,
+      "end": 33,
+      "answer": "StackOverflow"
+    }
+  },
+  {
+    "context": "When i call getPoints(.method everything works fine, but when i call getPoint(Long id), deletePoint(Long idand postPoint(i'm getting: Exception in thread \"mainorg.springframework.web.client.HttpClientErrorException: 404 null",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.8949679136276245,
+      "start": 0,
+      "end": 4,
+      "answer": "When"
+    }
+  },
+  {
+    "context": "I am just running sample sikuli script in Java on Eclipse & I am getting the following error: -CODE-.-CODE-} I'd followed lot of post & tired ..no luck.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.1633145958185196,
+      "start": 25,
+      "end": 38,
+      "answer": "sikuli script"
+    }
+  },
+  {
+    "context": "Having tested my database with Postman, I am sure the problem lies in my Android project.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.7537498474121094,
+      "start": 0,
+      "end": 38,
+      "answer": "Having tested my database with Postman"
+    }
+  },
+  {
+    "context": "My system environment details, [-]64bit Windows 7 SP1, [-]Java 6 (32bit.& eclipse JUNO (32bit",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.8677557706832886,
+      "start": 0,
+      "end": 53,
+      "answer": "My system environment details, [-]64bit Windows 7 SP1"
+    }
+  },
+  {
+    "context": "I want to get PGConnection from PosgreSQL connection in JBOSS AS7 (Data source postgresql-9.0-801.jdbc4.jar.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.5439590811729431,
+      "start": 14,
+      "end": 52,
+      "answer": "PGConnection from PosgreSQL connection"
+    }
+  },
+  {
+    "context": "I'm trying to fix the code of an annoyingly large program (I didn't create it.and I keep getting the famous IndexOutOfBoundsException",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.45305004715919495,
+      "start": 0,
+      "end": 1,
+      "answer": "I"
+    }
+  },
+  {
+    "context": "[-]Added JAVA_HOME = \"C:\\Program Files (x86)\\Java\\jdk1.6.0_45\\.& path = %JAVA_HOME%bin;%JAVA_HOME%jre\\bin; [-]Also added SIKULI_HOME = \"C:\\Program Files (x86)\\Sikuli X\\& path = %SIKULI_HOME%libs; ",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.05412239953875542,
+      "start": 9,
+      "end": 18,
+      "answer": "JAVA_HOME"
+    }
+  },
+  {
+    "context": "I've got cast exception when used (WrappedConnection)connection.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9961017966270447,
+      "start": 0,
+      "end": 1,
+      "answer": "I"
+    }
+  },
+  {
+    "context": "But, I still have the exact same issue.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9993244409561157,
+      "start": 0,
+      "end": 3,
+      "answer": "But"
+    }
+  },
+  {
+    "context": "I created a little android game but I am getting weird error.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.25789767503738403,
+      "start": 19,
+      "end": 26,
+      "answer": "android"
+    }
+  },
+  {
+    "context": "I have passed the parameter using the following method: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9989469051361084,
+      "start": 0,
+      "end": 1,
+      "answer": "I"
+    }
+  },
+  {
+    "context": "So now I use reflection (JDK 1.7): -CODE-.and catch exception: -CODE-",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.6313799023628235,
+      "start": 13,
+      "end": 32,
+      "answer": "reflection (JDK 1.7"
+    }
+  },
+  {
+    "context": "I still get this error in the log: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9995995759963989,
+      "start": 0,
+      "end": 1,
+      "answer": "I"
+    }
+  },
+  {
+    "context": "When I debug code , it stop working at line : Transport transport = mailSession.getTransport(\"smtp\"); I have added following JARs : -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9989284873008728,
+      "start": 0,
+      "end": 4,
+      "answer": "When"
+    }
+  },
+  {
+    "context": "When I use pyspark to write to the csv file: -CODE-.a problem occurs: -CODE-",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9481883645057678,
+      "start": 35,
+      "end": 43,
+      "answer": "csv file"
+    }
+  },
+  {
+    "context": "Also I want to ask that firewall can prevent this things to send mail.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.99973064661026,
+      "start": 24,
+      "end": 32,
+      "answer": "firewall"
+    }
+  },
+  {
+    "context": "I am trying to run a simple Struts2 application but it always throw the following exception: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9979663491249084,
+      "start": 28,
+      "end": 35,
+      "answer": "Struts2"
+    }
+  },
+  {
+    "context": "As we have some firewall installed but I able to open and send mail thrugh gmail manually.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.7834397554397583,
+      "start": 16,
+      "end": 80,
+      "answer": "firewall installed but I able to open and send mail thrugh gmail"
+    }
+  },
+  {
+    "context": "I have followed the step by step tutorial in Create Struts 2 Web Application Using Maven To Manage Artifacts and To Build The Application, but I cannot make it work.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.6406911611557007,
+      "start": 45,
+      "end": 60,
+      "answer": "Create Struts 2"
+    }
+  },
+  {
+    "context": "When building my project that uses the Room library, Dagger for dependency injection, and Kotlin, I encounter this error: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.3772740662097931,
+      "start": 39,
+      "end": 51,
+      "answer": "Room library"
+    }
+  },
+  {
+    "context": "I also managed to find other Struts2 tutorial which uses maven but all failed.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.8286247849464417,
+      "start": 29,
+      "end": 36,
+      "answer": "Struts2"
+    }
+  },
+  {
+    "context": "It throws the same exception when I try to run the application.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9998683929443359,
+      "start": 0,
+      "end": 2,
+      "answer": "It"
+    }
+  },
+  {
+    "context": "Here is an example of how I use my DAO: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.06435899436473846,
+      "start": 35,
+      "end": 38,
+      "answer": "DAO"
+    }
+  },
+  {
+    "context": "I used the following: [-]Eclipse.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.8890164494514465,
+      "start": 0,
+      "end": 1,
+      "answer": "I"
+    }
+  },
+  {
+    "context": "I am attempting to use FullCalendar with ROR 3.2.11 on Ubuntu 12.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.450219064950943,
+      "start": 23,
+      "end": 51,
+      "answer": "FullCalendar with ROR 3.2.11"
+    }
+  },
+  {
+    "context": "I've downloaded a working example and verified the calender does display in the sample app.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.7777938842773438,
+      "start": 0,
+      "end": 1,
+      "answer": "I"
+    }
+  },
+  {
+    "context": "According to other discussions, the dependencies jar files(e.g.struts2-coremust be put on the lib folder but as for me, I am using Maven so all the dependencies are already included in my build path under Maven Dependencies",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.2968084216117859,
+      "start": 36,
+      "end": 58,
+      "answer": "dependencies jar files"
+    }
+  },
+  {
+    "context": "However, it does not in my app.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9984277486801147,
+      "start": 0,
+      "end": 7,
+      "answer": "However"
+    }
+  },
+  {
+    "context": "I even tried running the sample project given in Struts2 website (Basic_Struts_2_Maven_2_3_1_2.zip.but I still have no luck",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.8281115293502808,
+      "start": 49,
+      "end": 64,
+      "answer": "Struts2 website"
+    }
+  },
+  {
+    "context": "I installed Firebug to see if there are any JavaScript errors and there are 2: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.8923763632774353,
+      "start": 44,
+      "end": 54,
+      "answer": "JavaScript"
+    }
+  },
+  {
+    "context": "Building it is successful but running it on server always fail.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9994399547576904,
+      "start": 44,
+      "end": 50,
+      "answer": "server"
+    }
+  },
+  {
+    "context": "Here's the web.xml: -CODE-.pom.xml: -CODE-struts.xml: -CODE-.classpath: -CODE-",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.004332841839641333,
+      "start": 0,
+      "end": 18,
+      "answer": "Here's the web.xml"
+    }
+  },
+  {
+    "context": "-CODE-.when running the above code the following exception occured-CODE-what i am doing wrong herewhat is the actual problemcan anyone suggest a solutioni tried both addRow(and insertRow(but the same problem occured",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.12718971073627472,
+      "start": 177,
+      "end": 186,
+      "answer": "insertRow"
+    }
+  },
+  {
+    "context": "I am trying to enable my app as admin using this plugin.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9997115731239319,
+      "start": 0,
+      "end": 1,
+      "answer": "I"
+    }
+  },
+  {
+    "context": "I use Guice along with GWT 2.4 but I get a javax.validation.ValidationException NoClassDefFoundError when I run the server.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.20807750523090363,
+      "start": 116,
+      "end": 122,
+      "answer": "server"
+    }
+  },
+  {
+    "context": "In the pom.xml file I referenced the correct dependency: -CODE-.but in Eclipse I can't see the validation-api-1.0.0.GA.jar in the Maven Dependencies tree",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.010393460281193256,
+      "start": 130,
+      "end": 153,
+      "answer": "Maven Dependencies tree"
+    }
+  },
+  {
+    "context": "The behavior is pretty strange: [-]I can find validation-api-1.0.0.GA-sources.jar and javax.validation-validation-api-1.0.0.GA-sources.jar under the target directory.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.8910306096076965,
+      "start": 0,
+      "end": 3,
+      "answer": "The"
+    }
+  },
+  {
+    "context": "[-]In the Maven Dependencies tree of eclipse, I can see a reference to javax.validation-validation-api-1.0.0.GA-sources.jar which contains 5 packages but no classes.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9600561261177063,
+      "start": 10,
+      "end": 44,
+      "answer": "Maven Dependencies tree of eclipse"
+    }
+  },
+  {
+    "context": "I get this error: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9992046356201172,
+      "start": 0,
+      "end": 1,
+      "answer": "I"
+    }
+  },
+  {
+    "context": "Running the app outside eclipse works.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9919567704200745,
+      "start": 24,
+      "end": 31,
+      "answer": "eclipse"
+    }
+  },
+  {
+    "context": "I placed the image file next to the java source code file but the file is not found.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9629586338996887,
+      "start": 36,
+      "end": 40,
+      "answer": "java"
+    }
+  },
+  {
+    "context": "I run it using mvn gwt:run.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.49408090114593506,
+      "start": 15,
+      "end": 18,
+      "answer": "mvn"
+    }
+  },
+  {
+    "context": "Ok so this is my first applet, I tried many times to bypass this Exception.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9969624876976013,
+      "start": 0,
+      "end": 2,
+      "answer": "Ok"
+    }
+  },
+  {
+    "context": "I get this java.lang.ClassCastException by trying to communicate with my Webservice which has SOAPHeader Handler implimentation.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.5573754906654358,
+      "start": 94,
+      "end": 112,
+      "answer": "SOAPHeader Handler"
+    }
+  },
+  {
+    "context": "The error occurs by: -CODE-.in the incomming method this class \"oracle.j2ee.ws.saaj.soap.TextImpl",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9999547004699707,
+      "start": 0,
+      "end": 3,
+      "answer": "The"
+    }
+  },
+  {
+    "context": "I can not explain from where it comes i didn't bind it anywhere.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9998791217803955,
+      "start": 0,
+      "end": 1,
+      "answer": "I"
+    }
+  },
+  {
+    "context": "I'am using Weblogic Server 12c 2.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.869135320186615,
+      "start": 11,
+      "end": 32,
+      "answer": "Weblogic Server 12c 2"
+    }
+  },
+  {
+    "context": "I'm trying to send some JSON notifications to the GCM servers and I'm getting this list of errors: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9123132228851318,
+      "start": 50,
+      "end": 61,
+      "answer": "GCM servers"
+    }
+  },
+  {
+    "context": "I search after TextImpl class in the hole server but no result.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9906736612319946,
+      "start": 37,
+      "end": 48,
+      "answer": "hole server"
+    }
+  },
+  {
+    "context": "Weird thing is, this only happens if I try to send to a single device.it works if I try to send to multiple devices, using the registration_id field",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9714770913124084,
+      "start": 127,
+      "end": 148,
+      "answer": "registration_id field"
+    }
+  },
+  {
+    "context": "The reference says error 400 means the JSON couldn't be parsed, but I tried printing it out and it seems fine: Multicast sending: (response code: 200, invalid registration.-CODE-",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.24354936182498932,
+      "start": 0,
+      "end": 3,
+      "answer": "The"
+    }
+  },
+  {
+    "context": "Sending to single device: (responce code: 400, errors above.-CODE-",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9987354874610901,
+      "start": 0,
+      "end": 7,
+      "answer": "Sending"
+    }
+  },
+  {
+    "context": "hello everybody I write my java project with eclipse and run in eclipse too but I got error, this is my code: -CODE-.my project is in c:\\wamp\\www\\projectFolder and my library that I added to my project is in this path D:\\arshad-comp\\terme2\\expertSys\\protege-5.0.0-beta-15\\Protege_5.0_beta\\test\\bin and this is my classpath content: -CODE-and this is the error lines: -CODE-",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.8769493699073792,
+      "start": 64,
+      "end": 71,
+      "answer": "eclipse"
+    }
+  },
+  {
+    "context": "The functions to send to a single or multiple devices have only one different line.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9997731447219849,
+      "start": 0,
+      "end": 3,
+      "answer": "The"
+    }
+  },
+  {
+    "context": "I don't know really what to do :( I can't remember what changed I made.mycode works 1day ago I do any solution in the internet help me please",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9879052042961121,
+      "start": 118,
+      "end": 126,
+      "answer": "internet"
+    }
+  },
+  {
+    "context": "One of them adds the to field, the other a registration_id field.-CODE-",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.4622841477394104,
+      "start": 0,
+      "end": 3,
+      "answer": "One"
+    }
+  },
+  {
+    "context": "I am making an app that hosts widgets and it works well except for when I add the email widget.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9782063961029053,
+      "start": 0,
+      "end": 1,
+      "answer": "I"
+    }
+  },
+  {
+    "context": "When I do that I get a java.lang.SecurityException: Permission Denial error : starting intent.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9740335941314697,
+      "start": 0,
+      "end": 4,
+      "answer": "When"
+    }
+  },
+  {
+    "context": "Edit: The third line below is line 181 mentioned in the errors: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9735842347145081,
+      "start": 0,
+      "end": 4,
+      "answer": "Edit"
+    }
+  },
+  {
+    "context": "I'm using ng-table to display information from an API call which I group like the example on the website.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9999213218688965,
+      "start": 10,
+      "end": 18,
+      "answer": "ng-table"
+    }
+  },
+  {
+    "context": "Here is the method configureWidget which is mentioned in the log: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.8039221167564392,
+      "start": 0,
+      "end": 34,
+      "answer": "Here is the method configureWidget"
+    }
+  },
+  {
+    "context": "However, the example on the website makes use of static information where as I need to make a new API call each time.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9712958335876465,
+      "start": 0,
+      "end": 7,
+      "answer": "However"
+    }
+  },
+  {
+    "context": "When I don't include the $scope.$watch('groupby', function(value.function, I am amble to display the table for the first, initial call-CODE-",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.05247433856129646,
+      "start": 25,
+      "end": 26,
+      "answer": "$"
+    }
+  },
+  {
+    "context": "EDIT: I am now able to display the data, however the groups are not displayed: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9689055681228638,
+      "start": 0,
+      "end": 4,
+      "answer": "EDIT"
+    }
+  },
+  {
+    "context": "Scenario: I have a ProductManager interface: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.45693349838256836,
+      "start": 0,
+      "end": 8,
+      "answer": "Scenario"
+    }
+  },
+  {
+    "context": "Here is my UpdateSubscriberInfoImpl.java : -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.4290095269680023,
+      "start": 11,
+      "end": 35,
+      "answer": "UpdateSubscriberInfoImpl"
+    }
+  },
+  {
+    "context": "However, this is not intercepting RequestRejectedException (as indicated by the lack of \"Server Error.in the first log sample above)",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.10982175916433334,
+      "start": 0,
+      "end": 7,
+      "answer": "However"
+    }
+  },
+  {
+    "context": "How can I intercept RequestRejectedException in an error controller.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9878473281860352,
+      "start": 0,
+      "end": 3,
+      "answer": "How"
+    }
+  },
+  {
+    "context": "I am creating a word-by-word palindrome (\"yes I can, can I yes?\".as follows: ''' public class Palindrome { -CODE-} ''' In here, it says I receive a nullpointerexception during my for each loop where I enqueue and push each string in the string array, I have tested the strings in the string array and they do exist, so why am I receiving this error",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.8714955449104309,
+      "start": 29,
+      "end": 39,
+      "answer": "palindrome"
+    }
+  },
+  {
+    "context": "My Project has 2 java files (A.java and B.java in same package).",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.6409794688224792,
+      "start": 0,
+      "end": 46,
+      "answer": "My Project has 2 java files (A.java and B.java"
+    }
+  },
+  {
+    "context": "I am inside lambda function6.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9996030330657959,
+      "start": 12,
+      "end": 28,
+      "answer": "lambda function6"
+    }
+  },
+  {
+    "context": "I am inside lambda function8.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9996508955955505,
+      "start": 12,
+      "end": 28,
+      "answer": "lambda function8"
+    }
+  },
+  {
+    "context": "I'm new to dozer and I'm trying to create a map for ClassA and ClassB: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.15791872143745422,
+      "start": 52,
+      "end": 58,
+      "answer": "ClassA"
+    }
+  },
+  {
+    "context": "And, an external jar has been added in the project build path.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.6582443118095398,
+      "start": 43,
+      "end": 61,
+      "answer": "project build path"
+    }
+  },
+  {
+    "context": "I am inside lambda function9.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9992489814758301,
+      "start": 12,
+      "end": 28,
+      "answer": "lambda function9"
+    }
+  },
+  {
+    "context": "I tried the mapping below: -CODE-.classC is an abstract class and ClassD is a concrete",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9639729261398315,
+      "start": 0,
+      "end": 1,
+      "answer": "I"
+    }
+  },
+  {
+    "context": "In order to create a web service (bottom up.from the class, I created a new Dynamic Web Project in Eclipse with axis2 as the runtime platform, and imported A.java and B.java source files",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.6772783994674683,
+      "start": 99,
+      "end": 117,
+      "answer": "Eclipse with axis2"
+    }
+  },
+  {
+    "context": "When I map A->B there is no problem but when I map B->A, I'm getting InstantiationException.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9898514151573181,
+      "start": 0,
+      "end": 4,
+      "answer": "When"
+    }
+  },
+  {
+    "context": "Next, since all my methods that need to be exposed are contained in A.java, I right click on it and created web service using the standard settings.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.8219773173332214,
+      "start": 68,
+      "end": 74,
+      "answer": "A.java"
+    }
+  },
+  {
+    "context": "I suspect that the dozer is trying to instantiate abstract class classC.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9640523195266724,
+      "start": 50,
+      "end": 71,
+      "answer": "abstract class classC"
+    }
+  },
+  {
+    "context": "When I deploy the web service on my apache, I get \"Fault Service.and a few ClassNotFound Exceptions for some of the classes in my external jar file (I have already imported it as an external jar)",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.31368106603622437,
+      "start": 36,
+      "end": 42,
+      "answer": "apache"
+    }
+  },
+  {
+    "context": "Does the external jar needs to be imported in another way.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.524813175201416,
+      "start": 9,
+      "end": 17,
+      "answer": "external"
+    }
+  },
+  {
+    "context": "I am inside lambda function7.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9993464946746826,
+      "start": 12,
+      "end": 28,
+      "answer": "lambda function7"
+    }
+  },
+  {
+    "context": "I have an ear running on WebLogic that contains an ejb.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.6393557190895081,
+      "start": 25,
+      "end": 33,
+      "answer": "WebLogic"
+    }
+  },
+  {
+    "context": "All runs well until the ejb tries to instantiate an object of ServiceFactory .one of our own classes",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.4451751410961151,
+      "start": 0,
+      "end": 3,
+      "answer": "All"
+    }
+  },
+  {
+    "context": "In my unit tests, I could create an object of the class locally.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9934887290000916,
+      "start": 0,
+      "end": 2,
+      "answer": "In"
+    }
+  },
+  {
+    "context": "So, I'm experimenting with the Calendar class in Java, and I'm writing a method which returns a Calendar object.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.7592291831970215,
+      "start": 31,
+      "end": 45,
+      "answer": "Calendar class"
+    }
+  },
+  {
+    "context": "It's on the server that the error occurs.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9999009370803833,
+      "start": 12,
+      "end": 18,
+      "answer": "server"
+    }
+  },
+  {
+    "context": "What I want for said method is to return a Calendar object containing \"Sun Feb 09 22:49:36 +0000 2014\".",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.1946176290512085,
+      "start": 0,
+      "end": 4,
+      "answer": "What"
+    }
+  },
+  {
+    "context": "I'm guessing this is either a build/packaging issue or a WebLogic 10.3.6 quirk but don't know where to proceed from here given that the dependency exists in the ear (in APP-INF/lib).",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.3601462244987488,
+      "start": 57,
+      "end": 72,
+      "answer": "WebLogic 10.3.6"
+    }
+  },
+  {
+    "context": "Now I'm (debatably.not lazy and I have done some work on my method-CODE-",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9997844696044922,
+      "start": 0,
+      "end": 3,
+      "answer": "Now"
+    }
+  },
+  {
+    "context": "I've also tried moving the dependency that contains the class to the root of the ear.\"Class-Path: is blank in the MANIFEST.MF file for the ejb and the ear, but the product has run fine until now without them",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.15082524716854095,
+      "start": 114,
+      "end": 154,
+      "answer": "MANIFEST.MF file for the ejb and the ear"
+    }
+  },
+  {
+    "context": "The problem is it keeps telling me that I got a ParseException, that it's an \"Unparseable date\".",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9994350671768188,
+      "start": 0,
+      "end": 3,
+      "answer": "The"
+    }
+  },
+  {
+    "context": "I'm building with Maven.-CODE-",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.997111976146698,
+      "start": 0,
+      "end": 1,
+      "answer": "I"
+    }
+  },
+  {
+    "context": "I thought my logic was pretty correct, but I'm starting to doubt it.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9999282360076904,
+      "start": 0,
+      "end": 1,
+      "answer": "I"
+    }
+  },
+  {
+    "context": "I get this error when trying to access app's storage (tried both.private and shared)",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.8626068830490112,
+      "start": 0,
+      "end": 1,
+      "answer": "I"
+    }
+  },
+  {
+    "context": "I'd prefer it without importing any more than Calendar, but SimpleDateFormat seems to be pretty handy too.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9595069289207458,
+      "start": 60,
+      "end": 76,
+      "answer": "SimpleDateFormat"
+    }
+  },
+  {
+    "context": "I tried adding file:// but it doesn`t seem to help.-CODE-error: -CODE-",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9975225329399109,
+      "start": 0,
+      "end": 1,
+      "answer": "I"
+    }
+  },
+  {
+    "context": "The file does load as expected(without adding 'file://'.but the error keeps happening",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9999217987060547,
+      "start": 0,
+      "end": 3,
+      "answer": "The"
+    }
+  },
+  {
+    "context": "I'm trying to decompose a crash on my Android app from a device with the following specs: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.1891036331653595,
+      "start": 38,
+      "end": 49,
+      "answer": "Android app"
+    }
+  },
+  {
+    "context": "Tried to run the code in a main method and just print out the result, with no difference in Exception.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9999372959136963,
+      "start": 0,
+      "end": 5,
+      "answer": "Tried"
+    }
+  },
+  {
+    "context": "Is it really pointing me to line 120.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.891690731048584,
+      "start": 28,
+      "end": 36,
+      "answer": "line 120"
+    }
+  },
+  {
+    "context": "The following is my main: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9998142719268799,
+      "start": 0,
+      "end": 3,
+      "answer": "The"
+    }
+  },
+  {
+    "context": "For those interested, the following is my entire console text after the main crashed: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.063472218811512,
+      "start": 0,
+      "end": 3,
+      "answer": "For"
+    }
+  },
+  {
+    "context": "I'm developping an entreprise application on jboss AS 7.1.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9977174401283264,
+      "start": 45,
+      "end": 50,
+      "answer": "jboss"
+    }
+  },
+  {
+    "context": "I researched the ClassCastException thrown but I can't seem to put the two together.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.5021382570266724,
+      "start": 17,
+      "end": 42,
+      "answer": "ClassCastException thrown"
+    }
+  },
+  {
+    "context": "I was reading answers to those question (Q1 and Q2.asking for the same problem then mine and the solution was to upgrade to the Mojarra 2.1.9",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9746716618537903,
+      "start": 128,
+      "end": 141,
+      "answer": "Mojarra 2.1.9"
+    }
+  },
+  {
+    "context": "What does drawable.ColorDrawable have to do with my bitmap here.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.7920201420783997,
+      "start": 0,
+      "end": 4,
+      "answer": "What"
+    }
+  },
+  {
+    "context": "I'm having a InstantiationException, I have searched the other answers and questions on here but can't find anything related to my problem.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9997761249542236,
+      "start": 0,
+      "end": 1,
+      "answer": "I"
+    }
+  },
+  {
+    "context": "Apparently, the point of error is occuring while loading a certs/cacerts file as a property used in some Apache Kakfa Connector TLS Configuration.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.11641591042280197,
+      "start": 59,
+      "end": 77,
+      "answer": "certs/cacerts file"
+    }
+  },
+  {
+    "context": "The app crashes on the MainActivity looking at the logcat it gives an error with this: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.8893755078315735,
+      "start": 51,
+      "end": 57,
+      "answer": "logcat"
+    }
+  },
+  {
+    "context": "i'm trying to deploy my war in wildfly (JBOSS 8.but i have this error when deploying : -CODE-",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.8008765578269958,
+      "start": 31,
+      "end": 38,
+      "answer": "wildfly"
+    }
+  },
+  {
+    "context": "I have declared it with: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9991441369056702,
+      "start": 0,
+      "end": 1,
+      "answer": "I"
+    }
+  },
+  {
+    "context": "However, when I tried to organize my methods, separating testLogin(.and testCreateAccount into 2 test classes which consist of exact same @Before and @After, I'm getting InstantiationException, seemingly on any classes that execute after the first, occurring on the line of RequestBuilder: -CODE-",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.21466811001300812,
+      "start": 0,
+      "end": 7,
+      "answer": "However"
+    }
+  },
+  {
+    "context": "It is taken from the \"Navigation Drawer.example provided by google, I'm just playing and modifying it (learningbut this problem has become a real pain",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.6165394186973572,
+      "start": 22,
+      "end": 66,
+      "answer": "Navigation Drawer.example provided by google"
+    }
+  },
+  {
+    "context": "Heres the log: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.29390251636505127,
+      "start": 0,
+      "end": 5,
+      "answer": "Heres"
+    }
+  },
+  {
+    "context": "I am facing a very tough situation running MUnit on my project.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.4976896047592163,
+      "start": 0,
+      "end": 1,
+      "answer": "I"
+    }
+  },
+  {
+    "context": "I'm following the documentations here, which doesn't show the setup with multiple classes: https://www.playframework.com/documentation/2.4.x/JavaTestingWithGuice https://www.playframework.com/documentation/2.4.x/JavaDependencyInjection.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.8155037760734558,
+      "start": 0,
+      "end": 1,
+      "answer": "I"
+    }
+  },
+  {
+    "context": "I am facing a strange situation, where I am able to run my db integration unit test fine, when run standalone, but fails when run with some other tests which use the same autowired DB configuration.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.21147967875003815,
+      "start": 59,
+      "end": 83,
+      "answer": "db integration unit test"
+    }
+  },
+  {
+    "context": "BTW: I know that the files the import statement is using exist.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9695388674736023,
+      "start": 0,
+      "end": 3,
+      "answer": "BTW"
+    }
+  },
+  {
+    "context": "Also, isn't Node.js server-side.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9851848483085632,
+      "start": 20,
+      "end": 26,
+      "answer": "server"
+    }
+  },
+  {
+    "context": "Now, suppose there is a class(in the same package.using the configuration: -CODE-",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.994019627571106,
+      "start": 0,
+      "end": 3,
+      "answer": "Now"
+    }
+  },
+  {
+    "context": "I have tried many ways to get this resolved with my team, but couldn't fix it.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9998745918273926,
+      "start": 0,
+      "end": 1,
+      "answer": "I"
+    }
+  },
+  {
+    "context": "There is another class in another package using the same EmbeddedDBTestConfiguration: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.3847033381462097,
+      "start": 57,
+      "end": 84,
+      "answer": "EmbeddedDBTestConfiguration"
+    }
+  },
+  {
+    "context": "I'm using maven but i'm not referencing any Mojarra jar dependency as it's provided by jboss server and i don't know which version it uses itself and since those questions have been asked a long time ago then i don't know if the solution is just to add dependencies to my pom to override the version used by jboss(normally, jboss AS 7.1 has overcome this problem already, i don't understand why it still happen to me)..",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.7326269149780273,
+      "start": 44,
+      "end": 99,
+      "answer": "Mojarra jar dependency as it's provided by jboss server"
+    }
+  },
+  {
+    "context": "I'm trying to do Guice testing of my controllers in Play framework 2.4.6.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9906057715415955,
+      "start": 52,
+      "end": 72,
+      "answer": "Play framework 2.4.6"
+    }
+  },
+  {
+    "context": "When I run a mvn goal for all integration tests, XyzIntegrationTest results in the following error: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.8542913198471069,
+      "start": 49,
+      "end": 67,
+      "answer": "XyzIntegrationTest"
+    }
+  },
+  {
+    "context": "Its working absolutely fine when running the normal Mule code (having the TLS Context).",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.0864613875746727,
+      "start": 52,
+      "end": 61,
+      "answer": "Mule code"
+    }
+  },
+  {
+    "context": "So, testA(.fails, but testB and the rest of the other tests within the class runs fine",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.3372461199760437,
+      "start": 4,
+      "end": 27,
+      "answer": "testA(.fails, but testB"
+    }
+  },
+  {
+    "context": "But fails to work, when running MUnit.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.8364879488945007,
+      "start": 32,
+      "end": 37,
+      "answer": "MUnit"
+    }
+  },
+  {
+    "context": "I am using Mule 4.3.0 and Anypoint Studio 7.4.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9064009785652161,
+      "start": 11,
+      "end": 21,
+      "answer": "Mule 4.3.0"
+    }
+  },
+  {
+    "context": "The following code works fine: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9989507794380188,
+      "start": 0,
+      "end": 3,
+      "answer": "The"
+    }
+  },
+  {
+    "context": "AbcIntegrationTest, this test and other tests within the \"xyz.package(using the DB configurationrun fine",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9881091117858887,
+      "start": 0,
+      "end": 18,
+      "answer": "AbcIntegrationTest"
+    }
+  },
+  {
+    "context": "I'd like to mention that I know what the error means, as I've already searched far and wide for an answer but I simply don't understand why I'm getting it, so here goes...",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.999036431312561,
+      "start": 0,
+      "end": 1,
+      "answer": "I"
+    }
+  },
+  {
+    "context": "Here is the part of ObservationFactDAO.java causing the problem (as referenced by the error): -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9998071193695068,
+      "start": 20,
+      "end": 43,
+      "answer": "ObservationFactDAO.java"
+    }
+  },
+  {
+    "context": "More specifically, the first line Object[] objs = new Object[] is referenced.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.18172778189182281,
+      "start": 19,
+      "end": 22,
+      "answer": "the"
+    }
+  },
+  {
+    "context": "As you can see, the list is being defined here so I don't understand why the exception is sent here.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.986663281917572,
+      "start": 0,
+      "end": 2,
+      "answer": "As"
+    }
+  },
+  {
+    "context": "The methods called in the Object declaration are valid and simple 'return' statements.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9991765022277832,
+      "start": 0,
+      "end": 3,
+      "answer": "The"
+    }
+  },
+  {
+    "context": "Furthermore, I've tried replacing them with actual values with the same results.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.8903250694274902,
+      "start": 0,
+      "end": 11,
+      "answer": "Furthermore"
+    }
+  },
+  {
+    "context": "I'm still researching on my end but most of the existing posts about this exception concern adding values to an existing empty list and not its initialization.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9999352693557739,
+      "start": 0,
+      "end": 1,
+      "answer": "I"
+    }
+  },
+  {
+    "context": "I've set up Elixir to use Vueify with hot reload plugin.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.775682270526886,
+      "start": 26,
+      "end": 55,
+      "answer": "Vueify with hot reload plugin"
+    }
+  },
+  {
+    "context": "Everything compiles ok but I get a console error on my compiled file and the Vue component doesn't appear to be transforming to html, it still shows the <app></app> tags.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.6057435870170593,
+      "start": 77,
+      "end": 132,
+      "answer": "Vue component doesn't appear to be transforming to html"
+    }
+  },
+  {
+    "context": "If I remove the hot reload plugin from elixir, the page renders fine.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.928710401058197,
+      "start": 39,
+      "end": 45,
+      "answer": "elixir"
+    }
+  },
+  {
+    "context": "The error is: Uncaught TypeError: Cannot read property 'indexOf' of undefined.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.999916672706604,
+      "start": 0,
+      "end": 3,
+      "answer": "The"
+    }
+  },
+  {
+    "context": "The console output it: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9210830926895142,
+      "start": 0,
+      "end": 3,
+      "answer": "The"
+    }
+  },
+  {
+    "context": "So it's worth mentioning that it is receiving messages from hot reloading, it just doesn't render the page because of this error.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.2719103991985321,
+      "start": 60,
+      "end": 73,
+      "answer": "hot reloading"
+    }
+  },
+  {
+    "context": "The error is happening on the following lines in the compiled app.js file.-CODE-",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.8768198490142822,
+      "start": 62,
+      "end": 73,
+      "answer": "app.js file"
+    }
+  },
+  {
+    "context": "Here are my files.gulpfile.js: -CODE-main.js: -CODE-app.vue: -CODE-index.blade.php: -CODE-",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.7641557455062866,
+      "start": 0,
+      "end": 4,
+      "answer": "Here"
+    }
+  },
+  {
+    "context": "I have a simple example of a socket server where the user connects to it and may or may not immediately send input (in this case it does not).",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9951407313346863,
+      "start": 29,
+      "end": 42,
+      "answer": "socket server"
+    }
+  },
+  {
+    "context": "I am implementing Room database in my new app.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.6346759796142578,
+      "start": 0,
+      "end": 31,
+      "answer": "I am implementing Room database"
+    }
+  },
+  {
+    "context": "When setting up the database I get this error: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9647214412689209,
+      "start": 0,
+      "end": 4,
+      "answer": "When"
+    }
+  },
+  {
+    "context": "This is how my database class looks like: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.3570723533630371,
+      "start": 0,
+      "end": 4,
+      "answer": "This"
+    }
+  },
+  {
+    "context": "When I remove @Database annotation the error is gone, so I thought maybe something is wrong with entity itself.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.960748016834259,
+      "start": 14,
+      "end": 23,
+      "answer": "@Database"
+    }
+  },
+  {
+    "context": "Tried changing val to var, adding @ColumnInfo(name=....but nothing helped--stacktrace gives this: -CODE-",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.451842337846756,
+      "start": 0,
+      "end": 5,
+      "answer": "Tried"
+    }
+  },
+  {
+    "context": "I have a JSP file which I am deploying within a Java Project with the help of Eclipse, Maven, and Tomcat.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9853498339653015,
+      "start": 78,
+      "end": 104,
+      "answer": "Eclipse, Maven, and Tomcat"
+    }
+  },
+  {
+    "context": "I've got a few other JSP files almost identical to this one, though they run different operations.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9136377573013306,
+      "start": 21,
+      "end": 30,
+      "answer": "JSP files"
+    }
+  },
+  {
+    "context": "Anyway, when I go to the page, I've given this: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9991496801376343,
+      "start": 0,
+      "end": 6,
+      "answer": "Anyway"
+    }
+  },
+  {
+    "context": "Bug is a custom class that can take in a result set -.rsBug -and performs the following operations: -CODE-",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9999105930328369,
+      "start": 0,
+      "end": 3,
+      "answer": "Bug"
+    }
+  },
+  {
+    "context": "Where BUG_ID, PERSON_OPENED_BY, PERSON_ASSIGNED_TO, TITLE, and PROJECT_ID are all string members of the Bug class that correspond to the column names within the Bug table stored in the database.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9370996356010437,
+      "start": 0,
+      "end": 5,
+      "answer": "Where"
+    }
+  },
+  {
+    "context": "Now, there is a ixPersonOpenedBy column in the table, but it's never given me any problems before.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9253015518188477,
+      "start": 16,
+      "end": 39,
+      "answer": "ixPersonOpenedBy column"
+    }
+  },
+  {
+    "context": "I'm not sure if it has anything to do with the SQL statement I try to execute or not, but I've used the EXACT same statement before in one of my other JSP's and it hasn't given me any trouble.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9986585974693298,
+      "start": 47,
+      "end": 60,
+      "answer": "SQL statement"
+    }
+  },
+  {
+    "context": "In addition, this error wasn't popping up in earlier deployments of the project.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.26254937052726746,
+      "start": 45,
+      "end": 79,
+      "answer": "earlier deployments of the project"
+    }
+  },
+  {
+    "context": "I had a typo in an unrelated variable, and once it was fixed, this guy popped up outta nowhere.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9999592304229736,
+      "start": 0,
+      "end": 1,
+      "answer": "I"
+    }
+  },
+  {
+    "context": "Given below are the two snapshots of the Configuration used, and the error reported in the MUnit console: Kafka Consumer TLS Configuration Snapshot: Error Snapshot: Compete error report given below: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9813272953033447,
+      "start": 91,
+      "end": 104,
+      "answer": "MUnit console"
+    }
+  },
+  {
+    "context": "I was trying to run the CHARVA Tutorial thru Eclipse after setting up the JAR, but I receive.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9427683353424072,
+      "start": 24,
+      "end": 52,
+      "answer": "CHARVA Tutorial thru Eclipse"
+    }
+  },
+  {
+    "context": "I am using Apache Tomcat v9.0 and when I am running the simple MVC project I am getting the error.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9480016231536865,
+      "start": 11,
+      "end": 29,
+      "answer": "Apache Tomcat v9.0"
+    }
+  },
+  {
+    "context": "Exception in thread \"main.java.lang.UnsatisfiedLinkError: no Terminal in java.library.pathin the console",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9949992299079895,
+      "start": 0,
+      "end": 9,
+      "answer": "Exception"
+    }
+  },
+  {
+    "context": "[-]Alien.class.-CODE-2.AlienDao: -CODE-3.HomeController: -CODE-4.dispatcherServlet-servlet.xml: -CODE-",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.029492562636733055,
+      "start": 65,
+      "end": 94,
+      "answer": "dispatcherServlet-servlet.xml"
+    }
+  },
+  {
+    "context": "I have a wsdl file, lot of xsd files, jxb binding file.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9030925631523132,
+      "start": 9,
+      "end": 18,
+      "answer": "wsdl file"
+    }
+  },
+  {
+    "context": "I am trying to simply call the URL http://localhost:8080/ORMMVC/getAliens in the address bar and I am getting the below error: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.2941192388534546,
+      "start": 42,
+      "end": 73,
+      "answer": "localhost:8080/ORMMVC/getAliens"
+    }
+  },
+  {
+    "context": "I created a web service client using Apache CXF cxf-codegen-plugin.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9980940222740173,
+      "start": 37,
+      "end": 66,
+      "answer": "Apache CXF cxf-codegen-plugin"
+    }
+  },
+  {
+    "context": "I'm just getting started with Apache Kafka/Zookeeper and have been running into issues trying to set up a cluster on AWS.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.42979565262794495,
+      "start": 30,
+      "end": 52,
+      "answer": "Apache Kafka/Zookeeper"
+    }
+  },
+  {
+    "context": "Currently I have three servers: One running Zookeeper and two running Kafka.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.8436853885650635,
+      "start": 70,
+      "end": 75,
+      "answer": "Kafka"
+    }
+  },
+  {
+    "context": "But when I try to call any of the generated methods, I get an exception: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9989503622055054,
+      "start": 0,
+      "end": 3,
+      "answer": "But"
+    }
+  },
+  {
+    "context": "I can start the Kafka servers without issue and can create topics on both of them.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9985570907592773,
+      "start": 16,
+      "end": 29,
+      "answer": "Kafka servers"
+    }
+  },
+  {
+    "context": "I call the webservice method like this (don't worry about the nulls): -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9995717406272888,
+      "start": 11,
+      "end": 28,
+      "answer": "webservice method"
+    }
+  },
+  {
+    "context": "However, the trouble comes when I try to start a producer on one machine and a consumer on the other: on the Kafka producer: -CODE-.on the Kafka consumer: -CODE-",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9821421504020691,
+      "start": 109,
+      "end": 123,
+      "answer": "Kafka producer"
+    }
+  },
+  {
+    "context": "I type in a message on the producer (\"hi\".and nothing happens for a while",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9990156888961792,
+      "start": 0,
+      "end": 1,
+      "answer": "I"
+    }
+  },
+  {
+    "context": "On the consumer side I get this message, which repeats periodically: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9042341113090515,
+      "start": 0,
+      "end": 2,
+      "answer": "On"
+    }
+  },
+  {
+    "context": "I am jus trying to create very simple web service client.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9936392307281494,
+      "start": 0,
+      "end": 1,
+      "answer": "I"
+    }
+  },
+  {
+    "context": "After a while, the producer will then start rapidly throwing this error message with # increasing incrementally: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.32103994488716125,
+      "start": 15,
+      "end": 27,
+      "answer": "the producer"
+    }
+  },
+  {
+    "context": "I've put sample project with all the wsdl and xsd files I'm using on GitHub.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.60842365026474,
+      "start": 69,
+      "end": 75,
+      "answer": "GitHub"
+    }
+  },
+  {
+    "context": "Let me know if more details about my configuration files are needed.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9576753377914429,
+      "start": 0,
+      "end": 3,
+      "answer": "Let"
+    }
+  },
+  {
+    "context": "So, this my Api Service Component, I'm using Axios: -CODE-.and some feed component: -CODE-and now the error: -CODE-can anybody help",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9998807907104492,
+      "start": 45,
+      "end": 50,
+      "answer": "Axios"
+    }
+  },
+  {
+    "context": "I am picking images form Gallery but the following code snippet create the FileNotFoundException.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.27683448791503906,
+      "start": 75,
+      "end": 96,
+      "answer": "FileNotFoundException"
+    }
+  },
+  {
+    "context": "i am trying to create a blob in azure using the below tutorial project in Android.https://github.com/Azure/azure-storage-androidi have created my own account with free trial and replaced storageConnectionString using created account name and access key-CODE-",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.21024097502231598,
+      "start": 74,
+      "end": 81,
+      "answer": "Android"
+    }
+  },
+  {
+    "context": "Code is fine but I don't know why it raises the exception.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9983673095703125,
+      "start": 0,
+      "end": 4,
+      "answer": "Code"
+    }
+  },
+  {
+    "context": "But i got the below exception: -CODE-.i am doubting on the storageConnectionStringthe way i write the storageConnectionString is rite",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.3475207984447479,
+      "start": 59,
+      "end": 85,
+      "answer": "storageConnectionStringthe"
+    }
+  },
+  {
+    "context": "Here is the Logcat Message: Unable to decode stream: java.io.FileNotFoundException: /storage/emulated/0/Pictures/Screenshots/Screenshot_2015-09-15-17-27-49.png: open failed: EACCES (Permission denied.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.21526485681533813,
+      "start": 12,
+      "end": 26,
+      "answer": "Logcat Message"
+    }
+  },
+  {
+    "context": "It results in (Chrome): -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.3352774679660797,
+      "start": 0,
+      "end": 2,
+      "answer": "It"
+    }
+  },
+  {
+    "context": "I am seeing a ton of RequestRejectedException entries in my Tomcat log (sample pasted below).",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9781026840209961,
+      "start": 60,
+      "end": 70,
+      "answer": "Tomcat log"
+    }
+  },
+  {
+    "context": "Btw: Firefox does the same.ps: Don't know what the object is",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9369768500328064,
+      "start": 0,
+      "end": 12,
+      "answer": "Btw: Firefox"
+    }
+  },
+  {
+    "context": "These started appearing in my log file after a minor version upgrade (Spring Security 4.2.4, IIRC.a few months ago, so this is clearly a new security feature in Spring that is enabled by default",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.31196093559265137,
+      "start": 0,
+      "end": 5,
+      "answer": "These"
+    }
+  },
+  {
+    "context": "A similar issue is reported here, but my question involves specifically how to intercept these exceptions in a controller.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.8181992769241333,
+      "start": 0,
+      "end": 1,
+      "answer": "A"
+    }
+  },
+  {
+    "context": "After googling a lot and seeing the answers here on SO of similar questions, I am still getting this error of ClassNotFoundException.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9998296499252319,
+      "start": 0,
+      "end": 5,
+      "answer": "After"
+    }
+  },
+  {
+    "context": "There is a Spring Security bug documented for this problem (Provide a way to handle RequestRejectedException).",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.23680512607097626,
+      "start": 0,
+      "end": 5,
+      "answer": "There"
+    }
+  },
+  {
+    "context": "My apache tomcat webapps directory is C:\\Program Files\\Apache Software Foundation\\Tomcat 6.0\\webapps.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.3366793096065521,
+      "start": 0,
+      "end": 2,
+      "answer": "My"
+    }
+  },
+  {
+    "context": "However, they aren't targeting a fix for this problem until Spring 5.1.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.15138082206249237,
+      "start": 0,
+      "end": 7,
+      "answer": "However"
+    }
+  },
+  {
+    "context": "I want to gain some control over this feature so that: [-]I know I'm not blocking legitimate users from my site.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9986087679862976,
+      "start": 0,
+      "end": 1,
+      "answer": "I"
+    }
+  },
+  {
+    "context": "Can we handle this exception in configuration to return null instead of exception if there is no connection.-CODE--CODE-",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9980232119560242,
+      "start": 0,
+      "end": 3,
+      "answer": "Can"
+    }
+  },
+  {
+    "context": "[-]I can see what requests are triggering this (are they SQL Injection attacks?.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9944835305213928,
+      "start": 57,
+      "end": 78,
+      "answer": "SQL Injection attacks"
+    }
+  },
+  {
+    "context": "[-]I can adjust the server response.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9983660578727722,
+      "start": 20,
+      "end": 26,
+      "answer": "server"
+    }
+  },
+  {
+    "context": "I need your help in resolving this and making my test work, but with TLS configurations present in its rightful place.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9020966291427612,
+      "start": 69,
+      "end": 87,
+      "answer": "TLS configurations"
+    }
+  },
+  {
+    "context": "The Spring Security firewall dumps a complete stack trace to the web client (information disclosure), along with a 500 Internal Server Error (which is wildly incorrect, this should be a 400 Bad Request).",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.5273460149765015,
+      "start": 4,
+      "end": 28,
+      "answer": "Spring Security firewall"
+    }
+  },
+  {
+    "context": "I want to find a way to log the URL that was requested, but also suppress the stack trace specifically for these exceptions because they are polluting my log files without giving me any helpful information.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.8819115161895752,
+      "start": 32,
+      "end": 35,
+      "answer": "URL"
+    }
+  },
+  {
+    "context": "Optimally, I'd like to intercept these exceptions and handle them in my application layer instead of reporting them in the Tomcat log at all.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9998029470443726,
+      "start": 123,
+      "end": 133,
+      "answer": "Tomcat log"
+    }
+  },
+  {
+    "context": "So what We do are when a client request API it first go to Redis to get data if there is no data it returns null so the second step go to the MYSQL database to get data, But the problem when we lose the Redis connection it returns JedisConnectionException.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9969930052757263,
+      "start": 142,
+      "end": 156,
+      "answer": "MYSQL database"
+    }
+  },
+  {
+    "context": "For example, this is one of thousands of these log entries that appear every day in my catalina.out: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.6261818408966064,
+      "start": 84,
+      "end": 95,
+      "answer": "my catalina"
+    }
+  },
+  {
+    "context": "We are developing an application that uses the Redis server as a cache server.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9976909160614014,
+      "start": 47,
+      "end": 59,
+      "answer": "Redis server"
+    }
+  },
+  {
+    "context": "I am new in Android studio, I am creating an app and I can't get it to run properly.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.5901574492454529,
+      "start": 12,
+      "end": 26,
+      "answer": "Android studio"
+    }
+  },
+  {
+    "context": "I'm seeing over 3,200 of these in a two day period, and it has quickly become the single largest contributor to my catalina.out log file, to the point that it prevents me from seeing other, legitimate problems.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9877973794937134,
+      "start": 115,
+      "end": 123,
+      "answer": "catalina"
+    }
+  },
+  {
+    "context": "In my webapps/jsp folder I created an index.jsp file but it shows an error in the line Class.forName(\"com.mysql.jdbc.Driver\").newInstance(); My current folder structure is: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.05697853863239288,
+      "start": 3,
+      "end": 24,
+      "answer": "my webapps/jsp folder"
+    }
+  },
+  {
+    "context": "Essentially, this new Spring Security feature is a form of built-in Denial-of-Service, and it has wasted hours of my time since April.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.744631290435791,
+      "start": 68,
+      "end": 85,
+      "answer": "Denial-of-Service"
+    }
+  },
+  {
+    "context": "Although similar errors been reported by other developers occasionally, I couldn't concluded that this as a possible bug with the mule runtime or especially a Kafka Connector problem.-CODE-",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9001378417015076,
+      "start": 159,
+      "end": 182,
+      "answer": "Kafka Connector problem"
+    }
+  },
+  {
+    "context": "I am not saying that it is not an important feature, simply that the default implementation is completely botched, and I want to find a way gain some control over it, both as a developer and as a systems administrator.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.4200335144996643,
+      "start": 196,
+      "end": 217,
+      "answer": "systems administrator"
+    }
+  },
+  {
+    "context": "I use a custom Error Controller for intercepting many other Exception types (including IOException.in Spring",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.35032346844673157,
+      "start": 0,
+      "end": 31,
+      "answer": "I use a custom Error Controller"
+    }
+  },
+  {
+    "context": "I also uploaded the mysql-connector-java-5.1.22-bin.jar file in C:\\Program Files\\Java\\jre7\\lib as mentioned in some of answers here in SO.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.000712892971932888,
+      "start": 20,
+      "end": 25,
+      "answer": "mysql"
+    }
+  },
+  {
+    "context": "However, RequestRejectedException seems to be falling through for some reason.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9964417219161987,
+      "start": 0,
+      "end": 7,
+      "answer": "However"
+    }
+  },
+  {
+    "context": "The purpose is When I press the button order, one of the textView's shows in text \"5\", by default is 0.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9998742341995239,
+      "start": 0,
+      "end": 3,
+      "answer": "The"
+    }
+  },
+  {
+    "context": "This is the relevant part of my ErrorController.java, to give an idea of what I'm trying to accomplish: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9985973834991455,
+      "start": 32,
+      "end": 52,
+      "answer": "ErrorController.java"
+    }
+  },
+  {
+    "context": "This is the MainActivity.java: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.8896844983100891,
+      "start": 0,
+      "end": 4,
+      "answer": "This"
+    }
+  },
+  {
+    "context": "This error controller works for many exceptions.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9998319149017334,
+      "start": 0,
+      "end": 4,
+      "answer": "This"
+    }
+  },
+  {
+    "context": "For example, it successfully intercepted this IllegalStateException: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.00023826619144529104,
+      "start": 46,
+      "end": 67,
+      "answer": "IllegalStateException"
+    }
+  },
+  {
+    "context": "I have read and tried all solution given in stackoverflow and in other various sites but still getting issue and getting exception.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9955539107322693,
+      "start": 44,
+      "end": 57,
+      "answer": "stackoverflow"
+    }
+  },
+  {
+    "context": "I am coding a discord bot with discord.js and after adding an event folder to clen up my index.js file the ready event that I had doesn't work anymore and I haven't changed a single line.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.6535173654556274,
+      "start": 0,
+      "end": 1,
+      "answer": "I"
+    }
+  },
+  {
+    "context": "This is the error I get: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.4385313391685486,
+      "start": 0,
+      "end": 4,
+      "answer": "This"
+    }
+  },
+  {
+    "context": "And this is my index.js: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.02632717229425907,
+      "start": 0,
+      "end": 3,
+      "answer": "And"
+    }
+  },
+  {
+    "context": "Hi i needed to add a new exception in Spring security login form, everything work perfectly except that i want to have my own error message (until now it display the \"wrong login/password.one)",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9927384853363037,
+      "start": 38,
+      "end": 64,
+      "answer": "Spring security login form"
+    }
+  },
+  {
+    "context": "I have override default attempt authentication method from Username password Authentication Filter : -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.5108776092529297,
+      "start": 0,
+      "end": 98,
+      "answer": "I have override default attempt authentication method from Username password Authentication Filter"
+    }
+  },
+  {
+    "context": "In my controller i see my exception under SPRING_SECURITY_LAST_EXCEPTION but the error message is always the one from bad credentials, how could i change that .",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.01841558702290058,
+      "start": 0,
+      "end": 2,
+      "answer": "In"
+    }
+  },
+  {
+    "context": "I want to parse a Turtle file using this simple code: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9070478677749634,
+      "start": 18,
+      "end": 29,
+      "answer": "Turtle file"
+    }
+  },
+  {
+    "context": "Sometimes it complains about some URIs: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.998824417591095,
+      "start": 0,
+      "end": 9,
+      "answer": "Sometimes"
+    }
+  },
+  {
+    "context": "Obviously some URIs are violating the grammar rules for URIs so do I need to preprocess my input data, or is there an option to configure this using Jena.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.8637806177139282,
+      "start": 149,
+      "end": 153,
+      "answer": "Jena"
+    }
+  },
+  {
+    "context": "I've just started with Java and so I'm doing plenty of mistakes, I've solved and understood many of them, but now I'm having problems with input.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9959685802459717,
+      "start": 23,
+      "end": 27,
+      "answer": "Java"
+    }
+  },
+  {
+    "context": "I saw that there are two kinds of input: InputBufferedReader and Scanner, but I read that the first is better (I don't know why yet), so I' m using that.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9997819066047668,
+      "start": 41,
+      "end": 72,
+      "answer": "InputBufferedReader and Scanner"
+    }
+  },
+  {
+    "context": "The error that I get is: Code: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9991976618766785,
+      "start": 0,
+      "end": 3,
+      "answer": "The"
+    }
+  },
+  {
+    "context": "I have a website hosted on Firebase hosting.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9846563935279846,
+      "start": 27,
+      "end": 43,
+      "answer": "Firebase hosting"
+    }
+  },
+  {
+    "context": "I would like to add material theming to it(Buttons, Textfields, etc...).",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9986111521720886,
+      "start": 0,
+      "end": 1,
+      "answer": "I"
+    }
+  },
+  {
+    "context": "So, I ran the command npm install --save @material/textfield.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.8677326440811157,
+      "start": 22,
+      "end": 25,
+      "answer": "npm"
+    }
+  },
+  {
+    "context": "I then extracted the folder called @material to my styles directory so that the structure looked like this: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9395959377288818,
+      "start": 0,
+      "end": 1,
+      "answer": "I"
+    }
+  },
+  {
+    "context": "I can reference css files from my main.css by adding @import \"@material/textfield/dist/mdc.textfield.css\"; to the start of my stylesheet.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.7192936539649963,
+      "start": 16,
+      "end": 25,
+      "answer": "css files"
+    }
+  },
+  {
+    "context": "However, when I deploy the code, and look at the console, the following error is returned: Uncaught SyntaxError: Unexpected token {.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9998388290405273,
+      "start": 0,
+      "end": 7,
+      "answer": "However"
+    }
+  },
+  {
+    "context": "However, when I go to do the same thing for js, it doesn't work.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.7690972685813904,
+      "start": 0,
+      "end": 7,
+      "answer": "However"
+    }
+  },
+  {
+    "context": "According to Material Design's Github Repo, I should just be able to add: -CODE-.to the top of my script",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9799118041992188,
+      "start": 31,
+      "end": 42,
+      "answer": "Github Repo"
+    }
+  },
+  {
+    "context": "If I do: import * as MDCRipple from '../styles/@material/ripple/dist/mdc.ripple.js';, the same error is also thrown(except instead of the \"{.character, it does not expect the \"*character)",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.8010767698287964,
+      "start": 0,
+      "end": 2,
+      "answer": "If"
+    }
+  },
+  {
+    "context": "This was supposed to be an easy conversion for my site, but it has given my tons of headaches.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.2531651556491852,
+      "start": 84,
+      "end": 93,
+      "answer": "headaches"
+    }
+  },
+  {
+    "context": "This correctly changes the styling of the button.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.999627411365509,
+      "start": 0,
+      "end": 4,
+      "answer": "This"
+    }
+  },
+  {
+    "context": "I have tried to require(.the files, and change the path to import {MDCRipple} from '../styles/@material/ripple/dist/mdc.ripple.js';",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9995971918106079,
+      "start": 0,
+      "end": 1,
+      "answer": "I"
+    }
+  },
+  {
+    "context": "I am getting below exception when I try to run class file from command prompt,the same I run in eclipse,there I don't get any error.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9995352625846863,
+      "start": 96,
+      "end": 103,
+      "answer": "eclipse"
+    }
+  },
+  {
+    "context": "Trying to run from the same folder: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9990782737731934,
+      "start": 0,
+      "end": 6,
+      "answer": "Trying"
+    }
+  },
+  {
+    "context": "I am trying to understand the Java 8 Stream-feature.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9997611045837402,
+      "start": 30,
+      "end": 36,
+      "answer": "Java 8"
+    }
+  },
+  {
+    "context": "I would like to catch all files in an array (could als be list.in all subdirectories of a specific directory path",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9998626708984375,
+      "start": 0,
+      "end": 1,
+      "answer": "I"
+    }
+  },
+  {
+    "context": "My code throws an java.lang.ArrayStoreException Error: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.999848484992981,
+      "start": 0,
+      "end": 2,
+      "answer": "My"
+    }
+  },
+  {
+    "context": "Another thing I tried is just add the file names to an existing ArrayList: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.5720840692520142,
+      "start": 0,
+      "end": 7,
+      "answer": "Another"
+    }
+  },
+  {
+    "context": "This throws a java.lang.ArrayStoreException Error as well.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9349311590194702,
+      "start": 0,
+      "end": 4,
+      "answer": "This"
+    }
+  },
+  {
+    "context": "Something else I tried with the same result was: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9996068477630615,
+      "start": 0,
+      "end": 9,
+      "answer": "Something"
+    }
+  },
+  {
+    "context": "I have a question: I'm loading a RDF file (.nt format.in my model using Web Service",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9125024676322937,
+      "start": 33,
+      "end": 41,
+      "answer": "RDF file"
+    }
+  },
+  {
+    "context": "When I run this code with \"Test Web Service.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9997679591178894,
+      "start": 0,
+      "end": 4,
+      "answer": "When"
+    }
+  },
+  {
+    "context": "(and I insert the Strings), I get this error on GlassFish Server 4: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9991344213485718,
+      "start": 48,
+      "end": 64,
+      "answer": "GlassFish Server"
+    }
+  },
+  {
+    "context": "I have noted that this error is given on: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9931052923202515,
+      "start": 0,
+      "end": 1,
+      "answer": "I"
+    }
+  },
+  {
+    "context": "I have read some post on StackOverflow to increase java heap memory as How to increase the java heap size in netbeans?, but, I get the same error, also if I increase 8192Mb.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.4746565818786621,
+      "start": 109,
+      "end": 117,
+      "answer": "netbeans"
+    }
+  },
+  {
+    "context": "The file that I pass in input, is big, but in java application environment I don't get this error.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.7215403318405151,
+      "start": 46,
+      "end": 50,
+      "answer": "java"
+    }
+  },
+  {
+    "context": "When I try to show the title of a movie (line 8 of App.js.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9995613694190979,
+      "start": 0,
+      "end": 4,
+      "answer": "When"
+    }
+  },
+  {
+    "context": "I get the error \"Uncaught TypeError: movies[0] is undefined\".",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9998490810394287,
+      "start": 0,
+      "end": 1,
+      "answer": "I"
+    }
+  },
+  {
+    "context": "If I do a log of the variable \"movies.after line 5 the console makes two logs: Frist, logs movies as an empty array and then logs movies as an array with all the content, like I want",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.874466598033905,
+      "start": 0,
+      "end": 2,
+      "answer": "If"
+    }
+  },
+  {
+    "context": "The weird thing is that if I delete the line 8 {movies[0].title} and save the error dissapears as normal, but then if I add it again and save the movie title renders on screen like I'm trying to do.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.8490168452262878,
+      "start": 0,
+      "end": 3,
+      "answer": "The"
+    }
+  },
+  {
+    "context": "My useApi returns an array with a list of movies: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9246057271957397,
+      "start": 0,
+      "end": 2,
+      "answer": "My"
+    }
+  },
+  {
+    "context": "Knowing that if I print movies it logs an empty array but then it prints it normal like I said, i guess I'm having a problem with asynchrony but I can't figure out what.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.7497164607048035,
+      "start": 130,
+      "end": 140,
+      "answer": "asynchrony"
+    }
+  },
+  {
+    "context": "And the fact that it works when removing and readding line 8 makes me more confused.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9951467514038086,
+      "start": 54,
+      "end": 60,
+      "answer": "line 8"
+    }
+  },
+  {
+    "context": "I am trying to make a simple java program and trying to implement JDBC over it.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9996976256370544,
+      "start": 66,
+      "end": 70,
+      "answer": "JDBC"
+    }
+  },
+  {
+    "context": "But I am getting an exception ClassNotFoundException com.mysql.jdbc.Driver.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9968813061714172,
+      "start": 0,
+      "end": 3,
+      "answer": "But"
+    }
+  },
+  {
+    "context": "I have unfortunately hit a roadblock in my work.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.999908447265625,
+      "start": 0,
+      "end": 1,
+      "answer": "I"
+    }
+  },
+  {
+    "context": "I have a node.js+ExpressJS back end hooked up to a front end via Socket.io and have created the server and client as follows: app.js: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.7821224331855774,
+      "start": 96,
+      "end": 113,
+      "answer": "server and client"
+    }
+  },
+  {
+    "context": "If we will look into the log output it is telling that no such file, but I have kept it in S3 bucket.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9996883273124695,
+      "start": 91,
+      "end": 100,
+      "answer": "S3 bucket"
+    }
+  },
+  {
+    "context": "What happens when I crack open my console in browser is: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9772409200668335,
+      "start": 0,
+      "end": 4,
+      "answer": "What"
+    }
+  },
+  {
+    "context": "S3 Event Received: readfilefromcsvfile/def_nhtsa_crash_test.csv.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9142884016036987,
+      "start": 0,
+      "end": 8,
+      "answer": "S3 Event"
+    }
+  },
+  {
+    "context": "Did I miss something, or is a stroke of misfortune fall into my code.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.983178973197937,
+      "start": 0,
+      "end": 3,
+      "answer": "Did"
+    }
+  },
+  {
+    "context": "I have a redux container which I want to mount in my test case.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9995214343070984,
+      "start": 0,
+      "end": 1,
+      "answer": "I"
+    }
+  },
+  {
+    "context": "Can anyone tell me how to access S3 file in java .or What is the path name I should give while accessing the S3 bucket file ",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.36214980483055115,
+      "start": 109,
+      "end": 123,
+      "answer": "S3 bucket file"
+    }
+  },
+  {
+    "context": "I have this message in browser: TypeError: data.map is not a function.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9995886087417603,
+      "start": 0,
+      "end": 1,
+      "answer": "I"
+    }
+  },
+  {
+    "context": "I am inside lambda function10.java.io.FileNotFoundException: readfilefromcsvfile/def_nhtsa_crash_test.csv (No such file or directoryjava.io.FileNotFoundException: readfilefromcsvfile/def_nhtsa_crash_test.csv (No such file or directoryat java.io.FileInputStream.open0(Native Method",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.4134390950202942,
+      "start": 12,
+      "end": 18,
+      "answer": "lambda"
+    }
+  },
+  {
+    "context": "I am passing an array from another component here as props.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9999420642852783,
+      "start": 0,
+      "end": 1,
+      "answer": "I"
+    }
+  },
+  {
+    "context": "It has a component which is using react-router link.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.9999291896820068,
+      "start": 34,
+      "end": 51,
+      "answer": "react-router link"
+    }
+  },
+  {
+    "context": "Mounting the container was throwing me history not defined error, after reading this https://github.com/ReactTraining/react-router/blob/master/packages/react-router/docs/guides/testing.md I implemented MemoryRouter, now the history error is gone, but I am getting following error: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "score": 0.8911423683166504,
+      "start": 202,
+      "end": 214,
+      "answer": "MemoryRouter"
+    }
+  }
+]

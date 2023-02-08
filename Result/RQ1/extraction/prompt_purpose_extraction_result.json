@@ -1,0 +1,662 @@
+[
+  {
+    "post_id": 21129563,
+    "purpose_sentence": "I'm working on a magento website where on the product view page I've to use jqzoom.",
+    "answer": "use jqzoom",
+    "score": 0.5954549312591553
+  },
+  {
+    "post_id": 15636263,
+    "purpose_sentence": "I'm writing an android client which is communicating between a Hessian Servlet and Hessdroid.",
+    "answer": "communicating between a Hessian Servlet and Hessdroid",
+    "score": 0.4161999523639679
+  },
+  {
+    "post_id": 13760849,
+    "purpose_sentence": "I am running Tomcat 5.0 and I have problem with getting a resource from tomcats 'webapps' from Java.",
+    "answer": "getting a resource from tomcats 'webapps' from Java",
+    "score": 0.5160440802574158
+  },
+  {
+    "post_id": 15636263,
+    "purpose_sentence": "Just say it, if you want to see more code...",
+    "answer": "see more code",
+    "score": 0.9560641050338745
+  },
+  {
+    "post_id": 58846807,
+    "purpose_sentence": "Link to project uploaded on weetransfer: Project (scanned via my Bitdefender antivir.",
+    "answer": "scanned via my Bitdefender antivir",
+    "score": 0.404213011264801
+  },
+  {
+    "post_id": 63852369,
+    "purpose_sentence": "I want a int value from edit text so I can use it on .setCounterInSeconds(long.but I'm getting this error",
+    "answer": "a int value from edit text",
+    "score": 0.025922371074557304
+  },
+  {
+    "post_id": 63852369,
+    "purpose_sentence": "I only want to get the time entered by the user so it start by user entered time, .",
+    "answer": "get the time entered by the user so it start by user entered time",
+    "score": 0.731720507144928
+  },
+  {
+    "post_id": 13234475,
+    "purpose_sentence": "I want to serialize a same object on file, each time when i run a program.",
+    "answer": "serialize a same object on file",
+    "score": 0.9353291392326355
+  },
+  {
+    "post_id": 13234475,
+    "purpose_sentence": "In the begening i store a String on writer.in the last i read a file",
+    "answer": "store a String on writer",
+    "score": 0.8817571997642517
+  },
+  {
+    "post_id": 13234475,
+    "purpose_sentence": "The goal of this program is if i run my program X time, i store and i print on screen X time my object.-CODE-",
+    "answer": "print on screen X time my object",
+    "score": 0.09107890725135803
+  },
+  {
+    "post_id": 69198136,
+    "purpose_sentence": "Basically, one of my pages has an input for uploading an image, which makes the file into an array buffer to be uploaded to IPFS.",
+    "answer": "uploading an image",
+    "score": 0.43638527393341064
+  },
+  {
+    "post_id": 60809568,
+    "purpose_sentence": "In the end while running this code on Intellij i am getting this error: -CODE-.",
+    "answer": "running this code on Intellij",
+    "score": 0.7060424089431763
+  },
+  {
+    "post_id": 35536984,
+    "purpose_sentence": "I build a android widget, and in the WidgetService class which extends BroadcastReceiver.",
+    "answer": "build a android widget",
+    "score": 0.662257194519043
+  },
+  {
+    "post_id": 4281143,
+    "purpose_sentence": "I am trying to read the files inside a folder, but when I run the program it throws this exception.",
+    "answer": "read the files inside a folder",
+    "score": 0.9885249137878418
+  },
+  {
+    "post_id": 35536984,
+    "purpose_sentence": "I try to start a new project and copy to it, but still not working.",
+    "answer": "start a new project and copy to it",
+    "score": 0.9843501448631287
+  },
+  {
+    "post_id": 18444785,
+    "purpose_sentence": "I am working on an application that executes a Jython 2.5.3 script from JAVA 1.6.027.",
+    "answer": "executes a Jython 2.5.3 script",
+    "score": 0.525728166103363
+  },
+  {
+    "post_id": 18444785,
+    "purpose_sentence": "The JAVA application is able to execute others similar jython scripts.",
+    "answer": "execute others similar jython scripts",
+    "score": 0.9687507748603821
+  },
+  {
+    "post_id": 18807532,
+    "purpose_sentence": "I am trying to implement a chat application in Java using UDP for multiple clients.",
+    "answer": "implement a chat application in Java using UDP for multiple clients",
+    "score": 0.8562737107276917
+  },
+  {
+    "post_id": 18807532,
+    "purpose_sentence": "I used thread to accept input on server side and another thread to handle the input as well.",
+    "answer": "accept input on server side",
+    "score": 0.5854548811912537
+  },
+  {
+    "post_id": 46237315,
+    "purpose_sentence": "I had developed a Java Application Project using Netbeans IDE 8.2 on Ubuntu14.",
+    "answer": "developed a Java Application Project",
+    "score": 0.24958984553813934
+  },
+  {
+    "post_id": 42653340,
+    "purpose_sentence": "I can also access its IProject field and perform operations on it.",
+    "answer": "access its IProject field and perform operations",
+    "score": 0.7689659595489502
+  },
+  {
+    "post_id": 56239449,
+    "purpose_sentence": "I have a separated parser and lexer grammar and want to run org.antlr.v4.gui.TestRig to debug/test my grammar.",
+    "answer": "have a separated parser and lexer grammar",
+    "score": 0.07516694068908691
+  },
+  {
+    "post_id": 49207043,
+    "purpose_sentence": "After running normally during several hours (and sometimes a few minutes), my app stops connecting to the server with HTTPost.",
+    "answer": "connecting to the server with HTTPost",
+    "score": 0.5404672622680664
+  },
+  {
+    "post_id": 46237315,
+    "purpose_sentence": "My project uses sqlite DB for data storage.",
+    "answer": "uses sqlite DB for data storage",
+    "score": 0.8505653142929077
+  },
+  {
+    "post_id": 54066540,
+    "purpose_sentence": "I'm setting up a Rest Server along with client and i'm facing a problem for few hours already.",
+    "answer": "setting up a Rest Server",
+    "score": 0.9849410653114319
+  },
+  {
+    "post_id": 46237315,
+    "purpose_sentence": "I had used Netbeans IDE 8.2 in Ubuntu and created the new Java Application Project in it.",
+    "answer": "used Netbeans IDE 8.2 in Ubuntu",
+    "score": 0.6329182982444763
+  },
+  {
+    "post_id": 71949161,
+    "purpose_sentence": "Trying to create dynamic ES Index: -CODE-.-CODE-",
+    "answer": "create dynamic ES Index",
+    "score": 0.6003234386444092
+  },
+  {
+    "post_id": 64153440,
+    "purpose_sentence": "My goal is to encrypt cache assets (in this case 3D models using a custom format.that are being decrypted by a client distributed to users",
+    "answer": "encrypt cache assets",
+    "score": 0.5806153416633606
+  },
+  {
+    "post_id": 50113126,
+    "purpose_sentence": "I am doing a small POC in AWS.",
+    "answer": "a small POC in AWS",
+    "score": 0.678166389465332
+  },
+  {
+    "post_id": 50113126,
+    "purpose_sentence": "I trying to read a csv file from S3 bucket and displaying in the CloudWatch log files .",
+    "answer": "read a csv file from S3 bucket",
+    "score": 0.14754989743232727
+  },
+  {
+    "post_id": 64153440,
+    "purpose_sentence": "My manager does not want to force users to update their java version, and obviously we cannot ask users to modify their JRE manually, so I am at a bit of a loss on how to continue.",
+    "answer": "update their java version",
+    "score": 0.8120710849761963
+  },
+  {
+    "post_id": 50113126,
+    "purpose_sentence": "I am inside lambda function2.",
+    "answer": "lambda function2",
+    "score": 0.969264030456543
+  },
+  {
+    "post_id": 50113126,
+    "purpose_sentence": "I am inside lambda function3.",
+    "answer": "lambda function3",
+    "score": 0.9724825024604797
+  },
+  {
+    "post_id": 50113126,
+    "purpose_sentence": "I am inside lambda function5.",
+    "answer": "lambda function5",
+    "score": 0.9759868383407593
+  },
+  {
+    "post_id": 52466242,
+    "purpose_sentence": "trying to create a keycloak object to register new user with keycloak with following code: -CODE-.",
+    "answer": "create a keycloak object to register new user",
+    "score": 0.7988498210906982
+  },
+  {
+    "post_id": 50113126,
+    "purpose_sentence": "I am inside lambda function4.",
+    "answer": "lambda function4",
+    "score": 0.9790067672729492
+  },
+  {
+    "post_id": 59856341,
+    "purpose_sentence": "After going through StackOverflow, I found-out that I needed to create this file: -CODE-.-CODE-",
+    "answer": "StackOverflow",
+    "score": 0.04670398682355881
+  },
+  {
+    "post_id": 29776289,
+    "purpose_sentence": "I am just running sample sikuli script in Java on Eclipse & I am getting the following error: -CODE-.-CODE-} I'd followed lot of post & tired ..no luck.",
+    "answer": "running sample sikuli script",
+    "score": 0.8173016905784607
+  },
+  {
+    "post_id": 59856341,
+    "purpose_sentence": "Having tested my database with Postman, I am sure the problem lies in my Android project.",
+    "answer": "tested my database with Postman",
+    "score": 0.772816002368927
+  },
+  {
+    "post_id": 25473706,
+    "purpose_sentence": "I want to get PGConnection from PosgreSQL connection in JBOSS AS7 (Data source postgresql-9.0-801.jdbc4.jar.",
+    "answer": "get PGConnection from PosgreSQL connection",
+    "score": 0.2695781886577606
+  },
+  {
+    "post_id": 37878750,
+    "purpose_sentence": "I'm trying to fix the code of an annoyingly large program (I didn't create it.and I keep getting the famous IndexOutOfBoundsException",
+    "answer": "fix the code of an annoyingly large program",
+    "score": 0.814590334892273
+  },
+  {
+    "post_id": 14103310,
+    "purpose_sentence": "I created a little android game but I am getting weird error.",
+    "answer": "created a little android game",
+    "score": 0.9932495951652527
+  },
+  {
+    "post_id": 72029761,
+    "purpose_sentence": "When I use pyspark to write to the csv file: -CODE-.a problem occurs: -CODE-",
+    "answer": "write",
+    "score": 0.5753594040870667
+  },
+  {
+    "post_id": 30472422,
+    "purpose_sentence": "Also I want to ask that firewall can prevent this things to send mail.",
+    "answer": "ask that firewall can prevent this things to send mail",
+    "score": 0.6596812009811401
+  },
+  {
+    "post_id": 15545326,
+    "purpose_sentence": "I am trying to run a simple Struts2 application but it always throw the following exception: -CODE-.",
+    "answer": "run a simple Struts2 application",
+    "score": 0.7872348427772522
+  },
+  {
+    "post_id": 30472422,
+    "purpose_sentence": "As we have some firewall installed but I able to open and send mail thrugh gmail manually.",
+    "answer": "open and send mail thrugh gmail manually",
+    "score": 0.22051523625850677
+  },
+  {
+    "post_id": 15545326,
+    "purpose_sentence": "I have followed the step by step tutorial in Create Struts 2 Web Application Using Maven To Manage Artifacts and To Build The Application, but I cannot make it work.",
+    "answer": "Build The Application",
+    "score": 0.2759563624858856
+  },
+  {
+    "post_id": 51809494,
+    "purpose_sentence": "When building my project that uses the Room library, Dagger for dependency injection, and Kotlin, I encounter this error: -CODE-.",
+    "answer": "uses the Room library, Dagger for dependency injection, and Kotlin",
+    "score": 0.8929409980773926
+  },
+  {
+    "post_id": 14417049,
+    "purpose_sentence": "I am attempting to use FullCalendar with ROR 3.2.11 on Ubuntu 12.",
+    "answer": "use FullCalendar with ROR 3.2.11",
+    "score": 0.35920995473861694
+  },
+  {
+    "post_id": 15545326,
+    "purpose_sentence": "I even tried running the sample project given in Struts2 website (Basic_Struts_2_Maven_2_3_1_2.zip.but I still have no luck",
+    "answer": "running the sample project given in Struts2 website",
+    "score": 0.9532677531242371
+  },
+  {
+    "post_id": 15545326,
+    "purpose_sentence": "Building it is successful but running it on server always fail.",
+    "answer": "Building it is successful but running it on server always fail",
+    "score": 0.6458795666694641
+  },
+  {
+    "post_id": 61295487,
+    "purpose_sentence": "I am trying to enable my app as admin using this plugin.",
+    "answer": "enable my app as admin using this plugin",
+    "score": 0.9253764152526855
+  },
+  {
+    "post_id": 8618358,
+    "purpose_sentence": "I use Guice along with GWT 2.4 but I get a javax.validation.ValidationException NoClassDefFoundError when I run the server.",
+    "answer": "use Guice along with GWT 2.4",
+    "score": 0.79782634973526
+  },
+  {
+    "post_id": 19680275,
+    "purpose_sentence": "I get this java.lang.ClassCastException by trying to communicate with my Webservice which has SOAPHeader Handler implimentation.",
+    "answer": "communicate with my Webservice",
+    "score": 0.558902382850647
+  },
+  {
+    "post_id": 19680275,
+    "purpose_sentence": "I'am using Weblogic Server 12c 2.",
+    "answer": "using Weblogic Server 12c 2",
+    "score": 0.8562204241752625
+  },
+  {
+    "post_id": 35292694,
+    "purpose_sentence": "I'm trying to send some JSON notifications to the GCM servers and I'm getting this list of errors: -CODE-.",
+    "answer": "send some JSON notifications to the GCM servers",
+    "score": 0.8287349343299866
+  },
+  {
+    "post_id": 29578980,
+    "purpose_sentence": "hello everybody I write my java project with eclipse and run in eclipse too but I got error, this is my code: -CODE-.my project is in c:\\wamp\\www\\projectFolder and my library that I added to my project is in this path D:\\arshad-comp\\terme2\\expertSys\\protege-5.0.0-beta-15\\Protege_5.0_beta\\test\\bin and this is my classpath content: -CODE-and this is the error lines: -CODE-",
+    "answer": "write my java project",
+    "score": 0.5363706350326538
+  },
+  {
+    "post_id": 35292694,
+    "purpose_sentence": "The functions to send to a single or multiple devices have only one different line.",
+    "answer": "send to a single or multiple devices have only one different line",
+    "score": 0.8375715613365173
+  },
+  {
+    "post_id": 45510916,
+    "purpose_sentence": "I am making an app that hosts widgets and it works well except for when I add the email widget.",
+    "answer": "hosts widgets and it works well",
+    "score": 0.4951590299606323
+  },
+  {
+    "post_id": 22892908,
+    "purpose_sentence": "I'm using ng-table to display information from an API call which I group like the example on the website.",
+    "answer": "display information from an API call",
+    "score": 0.5520753860473633
+  },
+  {
+    "post_id": 61065060,
+    "purpose_sentence": "I am creating a word-by-word palindrome (\"yes I can, can I yes?\".as follows: ''' public class Palindrome { -CODE-} ''' In here, it says I receive a nullpointerexception during my for each loop where I enqueue and push each string in the string array, I have tested the strings in the string array and they do exist, so why am I receiving this error",
+    "answer": "creating a word-by-word palindrome",
+    "score": 0.931959331035614
+  },
+  {
+    "post_id": 2458699,
+    "purpose_sentence": "My Project has 2 java files (A.java and B.java in same package).",
+    "answer": "2 java files (A.java and B.java in same package",
+    "score": 0.34638434648513794
+  },
+  {
+    "post_id": 50113126,
+    "purpose_sentence": "I am inside lambda function6.",
+    "answer": "lambda function6",
+    "score": 0.9765926599502563
+  },
+  {
+    "post_id": 50113126,
+    "purpose_sentence": "I am inside lambda function8.",
+    "answer": "lambda function8",
+    "score": 0.976967453956604
+  },
+  {
+    "post_id": 21378017,
+    "purpose_sentence": "I'm new to dozer and I'm trying to create a map for ClassA and ClassB: -CODE-.",
+    "answer": "create a map for ClassA and ClassB: -CODE-",
+    "score": 0.9584987163543701
+  },
+  {
+    "post_id": 2458699,
+    "purpose_sentence": "In order to create a web service (bottom up.from the class, I created a new Dynamic Web Project in Eclipse with axis2 as the runtime platform, and imported A.java and B.java source files",
+    "answer": "create a web service (bottom up.from the class",
+    "score": 0.8408268094062805
+  },
+  {
+    "post_id": 21378017,
+    "purpose_sentence": "I suspect that the dozer is trying to instantiate abstract class classC.",
+    "answer": "instantiate abstract class classC",
+    "score": 0.8747492432594299
+  },
+  {
+    "post_id": 2458699,
+    "purpose_sentence": "When I deploy the web service on my apache, I get \"Fault Service.and a few ClassNotFound Exceptions for some of the classes in my external jar file (I have already imported it as an external jar)",
+    "answer": "deploy the web service",
+    "score": 0.6031382083892822
+  },
+  {
+    "post_id": 50113126,
+    "purpose_sentence": "I am inside lambda function7.",
+    "answer": "lambda function7",
+    "score": 0.9728522300720215
+  },
+  {
+    "post_id": 17808188,
+    "purpose_sentence": "I have an ear running on WebLogic that contains an ejb.",
+    "answer": "ejb",
+    "score": 0.2714027464389801
+  },
+  {
+    "post_id": 17808188,
+    "purpose_sentence": "In my unit tests, I could create an object of the class locally.",
+    "answer": "create an object of the class locally",
+    "score": 0.944343090057373
+  },
+  {
+    "post_id": 21666357,
+    "purpose_sentence": "So, I'm experimenting with the Calendar class in Java, and I'm writing a method which returns a Calendar object.",
+    "answer": "experimenting with the Calendar class",
+    "score": 0.536919355392456
+  },
+  {
+    "post_id": 21666357,
+    "purpose_sentence": "What I want for said method is to return a Calendar object containing \"Sun Feb 09 22:49:36 +0000 2014\".",
+    "answer": "return a Calendar object",
+    "score": 0.6084489226341248
+  },
+  {
+    "post_id": 17808188,
+    "purpose_sentence": "I'm building with Maven.-CODE-",
+    "answer": "building with Maven",
+    "score": 0.909889817237854
+  },
+  {
+    "post_id": 42742357,
+    "purpose_sentence": "I'm trying to decompose a crash on my Android app from a device with the following specs: -CODE-.",
+    "answer": "decompose a crash on my Android app from a device",
+    "score": 0.47101426124572754
+  },
+  {
+    "post_id": 20239588,
+    "purpose_sentence": "I'm developping an entreprise application on jboss AS 7.1.",
+    "answer": "developping an entreprise application",
+    "score": 0.8728804588317871
+  },
+  {
+    "post_id": 20239588,
+    "purpose_sentence": "I was reading answers to those question (Q1 and Q2.asking for the same problem then mine and the solution was to upgrade to the Mojarra 2.1.9",
+    "answer": "upgrade to the Mojarra 2.1.9",
+    "score": 0.8860412836074829
+  },
+  {
+    "post_id": 50681732,
+    "purpose_sentence": "i'm trying to deploy my war in wildfly (JBOSS 8.but i have this error when deploying : -CODE-",
+    "answer": "deploy my war in wildfly",
+    "score": 0.9921385049819946
+  },
+  {
+    "post_id": 64479028,
+    "purpose_sentence": "I am facing a very tough situation running MUnit on my project.",
+    "answer": "running MUnit on my project",
+    "score": 0.8247942924499512
+  },
+  {
+    "post_id": 36086292,
+    "purpose_sentence": "I'm trying to do Guice testing of my controllers in Play framework 2.4.6.",
+    "answer": "do Guice testing of my controllers in Play framework 2.4.6",
+    "score": 0.5020262002944946
+  },
+  {
+    "post_id": 64479028,
+    "purpose_sentence": "I am using Mule 4.3.0 and Anypoint Studio 7.4.",
+    "answer": "using Mule 4.3.0 and Anypoint Studio 7.4",
+    "score": 0.5926584601402283
+  },
+  {
+    "post_id": 64184076,
+    "purpose_sentence": "I am implementing Room database in my new app.",
+    "answer": "implementing Room database",
+    "score": 0.7174801826477051
+  },
+  {
+    "post_id": 7392296,
+    "purpose_sentence": "I have a JSP file which I am deploying within a Java Project with the help of Eclipse, Maven, and Tomcat.",
+    "answer": "deploying within a Java Project",
+    "score": 0.8039129972457886
+  },
+  {
+    "post_id": 19000720,
+    "purpose_sentence": "I have a wsdl file, lot of xsd files, jxb binding file.",
+    "answer": "jxb binding file",
+    "score": 0.19903865456581116
+  },
+  {
+    "post_id": 61269706,
+    "purpose_sentence": "I am trying to simply call the URL http://localhost:8080/ORMMVC/getAliens in the address bar and I am getting the below error: -CODE-.",
+    "answer": "call the URL",
+    "score": 0.9756592512130737
+  },
+  {
+    "post_id": 19000720,
+    "purpose_sentence": "I created a web service client using Apache CXF cxf-codegen-plugin.",
+    "answer": "created a web service client",
+    "score": 0.4444863200187683
+  },
+  {
+    "post_id": 34259069,
+    "purpose_sentence": "I'm just getting started with Apache Kafka/Zookeeper and have been running into issues trying to set up a cluster on AWS.",
+    "answer": "Apache Kafka/Zookeeper",
+    "score": 0.5354083776473999
+  },
+  {
+    "post_id": 34259069,
+    "purpose_sentence": "Currently I have three servers: One running Zookeeper and two running Kafka.",
+    "answer": "running Zookeeper and two running Kafka",
+    "score": 0.32961851358413696
+  },
+  {
+    "post_id": 34259069,
+    "purpose_sentence": "I can start the Kafka servers without issue and can create topics on both of them.",
+    "answer": "start the Kafka servers without issue",
+    "score": 0.7040483951568604
+  },
+  {
+    "post_id": 19000720,
+    "purpose_sentence": "I am jus trying to create very simple web service client.",
+    "answer": "create very simple web service client",
+    "score": 0.9938068389892578
+  },
+  {
+    "post_id": 32881074,
+    "purpose_sentence": "I am picking images form Gallery but the following code snippet create the FileNotFoundException.",
+    "answer": "picking images form Gallery",
+    "score": 0.7642027139663696
+  },
+  {
+    "post_id": 42827712,
+    "purpose_sentence": "i am trying to create a blob in azure using the below tutorial project in Android.https://github.com/Azure/azure-storage-androidi have created my own account with free trial and replaced storageConnectionString using created account name and access key-CODE-",
+    "answer": "create a blob in azure using the below tutorial project in Android",
+    "score": 0.5037035942077637
+  },
+  {
+    "post_id": 51788764,
+    "purpose_sentence": "These started appearing in my log file after a minor version upgrade (Spring Security 4.2.4, IIRC.a few months ago, so this is clearly a new security feature in Spring that is enabled by default",
+    "answer": "appearing in my log file",
+    "score": 0.29411613941192627
+  },
+  {
+    "post_id": 13720753,
+    "purpose_sentence": "My apache tomcat webapps directory is C:\\Program Files\\Apache Software Foundation\\Tomcat 6.0\\webapps.",
+    "answer": "apache tomcat webapps directory",
+    "score": 0.167802095413208
+  },
+  {
+    "post_id": 51788764,
+    "purpose_sentence": "I want to gain some control over this feature so that: [-]I know I'm not blocking legitimate users from my site.",
+    "answer": "gain some control over this feature",
+    "score": 0.6572594046592712
+  },
+  {
+    "post_id": 51788764,
+    "purpose_sentence": "I want to find a way to log the URL that was requested, but also suppress the stack trace specifically for these exceptions because they are polluting my log files without giving me any helpful information.",
+    "answer": "find a way to log the URL",
+    "score": 0.5102784633636475
+  },
+  {
+    "post_id": 70840304,
+    "purpose_sentence": "We are developing an application that uses the Redis server as a cache server.",
+    "answer": "developing an application that uses the Redis server as a cache server",
+    "score": 0.7811235785484314
+  },
+  {
+    "post_id": 42044074,
+    "purpose_sentence": "I am new in Android studio, I am creating an app and I can't get it to run properly.",
+    "answer": "creating an app and I can't get it to run properly",
+    "score": 0.4908992052078247
+  },
+  {
+    "post_id": 13720753,
+    "purpose_sentence": "In my webapps/jsp folder I created an index.jsp file but it shows an error in the line Class.forName(\"com.mysql.jdbc.Driver\").newInstance(); My current folder structure is: -CODE-.",
+    "answer": "created an index.jsp file",
+    "score": 0.9005307555198669
+  },
+  {
+    "post_id": 66335148,
+    "purpose_sentence": "I am coding a discord bot with discord.js and after adding an event folder to clen up my index.js file the ready event that I had doesn't work anymore and I haven't changed a single line.",
+    "answer": "coding a discord bot",
+    "score": 0.825922429561615
+  },
+  {
+    "post_id": 19537113,
+    "purpose_sentence": "I want to parse a Turtle file using this simple code: -CODE-.",
+    "answer": "parse a Turtle file",
+    "score": 0.9512842893600464
+  },
+  {
+    "post_id": 50437002,
+    "purpose_sentence": "I have a website hosted on Firebase hosting.",
+    "answer": "hosted on Firebase hosting",
+    "score": 0.501730740070343
+  },
+  {
+    "post_id": 50437002,
+    "purpose_sentence": "I would like to add material theming to it(Buttons, Textfields, etc...).",
+    "answer": "add material theming",
+    "score": 0.5966930389404297
+  },
+  {
+    "post_id": 50437002,
+    "purpose_sentence": "I can reference css files from my main.css by adding @import \"@material/textfield/dist/mdc.textfield.css\"; to the start of my stylesheet.",
+    "answer": "reference css files",
+    "score": 0.8117675185203552
+  },
+  {
+    "post_id": 46502937,
+    "purpose_sentence": "I am trying to understand the Java 8 Stream-feature.",
+    "answer": "understand the Java 8 Stream-feature",
+    "score": 0.9854539036750793
+  },
+  {
+    "post_id": 46502937,
+    "purpose_sentence": "I would like to catch all files in an array (could als be list.in all subdirectories of a specific directory path",
+    "answer": "catch all files in an array (could als be list",
+    "score": 0.7056891322135925
+  },
+  {
+    "post_id": 25015622,
+    "purpose_sentence": "When I run this code with \"Test Web Service.",
+    "answer": "run this code with \"Test Web Service",
+    "score": 0.9724764823913574
+  },
+  {
+    "post_id": 72411714,
+    "purpose_sentence": "When I try to show the title of a movie (line 8 of App.js.",
+    "answer": "show the title of a movie",
+    "score": 0.9863048195838928
+  },
+  {
+    "post_id": 33188178,
+    "purpose_sentence": "I am trying to make a simple java program and trying to implement JDBC over it.",
+    "answer": "make a simple java program and trying to implement JDBC over it",
+    "score": 0.7629340291023254
+  },
+  {
+    "post_id": 44039385,
+    "purpose_sentence": "I have a redux container which I want to mount in my test case.",
+    "answer": "mount in my test case",
+    "score": 0.8617623448371887
+  }
+]

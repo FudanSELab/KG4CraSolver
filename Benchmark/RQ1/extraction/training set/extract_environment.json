@@ -1,0 +1,1388 @@
+[
+  {
+    "context": "Hey Everyone I am developing an application that plays YouTube Video, I extend YoutubeBaseActivity for the activity that should play the video but I keep getting an error when the activity is reached.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 79,
+      "end": 98,
+      "text": "YoutubeBaseActivity"
+    }
+  },
+  {
+    "context": "I would like to use httpclient-4.2.5 and tried using an isolated shared library as suggested in the previous post.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 20,
+      "end": 36,
+      "text": "httpclient-4.2.5"
+    }
+  },
+  {
+    "context": "I'm having a weird problem with BigDecimal.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 0,
+      "end": 0,
+      "text": ""
+    }
+  },
+  {
+    "context": "I'm trying to create a user-generated table that can be stored and accessed across multiple sessions on the same computer.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 0,
+      "end": 0,
+      "text": ""
+    }
+  },
+  {
+    "context": "I am trying to build a program that will take a sentence from user and return the language of the text to the user.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 0,
+      "end": 0,
+      "text": ""
+    }
+  },
+  {
+    "context": "I'm trying to extend one class from another inside the module.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 0,
+      "end": 0,
+      "text": ""
+    }
+  },
+  {
+    "context": "I am running a server on go.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 15,
+      "end": 21,
+      "text": "server"
+    }
+  },
+  {
+    "context": "I'm new with Laravel and I wanted to get started with Bootstrap Modal.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 54,
+      "end": 69,
+      "text": "Bootstrap Modal"
+    }
+  },
+  {
+    "context": "I'm using library DataTables and I build the Update function around it but I'm getting this error: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 10,
+      "end": 28,
+      "text": "library DataTables"
+    }
+  },
+  {
+    "context": "I want to add support for unit tests on an existing Android Studio 1.1 project.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 52,
+      "end": 70,
+      "text": "Android Studio 1.1"
+    }
+  },
+  {
+    "context": "I'm trying to get my karma tests running in a travis-ci build.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 46,
+      "end": 55,
+      "text": "travis-ci"
+    }
+  },
+  {
+    "context": "When I try to use an @EachPattern on a List with: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 21,
+      "end": 33,
+      "text": "@EachPattern"
+    }
+  },
+  {
+    "context": "I am trying to connect my hive jdbc client to hiveserver2.i am using following maven: -CODE-but when i start my jdbc client with followin code : -CODE-it gives me following exception : -CODE-",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 46,
+      "end": 57,
+      "text": "hiveserver2"
+    }
+  },
+  {
+    "context": "When I try deploy my war file, I get error In catalina.out: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 46,
+      "end": 54,
+      "text": "catalina"
+    }
+  },
+  {
+    "context": "I expect get result, print \"a\" and \"b\", but only print \"a\" and an error: -CODE-. kotlin version: 1.3.72",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 81,
+      "end": 103,
+      "text": "kotlin version: 1.3.72"
+    }
+  },
+  {
+    "context": "I upgraded my Java application from Spring 4 to Spring 5 and i am getting java.lang.NoClassDefFoundError: Lorg/springframework/beans/factory/access/BeanFactoryReference error while running on tomcat server.followed by java.lang.ClassNotFoundException: org.springframework.beans.factory.access.BeanFactoryReference",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 192,
+      "end": 205,
+      "text": "tomcat server"
+    }
+  },
+  {
+    "context": "I tried to display a todo.html page by connecting to http://localhost:3000 , but I'm getting an error when i open the http://localhost:3000 page , the error i have uploaded above as a snippet.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 21,
+      "end": 30,
+      "text": "todo.html"
+    }
+  },
+  {
+    "context": "I am trying a simple program with hibernate but while retrieving data from db i am getting this error.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 34,
+      "end": 43,
+      "text": "hibernate"
+    }
+  },
+  {
+    "context": "I'm having a trouble using Hibernate in a Maven/JEE project, and still getting this error each time I try to use it (Hibernate).",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 27,
+      "end": 36,
+      "text": "Hibernate"
+    }
+  },
+  {
+    "context": "I am trying to communicate my web page script with my content script of my web extension with the code below.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 0,
+      "end": 0,
+      "text": ""
+    }
+  },
+  {
+    "context": "I am trying to run corda-bootcamp test case for Contract.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 19,
+      "end": 33,
+      "text": "corda-bootcamp"
+    }
+  },
+  {
+    "context": "I am trying to encode bytes to Base64 in groovy and I am getting returned the above error when I am trying to run it.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 31,
+      "end": 37,
+      "text": "Base64"
+    }
+  },
+  {
+    "context": "I am trying to get list of object in an S3 bucket using AWS SDK for Java version 2.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 56,
+      "end": 63,
+      "text": "AWS SDK"
+    }
+  },
+  {
+    "context": "I am creating an app in play 2.2.1 and trying to add email facility to it.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 24,
+      "end": 34,
+      "text": "play 2.2.1"
+    }
+  },
+  {
+    "context": "I'm new to Vue, and been trying to import a variable that consists of API key necessary for my app.js where Vue CDN is used.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 108,
+      "end": 115,
+      "text": "Vue CDN"
+    }
+  },
+  {
+    "context": "I have the following code, where I am selecting all matching elements that start with the same name, excluding one I do not want included in the group.-CODE-",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 0,
+      "end": 0,
+      "text": ""
+    }
+  },
+  {
+    "context": "So, I'm trying to build routes in my Ember application dynamically with data from an API endpoint, /categories, with Ember Data.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 85,
+      "end": 110,
+      "text": "API endpoint, /categories"
+    }
+  },
+  {
+    "context": "I need a time differnce in my react componenet.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 30,
+      "end": 46,
+      "text": "react componenet"
+    }
+  },
+  {
+    "context": "I want to include attachments when email is sent to a recipient.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 18,
+      "end": 29,
+      "text": "attachments"
+    }
+  },
+  {
+    "context": "I am receiving a NPE from this bit of code.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 17,
+      "end": 20,
+      "text": "NPE"
+    }
+  },
+  {
+    "context": "I have the following entity: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 0,
+      "end": 0,
+      "text": ""
+    }
+  },
+  {
+    "context": "The rest inherit from it (one of them for example): -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 0,
+      "end": 0,
+      "text": ""
+    }
+  },
+  {
+    "context": "A parent entity that contains a collection of Compensations: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 0,
+      "end": 0,
+      "text": ""
+    }
+  },
+  {
+    "context": "Last but not least, I have a the main entity CompensationFile which has a collection of CompensationCase entities: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 45,
+      "end": 61,
+      "text": "CompensationFile"
+    }
+  },
+  {
+    "context": "It's strange because this used to work and suddenly it started working up.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 0,
+      "end": 0,
+      "text": ""
+    }
+  },
+  {
+    "context": "For some reason it only happens when updating and existing CompensationCase and adding a new Compensation.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 59,
+      "end": 75,
+      "text": "CompensationCase"
+    }
+  },
+  {
+    "context": "For example, if I am persisting an entirely new main CompensationCase, it works without a hitch.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 53,
+      "end": 69,
+      "text": "CompensationCase"
+    }
+  },
+  {
+    "context": "I use the JpaRepository method save on the main entity CompensationFile to persist the entire thing as shown below (and where it is throwing the exception): CompensationFileFormService: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 55,
+      "end": 71,
+      "text": "CompensationFile"
+    }
+  },
+  {
+    "context": "I'm seeing the same issue as posted in this thread NoSuchMethodError org.apache.http.conn.scheme.Scheme.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 0,
+      "end": 0,
+      "text": ""
+    }
+  },
+  {
+    "context": "(shared library was associated to the app, 2 jars (httpclient-4.2.5.jar and httpcore-4.2.4.jar.were added to the shared lib",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 1,
+      "end": 15,
+      "text": "shared library"
+    }
+  },
+  {
+    "context": "However, it seems to still be loading some classes from com.ibm.ws.prereq.jaxrs.jar.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 0,
+      "end": 0,
+      "text": ""
+    }
+  },
+  {
+    "context": "Is there a step I'm missing in setting up the shared lib.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 46,
+      "end": 56,
+      "text": "shared lib"
+    }
+  },
+  {
+    "context": "I have a parse method as follows: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 0,
+      "end": 0,
+      "text": ""
+    }
+  },
+  {
+    "context": "Now when I run my test the code properly works.-CODE-",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 0,
+      "end": 0,
+      "text": ""
+    }
+  },
+  {
+    "context": "But when I execute my application passing exactly the same String \"0\" I got a \"java.lang.NumberFormatException\" Following is the log: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 0,
+      "end": 0,
+      "text": ""
+    }
+  },
+  {
+    "context": "I know that when my app starts I'm setting a specific Locale: -CODE-.but I don't see how this should break my parseBigDecimalFromText method",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 110,
+      "end": 140,
+      "text": "parseBigDecimalFromText method"
+    }
+  },
+  {
+    "context": "Looking at the BigDecimal source code it looks like it falls while parsing the exponent: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 0,
+      "end": 0,
+      "text": ""
+    }
+  },
+  {
+    "context": "So, let's see, I have three bundles: Provider interface, Provider implementation and Client.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 37,
+      "end": 91,
+      "text": "Provider interface, Provider implementation and Client"
+    }
+  },
+  {
+    "context": "Everything is running smoothly on Eclipse, but when I export the bundles and run em, the following error appears when I try to retrieve the Provider Service: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 34,
+      "end": 41,
+      "text": "Eclipse"
+    }
+  },
+  {
+    "context": "The interface is exporting his package, so there should be no errors with that.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 0,
+      "end": 0,
+      "text": ""
+    }
+  },
+  {
+    "context": "Alongside, Client is also importing the providerInterface package in its manifest.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 40,
+      "end": 65,
+      "text": "providerInterface package"
+    }
+  },
+  {
+    "context": "The .jar of the Provider interface bundle does have the ProviderService class inside, so there are no error exporting either.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 56,
+      "end": 77,
+      "text": "ProviderService class"
+    }
+  },
+  {
+    "context": "Provider and Client are just symbolic names, the \"Client\" bundle imports and uses a lot of other classes from many other bundles with no errors whatsoever.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 0,
+      "end": 19,
+      "text": "Provider and Client"
+    }
+  },
+  {
+    "context": "However, every time I try to parse the JSON string I stored in localStorage, an error pops up.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 39,
+      "end": 50,
+      "text": "JSON string"
+    }
+  },
+  {
+    "context": "I have tried to look up other questions similar to this, but could not find anything that seemed to be the exact problem I am facing.-CODE-",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 0,
+      "end": 0,
+      "text": ""
+    }
+  },
+  {
+    "context": "This is supposed to pull the stored JSON string and convert it back into an object stored in an array, but for some reason, it can not read the JSON string that was stored.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 36,
+      "end": 47,
+      "text": "JSON string"
+    }
+  },
+  {
+    "context": "Maven-formatted source code is at: https://github.com/jjYBdx4IL/my.bugs.smtpserver: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 0,
+      "end": 15,
+      "text": "Maven-formatted"
+    }
+  },
+  {
+    "context": "Exception thrown during \"mvn test\": -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 0,
+      "end": 0,
+      "text": ""
+    }
+  },
+  {
+    "context": "When I run my application, I get this error: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 0,
+      "end": 0,
+      "text": ""
+    }
+  },
+  {
+    "context": "Does this mean I have to download jsonic and add it as a jar file to my application.-CODE-",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 25,
+      "end": 83,
+      "text": "download jsonic and add it as a jar file to my application"
+    }
+  },
+  {
+    "context": "The code looks like that: -CODE-.in the result console throws the TypeError: Uncaught TypeError: class heritage this.MyClass is not an object or null referring to line *",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 0,
+      "end": 0,
+      "text": ""
+    }
+  },
+  {
+    "context": "When I access the localhost:8888/static/ajax.html, I get no errors.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 18,
+      "end": 49,
+      "text": "localhost:8888/static/ajax.html"
+    }
+  },
+  {
+    "context": "But when I just access localhost:8888 I get an error saying: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 23,
+      "end": 37,
+      "text": "localhost:8888"
+    }
+  },
+  {
+    "context": "By default \"/\" serves ajax.html file, but doing so I don't get the expected result.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 22,
+      "end": 36,
+      "text": "ajax.html file"
+    }
+  },
+  {
+    "context": "On the other hand on calling /static/ajax.html I am getting the expected result without any errors.server.go contains the following : -CODE-ajax.html contains the following: -CODE-socket.js : http://www.grideads.net/redmine/attachments/download/113/socket.js model.js : http://www.grideads.net/redmine/attachments/download/112/model.js",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 29,
+      "end": 46,
+      "text": "/static/ajax.html"
+    }
+  },
+  {
+    "context": "Tomcat Console: -CODE-.when i inspect this line in debbug mode: -CODE-",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 0,
+      "end": 14,
+      "text": "Tomcat Console"
+    }
+  },
+  {
+    "context": "My file config: .",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 0,
+      "end": 0,
+      "text": ""
+    }
+  },
+  {
+    "context": "And here is the JS function where I'm using DataTables: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 44,
+      "end": 54,
+      "text": "DataTables"
+    }
+  },
+  {
+    "context": "I've seen that this error is usually caused by a mismatch between the amount of th and td, but I cannot see a mismatch in this code.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 80,
+      "end": 89,
+      "text": "th and td"
+    }
+  },
+  {
+    "context": "Some devices throw a NullPointerException when launching this app, but others seem to work fine.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 0,
+      "end": 0,
+      "text": ""
+    }
+  },
+  {
+    "context": "I cannot seem to figure out what to do as ivMonkeyStart that the error references is not null.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 42,
+      "end": 55,
+      "text": "ivMonkeyStart"
+    }
+  },
+  {
+    "context": "I have tried different ways of setting ivMonkeyStart but have not found a way that makes a difference...-CODE-",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 39,
+      "end": 52,
+      "text": "ivMonkeyStart"
+    }
+  },
+  {
+    "context": "The error references this line: ivMonkeyStart.startAnimation(startMonkeyScaleIn); Any idea.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 0,
+      "end": 0,
+      "text": ""
+    }
+  },
+  {
+    "context": "I followed this tutorial but I am getting the error: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 0,
+      "end": 0,
+      "text": ""
+    }
+  },
+  {
+    "context": "I found this solution but that only applies to mac, and I can't find a similar way to do it in windows.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 95,
+      "end": 102,
+      "text": "windows"
+    }
+  },
+  {
+    "context": "When using spark-submit this error always happen: -CODE-.although I have import the lib (I'm using scala: -CODE-",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 11,
+      "end": 23,
+      "text": "spark-submit"
+    }
+  },
+  {
+    "context": "I figured out how to get chromium going, but now it throws an error.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 25,
+      "end": 33,
+      "text": "chromium"
+    }
+  },
+  {
+    "context": "However, I do not experience this error locally, so I assume it must have something to do with with the travis-ci environment.-CODE-spec-bundle.js: -CODE-app.spec.ts: -CODE-karma.conf.js: -CODE-",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 104,
+      "end": 113,
+      "text": "travis-ci"
+    }
+  },
+  {
+    "context": "I noticed some of my users are getting this exception.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 0,
+      "end": 0,
+      "text": ""
+    }
+  },
+  {
+    "context": "I don't know how to reproduce it, I only have the reports on Crashlytics.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 61,
+      "end": 72,
+      "text": "Crashlytics"
+    }
+  },
+  {
+    "context": "Seems to be deep inside Google's code.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 0,
+      "end": 0,
+      "text": ""
+    }
+  },
+  {
+    "context": "Out of thousands who have used this code only 39 have had the exception.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 0,
+      "end": 0,
+      "text": ""
+    }
+  },
+  {
+    "context": "The following small count down application cause Uncaught TypeError: Cannot read property 'counter' of undefined at the timing of evaluation of this.counter.-CODE-",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 0,
+      "end": 0,
+      "text": ""
+    }
+  },
+  {
+    "context": "Uncaught TypeError: Cannot read property 'counter' of undefined as follows: I have no idea why coutner is evaluated as undefined despite I'm using arrow function, which means the scope of \"this pointer\" must be lexical.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 211,
+      "end": 218,
+      "text": "lexical"
+    }
+  },
+  {
+    "context": "The app runs but when I click the \"privacy\" button it crashes it gives me the error named in the tile.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 0,
+      "end": 0,
+      "text": ""
+    }
+  },
+  {
+    "context": "I suspect it is something in the setClickListener, but I don't see anything wrong with it.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 33,
+      "end": 49,
+      "text": "setClickListener"
+    }
+  },
+  {
+    "context": "It worked fine when I used Arrays isnstead of ArrayLists.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 27,
+      "end": 33,
+      "text": "Arrays"
+    }
+  },
+  {
+    "context": "I get the following error: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 0,
+      "end": 0,
+      "text": ""
+    }
+  },
+  {
+    "context": "But the class that has the problem is not mine, it's the @EachPattern itself, which has: @Constraint(validatedBy = CommonEachValidator.class.and that class has public class CommonEachValidator implements ConstraintValidator<Annotation, Collection<?>> which seems to cause the issue",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 57,
+      "end": 69,
+      "text": "@EachPattern"
+    }
+  },
+  {
+    "context": "Can anybody either help me to identify the reason of this or solution please.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 0,
+      "end": 0,
+      "text": ""
+    }
+  },
+  {
+    "context": "The 95% of the Project is working at some point i am getting this specific error.i tryed to solve own my own but i couldn't: -CODE-",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 0,
+      "end": 0,
+      "text": ""
+    }
+  },
+  {
+    "context": "I calculate the sum of to variable getting from 2 request, the result is recovered but when I want to exploit it an NullPointerException is thrown: -CODE-.in this line where the exception is thrown: -CODE-",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 0,
+      "end": 0,
+      "text": ""
+    }
+  },
+  {
+    "context": "After debbuggin I get this in result: -CODE-.this is the error : -CODE-",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 0,
+      "end": 0,
+      "text": ""
+    }
+  },
+  {
+    "context": "But, I have webservices-api.jar In lib folder: ls -l /tomcat/lib/: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 12,
+      "end": 27,
+      "text": "webservices-api"
+    }
+  },
+  {
+    "context": "How can I tell a tom\u951f\u65a4\u62f7at that he ignores the versions, and uses what is.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 0,
+      "end": 0,
+      "text": ""
+    }
+  },
+  {
+    "context": "Also how can I disable the search for language libraries.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 38,
+      "end": 56,
+      "text": "language libraries"
+    }
+  },
+  {
+    "context": "But the insertion is working fine.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 0,
+      "end": 0,
+      "text": ""
+    }
+  },
+  {
+    "context": "I have provided the all the annotations properly in the Bean class.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 56,
+      "end": 66,
+      "text": "Bean class"
+    }
+  },
+  {
+    "context": "I'm using IntelliJ IDEA as an IDE.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 10,
+      "end": 23,
+      "text": "IntelliJ IDEA"
+    }
+  },
+  {
+    "context": "Here's what my pom.xml file looks like : -CODE-.and I'm using a persistenence.xml as well : -CODE-",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 64,
+      "end": 81,
+      "text": "persistenence.xml"
+    }
+  },
+  {
+    "context": "Concerning my project structure, it's like the following : but still get this error message : I think it may be related to an unloaded Jar, but still got no effective result after a long search.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 0,
+      "end": 0,
+      "text": ""
+    }
+  },
+  {
+    "context": "However, I keep getting the error TypeError: browser is undefined.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 0,
+      "end": 0,
+      "text": ""
+    }
+  },
+  {
+    "context": "The same goes if I use chrome.runtime.sendMessage(.instead",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 0,
+      "end": 0,
+      "text": ""
+    }
+  },
+  {
+    "context": "I am following as given in the video, but when trying to run the contract test - I get the error: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 65,
+      "end": 78,
+      "text": "contract test"
+    }
+  },
+  {
+    "context": "I found a similar issue - here , but that did not work.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 0,
+      "end": 0,
+      "text": ""
+    }
+  },
+  {
+    "context": "I have verified my AWS Credentials and my account has PowerUser access.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 19,
+      "end": 34,
+      "text": "AWS Credentials"
+    }
+  },
+  {
+    "context": "I Looked at following links but it didn't help as I am using 'AwsSessionCredentials' class.[-]https://stackoverflow.com/a/30519762/948268 -- Mentions about key starting with a period[-]https://github.com/aws/aws-sdk-js/issues/86 -- Talks about Ensuring proper encoding of URI query string parameter-valuesbut in my case I am using AwsSessionCredentials class",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 62,
+      "end": 90,
+      "text": "AwsSessionCredentials' class"
+    }
+  },
+  {
+    "context": "Also posted the issue on: https://github.com/aws/aws-sdk-java-v2/issues/1767.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 34,
+      "end": 40,
+      "text": "github"
+    }
+  },
+  {
+    "context": "Does someone know where this JavaScript error comes from.-CODE-",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 29,
+      "end": 39,
+      "text": "JavaScript"
+    }
+  },
+  {
+    "context": "I get this error when using a regular expression with a slash (escaped.like el.href.match(/video\\/(.*)@/)[1]; as a string passed to a function like createTextNode, textContent or innerHTML",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 0,
+      "end": 0,
+      "text": ""
+    }
+  },
+  {
+    "context": "This regex works when not stored as text.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 0,
+      "end": 0,
+      "text": ""
+    }
+  },
+  {
+    "context": "A regex without slash as text works, you can see my code example: HTML: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 0,
+      "end": 0,
+      "text": ""
+    }
+  },
+  {
+    "context": "Working and failing tests can be found here: https://github.com/baptx/baptx.github.io/blob/65f11b77df5a7464365374b3505921a4ef9b1272/get_m3u8_debug/get_m3u8_debug.htm.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 0,
+      "end": 0,
+      "text": ""
+    }
+  },
+  {
+    "context": "You can test it live on GitHub Pages (JSFiddle did not work in my case): https://baptx.github.io/get_m3u8_debug/get_m3u8_debug.htm.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 24,
+      "end": 36,
+      "text": "GitHub Pages"
+    }
+  },
+  {
+    "context": "The runtime NPE occurs here: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 12,
+      "end": 15,
+      "text": "NPE"
+    }
+  },
+  {
+    "context": "And the code calling the constructor: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 25,
+      "end": 36,
+      "text": "constructor"
+    }
+  },
+  {
+    "context": "I think I'm initialising everything properly, so I can't see where this null pointer exception is coming from.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 0,
+      "end": 0,
+      "text": ""
+    }
+  },
+  {
+    "context": "For that I have added dependency in my build.sbt file.But getting an exception explained below.my code: -CODE-",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 39,
+      "end": 53,
+      "text": "build.sbt file"
+    }
+  },
+  {
+    "context": "Included code in application.conf: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": -1,
+      "end": 16,
+      "text": "application.conf,"
+    }
+  },
+  {
+    "context": "But I am getting an exception: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 0,
+      "end": 0,
+      "text": ""
+    }
+  },
+  {
+    "context": "Everything else works fine, only I have issue with importing.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 0,
+      "end": 0,
+      "text": ""
+    }
+  },
+  {
+    "context": "P.S.is there a way to make it work without using Vue CLI",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 49,
+      "end": 56,
+      "text": "Vue CLI"
+    }
+  },
+  {
+    "context": "I have a DAO class with the following implementation: -CODE-.and a service class with the below implementation: -CODE-",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 9,
+      "end": 18,
+      "text": "DAO class"
+    }
+  },
+  {
+    "context": "When I execute this code it throws me a StaleObjectStateException - org.hibernate.StaleObjectStateException: Row was updated or deleted by another transaction (or unsaved-value mapping was incorrect.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 0,
+      "end": 0,
+      "text": ""
+    }
+  },
+  {
+    "context": "But if I set the id before calling the DAO class, it works fine - -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 39,
+      "end": 48,
+      "text": "DAO class"
+    }
+  },
+  {
+    "context": "This gives me the following error in firefox: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 37,
+      "end": 44,
+      "text": "firefox"
+    }
+  },
+  {
+    "context": "I'm working from this example and I am running into this error after adding log4j, slf4j and bonecp to the project: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 76,
+      "end": 99,
+      "text": "log4j, slf4j and bonecp"
+    }
+  },
+  {
+    "context": "i use ActionBarSherlock Library and it hold Reference of current Fragment instance when user pause application-CODE-",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 6,
+      "end": 31,
+      "text": "ActionBarSherlock Library"
+    }
+  },
+  {
+    "context": "In order to do this, I'm adding a didLoad method to my model, which is called by the controller and set to a property of that controller.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 34,
+      "end": 48,
+      "text": "didLoad method"
+    }
+  },
+  {
+    "context": "I map the route to my router, and all that works fine.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 0,
+      "end": 0,
+      "text": ""
+    }
+  },
+  {
+    "context": "The real trouble starts when I try to set up a controller with a content property set by data from the server retrieved by findQuery.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 47,
+      "end": 57,
+      "text": "controller"
+    }
+  },
+  {
+    "context": "I have a method that return the entity manager for particular DB.Now when i use the method for the first time to get entity manager everything works fine.I can save data into any tables A,B,C using entity manager.Now say i get a exception while saving in table B.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 32,
+      "end": 46,
+      "text": "entity manager"
+    }
+  },
+  {
+    "context": "Now when I try to perform any operation on DB after geting exception above, the next time i try to run same code it fails when updating in table A itself.I can see folloing eception: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 0,
+      "end": 0,
+      "text": ""
+    }
+  },
+  {
+    "context": "But when I run the following code, it works just fine and doesn't throw the UnsupportedOperationException.-CODE-",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 0,
+      "end": 0,
+      "text": ""
+    }
+  },
+  {
+    "context": "I'm getting a null pointer exception despite initialising all of my objects correctly (to my knowledge).",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 0,
+      "end": 0,
+      "text": ""
+    }
+  },
+  {
+    "context": "While debugging our product, I already found a NoClassDefFoundError which is however weird to me- I noticed following output from the class loading log(by turning on -verbose:class): -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 166,
+      "end": 180,
+      "text": "-verbose:class"
+    }
+  },
+  {
+    "context": "PreferencesMgr is just the class that causes NoClassDefFoundError: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 0,
+      "end": 14,
+      "text": "PreferencesMgr"
+    }
+  },
+  {
+    "context": "So it seems that jvm actually has already loaded the class sucessfully.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 17,
+      "end": 20,
+      "text": "jvm"
+    }
+  },
+  {
+    "context": "I have used MobX for my state management.Some Part of the code: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 12,
+      "end": 16,
+      "text": "MobX"
+    }
+  },
+  {
+    "context": "In the above code books.returnDate is bind successfully.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 0,
+      "end": 0,
+      "text": ""
+    }
+  },
+  {
+    "context": "Now I need the time difference between books.returnDate and current Date so I called a function timeDiff: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 0,
+      "end": 0,
+      "text": ""
+    }
+  },
+  {
+    "context": "In timeDiff function the values of both dates are:- but the difference is not calculated.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 0,
+      "end": 0,
+      "text": ""
+    }
+  },
+  {
+    "context": "I have been able to set and get the attachments but when the attachFile method is called from the Javaxmail I get an error.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 61,
+      "end": 78,
+      "text": "attachFile method"
+    }
+  },
+  {
+    "context": "This code is written in Java using the javax library.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 39,
+      "end": 52,
+      "text": "javax library"
+    }
+  },
+  {
+    "context": "I've tried adding encoding as well but same results.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 0,
+      "end": 0,
+      "text": ""
+    }
+  },
+  {
+    "context": "I came across the following statement in a book: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 0,
+      "end": 0,
+      "text": ""
+    }
+  },
+  {
+    "context": "This code fails when the attachFile method is called.-CODE-",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 25,
+      "end": 42,
+      "text": "attachFile method"
+    }
+  },
+  {
+    "context": "Hello guys here is my code: -CODE-.and here is my error: -CODE-when i changed my alignedSeqA.length(with an integer (like 7it works just finei.e--> output when i change it to 7 20100201what am i doing wrong",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 81,
+      "end": 99,
+      "text": "alignedSeqA.length"
+    }
+  },
+  {
+    "context": "I'm having the error: Uncaught (in promise.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 0,
+      "end": 0,
+      "text": ""
+    }
+  },
+  {
+    "context": "SyntaxError: Unexpected end of input on try to post refs to my dedicated express server, can you guys help me.-CODE-",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 63,
+      "end": 87,
+      "text": "dedicated express server"
+    }
+  },
+  {
+    "context": "The error is here: .then(res => res.json().",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 32,
+      "end": 40,
+      "text": "res.json"
+    }
+  },
+  {
+    "context": "NOTE: the firstName, lastName, username and password consts are the input values.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 0,
+      "end": 0,
+      "text": ""
+    }
+  },
+  {
+    "context": "I've been trying to figure out how to use the Eclipse Debugger, but I always get stuff like \"Class File Editor not found.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 46,
+      "end": 62,
+      "text": "Eclipse Debugger"
+    }
+  },
+  {
+    "context": "Anyways here is an image of what the debugger says: http://imageshack.us/photo/my-images/687/debuggingexception.png/ Code: -CODE-.",
+    "question": "What are the environment, using tools and their versions?",
+    "answers": {
+      "start": 0,
+      "end": 0,
+      "text": ""
+    }
+  }
+]

@@ -1,0 +1,202 @@
+{
+  "ValidatorException": {
+    "duplicate_post_size": 31,
+    "all_post_size": 83
+  },
+  "IllegalBlockSizeException": {
+    "duplicate_post_size": 10,
+    "all_post_size": 77
+  },
+  "SunCertPathBuilderException": {
+    "duplicate_post_size": 1,
+    "all_post_size": 64
+  },
+  "UnknownHostException": {
+    "duplicate_post_size": 17,
+    "all_post_size": 288
+  },
+  "SSLException": {
+    "duplicate_post_size": 10,
+    "all_post_size": 241
+  },
+  "DOMException": {
+    "duplicate_post_size": 8,
+    "all_post_size": 173
+  },
+  "CertPathBuilderException": {
+    "duplicate_post_size": 1,
+    "all_post_size": 66
+  },
+  "LoadException": {
+    "duplicate_post_size": 10,
+    "all_post_size": 112
+  },
+  "TransformException": {
+    "duplicate_post_size": 4,
+    "all_post_size": 60
+  },
+  "UnmarshalException": {
+    "duplicate_post_size": 4,
+    "all_post_size": 95
+  },
+  "IncompatibleClassChangeError": {
+    "duplicate_post_size": 11,
+    "all_post_size": 103
+  },
+  "MappingException": {
+    "duplicate_post_size": 9,
+    "all_post_size": 419
+  },
+  "NameNotFoundException": {
+    "duplicate_post_size": 2,
+    "all_post_size": 134
+  },
+  "InvalidKeyException": {
+    "duplicate_post_size": 17,
+    "all_post_size": 103
+  },
+  "CertificateException": {
+    "duplicate_post_size": 5,
+    "all_post_size": 55
+  },
+  "SQLException": {
+    "duplicate_post_size": 50,
+    "all_post_size": 2721
+  },
+  "BeanCreationException": {
+    "duplicate_post_size": 10,
+    "all_post_size": 557
+  },
+  "AssertionError": {
+    "duplicate_post_size": 3,
+    "all_post_size": 231
+  },
+  "ClassFormatError": {
+    "duplicate_post_size": 5,
+    "all_post_size": 70
+  },
+  "NoSuchFieldError": {
+    "duplicate_post_size": 7,
+    "all_post_size": 204
+  },
+  "InflateException": {
+    "duplicate_post_size": 8,
+    "all_post_size": 304
+  },
+  "ArithmeticException": {
+    "duplicate_post_size": 30,
+    "all_post_size": 122
+  },
+  "UnsupportedClassVersionError": {
+    "duplicate_post_size": 50,
+    "all_post_size": 197
+  },
+  "IllegalMonitorStateException": {
+    "duplicate_post_size": 40,
+    "all_post_size": 100
+  },
+  "SQLServerException": {
+    "duplicate_post_size": 3,
+    "all_post_size": 83
+  },
+  "ProtocolException": {
+    "duplicate_post_size": 1,
+    "all_post_size": 186
+  },
+  "DatabaseError": {
+    "duplicate_post_size": 7,
+    "all_post_size": 116
+  },
+  "ApplicationException": {
+    "duplicate_post_size": 3,
+    "all_post_size": 85
+  },
+  "AnnotationException": {
+    "duplicate_post_size": 2,
+    "all_post_size": 105
+  },
+  "IllegalArgumentException": {
+    "duplicate_post_size": 50,
+    "all_post_size": 2093
+  },
+  "NoSuchMethodException": {
+    "duplicate_post_size": 18,
+    "all_post_size": 275
+  },
+  "BindException": {
+    "duplicate_post_size": 20,
+    "all_post_size": 152
+  },
+  "EJBException": {
+    "duplicate_post_size": 1,
+    "all_post_size": 137
+  },
+  "SAXParseException": {
+    "duplicate_post_size": 11,
+    "all_post_size": 187
+  },
+  "PropertyNotFoundException": {
+    "duplicate_post_size": 50,
+    "all_post_size": 129
+  },
+  "NoSuchFileException": {
+    "duplicate_post_size": 1,
+    "all_post_size": 56
+  },
+  "ConcurrentModificationException": {
+    "duplicate_post_size": 50,
+    "all_post_size": 672
+  },
+  "SocketException": {
+    "duplicate_post_size": 26,
+    "all_post_size": 398
+  },
+  "StackOverflowError": {
+    "duplicate_post_size": 50,
+    "all_post_size": 667
+  },
+  "QuerySyntaxException": {
+    "duplicate_post_size": 1,
+    "all_post_size": 101
+  },
+  "PatternSyntaxException": {
+    "duplicate_post_size": 20,
+    "all_post_size": 85
+  },
+  "JsonMappingException": {
+    "duplicate_post_size": 10,
+    "all_post_size": 169
+  },
+  "ConnectException": {
+    "duplicate_post_size": 37,
+    "all_post_size": 331
+  },
+  "FirebaseError": {
+    "duplicate_post_size": 2,
+    "all_post_size": 68
+  },
+  "WebDriverException": {
+    "duplicate_post_size": 22,
+    "all_post_size": 80
+  },
+  "RemoteException": {
+    "duplicate_post_size": 15,
+    "all_post_size": 65
+  },
+  "SQLiteException": {
+    "duplicate_post_size": 6,
+    "all_post_size": 144
+  },
+  "ParseException": {
+    "duplicate_post_size": 50,
+    "all_post_size": 767
+  },
+  "VerifyError": {
+    "duplicate_post_size": 6,
+    "all_post_size": 230
+  },
+  "NetworkOnMainThreadException": {
+    "duplicate_post_size": 50,
+    "all_post_size": 147
+  }
+}

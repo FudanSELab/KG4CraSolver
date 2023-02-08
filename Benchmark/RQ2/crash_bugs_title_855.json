@@ -1,0 +1,3522 @@
+{
+  "ValidatorException": [
+    {
+      "id": "31154362",
+      "title": "I want to parse url to html and then html to dom and then dom to jso but i get error like this"
+    },
+    {
+      "id": "37234200",
+      "title": "SSLHandshakeException - PKIX path building failed"
+    },
+    {
+      "id": "20056004",
+      "title": "Apache HttpClient exception PKIX path building failed"
+    },
+    {
+      "id": "17348821",
+      "title": "SSL Connection to LDAP via Java"
+    },
+    {
+      "id": "39655173",
+      "title": "How to Fix sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException:"
+    },
+    {
+      "id": "42126193",
+      "title": "Getting SSLHandShakeException in Rest Assured"
+    },
+    {
+      "id": "44277758",
+      "title": "Extract text from HTTPS URL using Apache Tika"
+    },
+    {
+      "id": "45183737",
+      "title": "ERROR: SSLHandshakeException"
+    },
+    {
+      "id": "46336293",
+      "title": "Caused by: javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath"
+    },
+    {
+      "id": "9619030",
+      "title": "Resolving javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed Error?"
+    },
+    {
+      "id": "47331589",
+      "title": "Java JDBC Public Key connection failed with: \"unable to find valid certification path to requested target\""
+    },
+    {
+      "id": "50020135",
+      "title": "Sending an email in java"
+    },
+    {
+      "id": "54531303",
+      "title": "how to solve this error \"java.security.cert.CertificateException:\" while calling java adapter in mobilefirst?"
+    },
+    {
+      "id": "52641106",
+      "title": "Unable to Validate Cacerts with the Signed Certificate while establishing SSL host connection"
+    },
+    {
+      "id": "56111394",
+      "title": "Eclipse - Not able to code as Java Application with Rest Assured Framework"
+    },
+    {
+      "id": "57366611",
+      "title": "Getting SunCertPathBuilderException: unable to find valid certification path to requested target"
+    },
+    {
+      "id": "21076179",
+      "title": "\"PKIX path building failed\" and \"unable to find valid certification path to requested target\""
+    },
+    {
+      "id": "57224929",
+      "title": "How can I fix a \"unable to find valid certification path to requested target\" error using conda installed Java?"
+    },
+    {
+      "id": "1828775",
+      "title": "How to handle invalid SSL certificates with Apache HttpClient?"
+    },
+    {
+      "id": "58866337",
+      "title": "Http Client certificate authentication: javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed"
+    },
+    {
+      "id": "63318909",
+      "title": "\"PKIX path building failed: SunCertPathBuilderException: unable to find valid certification path to requested target\""
+    },
+    {
+      "id": "6047996",
+      "title": "Ignore self-signed ssl cert using Jersey Client"
+    },
+    {
+      "id": "4663147",
+      "title": "Is there a java setting for disabling certificate validation?"
+    },
+    {
+      "id": "66651216",
+      "title": "javax.mail.MessagingException: Could not convert socket to TLS;"
+    },
+    {
+      "id": "66913730",
+      "title": "Caused by: javax.net.ssl.SSLHandshakeException: PKIX path building [Spring boot project]"
+    },
+    {
+      "id": "68319933",
+      "title": "java maven repository certificate expired - https://maven.fabric.io"
+    },
+    {
+      "id": "71130004",
+      "title": "How can we debug an SSL error more precisely?"
+    },
+    {
+      "id": "71271295",
+      "title": "JDBC MSSQL Server PKIX path building failed: ... unable to find valid certification path to requested target"
+    },
+    {
+      "id": "60540641",
+      "title": "Geting PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException after jdk update"
+    },
+    {
+      "id": "60266993",
+      "title": "SSLHandshakeException: PKIX path building failed"
+    },
+    {
+      "id": "71671132",
+      "title": "Getting PKIX error while trying to gather dependencies or even run gradle boot run"
+    }
+  ],
+  "IllegalBlockSizeException": [
+    {
+      "id": "20431842",
+      "title": "IllegalBlockSize Exception"
+    },
+    {
+      "id": "17234359",
+      "title": "javax.crypto.IllegalBlockSizeException : Input length must be multiple of 16 when decrypting with padded cipher"
+    },
+    {
+      "id": "32531509",
+      "title": "How can I fix the IllegalBlockSizeException?"
+    },
+    {
+      "id": "34433376",
+      "title": "javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher"
+    },
+    {
+      "id": "37646385",
+      "title": "How to print an AES-encrypted string so it is reusable in another application?"
+    },
+    {
+      "id": "38879383",
+      "title": "Encoding the passphrase"
+    },
+    {
+      "id": "39396113",
+      "title": "Java 1.8 symmetric DESede encryption and decryption"
+    },
+    {
+      "id": "43325310",
+      "title": "RSA encyrption - converting between bytes array and String"
+    },
+    {
+      "id": "44475803",
+      "title": "Troubles converting String to Byte for \"RSA\" encryption( Java)"
+    },
+    {
+      "id": "60419407",
+      "title": "How to set padding for signed key encryption in java?"
+    }
+  ],
+  "SunCertPathBuilderException": [
+    {
+      "id": "58929359",
+      "title": "com.mysql.jdbc.exceptions.jdbc4.CommunicationsException in Spring Boot Application"
+    }
+  ],
+  "UnknownHostException": [
+    {
+      "id": "23392349",
+      "title": "BufferedReader Exception"
+    },
+    {
+      "id": "13042008",
+      "title": "java.util.NoSuchElementException - Scanner reading user input"
+    },
+    {
+      "id": "20608592",
+      "title": "Maven install error: Dependency could not be resolved"
+    },
+    {
+      "id": "10367698",
+      "title": "Java multiple file transfer over socket"
+    },
+    {
+      "id": "19864388",
+      "title": "Why does this usage of InetAddress.getLocalHost() work okay with Java 6 but fails with Java 7 on OSX"
+    },
+    {
+      "id": "38782581",
+      "title": "How to solve UnknownHostException error in google spreadsheet using the API?"
+    },
+    {
+      "id": "47779683",
+      "title": "Unable to resolve host pokeAPI"
+    },
+    {
+      "id": "51803525",
+      "title": "Java unreported exception in socket connection"
+    },
+    {
+      "id": "1881546",
+      "title": "InetAddress.getLocalHost() throws UnknownHostException"
+    },
+    {
+      "id": "14136416",
+      "title": "UnknownHostException"
+    },
+    {
+      "id": "46398286",
+      "title": "Google Sentiment Analysis UnknownHostException"
+    },
+    {
+      "id": "41349506",
+      "title": "Inetaddress.getLocalHost() UnknownHostException Windows 8"
+    },
+    {
+      "id": "28628983",
+      "title": "Java UnknownHostException - Same URL but sometimes only"
+    },
+    {
+      "id": "35881545",
+      "title": "Why doses this code sometimes throw UnknownHostException but other times throw SocketTimeoutException"
+    },
+    {
+      "id": "63641940",
+      "title": "how can I run Java code while i have JDK and JRE installed on windows?"
+    },
+    {
+      "id": "64664200",
+      "title": "Spring (Test)RestTemplate with subdomain throws UnknownHostException"
+    },
+    {
+      "id": "67984244",
+      "title": "MySQL CommunicationsException: Communications link failure"
+    }
+  ],
+  "SSLException": [
+    {
+      "id": "7615645",
+      "title": "SSL handshake alert: unrecognized_name error since upgrade to Java 1.7.0"
+    },
+    {
+      "id": "33351681",
+      "title": "Unrecognized SSL message, plaintext connection?"
+    },
+    {
+      "id": "36677778",
+      "title": "Hashicorp Vault - Unrecognized SSL message, plaintext connection?"
+    },
+    {
+      "id": "37004179",
+      "title": "Open connection failed: javax.net.ssl.SSLException: Unrecognized SSL message, plaintext connection?"
+    },
+    {
+      "id": "4648772",
+      "title": "javax.net.ssl.SSLException: Unrecognized SSL message, plaintext connection?"
+    },
+    {
+      "id": "43388163",
+      "title": "javax.net.ssl.SSLException: Unrecognized SSL message, plaintext connection in Jenkins for macOS"
+    },
+    {
+      "id": "43607559",
+      "title": "API Gateway Admin Failure in WSO2 API Publisher 2.0.0"
+    },
+    {
+      "id": "46807730",
+      "title": "How to solve java.net.UnknownHostException from HttpURLConnection"
+    },
+    {
+      "id": "54971987",
+      "title": "Overriding URLStreamHandler causes Unrecognized SSL message, plaintext connection Error"
+    },
+    {
+      "id": "60764853",
+      "title": "Rest Assured - javax.net.ssl.SSLException: Unrecognized SSL message, plaintext connection?"
+    }
+  ],
+  "DOMException": [
+    {
+      "id": "52673617",
+      "title": "js querySelectorAll not a valid selector despite it being like the docs example"
+    },
+    {
+      "id": "53157092",
+      "title": "Bootstrap Javascript error: Syntax error, unrecognized expression: .bs-docs-container [href=#]"
+    },
+    {
+      "id": "55531224",
+      "title": "How to convert live image url into blob in angular?"
+    },
+    {
+      "id": "5578845",
+      "title": "CSS attribute selectors: The rules on quotes (\", ' or none?)"
+    },
+    {
+      "id": "25723654",
+      "title": "replaceState(): a history state with url ... cannot be created in a document with origin"
+    },
+    {
+      "id": "66110139",
+      "title": "Is there a way to disable chromes \"same-origin\" policy using Selenium?"
+    },
+    {
+      "id": "66599275",
+      "title": "Cannot access the DOM from <iframe> tag"
+    },
+    {
+      "id": "70803507",
+      "title": "CORS issue on all of my devices except one with Chromedriver and Python"
+    }
+  ],
+  "CertPathBuilderException": [
+    {
+      "id": "62633714",
+      "title": "General SSLEngine problem with Artemis cluster"
+    }
+  ],
+  "LoadException": [
+    {
+      "id": "3988788",
+      "title": "What is a stack trace, and how can I use it to debug my application errors?"
+    },
+    {
+      "id": "25967559",
+      "title": "Starting off with JavaFX : Can not set javafx.scene.control.Label field application.SceneController.myLabel to javafx.scene.text.Text"
+    },
+    {
+      "id": "23105433",
+      "title": "javafx 8 compatibility issues - FXML static fields"
+    },
+    {
+      "id": "44313259",
+      "title": "JavaFX FXMLoader throws error"
+    },
+    {
+      "id": "33986917",
+      "title": "JavaFX - setOnAction not applicable"
+    },
+    {
+      "id": "28844503",
+      "title": "Why I'm getting javafx.fxml.LoadException even the path of the fxml file is correct"
+    },
+    {
+      "id": "29505275",
+      "title": "Error resolving \"onAction\" while loading FXML"
+    },
+    {
+      "id": "53647394",
+      "title": "While making own JOptionPane like class in JavaFX"
+    },
+    {
+      "id": "31414346",
+      "title": "JavaFx, Problems with @FXML"
+    },
+    {
+      "id": "62659576",
+      "title": "IllegalAccessException: cannot access class C (in module M) because module M does not export C to module N"
+    }
+  ],
+  "TransformException": [
+    {
+      "id": "33515018",
+      "title": "Getting Transform Exception while building the project"
+    },
+    {
+      "id": "37099771",
+      "title": "Android Studio 2.1 won't run my App"
+    },
+    {
+      "id": "38072287",
+      "title": "Error:Execution failed for task ':Application:transformClassesWithJarMergingForDebug'"
+    },
+    {
+      "id": "43856922",
+      "title": "Android project working for everyone but me."
+    }
+  ],
+  "UnmarshalException": [
+    {
+      "id": "27288425",
+      "title": "javax.xml.bind.UnmarshalException: unexpected element (uri:\"naver:openapi\", local:\"geocode\"). Expected elements are <{}geocode>"
+    },
+    {
+      "id": "27319695",
+      "title": "javax.xml.bind.UnmarshalException PasswordResponse"
+    },
+    {
+      "id": "33800053",
+      "title": "javax.xml.bind.UnmarshalException: prefix wsdp is not bound to a namespace"
+    },
+    {
+      "id": "9531158",
+      "title": "java.rmi.ServerException: RemoteException occurred in server thread (ClassNotFoundException)"
+    }
+  ],
+  "IncompatibleClassChangeError": [
+    {
+      "id": "14069671",
+      "title": "java.lang.incompatible class change error"
+    },
+    {
+      "id": "21962874",
+      "title": "Java Eclipse : Hibernate Configuration to AnnotationConfiguration does not work and gives the runtime error"
+    },
+    {
+      "id": "17304493",
+      "title": "Jasper Report error running JUnit"
+    },
+    {
+      "id": "38359093",
+      "title": "Exception starting filter struts2 java.lang.IncompatibleClassChangeError: Implementing class"
+    },
+    {
+      "id": "40690845",
+      "title": "How to solve - java.lang.IncompatibleClassChangeError?"
+    },
+    {
+      "id": "42117941",
+      "title": "java.lang.IllegalArgumentException: Invalid character or IncompatibleClassChangeError depending on Tomcat 7 version"
+    },
+    {
+      "id": "45229067",
+      "title": "IncompatibleClassChangeError in Spring MVC"
+    },
+    {
+      "id": "46839801",
+      "title": "IncompatibleClassChangeError with No Stack Trace"
+    },
+    {
+      "id": "67702941",
+      "title": "java.lang.IncompatibleClassChangeError caused by R8 (AGP 7.0.0-beta02)"
+    },
+    {
+      "id": "70459741",
+      "title": "PostgreSql connecter is not connecting in spring application"
+    },
+    {
+      "id": "72136239",
+      "title": "java.lang.IncompatibleClassChangeError: class io.sentry.SentryEnvelopeHeaderAdapter has interface com.google.gson.TypeAdapter as super class"
+    }
+  ],
+  "MappingException": [
+    {
+      "id": "9980645",
+      "title": "Hibernate unknown entity (not missing @Entity or import javax.persistence.Entity )"
+    },
+    {
+      "id": "27039300",
+      "title": "JPA SQL Server No Dialect mapping for JDBC type: -9"
+    },
+    {
+      "id": "39428296",
+      "title": "spring boot - how to avoid org.hibernate.MappingException Unknown entity?"
+    },
+    {
+      "id": "42075274",
+      "title": "Repeated column in mapping for entity with @ManytoOne annotation and another referencedColumnName"
+    },
+    {
+      "id": "3774198",
+      "title": "org.hibernate.MappingException: Could not determine type for: java.util.List, at table: College, for columns: [org.hibernate.mapping.Column(students)]"
+    },
+    {
+      "id": "48024077",
+      "title": "How to connect Hibernate with Postgres in Intelij using Maven?"
+    },
+    {
+      "id": "50544196",
+      "title": "how to make Entity in Java"
+    },
+    {
+      "id": "54514612",
+      "title": "Java IOException invalid constant type"
+    },
+    {
+      "id": "46975799",
+      "title": "JPA - Persisting entities without relations"
+    }
+  ],
+  "NameNotFoundException": [
+    {
+      "id": "16792723",
+      "title": "JSF and ManagedBean : NullPointerException"
+    },
+    {
+      "id": "16107296",
+      "title": "Should I enabled allowLinking on my Tomcat?"
+    }
+  ],
+  "InvalidKeyException": [
+    {
+      "id": "14885420",
+      "title": "Illegal key size or default parameters"
+    },
+    {
+      "id": "14615249",
+      "title": "Java AES encryption using 32 Byte key - Invalid Key Size"
+    },
+    {
+      "id": "24138402",
+      "title": "AES encryption throwing \"Illegal Key Size error\""
+    },
+    {
+      "id": "6669181",
+      "title": "Why does my AES encryption throws an InvalidKeyException?"
+    },
+    {
+      "id": "36062003",
+      "title": "GOST encryption using Boucycastle: Illegal key size or default parameters"
+    },
+    {
+      "id": "35629772",
+      "title": "How do I encrypt data using a AES-256 with a 32-byte key - java.security.InvalidKeyException: Illegal key size exception"
+    },
+    {
+      "id": "3862800",
+      "title": "InvalidKeyException Illegal key size"
+    },
+    {
+      "id": "39439142",
+      "title": "AES de/encryption throws 'Illegal key size' for 256 bit key"
+    },
+    {
+      "id": "39853625",
+      "title": "How to generate 256 bits AES key"
+    },
+    {
+      "id": "42235976",
+      "title": "JAVA AES 256 Decrypt"
+    },
+    {
+      "id": "46818474",
+      "title": "Using AES-256-CBC encryption from github"
+    },
+    {
+      "id": "46989194",
+      "title": "Java - AES 256 works in JDK 7 and JDK 9 but not in JDK 8"
+    },
+    {
+      "id": "6481627",
+      "title": "Java Security: Illegal key size or default parameters?"
+    },
+    {
+      "id": "19856324",
+      "title": "Exception in thread \"main\" java.security.InvalidKeyException: Illegal key size or default parameters"
+    },
+    {
+      "id": "59969065",
+      "title": "Invalid Key Exception:Ilegal key size"
+    },
+    {
+      "id": "61103929",
+      "title": "PDFBox throwing exception java.io.IOException: java.security.InvalidKeyException: Illegal key size"
+    },
+    {
+      "id": "62841553",
+      "title": "How can I configure Java Cryptography Extension (JCE) in OpenJDK 11"
+    }
+  ],
+  "CertificateException": [
+    {
+      "id": "8443081",
+      "title": "How are SSL certificate server names resolved/Can I add alternative names using keytool?"
+    },
+    {
+      "id": "10258101",
+      "title": "SSLHandshakeException: No subject alternative names present"
+    },
+    {
+      "id": "49276019",
+      "title": "Call java servlet from other project"
+    },
+    {
+      "id": "54745313",
+      "title": "How to resolve SSL handshake exception"
+    },
+    {
+      "id": "69250208",
+      "title": "No subject alternative names present when Spring Boot Version Upgraded"
+    }
+  ],
+  "SQLException": [
+    {
+      "id": "3502005",
+      "title": "java.sql.SQLException: Exhausted Resultset"
+    },
+    {
+      "id": "50072950",
+      "title": "JDBC : Operation not allowed after ResultSet closed"
+    },
+    {
+      "id": "31637694",
+      "title": "how to handle java sql exception:exhausted result set"
+    },
+    {
+      "id": "62747260",
+      "title": "Java/JDBC MySQL Connection Error - \"Access denied for user ' '@'localhost ' (using password: NO)\" Timezone Dump?"
+    },
+    {
+      "id": "37163248",
+      "title": "No Data found exception while assigning the result set"
+    },
+    {
+      "id": "53533815",
+      "title": "Meeting \"java.sql.SQLException: Invalid column index\" when using jdbcTemplate to execute a SQL statement without argument."
+    },
+    {
+      "id": "58697855",
+      "title": "why i am getting this error in my jdbc java code while using correct username and password?"
+    },
+    {
+      "id": "16725377",
+      "title": "No suitable driver found (SQLite)"
+    },
+    {
+      "id": "3156815",
+      "title": "Why does VARCHAR need length specification?"
+    },
+    {
+      "id": "42928268",
+      "title": "Spring Security: configure(AuthenticationManagerBuilder auth)"
+    },
+    {
+      "id": "50163265",
+      "title": "How to retrieve data from a specific cell, from a MySQL Database, in java"
+    },
+    {
+      "id": "58467240",
+      "title": "I have a mysql connection problem, although I connect to the command line with the same parameters"
+    },
+    {
+      "id": "41333487",
+      "title": "JDBC code optimization"
+    },
+    {
+      "id": "44229273",
+      "title": "java.sql.SQLException: Operation not allowed after ResultSet closed [help]"
+    },
+    {
+      "id": "15617426",
+      "title": "jdbc error Parameter index out of range (2 > number of parameters, which is 1)"
+    },
+    {
+      "id": "675952",
+      "title": "What's the right way in Java to connect to a Microsoft Access 2007 database?"
+    },
+    {
+      "id": "30346922",
+      "title": "sql error illegal operation on empty result set using java"
+    },
+    {
+      "id": "54414817",
+      "title": "ORA-01000: maximum open cursors exceeded from Java Application"
+    },
+    {
+      "id": "5840866",
+      "title": "Getting java.sql.SQLException: Operation not allowed after ResultSet closed"
+    },
+    {
+      "id": "29925349",
+      "title": "SQLException: the result set is closed"
+    },
+    {
+      "id": "56385545",
+      "title": "How to solve 'java.sql.SQLException: Column count doesn't match value count at row 1' error?"
+    },
+    {
+      "id": "32684783",
+      "title": "java.sql.SQLException: Parameter index out of range (1 > number of parameters, which is 0)."
+    },
+    {
+      "id": "30381413",
+      "title": "unreported exception Exception; must be caught or declared to be thrown?"
+    },
+    {
+      "id": "34625857",
+      "title": "How to use a variable in preparedstatement for sql query?"
+    },
+    {
+      "id": "47743152",
+      "title": "Java Compiling sqlite via commandline doesnt work"
+    },
+    {
+      "id": "19178300",
+      "title": "Oracle Open cursors ora-1000 errors, \"Maximum open cursors exceeded.\""
+    },
+    {
+      "id": "50773500",
+      "title": "Exception in thread \"main\" java.sql.SQLException: No database selected"
+    },
+    {
+      "id": "48514791",
+      "title": "ResultSet closed issue in postgresql jdbc"
+    },
+    {
+      "id": "10007029",
+      "title": "Steps needed to use MySQL database with Play framework 2.0"
+    },
+    {
+      "id": "39690867",
+      "title": "SQLServerException:The statement did not return a result set. Can i remove result?"
+    },
+    {
+      "id": "12574414",
+      "title": "IO Error: The Network Adapter could not establish the connection"
+    },
+    {
+      "id": "5891313",
+      "title": "JDBC giving me Parameter index out of range (1 > number of parameters, which is 0)"
+    },
+    {
+      "id": "37443552",
+      "title": "Java JDBC SQLException: Parameter index out of range"
+    },
+    {
+      "id": "37903403",
+      "title": "iterative update to a jdbc derby using a ResultSet"
+    },
+    {
+      "id": "69121730",
+      "title": "Resultset closed and I have no idea why"
+    },
+    {
+      "id": "8916428",
+      "title": "Java MySQL - not suitable driver found"
+    },
+    {
+      "id": "21255977",
+      "title": "hibernate 4.3.0.Final causes a ORA-01000: maximum open cursors exceeded"
+    },
+    {
+      "id": "36583984",
+      "title": "MySQL syntax error when executing SQL query"
+    },
+    {
+      "id": "25493837",
+      "title": "Java - Can't use ResultSet after connection close"
+    },
+    {
+      "id": "45074643",
+      "title": "java sql exception occures repeatedly"
+    },
+    {
+      "id": "21063847",
+      "title": "Problems to return in Openshift JSON object with Spring framework"
+    },
+    {
+      "id": "42806710",
+      "title": "How do I retrieve the value of a column of a MySQL table into code?"
+    },
+    {
+      "id": "50682550",
+      "title": "JDBC trying to retrieve salt from MySQL database with null parameter"
+    },
+    {
+      "id": "25974982",
+      "title": "Spring JdbcTemplate and ORA-01000: maximum open cursors exceeded"
+    },
+    {
+      "id": "37103781",
+      "title": "JDBC + JSF, getting error: Parameter index out of range (2 > number of parameters, which is 1)"
+    },
+    {
+      "id": "3816015",
+      "title": "SQLException: No suitable driver found for jdbc:derby://localhost:1527"
+    },
+    {
+      "id": "12623651",
+      "title": "ERROR: Error 1005: Can't create table (errno: 121)"
+    },
+    {
+      "id": "36300632",
+      "title": "How to update Tables with an input from the user"
+    },
+    {
+      "id": "2120255",
+      "title": "ResultSet exception - before start of result set"
+    },
+    {
+      "id": "29956605",
+      "title": "Exception in thread \"main\" java.sql.SQLException: No suitable driver found for jdbc:microsoft:sqlserver"
+    }
+  ],
+  "BeanCreationException": [
+    {
+      "id": "25262248",
+      "title": "Missing class org.springframework.objenesis.ObjenesisStd"
+    },
+    {
+      "id": "31432374",
+      "title": "Spring convert error - bean implements same interface as constructor arguments"
+    },
+    {
+      "id": "18125294",
+      "title": "Hibernate 4 javax/transaction/SystemException error"
+    },
+    {
+      "id": "38863828",
+      "title": "Feign: Spring cannot autowire @FeignClient bean in jar file"
+    },
+    {
+      "id": "35537221",
+      "title": "java.lang.ClassNotFoundException: org.aspectj.util.PartialOrder$PartialComparable"
+    },
+    {
+      "id": "23456197",
+      "title": "Spring-Data-Jpa Repository - Underscore on Entity Column Name"
+    },
+    {
+      "id": "19583540",
+      "title": "Spring Data JPA - \"No Property Found for Type\" Exception"
+    },
+    {
+      "id": "54514612",
+      "title": "Java IOException invalid constant type"
+    },
+    {
+      "id": "43052745",
+      "title": "How to fix role in Spring Security?"
+    },
+    {
+      "id": "72344082",
+      "title": "Unable to find column with logical name in JPA Springboot"
+    }
+  ],
+  "AssertionError": [
+    {
+      "id": "2989987",
+      "title": "How can I check if two ArrayList differ, I don't care what's changed"
+    },
+    {
+      "id": "21587122",
+      "title": "Mocha / Chai expect.to.throw not catching thrown errors"
+    },
+    {
+      "id": "24863185",
+      "title": "What is an AssertionError? In which case should I throw it from my own code?"
+    }
+  ],
+  "ClassFormatError": [
+    {
+      "id": "13985933",
+      "title": "which code coveragae support JDK1.7?"
+    },
+    {
+      "id": "18729231",
+      "title": "ClassFormatError array size > 65535"
+    },
+    {
+      "id": "38454763",
+      "title": "Test servlet API with Mockito"
+    },
+    {
+      "id": "49970203",
+      "title": "need assistance with a input issue in java"
+    },
+    {
+      "id": "68168691",
+      "title": "java.lang.reflect.InaccessibleObjectException: Unable to make protected final java.lang.Class when upgrade from java 11 to 17"
+    }
+  ],
+  "NoSuchFieldError": [
+    {
+      "id": "13302587",
+      "title": "Hiberante + Struts + Spring Security : Tomcat server not starting : Context Initialization Failed"
+    },
+    {
+      "id": "18075775",
+      "title": "java.lang.NoSuchFieldError error in java"
+    },
+    {
+      "id": "33238431",
+      "title": "Error in JUnit tests after adding Spring Security to pom.xml"
+    },
+    {
+      "id": "37981255",
+      "title": "Cassandra-Hector: java.lang.NoSuchFieldError: DEFAULT_MEMTABLE_THROUGHPUT_IN_MB"
+    },
+    {
+      "id": "38367734",
+      "title": "java.lang.NoSuchFieldError: APPLICATION_CONTEXT_ID_PREFIX in Eclipse project"
+    },
+    {
+      "id": "43744904",
+      "title": "Could not initialize class com.amazonaws.partitions.PartitionsLoader"
+    },
+    {
+      "id": "70430258",
+      "title": "spark submit error : Exception in thread \"main\" java.lang.NoSuchFieldError: JAVA_9"
+    }
+  ],
+  "InflateException": [
+    {
+      "id": "24116176",
+      "title": "New activity not able to start"
+    },
+    {
+      "id": "24932131",
+      "title": "Caused by: java.lang.IllegalArgumentException: Bad pattern character 'E' in EE,dd MMM yyyy"
+    },
+    {
+      "id": "19723811",
+      "title": "After Google Play Service update to version 13 I got an error"
+    },
+    {
+      "id": "26233227",
+      "title": "android.view.InflateException: Binary XML file line #16: Error inflating class fragment"
+    },
+    {
+      "id": "48828454",
+      "title": "Unable to start activity (Binary XML file line #0: Error inflating class unknown)"
+    },
+    {
+      "id": "46810118",
+      "title": "Exception on new WebView on Lollipop 5.1 devices"
+    },
+    {
+      "id": "58472000",
+      "title": "WebView throws InflateException on android 5.0"
+    },
+    {
+      "id": "17080965",
+      "title": "Error inflating class android.widget.ImageButton"
+    }
+  ],
+  "ArithmeticException": [
+    {
+      "id": "2749375",
+      "title": "ArithmeticException thrown during BigDecimal.divide"
+    },
+    {
+      "id": "15739308",
+      "title": "Android Calculator Division"
+    },
+    {
+      "id": "17542378",
+      "title": "Big Decimal periodic number"
+    },
+    {
+      "id": "10603651",
+      "title": "What causes \"Non-terminating decimal expansion\" exception from BigDecimal.divide?"
+    },
+    {
+      "id": "17819058",
+      "title": "\"Non-terminating decimal expansion; no exact representable decimal result\" happens even when divide by 100"
+    },
+    {
+      "id": "8842504",
+      "title": "Raising a number to a power in Java"
+    },
+    {
+      "id": "2381544",
+      "title": "Why doesn't Java throw an Exception when dividing by 0.0?"
+    },
+    {
+      "id": "21664300",
+      "title": "Java \"Errors\" with math - int vs Double"
+    },
+    {
+      "id": "29209811",
+      "title": "Dividing BigDecimals"
+    },
+    {
+      "id": "31310670",
+      "title": "Division by zero in java"
+    },
+    {
+      "id": "33884772",
+      "title": "Dividing two ints into a big decimal"
+    },
+    {
+      "id": "35551591",
+      "title": "main java.lang.ArithmeticException: / by Zero"
+    },
+    {
+      "id": "36457157",
+      "title": "Rounding with BigDecimal?"
+    },
+    {
+      "id": "36751296",
+      "title": "Calculating Eulers number using BigDecimal"
+    },
+    {
+      "id": "38281194",
+      "title": "Creating a boolean array by prime number"
+    },
+    {
+      "id": "4691962",
+      "title": "Why use finally instead of code after catch"
+    },
+    {
+      "id": "41312477",
+      "title": "Purpose of defining POSITIVE_INFINITY, NEGATIVE_INFINITY, NaN constants only for floating-point data types, but not for integral data types"
+    },
+    {
+      "id": "45740177",
+      "title": "I am getting an exception Exception in thread \"main\" java.lang.ArithmeticException: / by zero"
+    },
+    {
+      "id": "4591206",
+      "title": "ArithmeticException: \"Non-terminating decimal expansion; no exact representable decimal result\""
+    },
+    {
+      "id": "53836351",
+      "title": "Calculating MPG results in java.lang.ArithmeticException: Non terminating decimal expansion; no exact representable decimal result"
+    },
+    {
+      "id": "11211286",
+      "title": "Is it possible in Java to catch two exceptions in the same catch block?"
+    },
+    {
+      "id": "59026306",
+      "title": "Not getting ArithmeticException in Java"
+    },
+    {
+      "id": "64047168",
+      "title": "Need help in JAVA with ArrayIndexOutOfBoundsExceptions"
+    },
+    {
+      "id": "24323567",
+      "title": "use def exception cannot be converted to throwable error"
+    },
+    {
+      "id": "14137989",
+      "title": "Java division by zero doesnt throw an ArithmeticException - why?"
+    },
+    {
+      "id": "68117752",
+      "title": "Why does division be negative zero returns positive infinity in Java?"
+    },
+    {
+      "id": "68762868",
+      "title": "ArithmeticException not being caught"
+    },
+    {
+      "id": "70725354",
+      "title": "After using a explicit throw keyword ,why the other implicit throw is not working in case of multiple catch statement?"
+    },
+    {
+      "id": "72001122",
+      "title": "Error performing division between 2 BigDecimal: java.lang.ArithmeticException: Non-terminating decimal expansion;"
+    },
+    {
+      "id": "72464748",
+      "title": "Not able to understand the overloading with super class and sub class"
+    }
+  ],
+  "UnsupportedClassVersionError": [
+    {
+      "id": "32263372",
+      "title": "businessobjects sdk java compatibility java version"
+    },
+    {
+      "id": "70135455",
+      "title": "Minecraft server not running corectly"
+    },
+    {
+      "id": "44571122",
+      "title": "java.lang.UnsupportedClassVersionError: org/openqa/selenium/Capabilities : Unsupported major.minor version 52.0"
+    },
+    {
+      "id": "47102120",
+      "title": "(class file version 53.0), Java Runtime versions up to 52.0 Visual studio code"
+    },
+    {
+      "id": "50202954",
+      "title": "java.lang.UnsupportedClassVersionError: org/springframework/web/client/RestTemplate : Unsupported major.minor version 52.0"
+    },
+    {
+      "id": "21570747",
+      "title": "Run time error in java code"
+    },
+    {
+      "id": "47505558",
+      "title": "Unsupported major.minor version 52.0 in java"
+    },
+    {
+      "id": "66222498",
+      "title": "A JNI error has occurred, please check your installation and try again. I have this error and exception in IntelliJ IDEA"
+    },
+    {
+      "id": "59709464",
+      "title": "Why can't run jar file from Desktop even though I can do it perfectly well from IntelliJ?"
+    },
+    {
+      "id": "60656942",
+      "title": "@Component scan for spring bean"
+    },
+    {
+      "id": "29836680",
+      "title": "Unsupported major.minor version 52.0 while running Java 1.8 on AWS EMR"
+    },
+    {
+      "id": "59330716",
+      "title": "Servlet Exception - servlet.init() (UnsupportedClassVersion)"
+    },
+    {
+      "id": "64533853",
+      "title": "Spring boot - Java class version mismatch"
+    },
+    {
+      "id": "59676019",
+      "title": "Execution higher version of jar file on the server"
+    },
+    {
+      "id": "14251221",
+      "title": "Unable to run the jar file in MacOs"
+    },
+    {
+      "id": "38757536",
+      "title": "Jdk1.8.0 happen unsupported major.minor version 52.0"
+    },
+    {
+      "id": "27344534",
+      "title": "Unsupported major.minor version 52.0 captive portal"
+    },
+    {
+      "id": "27900627",
+      "title": "java.lang.UnsupportedClassVersionError: org/apache/jsp/snoop_jsp : Unsupported major.minor version 52.0"
+    },
+    {
+      "id": "39865693",
+      "title": "Running Java program gives errors I don't understand"
+    },
+    {
+      "id": "36423719",
+      "title": "Unsupported major.minor version 52.0 with Apache POI 3.9 and Java JDK 1.7"
+    },
+    {
+      "id": "54951911",
+      "title": "Why i am getting this error while connection my java program to sql server"
+    },
+    {
+      "id": "59027283",
+      "title": "Unsupported major.minor version 52.0 Java 1.7, tomcat 7"
+    },
+    {
+      "id": "51340896",
+      "title": "how to overcome this anyone explain me .....my pc is 64bit and java version is 10.0.1 and jdk is 1.6.0_29"
+    },
+    {
+      "id": "31078981",
+      "title": "Getting error(java.lang.UnsupportedClassVersionError: JVMCFRE003 bad major version;, offset=6)"
+    },
+    {
+      "id": "72314226",
+      "title": "I have written selenium coding using Java, used maven project & TestNG Framework, Now I want to run my module using Azure DevOps Pipeline"
+    },
+    {
+      "id": "42294273",
+      "title": "Unsupported major.minor version 52.0 (unable to load class org.apache.solr.client.solrj.SolrServerException)"
+    },
+    {
+      "id": "39609534",
+      "title": "Unsopported major minor version 52, after installing Android N"
+    },
+    {
+      "id": "43759280",
+      "title": "GXT 4.0.1 Application build issue with java 6"
+    },
+    {
+      "id": "22833307",
+      "title": "Unsupported minor.major version 51.0"
+    },
+    {
+      "id": "39199093",
+      "title": "unsupported major minor version 51.0 error in ubuntu"
+    },
+    {
+      "id": "11059167",
+      "title": "Java Stacktrace error Unsupported major.minor version 51.0"
+    },
+    {
+      "id": "72003176",
+      "title": "java.lang.UnsupportedClassVersionError when deploy on PCF"
+    },
+    {
+      "id": "55089550",
+      "title": "Run time environment different to compiler Java issues?"
+    },
+    {
+      "id": "47947755",
+      "title": "how solve exception UnsupportedClassVersionError: Unsupported major.minor version 52.0 in netbeans 8 running in windows 7 64 bit?"
+    },
+    {
+      "id": "44679093",
+      "title": "Why doesn't standard core NLP's Quick start not start?"
+    },
+    {
+      "id": "7237536",
+      "title": "Exception in thread \"main\" java.lang.UnsupportedClassVersionError: a (Unsupported major.minor version 51.0)"
+    },
+    {
+      "id": "62680588",
+      "title": "Minecraft java.lang.UnsupportClassVersionError"
+    },
+    {
+      "id": "71949501",
+      "title": "Getting linkage error every time I run a soring-boot application. Anyone know the fix for that?"
+    },
+    {
+      "id": "30235671",
+      "title": "Spring Boot Java 6 java.lang.UnsupportedClassVersionError: X : Unsupported major.minor version 51.0"
+    },
+    {
+      "id": "27143461",
+      "title": "Java Unsupported major.minor version 52.0 error Minecraft"
+    },
+    {
+      "id": "39805456",
+      "title": "Unsupported major.minor version 52.0 mvn java SE 8"
+    },
+    {
+      "id": "69026915",
+      "title": "NetBeans project load error \"Unsupported class file major version 60\""
+    },
+    {
+      "id": "72051237",
+      "title": "How do I solve \"Unsupported class file major version 61\"?"
+    },
+    {
+      "id": "53725011",
+      "title": "Installing Spring Boot Applications"
+    },
+    {
+      "id": "66398343",
+      "title": "Java/eclipse Error: A JNI error has occurred"
+    },
+    {
+      "id": "18028224",
+      "title": "Jar file not running in Ubuntu"
+    },
+    {
+      "id": "9290848",
+      "title": "How to set a java compiler in Netbeans"
+    },
+    {
+      "id": "19161905",
+      "title": "How to fix major minor version exception"
+    },
+    {
+      "id": "69779252",
+      "title": "Servlet not working after deployment in apache tomcat 9.0"
+    },
+    {
+      "id": "22093274",
+      "title": "Run program java with attributes from command line"
+    }
+  ],
+  "IllegalMonitorStateException": [
+    {
+      "id": "11679428",
+      "title": "Java - trying to pause a thread"
+    },
+    {
+      "id": "16623801",
+      "title": "Don't know how use wait() and notify() in Java"
+    },
+    {
+      "id": "16886557",
+      "title": "Thread wait sleep and notify"
+    },
+    {
+      "id": "1537116",
+      "title": "IllegalMonitorStateException on wait() call"
+    },
+    {
+      "id": "17513195",
+      "title": "IllegalMonitorStateException in code"
+    },
+    {
+      "id": "23156985",
+      "title": "java thread understanding issue"
+    },
+    {
+      "id": "23635857",
+      "title": "java.lang.IllegalMonitorStateException wait and notify"
+    },
+    {
+      "id": "24638570",
+      "title": "java.lang.IllegalMonitorStateException occurs on calling wait(); in java"
+    },
+    {
+      "id": "26075740",
+      "title": "What is the need of synchronizing on a threadsafe object"
+    },
+    {
+      "id": "31325064",
+      "title": "Java IllegalMonitorStateException"
+    },
+    {
+      "id": "31724142",
+      "title": "Do not synchronize on objects that may be reused"
+    },
+    {
+      "id": "32081591",
+      "title": "I don't understand how to use wait and notify on threads"
+    },
+    {
+      "id": "32414713",
+      "title": "Java Threading - Simple wait() notify() issues"
+    },
+    {
+      "id": "33404057",
+      "title": "Java threading deadlock issue"
+    },
+    {
+      "id": "34623114",
+      "title": "IllegalMonitorStateException when attempting to wait() a thread"
+    },
+    {
+      "id": "34667837",
+      "title": "IllegalMonitorStateException on notifyAll"
+    },
+    {
+      "id": "36219810",
+      "title": "How to solve IllegalMonitorStateException while calling a method with out breaking the loops present on it"
+    },
+    {
+      "id": "36785349",
+      "title": "IllegalMonitorStateException in Java"
+    },
+    {
+      "id": "37899729",
+      "title": "Unexpected IllegalStateMonitorException"
+    },
+    {
+      "id": "38612255",
+      "title": "wait() and notify() cause IllegalMonitorStateException"
+    },
+    {
+      "id": "40317315",
+      "title": "Java multithread error `java.lang.IllegalMonitorStateException`"
+    },
+    {
+      "id": "44833905",
+      "title": "Understanding Producer/Consumer Relationship with Synchronization"
+    },
+    {
+      "id": "44973248",
+      "title": "Code is not working after call synchronized (notify) Java using Multithreading"
+    },
+    {
+      "id": "45916147",
+      "title": "Print odd & even number using Multi threading"
+    },
+    {
+      "id": "2051385",
+      "title": "IllegalMonitorStateException"
+    },
+    {
+      "id": "47569003",
+      "title": "Understanding multi threading wait and notify"
+    },
+    {
+      "id": "7126550",
+      "title": "Java Wait and Notify: IllegalMonitorStateException"
+    },
+    {
+      "id": "48673286",
+      "title": "Java thread wait and monitor boolean"
+    },
+    {
+      "id": "25733718",
+      "title": "IllegalMonitorStateException on notify() when synchronized on an Integer"
+    },
+    {
+      "id": "47376202",
+      "title": "Object not locked by thread before wait in Android app on Non Activity"
+    },
+    {
+      "id": "24861117",
+      "title": "Java synchronized String IllegalMonitorStateException"
+    },
+    {
+      "id": "54022462",
+      "title": "Why Iam getting Illeagal Monitor exception"
+    },
+    {
+      "id": "54098169",
+      "title": "Synchronizing Consumer - Producer with thread in java"
+    },
+    {
+      "id": "56623252",
+      "title": "How to properly use wait() and notify() in Java? (HiveMQ Client)"
+    },
+    {
+      "id": "58388492",
+      "title": "my own blocking queue for producer consumer"
+    },
+    {
+      "id": "58645088",
+      "title": "How to create user defined SettableFuture in java"
+    },
+    {
+      "id": "59906952",
+      "title": "IllegalMonitorStateException while calling notifyAll"
+    },
+    {
+      "id": "61772374",
+      "title": "Synchronized Block locked on class"
+    },
+    {
+      "id": "71339485",
+      "title": "How to release lock from Java?"
+    },
+    {
+      "id": "72197937",
+      "title": "Count in reverse (100-1) using 3 threads java"
+    }
+  ],
+  "SQLServerException": [
+    {
+      "id": "7314134",
+      "title": "The multi-part identifier could not be bound"
+    },
+    {
+      "id": "28570910",
+      "title": "cfqueryparam issues"
+    },
+    {
+      "id": "66544410",
+      "title": "Connect to SQL Server using Hibernate"
+    }
+  ],
+  "ProtocolException": [
+    {
+      "id": "59819607",
+      "title": "Target host is not specified exception while calling BAPI from Java using SAP Cloud SDK version 3.0"
+    }
+  ],
+  "DatabaseError": [
+    {
+      "id": "5661610",
+      "title": "TNS-12505: TNS:listener does not currently know of SID given in connect descriptor"
+    },
+    {
+      "id": "59219586",
+      "title": "Firebase crashing on addListenerForSingleValueEvent when app is opened"
+    },
+    {
+      "id": "29141729",
+      "title": "recyclerview No adapter attached; skipping layout"
+    },
+    {
+      "id": "32088258",
+      "title": "RecyclerView\ufe55 No adapter attached; skipping layout"
+    },
+    {
+      "id": "38577023",
+      "title": "E/RecyclerView: No adapter attached; skipping layout (Using FRAGMENTS)"
+    },
+    {
+      "id": "30895580",
+      "title": "\"RecyclerView: No Adapter attached; skipping layout\" for recyclerview in fragment"
+    },
+    {
+      "id": "69298478",
+      "title": "JasperReports Debug SQL with parameters"
+    }
+  ],
+  "ApplicationException": [
+    {
+      "id": "36702740",
+      "title": "How to properly override exception in Java"
+    },
+    {
+      "id": "156503",
+      "title": "How do you assert that a certain exception is thrown in JUnit 4 tests?"
+    },
+    {
+      "id": "52506802",
+      "title": "Java Try-Catch confusion"
+    }
+  ],
+  "AnnotationException": [
+    {
+      "id": "34190255",
+      "title": "Hibernate tutorial example not work"
+    },
+    {
+      "id": "43236749",
+      "title": "How to get usernames by their id with Hibernate and JPA?"
+    }
+  ],
+  "IllegalArgumentException": [
+    {
+      "id": "15259099",
+      "title": "Android: Open file with specific path"
+    },
+    {
+      "id": "43307989",
+      "title": "Why must throw statements be enclosed with a full code block in a lambda body?"
+    },
+    {
+      "id": "58571395",
+      "title": "java.lang.IllegalArgumentException: Invalid Region.Op - only INTERSECT and DIFFERENCE are allowed"
+    },
+    {
+      "id": "54681398",
+      "title": "spark_read_csv in sparklyr giving IllegalArgumentException exception"
+    },
+    {
+      "id": "60664711",
+      "title": "Android Studio Error: java.lang.IllegalArgumentException: No such service ComponentInfo{com.example.notificationscheduler"
+    },
+    {
+      "id": "55269788",
+      "title": "Spark 2.4 & Java 11 compatibility"
+    },
+    {
+      "id": "54382119",
+      "title": "spark-shell throwing exceptions"
+    },
+    {
+      "id": "38698211",
+      "title": "Java 8 Optional orElse orElseThrow inconsistent"
+    },
+    {
+      "id": "19583540",
+      "title": "Spring Data JPA - \"No Property Found for Type\" Exception"
+    },
+    {
+      "id": "40120133",
+      "title": "How to load Image file to ImageView?"
+    },
+    {
+      "id": "8327514",
+      "title": "\"Comparison method violates its general contract!\""
+    },
+    {
+      "id": "41935207",
+      "title": "Base64 String to byte[] in java"
+    },
+    {
+      "id": "37000239",
+      "title": "Tomcat doesnt use my Error-Page"
+    },
+    {
+      "id": "23456197",
+      "title": "Spring-Data-Jpa Repository - Underscore on Entity Column Name"
+    },
+    {
+      "id": "33214059",
+      "title": "RestTemplate in Java - Not enough variable values available with RestTemplate"
+    },
+    {
+      "id": "11056119",
+      "title": "Sql timestamp to Java date?"
+    },
+    {
+      "id": "32303036",
+      "title": "How do I call varargs method in EL"
+    },
+    {
+      "id": "37186515",
+      "title": "java.lang.IllegalArgumentException when using HttpClient"
+    },
+    {
+      "id": "56888111",
+      "title": "Failed to execute with spring security"
+    },
+    {
+      "id": "52352231",
+      "title": "Pyspark error java.lang.IllegalArgumentException"
+    },
+    {
+      "id": "16270619",
+      "title": "java.lang.IllegalArgumentException: The servlets named [X] and [Y] are both mapped to the url-pattern [/url] which is not permitted"
+    },
+    {
+      "id": "68907006",
+      "title": "java.lang.IllegalArgumentException: Page directive : invalid value for import"
+    },
+    {
+      "id": "30259653",
+      "title": "IllegalArgumentException when combining varargs and string arrays in EL"
+    },
+    {
+      "id": "38395460",
+      "title": "java.lang.IllegalArgumentException: baseUrl must end in / while using retrofit 2.1.0 for GET method"
+    },
+    {
+      "id": "60997687",
+      "title": "Android Material Design issues updated from 1.0.0 to 1.1.0"
+    },
+    {
+      "id": "22914582",
+      "title": "SUM function not recognized"
+    },
+    {
+      "id": "60439988",
+      "title": "Is using IllegalArgumentException correct if field is wrong?"
+    },
+    {
+      "id": "22806946",
+      "title": "Getting Error scanning file when running jetty 9 on java 8 using the maven jetty plugin"
+    },
+    {
+      "id": "57089215",
+      "title": "how can implement Extended Floating Action Button in android"
+    },
+    {
+      "id": "15715369",
+      "title": "Android Calendar illegalArgumentException when calendar.month set to 1"
+    },
+    {
+      "id": "54358064",
+      "title": "Unable to start activity ComponentInfo when using fragments"
+    },
+    {
+      "id": "23181306",
+      "title": "Numbers of source Raster bands and source color space components do not match when i read image"
+    },
+    {
+      "id": "39159146",
+      "title": "Migrating Spring 3.x to Spring 4.x: Cause BeanCreationException"
+    },
+    {
+      "id": "69629908",
+      "title": "Which exception should I throw when switching over type?"
+    },
+    {
+      "id": "68148606",
+      "title": "Spring Boot AOP IllegalArgumentException with @target and custom annotation,"
+    },
+    {
+      "id": "13042008",
+      "title": "java.util.NoSuchElementException - Scanner reading user input"
+    },
+    {
+      "id": "68003423",
+      "title": "java.lang.IllegalArgumentException: Malformed \\uxxxx encoding while mvn install"
+    },
+    {
+      "id": "31526814",
+      "title": "java.lang.IllegalArgumentException: Invalid <url-pattern> WelcomeServlet in servlet mapping"
+    },
+    {
+      "id": "3061273",
+      "title": "Send an Array with an HTTP Get"
+    },
+    {
+      "id": "52805571",
+      "title": "py4j.protocol.Py4JJavaError while running a Python script with Pyspark"
+    },
+    {
+      "id": "14889808",
+      "title": "GUI based java calculator: Adding window to a container exception"
+    },
+    {
+      "id": "52250555",
+      "title": "Spark On Windows--rdd.count() doesn't work"
+    },
+    {
+      "id": "25658885",
+      "title": "Retrofit with an old school service"
+    },
+    {
+      "id": "40809450",
+      "title": "Android: SimpleDateFormat gives API Error"
+    },
+    {
+      "id": "50173927",
+      "title": "Regex error, use non-capturing groups instead"
+    },
+    {
+      "id": "12968618",
+      "title": "How to upload file with relative path"
+    },
+    {
+      "id": "51197040",
+      "title": "Android No suitable parent found from the given view"
+    },
+    {
+      "id": "40143568",
+      "title": "How do I call a constructor in java via reflection?"
+    },
+    {
+      "id": "38270201",
+      "title": "Findbug telling me not to throw NullPointerException"
+    },
+    {
+      "id": "54987627",
+      "title": "pyspark.sql.utils.IllegalArgumentException: 'Unsupported class file major version 55'"
+    }
+  ],
+  "NoSuchMethodException": [
+    {
+      "id": "16260473",
+      "title": "passing method as parameter and getting error: java.lang.NoSuchMethodException:"
+    },
+    {
+      "id": "18119754",
+      "title": "Unable to retrieve value from a JavaBean while generating reports using JasperReports API"
+    },
+    {
+      "id": "33555953",
+      "title": "Java Reflection methods hashmap"
+    },
+    {
+      "id": "34844512",
+      "title": "Creating Custom Cell in JavaFX"
+    },
+    {
+      "id": "41955438",
+      "title": "newInstance() cannot find constructor that exist"
+    },
+    {
+      "id": "42306608",
+      "title": "Reflectively instantiate class with constructor which takes Enum"
+    },
+    {
+      "id": "46119282",
+      "title": "how to invoke Result Set method in java?"
+    },
+    {
+      "id": "47624384",
+      "title": "JavaFX Application Constructor in subclass"
+    },
+    {
+      "id": "18198176",
+      "title": "Java 8 Lambda function that throws exception?"
+    },
+    {
+      "id": "54207247",
+      "title": "Exception in Application constructor javafx"
+    },
+    {
+      "id": "56005035",
+      "title": "Why it shows illegal character: '\\ufeff' while importing javaFX stage"
+    },
+    {
+      "id": "56039087",
+      "title": "Is there a reason Java reflection getMethod sometimes does not work?"
+    },
+    {
+      "id": "57429448",
+      "title": "No default constructor found when using ModelAttribute with a Boolean object"
+    },
+    {
+      "id": "57464211",
+      "title": "Exception in Application constructor: Caused by: java.lang.NoSuchMethodException: Main.<init>()"
+    },
+    {
+      "id": "59124384",
+      "title": "Java reflection - Invoke method with int[][] argument"
+    },
+    {
+      "id": "61755031",
+      "title": "Exception in application constructure"
+    },
+    {
+      "id": "66046222",
+      "title": "NoSuchMethodError using maven"
+    },
+    {
+      "id": "71036936",
+      "title": "The exception \"NoSuchMethodError\" appears in a multi module project of maven"
+    }
+  ],
+  "BindException": [
+    {
+      "id": "21193167",
+      "title": "Close ServerSocket in java"
+    },
+    {
+      "id": "27203801",
+      "title": "Get document summary information from Word document"
+    },
+    {
+      "id": "1821785",
+      "title": "Problem getting tomcat to start up on reboot"
+    },
+    {
+      "id": "32472545",
+      "title": "How to run a server-client application in JAVA"
+    },
+    {
+      "id": "31914324",
+      "title": "java.net.BindException: Address already in use: JVM_Bind"
+    },
+    {
+      "id": "27260314",
+      "title": "java.net.BindException: Address already in use: JVM_Bind"
+    },
+    {
+      "id": "44727183",
+      "title": "Why am I getting \u201cAddress already in use (Bind failed)\u201d?"
+    },
+    {
+      "id": "45334131",
+      "title": "JAVA:java.net.BindException: Address already in use: JVM_Bind"
+    },
+    {
+      "id": "46508632",
+      "title": "java.net.BindException: Address already in use: JVM_Bind"
+    },
+    {
+      "id": "47116156",
+      "title": "Binding server socket Exception in thread \"main\" java.net.BindException: Address already in use: JVM_Bind java"
+    },
+    {
+      "id": "49475278",
+      "title": "Server already in use mistake"
+    },
+    {
+      "id": "51060349",
+      "title": "Server-Socket to Socket Communication"
+    },
+    {
+      "id": "56337857",
+      "title": "Why can't I use any Ports with Java.net?"
+    },
+    {
+      "id": "57729556",
+      "title": "i'm trying to configuring liferay with mysql but i have a oracle give me this wrong results"
+    },
+    {
+      "id": "60408483",
+      "title": "java.net.BindException: bind failed: EACCES (Permission denied) while using sockets"
+    },
+    {
+      "id": "63328267",
+      "title": "UDP client server average computing program"
+    },
+    {
+      "id": "65717608",
+      "title": "How can I use sockets in Java?"
+    },
+    {
+      "id": "34601554",
+      "title": "Mac spark-shell Error initializing SparkContext"
+    },
+    {
+      "id": "68969873",
+      "title": "tomcat server install(This address is already in use)"
+    },
+    {
+      "id": "69398865",
+      "title": "Socket programing Java ,java.net.BindException: Address already in use: JVM_Bind"
+    }
+  ],
+  "EJBException": [
+    {
+      "id": "8138458",
+      "title": "javax.persistence.NoResultException: No entity found for query"
+    }
+  ],
+  "SAXParseException": [
+    {
+      "id": "14080308",
+      "title": "I'm using Jena to import a skos thesaurus and it doesn't work"
+    },
+    {
+      "id": "24393336",
+      "title": "Content is not allowed in prolog. strings.xml in android application"
+    },
+    {
+      "id": "19889132",
+      "title": "Error: The processing instruction target matching \"[xX][mM][lL]\" is not allowed"
+    },
+    {
+      "id": "47708720",
+      "title": "Couldn't create SOAP message due to exception: XML reader error"
+    },
+    {
+      "id": "43497977",
+      "title": "How to add Script tag by inLine Script in Thymeleaf?"
+    },
+    {
+      "id": "56456966",
+      "title": "Content is not allowed in prolog, but prolog is fine at run-time? Groovy, Jenkins, Java, Pipeline, XML"
+    },
+    {
+      "id": "57142362",
+      "title": "My report works properly in Eclipse but throws \"No query executer factory registered for the 'MongoDbQuery'\" with jar file"
+    },
+    {
+      "id": "60465913",
+      "title": "Tomcat Error: Content is not allowed in prolog"
+    },
+    {
+      "id": "64855067",
+      "title": "Read XML API Response in Java"
+    },
+    {
+      "id": "67180355",
+      "title": "\u201cContent is not allowed in prolog\u201d when parsing XML"
+    },
+    {
+      "id": "71165452",
+      "title": "Upgrade log4j2 from log4j1"
+    }
+  ],
+  "PropertyNotFoundException": [
+    {
+      "id": "69889666",
+      "title": "error in view layer when trying to call method in bean in java 1.6"
+    },
+    {
+      "id": "29683134",
+      "title": "PrimeFaces command button didn't invoke actionListener before redirecting"
+    },
+    {
+      "id": "25572063",
+      "title": "Target Unreachable, identifier resolved to null with defined Bean"
+    },
+    {
+      "id": "30136732",
+      "title": "Login application in jsf Target Unreachable, identifier resolved to null"
+    },
+    {
+      "id": "53654517",
+      "title": "Java EE 7, CDI 1.2, JSF 2.1, Weblogic 12.2.1 - Target Unreachable, identifier 'Controller' resolved to null"
+    },
+    {
+      "id": "13471401",
+      "title": "\" Could not find a getter for \" Error"
+    },
+    {
+      "id": "44608597",
+      "title": "Managed bean instance variable gives exceptions when JSF file is executed"
+    },
+    {
+      "id": "39413162",
+      "title": "Target Unreachable, identifier in JSF 2.2"
+    },
+    {
+      "id": "61356906",
+      "title": "attribute cannot be resolved as a member of bean (JSF)"
+    },
+    {
+      "id": "35288122",
+      "title": "Select from Primefaces selectOneListbox and show value in Inputfield didn't work"
+    },
+    {
+      "id": "50032924",
+      "title": "javax.el.PropertyNotFoundException: /index.xhtml @23,97 action=\"#{execise04.getInput}\": Target Unreachable, identifier 'execise04' resolved to null"
+    },
+    {
+      "id": "57810069",
+      "title": "Target Unreachable, identifier 'user' resolved to null - unsure of what is wrong after exhaustive research"
+    },
+    {
+      "id": "48198296",
+      "title": "javax.el.PropertyNotFoundException: Target Unreachable, identifier 'test' resolved to null"
+    },
+    {
+      "id": "31206601",
+      "title": "Prevent methods from being called automatically"
+    },
+    {
+      "id": "24360427",
+      "title": "/index.xhtml @10,68 value=\"#{testBean.testString}\": Target Unreachable, identifier 'testBean' resolved to null"
+    },
+    {
+      "id": "36357293",
+      "title": "javax.el.PropertyNotFoundException: Target Unreachable, Identifier 'beanName' not Found"
+    },
+    {
+      "id": "42215493",
+      "title": "value=\"#{loginClientBean.login}\": Target Unreachable, identifier 'loginClientBean' resolved to null"
+    },
+    {
+      "id": "37713257",
+      "title": "property not found using listener on f:ajax"
+    },
+    {
+      "id": "34387323",
+      "title": "javax.el.PropertyNotFoundException: Target Unreachable, identifier 'appointmentFormBean' resolved to null"
+    },
+    {
+      "id": "47487793",
+      "title": "Target Unreachable, identifier 'userBean' resolved to null"
+    },
+    {
+      "id": "25663678",
+      "title": "Nested bean property, Exception: Target Unreachable, 'null' returned null"
+    },
+    {
+      "id": "68504243",
+      "title": "PropertyNotFoundException in JSF 2.2"
+    },
+    {
+      "id": "36559159",
+      "title": "javax.el.PropertyNotFoundException on method with javax.faces.event.AjaxBehaviorEvent for composite component"
+    },
+    {
+      "id": "24289460",
+      "title": "Target Unreachable, identifier 'inputNew\"' resolved to null"
+    },
+    {
+      "id": "21201273",
+      "title": "Target Unreachable, identifier 'helloBean' resolved to null"
+    },
+    {
+      "id": "37803845",
+      "title": "javax.el.PropertyNotFoundException: /role.xhtml @20,63 value=\"#{roleBean.rolepojo.role}\": Target Unreachable, 'rolepojo' returned null"
+    },
+    {
+      "id": "30729157",
+      "title": "JSF, Target unreachable"
+    },
+    {
+      "id": "33024149",
+      "title": "javax.el.PropertyNotFoundException: The class 'java.lang.String' does not have the property 'hotelName'"
+    },
+    {
+      "id": "23617691",
+      "title": "javax.el.PropertyNotFoundException error on jsp"
+    },
+    {
+      "id": "37421823",
+      "title": "Servlet Property 'nombreEvento' not found on type java.lang.String"
+    },
+    {
+      "id": "15072924",
+      "title": "javax.el.PropertyNotFoundException: Property 'name' not found on type java.lang.String"
+    },
+    {
+      "id": "47112004",
+      "title": "SelectOneMenu nullpoint with PrimeFaces"
+    },
+    {
+      "id": "40698717",
+      "title": "/c.xhtml @23,45 value=\"#{Bonjour.nom}\": Target Unreachable, identifier 'Bonjour' resolved to null"
+    },
+    {
+      "id": "35844154",
+      "title": "Enable button with jstl choose and when"
+    },
+    {
+      "id": "26823594",
+      "title": "glassfish Target Unreachable, identifier 'helloBean' resolved to null"
+    },
+    {
+      "id": "17771353",
+      "title": "Target Unreachable, identifier \"Bean Name\" resolved to null"
+    },
+    {
+      "id": "33503280",
+      "title": "error loading jsf annotated bean from external jars"
+    },
+    {
+      "id": "30404357",
+      "title": "Method doesn't run in JSF. What to do to be invoked?"
+    },
+    {
+      "id": "2207406",
+      "title": "javax.el.PropertyNotFoundException when second character of property name is a capital"
+    },
+    {
+      "id": "62287647",
+      "title": "Target Unreachable, identifier [tinyCalculator] resolved to null"
+    },
+    {
+      "id": "24200390",
+      "title": "Can I use same requestScope more than one time in jsp"
+    },
+    {
+      "id": "35769911",
+      "title": "EL call boolean method on object"
+    },
+    {
+      "id": "46143131",
+      "title": "Target unreachable identifier '' resolved to null"
+    },
+    {
+      "id": "39090700",
+      "title": "javax.el.ELException: Property 'askQuesti\u03bfn' not found on type trainforjava.domain.Questi\u03bfn"
+    },
+    {
+      "id": "33395867",
+      "title": "User Authentification doesn't work"
+    },
+    {
+      "id": "19268694",
+      "title": "JSF: /index.xhtml @12,80 value=\"#{LoginBean.username}\": Target Unreachable, identifier 'LoginBean' resolved to null"
+    },
+    {
+      "id": "3716718",
+      "title": "JSF Error Target Unreachable, 'null' returned null"
+    },
+    {
+      "id": "45422943",
+      "title": "Why is Target Unreachable, identifier resolved to null on weblogic"
+    },
+    {
+      "id": "36015131",
+      "title": "javax.el.PropertyNotFoundException: /index.xhtml @11,78 action=\"#{data.addMember()}\": Target Unreachable, identifier 'data' resolved to null"
+    },
+    {
+      "id": "49897294",
+      "title": "JSF 2.3 first time, viewScoped managedBean not found"
+    }
+  ],
+  "NoSuchFileException": [
+    {
+      "id": "72304209",
+      "title": "java.io.FileNotFoundException but file exists"
+    }
+  ],
+  "ConcurrentModificationException": [
+    {
+      "id": "3517666",
+      "title": "How can I iterate over an object while modifying it in Java?"
+    },
+    {
+      "id": "41183107",
+      "title": "Resetting a for-loop when removing elements from a list"
+    },
+    {
+      "id": "30548616",
+      "title": "What is the \"ConcurrentModificationException\"?"
+    },
+    {
+      "id": "37531997",
+      "title": "ConcurrentModificationException with 2 Iterators and one ArrayList"
+    },
+    {
+      "id": "40702562",
+      "title": "Game-Checking for collisions and deleting object from ArrayList"
+    },
+    {
+      "id": "17772240",
+      "title": "Abnormal behaviour of java.util.List based on number of elements in it"
+    },
+    {
+      "id": "46992622",
+      "title": "ArrayList Failfast ConcurrentModificationException"
+    },
+    {
+      "id": "60111555",
+      "title": "Iterator compare and remove"
+    },
+    {
+      "id": "57563408",
+      "title": "For java List concurrent modification exception not thrown if remove method invoked before iteration"
+    },
+    {
+      "id": "17410762",
+      "title": "Strange ConcurrentModificationException behavior"
+    },
+    {
+      "id": "41060458",
+      "title": "Why arrayList is not iterating at last element?"
+    },
+    {
+      "id": "32950007",
+      "title": "java.util.ConcurrentModificationException while removing row from Excel in java"
+    },
+    {
+      "id": "51638175",
+      "title": "ConcurrentModificationException when reinserting a node JavaFX"
+    },
+    {
+      "id": "33112985",
+      "title": "How to fix error 'Concurrent Modification Exception' from my code"
+    },
+    {
+      "id": "49494896",
+      "title": "ConcurrentModificationException with ArrayLists and HashMaps"
+    },
+    {
+      "id": "61417755",
+      "title": "Java Remove from one ArrayList and move to another"
+    },
+    {
+      "id": "57499323",
+      "title": "Using for loop to avoid ConcurrentModificationException in multi threaded environment"
+    },
+    {
+      "id": "1921104",
+      "title": "loop on list with remove"
+    },
+    {
+      "id": "29723759",
+      "title": "java ConcurrentModificationException, how to solve"
+    },
+    {
+      "id": "42496045",
+      "title": "I have a bug where I am getting a current modification exception and I can't find it"
+    },
+    {
+      "id": "33834921",
+      "title": "Java Concurrent Exception when using copy of lists"
+    },
+    {
+      "id": "68934148",
+      "title": "Java Sudoku ConcurrentModificationException"
+    },
+    {
+      "id": "840165",
+      "title": "How to debug ConcurrentModificationException?"
+    },
+    {
+      "id": "38056764",
+      "title": "Concurrent List Modification"
+    },
+    {
+      "id": "24030239",
+      "title": "How to avoid ConcurrentModificationException?"
+    },
+    {
+      "id": "56399833",
+      "title": "Why there 'foreach' loop generates an exception?"
+    },
+    {
+      "id": "45217315",
+      "title": "JavaFX - Reset game and delete nodes - Othello + get row and col by OnClick"
+    },
+    {
+      "id": "19494541",
+      "title": "I am trying to remove item from list but I am gettin Concurrent Modification Exception?"
+    },
+    {
+      "id": "65379595",
+      "title": "How to add enemy using java"
+    },
+    {
+      "id": "52689189",
+      "title": "Weird Java Concurrent modification exception example"
+    },
+    {
+      "id": "28068325",
+      "title": "Trying to Delete Student but keep getting error"
+    },
+    {
+      "id": "11624220",
+      "title": "Java - adding elements to list while iterating over it"
+    },
+    {
+      "id": "30571847",
+      "title": "Libgdx Getting error when removing Sprite"
+    },
+    {
+      "id": "15437799",
+      "title": "I used synchronized list, and i still get ConcurrentModificationException"
+    },
+    {
+      "id": "47086189",
+      "title": "JavaFX NullPointerException error"
+    },
+    {
+      "id": "57592568",
+      "title": "ConcurrentModificationException java.util.ArrayList$Itr.next"
+    },
+    {
+      "id": "67556174",
+      "title": "java.util.ConcurrentModificationException error while modify a object"
+    },
+    {
+      "id": "16998618",
+      "title": "ConcurrentModificationException in java"
+    },
+    {
+      "id": "41497523",
+      "title": "Java - Looping through ArrayList to scan for matching value"
+    },
+    {
+      "id": "63350664",
+      "title": "ConcurrentModificationException when I do a addAll for a Set"
+    },
+    {
+      "id": "37544772",
+      "title": "Iterating over a HashMap"
+    },
+    {
+      "id": "48655434",
+      "title": "App crashing when removing an Object from an ArrayList"
+    },
+    {
+      "id": "35873805",
+      "title": "Concurrent modification exception java (not dup)"
+    },
+    {
+      "id": "34167971",
+      "title": "Pascal's Triangle using ArrayList"
+    },
+    {
+      "id": "45553617",
+      "title": "java java.util.ConcurrentModificationException on ArrayList"
+    },
+    {
+      "id": "8189466",
+      "title": "Why am I not getting a java.util.ConcurrentModificationException in this example?"
+    },
+    {
+      "id": "43333107",
+      "title": "Find character in word in list of words and remove from original list and add to new list"
+    },
+    {
+      "id": "39227147",
+      "title": "Android: concurrentmodificationexception when filtering a list of objects"
+    },
+    {
+      "id": "1110404",
+      "title": "Remove Elements from a HashSet while Iterating"
+    },
+    {
+      "id": "37367828",
+      "title": "Collision Detection returns ConcurrentModificationException"
+    }
+  ],
+  "SocketException": [
+    {
+      "id": "135919",
+      "title": "java.net.SocketException: Software caused connection abort: recv failed"
+    },
+    {
+      "id": "14576037",
+      "title": "java.net.SocketException: Connection reset with TelnetOutputStream"
+    },
+    {
+      "id": "6772215",
+      "title": "java.net.SocketException: Software caused connection abort: recv failed, with java.net.SocketException: Connection reset"
+    },
+    {
+      "id": "18459325",
+      "title": "Android Client to .NET server side results in broken pipe"
+    },
+    {
+      "id": "23730280",
+      "title": "java.net.SocketException: Connection Reset. How do I stop this?"
+    },
+    {
+      "id": "24940883",
+      "title": "JavaMail connection problems"
+    },
+    {
+      "id": "11265464",
+      "title": "\"SocketException: Unexpected end of file from server\" from servlet but not from standalone application"
+    },
+    {
+      "id": "2126607",
+      "title": "Official reasons for \"Software caused connection abort: socket write error\""
+    },
+    {
+      "id": "33870454",
+      "title": "Error java.net.SocketException: Socket closed in Client-Server communication"
+    },
+    {
+      "id": "10367698",
+      "title": "Java multiple file transfer over socket"
+    },
+    {
+      "id": "37504632",
+      "title": "What am I doing wrong with sending information across sockets?"
+    },
+    {
+      "id": "41403221",
+      "title": "java.net.SocketException: Connection Reset 2"
+    },
+    {
+      "id": "15769035",
+      "title": "java.net.SocketException: socket closed TCP Client Server Communication"
+    },
+    {
+      "id": "15239398",
+      "title": "java.net.SocketException socket is closed"
+    },
+    {
+      "id": "53274733",
+      "title": "httpclient Connection reset"
+    },
+    {
+      "id": "585599",
+      "title": "What's causing my java.net.SocketException: Connection reset?"
+    },
+    {
+      "id": "36981087",
+      "title": "Getting java.net.SocketException: Connection reset"
+    },
+    {
+      "id": "47433637",
+      "title": "the java.net.SocketException: Connection reset error"
+    },
+    {
+      "id": "50057211",
+      "title": "Getting exception is java.net.SocketException: Connection reset"
+    },
+    {
+      "id": "38398000",
+      "title": "Connection reset (SocketException)"
+    },
+    {
+      "id": "5712783",
+      "title": "\"java.net.SocketException: Connection reset\" sometimes on Tomcat localhost log"
+    },
+    {
+      "id": "62929",
+      "title": "java.net.SocketException: Connection reset"
+    },
+    {
+      "id": "60080816",
+      "title": "Java.net.ConnectionException when using Selenium Server"
+    },
+    {
+      "id": "2692319",
+      "title": "Java: Clearing up the confusion on what causes a connection reset"
+    },
+    {
+      "id": "68041507",
+      "title": "How to use SOCKS4 instead of SOCKS5 in Java?"
+    },
+    {
+      "id": "68232842",
+      "title": "Postgresql connection reset issue"
+    }
+  ],
+  "StackOverflowError": [
+    {
+      "id": "21551352",
+      "title": "How do I use AsyncTask on a parser?"
+    },
+    {
+      "id": "47253326",
+      "title": "Recursive Square Root Finder"
+    },
+    {
+      "id": "31293783",
+      "title": "Regex search with pattern containing (?:.|\\s)*? takes increasingly long time"
+    },
+    {
+      "id": "13203992",
+      "title": "Create objects without causing a stack overflow error?"
+    },
+    {
+      "id": "50012205",
+      "title": "Why can I fill the stack more on successive calls to recursive method"
+    },
+    {
+      "id": "51502226",
+      "title": "I get stackoverflow error when trying to convert my class to Json"
+    },
+    {
+      "id": "3325387",
+      "title": "Infinite Recursion with Jackson JSON and Hibernate JPA issue"
+    },
+    {
+      "id": "32382198",
+      "title": "StackOverFlow error on Java regular expression"
+    },
+    {
+      "id": "22128485",
+      "title": "Why is it possible to recover from a StackOverflowError?"
+    },
+    {
+      "id": "52348512",
+      "title": "Calling non static method in static method"
+    },
+    {
+      "id": "65720290",
+      "title": "Parameter passing without getting an stackoverflow error in Java"
+    },
+    {
+      "id": "66408175",
+      "title": "I don't understand why i have a problem with toString of Lombok"
+    },
+    {
+      "id": "22182669",
+      "title": "What actually causes a Stack Overflow error?"
+    },
+    {
+      "id": "29152427",
+      "title": "Can an infinite loop cause a StackOverflow Exception in Java"
+    },
+    {
+      "id": "36564629",
+      "title": "JavaFX throws stackoverflow error"
+    },
+    {
+      "id": "54364096",
+      "title": "What does static keyword do here?"
+    },
+    {
+      "id": "38966213",
+      "title": "Why do I get Infinite loop(Stackoverflow error) while creating an object in a class with constructor?"
+    },
+    {
+      "id": "19306336",
+      "title": "Recursive method to print array"
+    },
+    {
+      "id": "55314163",
+      "title": "Why am I getting an Exception when initializing Display d?"
+    },
+    {
+      "id": "54084395",
+      "title": "Java - StackOverflowError vs OutOfMemoryError"
+    },
+    {
+      "id": "35844801",
+      "title": "Why am I getting a StackOverflowError exception in my constructor"
+    },
+    {
+      "id": "62222902",
+      "title": "Recursive Binary Search for Integers"
+    },
+    {
+      "id": "34567580",
+      "title": "StackOverflowError exception when calling method"
+    },
+    {
+      "id": "42296001",
+      "title": "Stackoverflow error when trying to implement a quick sort"
+    },
+    {
+      "id": "23758589",
+      "title": "What happens to the Java stack when a StackOverflowError is thrown?"
+    },
+    {
+      "id": "52356966",
+      "title": "java complex if statement causes StackOverflowError"
+    },
+    {
+      "id": "41284354",
+      "title": "Recursive Fibonacci using BigInteger in Java"
+    },
+    {
+      "id": "29071349",
+      "title": "Why does this Java class give a stack overflow exception?"
+    },
+    {
+      "id": "36525473",
+      "title": "Window will not appear Java and stack overflow errors"
+    },
+    {
+      "id": "24739474",
+      "title": "Page serialisation causes stackOverflow exception"
+    },
+    {
+      "id": "27043922",
+      "title": "Why is the max recursion depth I can reach non-deterministic?"
+    },
+    {
+      "id": "51819083",
+      "title": "How to create object of a class in the other and also vice versa in java?"
+    },
+    {
+      "id": "2371118",
+      "title": "How do the post increment (i++) and pre increment (++i) operators work in Java?"
+    },
+    {
+      "id": "70132992",
+      "title": "StackOverflowError During Parallel Recursion"
+    },
+    {
+      "id": "40880583",
+      "title": "Factorial for big number in java"
+    },
+    {
+      "id": "63981810",
+      "title": "Why a new Thread's stack size is different on each call?"
+    },
+    {
+      "id": "14080982",
+      "title": "Visual Studio C/C++ Array Size Unhandled exception Stack overflow"
+    },
+    {
+      "id": "46523749",
+      "title": "App crashing giving 'java.lang.StackOverflowError: stack size 8MB' error while saving data on firebase"
+    },
+    {
+      "id": "56683575",
+      "title": "How to fix an StackOverflow Error of a Binary Tree implementation?"
+    },
+    {
+      "id": "43438654",
+      "title": "Quicksort random pivot leads to stackoverflow exception"
+    },
+    {
+      "id": "37514117",
+      "title": "Infinite recursion- bypassing StackOverflowError?"
+    },
+    {
+      "id": "51305568",
+      "title": "Explain Why StackOverFlow error raised in this Program..?"
+    },
+    {
+      "id": "50533830",
+      "title": "Error when I use recursion to get more than 4 perfect numbers JAVA"
+    },
+    {
+      "id": "21567037",
+      "title": "Exception in thread \"main\" java.lang.StackOverflowError for Processing with Netbeans"
+    },
+    {
+      "id": "4700998",
+      "title": "Explain stack overflow and heap overflow in programming with example?"
+    },
+    {
+      "id": "6915609",
+      "title": "StackOverflowError in Java"
+    },
+    {
+      "id": "44768362",
+      "title": "Getting StackOverflow error and why?"
+    },
+    {
+      "id": "57493174",
+      "title": "What is the flow of the program and Why it's stackOverFlow Error"
+    },
+    {
+      "id": "22860682",
+      "title": "Eclipse android developer an internal error occurred"
+    },
+    {
+      "id": "49873185",
+      "title": "Regex match is throwing stackoverflow in java"
+    }
+  ],
+  "QuerySyntaxException": [
+    {
+      "id": "35303659",
+      "title": "Hibernate errors in named queries"
+    }
+  ],
+  "PatternSyntaxException": [
+    {
+      "id": "13277211",
+      "title": "java delimiter error"
+    },
+    {
+      "id": "37299115",
+      "title": "java - replaceAll() returns PatternSyntaxException"
+    },
+    {
+      "id": "24465134",
+      "title": "java.util.regex.PatternSyntaxException: Unclosed character class near index 0"
+    },
+    {
+      "id": "47591784",
+      "title": "Unable to replace all characters using .replaceAll method in Java"
+    },
+    {
+      "id": "48706006",
+      "title": "Android \"[\\\\p{InCombiningDiacriticalMarks}\\\\p{IsLm}\\\\p{IsSk}]+\" regex compilation fails (works localy)"
+    },
+    {
+      "id": "49232880",
+      "title": "mystring.replaceAll(\"},{\", \"}&{\"); fails with PatternSyntaxException"
+    },
+    {
+      "id": "51706981",
+      "title": "Java can't replace \"{\" with replaceAll method"
+    },
+    {
+      "id": "55038640",
+      "title": "Incorrectly nested parentheses in regexp pattern"
+    },
+    {
+      "id": "55323608",
+      "title": "Getting a Regex exception on using replaceAll in String"
+    },
+    {
+      "id": "55643249",
+      "title": "How to set a Scanner's delimiter to \"(\"?"
+    },
+    {
+      "id": "56867093",
+      "title": "Wanted regular expression for the string ${username}"
+    },
+    {
+      "id": "58841427",
+      "title": "how to escape carriage return but skip already escaped character in java"
+    },
+    {
+      "id": "8833963",
+      "title": "Allow - (dash) in regular expression"
+    },
+    {
+      "id": "62480199",
+      "title": "PatternSyntaxException: Dangling meta character even though no metacharacters are dangling"
+    },
+    {
+      "id": "62572163",
+      "title": "My regex function throws illegal escape exception"
+    },
+    {
+      "id": "33391929",
+      "title": "Android - Java Regex - Syntax error in regexp pattern near index"
+    },
+    {
+      "id": "64879079",
+      "title": "Replace \"[\" and \"]\" in string with \",\" Error can't do that"
+    },
+    {
+      "id": "65807264",
+      "title": "regex on hiveql : dangling meta character map reduce"
+    },
+    {
+      "id": "67156913",
+      "title": "Trying to program a calculator using methods"
+    },
+    {
+      "id": "72380511",
+      "title": "Java regex Unclosed character class near index"
+    }
+  ],
+  "JsonMappingException": [
+    {
+      "id": "14104956",
+      "title": "Unable to catch JsonMappingException"
+    },
+    {
+      "id": "30080217",
+      "title": "JSON deserialisation using Jackson: No suitable constructor found for type - providing default constructor or annotate constructor is imposible"
+    },
+    {
+      "id": "36660078",
+      "title": "Failed to bounce to type, Chat example error when adding another value,"
+    },
+    {
+      "id": "45669349",
+      "title": "no single-String constructor/factory method error on parsing xml to java object"
+    },
+    {
+      "id": "51868938",
+      "title": "Java Springboot consume rest api map to a model"
+    },
+    {
+      "id": "54249568",
+      "title": "Cannot find a deserializer for non-concrete Map type [map type; class com.google.common.collect.ImmutableMap"
+    },
+    {
+      "id": "61864958",
+      "title": "Validation for max Int , max long values"
+    },
+    {
+      "id": "58584226",
+      "title": "I don't understand why this code don't work the for int error"
+    },
+    {
+      "id": "25101627",
+      "title": "Jackson error : no suitable constructor for a simple class"
+    },
+    {
+      "id": "69459620",
+      "title": "RestTemplate result cannot be deserialized"
+    }
+  ],
+  "ConnectException": [
+    {
+      "id": "9555363",
+      "title": "Java sockets - java.net.ConnectException: Connection refused: connect"
+    },
+    {
+      "id": "15523510",
+      "title": "PermGen Space error when deploying tomcat 7?"
+    },
+    {
+      "id": "27833468",
+      "title": "Exception in thread \"\"http-apr-8080\"-exec-43\" java.lang.OutOfMemoryError: PermGen space Error"
+    },
+    {
+      "id": "30505410",
+      "title": "Tomcat Memory leak (Some old war already in memory)"
+    },
+    {
+      "id": "31864611",
+      "title": "PHPStorm doesn't connect to local MySQL"
+    },
+    {
+      "id": "33879617",
+      "title": "Java server socket response to previouse connected client"
+    },
+    {
+      "id": "34599374",
+      "title": "Cannot connect Derby database: connection refused"
+    },
+    {
+      "id": "36003780",
+      "title": "How to send authentication string to establish TCP connection?"
+    },
+    {
+      "id": "38675868",
+      "title": "Java RMI Connection Fail"
+    },
+    {
+      "id": "40438570",
+      "title": "Java multi-thread chat server - sending messages"
+    },
+    {
+      "id": "41229613",
+      "title": "Java RMI 'java.rmi.ConnectException: Connection refused to host: 127.0.1.1;'"
+    },
+    {
+      "id": "43734758",
+      "title": "Catch java.net.ConnectException: Connection refused: connect"
+    },
+    {
+      "id": "5907037",
+      "title": "Connection timed out. Why?"
+    },
+    {
+      "id": "48540638",
+      "title": "Nodejs and java socket implementation Error: connect ECONNREFUSED 127.0.0.1:8081"
+    },
+    {
+      "id": "5067637",
+      "title": "Java RMI : connection refused"
+    },
+    {
+      "id": "50718919",
+      "title": "I am searching for a long time on net. But no use. Please help or try to give some ideas how to achieve this. Can you help me solve this error?"
+    },
+    {
+      "id": "29071072",
+      "title": "java.net.ConnectException: Connection refused"
+    },
+    {
+      "id": "52771663",
+      "title": "How to Launch Mozilla Portable browser using Selenium Webdriver?"
+    },
+    {
+      "id": "53492883",
+      "title": "Selenium driver navigates to url but in java it gives error or does not execute the next line"
+    },
+    {
+      "id": "27265630",
+      "title": "Secure websocket with HTTPS (SSL)"
+    },
+    {
+      "id": "57141258",
+      "title": "why ConnectException: Connection refused: connect is thrown from HttpURLConnection.getResponseCode()?"
+    },
+    {
+      "id": "53743781",
+      "title": "Java server socket: Connection refused"
+    },
+    {
+      "id": "57272063",
+      "title": "Not able to connect to localhot error after launching Edge with Selenium"
+    },
+    {
+      "id": "34027867",
+      "title": "java.sql.SQLException: The Network Adapter could not establish the connection while connecting to database"
+    },
+    {
+      "id": "58282044",
+      "title": "How to make POST request in Spring REST service"
+    },
+    {
+      "id": "59454719",
+      "title": "MySql Connection Refused - Java"
+    },
+    {
+      "id": "59993784",
+      "title": "Connecting to Local FTP server in Android Studio Emulator"
+    },
+    {
+      "id": "62563018",
+      "title": "java.net.ConnectException: Connection refused: connect. Data Grip"
+    },
+    {
+      "id": "63087794",
+      "title": "Java Socket programming: Connection Refused Exception"
+    },
+    {
+      "id": "63619384",
+      "title": "java ssh connection refused"
+    },
+    {
+      "id": "66942374",
+      "title": "JT400 unable to connect from IBMi machine but working from Windows machine"
+    },
+    {
+      "id": "65690190",
+      "title": "how to use localhost in conjunction with retrofit for testing of android apps kotlin"
+    },
+    {
+      "id": "69077448",
+      "title": "It is possible to make a spring boot app behave as a eureka server and client at the same time?"
+    },
+    {
+      "id": "69205503",
+      "title": "How to connect to Oracle Database with JDBC"
+    },
+    {
+      "id": "69230152",
+      "title": "Supabase direct connect from IntelliJ: connection refused"
+    },
+    {
+      "id": "70033071",
+      "title": "Connection refused while connect with RabbitMQ external service"
+    },
+    {
+      "id": "70731718",
+      "title": "java.net.ConnectException: Connection refused: connect at"
+    }
+  ],
+  "FirebaseError": [
+    {
+      "id": "42248258",
+      "title": "Unable to get the token in firebase cloud messaging application"
+    },
+    {
+      "id": "41586917",
+      "title": "Firebase not get the token id for web app"
+    }
+  ],
+  "WebDriverException": [
+    {
+      "id": "37761668",
+      "title": "Can't open browser with Selenium after Firefox update"
+    },
+    {
+      "id": "50460366",
+      "title": "Chrome Driver Error message"
+    },
+    {
+      "id": "50966183",
+      "title": "WebDriverError: unknown error: call function result missing 'value'"
+    },
+    {
+      "id": "51415550",
+      "title": "selenium webDriver (Firefox) : connection refused"
+    },
+    {
+      "id": "52771663",
+      "title": "How to Launch Mozilla Portable browser using Selenium Webdriver?"
+    },
+    {
+      "id": "53117164",
+      "title": "fill in the text box and click on search button - webscraping using selenium"
+    },
+    {
+      "id": "45388574",
+      "title": "Selenium message:unknown error: Runtime.executionContextCreated has invalid 'context'"
+    },
+    {
+      "id": "40327053",
+      "title": "Rselenium session not created exception from unknown error"
+    },
+    {
+      "id": "53521805",
+      "title": "Launching web page with selenium 3"
+    },
+    {
+      "id": "54230191",
+      "title": "Chrome Version 71.x unknown error: call function result missing 'value'"
+    },
+    {
+      "id": "56452443",
+      "title": "Python Selenium: \"selenium.common.exceptions.WebDriverException: Message: chrome not reachable\" local file"
+    },
+    {
+      "id": "57068100",
+      "title": "How to fix 'chrome not reachable' & 'DevToolsActivePort file doesn't exist' error in rasberrypie3 python"
+    },
+    {
+      "id": "57272063",
+      "title": "Not able to connect to localhot error after launching Edge with Selenium"
+    },
+    {
+      "id": "57421563",
+      "title": "Selenium error - org.openqa.selenium.SessionNotCreatedException session created exception"
+    },
+    {
+      "id": "61725089",
+      "title": "Win 10, python 3.8 selenium 3.141 WebDriver error: Message: chrome not reachable"
+    },
+    {
+      "id": "63431013",
+      "title": "Selenium Python \"script must be a string\""
+    },
+    {
+      "id": "63937490",
+      "title": "Selenium in \"HeadLess\" mode \"Runtime.executionContextCreated has invalid 'context'\" on Vagrant"
+    },
+    {
+      "id": "63975889",
+      "title": "Selenium webdriver.get() method is not opening specified URL"
+    },
+    {
+      "id": "65178433",
+      "title": "I get this error at mid of test case when I use WebdriverManager with selenium in parallel. 'disconnected: not connected to DevTools'"
+    },
+    {
+      "id": "65619677",
+      "title": "Message: chrome not reachable in python selenium"
+    },
+    {
+      "id": "66107421",
+      "title": "selenium.common.exceptions.WebDriverException: Message: chrome not reachable (Session info: chrome=88.0.4324.150)"
+    },
+    {
+      "id": "69886187",
+      "title": "Selenium::WebDriver::Error::UnknownError: unknown error: Chrome failed to start: crashed. (chrome not reachable)"
+    }
+  ],
+  "RemoteException": [
+    {
+      "id": "25497429",
+      "title": "Getting ClassNotFoundException when trying to run simple java rmi"
+    },
+    {
+      "id": "29284719",
+      "title": "Java RMI remote.exception and unmarshall.exception"
+    },
+    {
+      "id": "39915034",
+      "title": "Exception in thread \"main\" java.rmi.ServerException: RemoteException occurred in server thread"
+    },
+    {
+      "id": "464687",
+      "title": "running rmi server, classnotfound"
+    },
+    {
+      "id": "46677329",
+      "title": "RMI Problems continue via java.rmi.ServerException"
+    },
+    {
+      "id": "46966355",
+      "title": "ClassNotFoundException while replacing java 6 rmi w/ java 8"
+    },
+    {
+      "id": "9531158",
+      "title": "java.rmi.ServerException: RemoteException occurred in server thread (ClassNotFoundException)"
+    },
+    {
+      "id": "36844740",
+      "title": "Jmeter remote test: .RemoteJMeterEngineImpl_Stub (no security manager: RMI class loader disabled)"
+    },
+    {
+      "id": "48386064",
+      "title": "java.rmi.UnmarshalException running rmi server code"
+    },
+    {
+      "id": "12087751",
+      "title": "Java RMI Remote Interface Tutorial - error: unmarshalling arguments"
+    },
+    {
+      "id": "1494163",
+      "title": "java rmi client exceptions"
+    },
+    {
+      "id": "1081712",
+      "title": "RMI ClassNotFoundException"
+    },
+    {
+      "id": "60181195",
+      "title": "ClassNotFoundException is driving me crazy"
+    },
+    {
+      "id": "66062021",
+      "title": "Java RMI: Remote Interface not found, throwing java.lang.ClassNotFoundException, only works after Fresh Boot"
+    },
+    {
+      "id": "67886673",
+      "title": "i am getting a error while using java RMI"
+    }
+  ],
+  "SQLiteException": [
+    {
+      "id": "21881992",
+      "title": "When does SQLiteOpenHelper onCreate() / onUpgrade() run?"
+    },
+    {
+      "id": "29442373",
+      "title": "Caused by: android.database.sqlite.SQLiteException: no such column: kaththi (code 1):"
+    },
+    {
+      "id": "38627607",
+      "title": "android.database.sqlite.SQLiteException: no such column: caolumn value"
+    },
+    {
+      "id": "5683728",
+      "title": "Convert java.util.Date to String"
+    },
+    {
+      "id": "54742651",
+      "title": "SQLiteException: no such column: firstname (code 1):"
+    },
+    {
+      "id": "61056187",
+      "title": "Execsql() fails to create DATABASE android studio using SQlite"
+    }
+  ],
+  "ParseException": [
+    {
+      "id": "22464594",
+      "title": "Java Unparsable date"
+    },
+    {
+      "id": "25524284",
+      "title": "java.text.ParseException: Unparseable date: \"01:19 PM\""
+    },
+    {
+      "id": "46285384",
+      "title": "Getting error java.text.ParseException: Unparseable date: (at offset 0) even if the Simple date format and string value are identical"
+    },
+    {
+      "id": "21096581",
+      "title": "Unable to parse date String to Date"
+    },
+    {
+      "id": "55907865",
+      "title": "Java and Dates (Unparseable date)"
+    },
+    {
+      "id": "36080334",
+      "title": "Java: simple string to date parsing fails with exception"
+    },
+    {
+      "id": "226910",
+      "title": "How to sanity check a date in Java"
+    },
+    {
+      "id": "28514346",
+      "title": "Parsing a date\u2019s ordinal indicator ( st, nd, rd, th ) in a date-time string"
+    },
+    {
+      "id": "34542549",
+      "title": "Java SimpleDateFormat.format Throws java.lang.IllegalArgumentException"
+    },
+    {
+      "id": "26418832",
+      "title": "How to convert String to date using Java in UNIX environment"
+    },
+    {
+      "id": "6297262",
+      "title": "How to concatenate a String in EL?"
+    },
+    {
+      "id": "41517867",
+      "title": "Java date format convertion"
+    },
+    {
+      "id": "34177262",
+      "title": "Converting java date into sql date in jdbc"
+    },
+    {
+      "id": "36736676",
+      "title": "Simpledateformat Error - unparseable date Mon Dec 14 13:25:00 CET 2015"
+    },
+    {
+      "id": "15336200",
+      "title": "Why does SimpleDateFormat parse incorrect date?"
+    },
+    {
+      "id": "22458575",
+      "title": "What's the difference between next() and nextLine() methods from Scanner class?"
+    },
+    {
+      "id": "51526546",
+      "title": "java Mismatch between date String and the converted date"
+    },
+    {
+      "id": "999172",
+      "title": "How to parse a date?"
+    },
+    {
+      "id": "23563887",
+      "title": "SimpleDateFormat throws ParseException With Error Offset 0"
+    },
+    {
+      "id": "6154772",
+      "title": "Java - Unparseable date"
+    },
+    {
+      "id": "45800067",
+      "title": "Unparseable Date error on some devices with same API"
+    },
+    {
+      "id": "4722289",
+      "title": "Parsing dates of the format \"January 10th, 2010\" in Java? (with ordinal indicators, st|nd|rd|th)"
+    },
+    {
+      "id": "30374291",
+      "title": "Parsing a timestamp with time zone"
+    },
+    {
+      "id": "4216745",
+      "title": "Java string to date conversion"
+    },
+    {
+      "id": "7782098",
+      "title": "Why The constructor ArrayAdapter<String>(new View.OnKeyListener(){}, int, String[]) is undefined"
+    },
+    {
+      "id": "55046562",
+      "title": "Java.text.ParseException:Unparseable date"
+    },
+    {
+      "id": "63071325",
+      "title": "JAVA -Conversion of one date format to another. Unhandled exception type ParseException"
+    },
+    {
+      "id": "31027384",
+      "title": "Java - Throw error when date is invalid"
+    },
+    {
+      "id": "56720617",
+      "title": "What is the date format of 2019-06-17T20:27:23.706000000Z?"
+    },
+    {
+      "id": "13185647",
+      "title": "error compiling junit test with expect exception"
+    },
+    {
+      "id": "27616647",
+      "title": "Unparseable date: when convert date from dd MMM yyyy format to dd/MM/yyyy"
+    },
+    {
+      "id": "24141942",
+      "title": "Getting wrong month when using SimpleDateFormat.parse"
+    },
+    {
+      "id": "48704404",
+      "title": "Exception on Date parsing android"
+    },
+    {
+      "id": "53543331",
+      "title": "java.text.ParseException: Unparseable date: \"29-Oct-2018 00:01\""
+    },
+    {
+      "id": "16871367",
+      "title": "java.text.ParseException: Unparseable date"
+    },
+    {
+      "id": "58829678",
+      "title": "\"JSONException: Value <br of type java.lang.String cannot be converted to JSONObject\"?"
+    },
+    {
+      "id": "22092794",
+      "title": "Can I set Eclipse to ignore \"Unhandled exception type\""
+    },
+    {
+      "id": "2375222",
+      "title": "Java SimpleDateFormat for time zone with a colon separator?"
+    },
+    {
+      "id": "23364143",
+      "title": "Java SimpleDateFormat Parse Wrong Date"
+    },
+    {
+      "id": "3618676",
+      "title": "Unable to parse DateTime-string with AM/PM marker"
+    },
+    {
+      "id": "31168830",
+      "title": "Format date with SimpleDateFormat Java"
+    },
+    {
+      "id": "61964802",
+      "title": "Parse String to Sql Datetime"
+    },
+    {
+      "id": "8048601",
+      "title": "Why does this SimpleDataFormat parsing fail on Android?"
+    },
+    {
+      "id": "67009132",
+      "title": "How to parse date using SimpleDateFormat?"
+    },
+    {
+      "id": "56164292",
+      "title": "Why is the date unparseable"
+    },
+    {
+      "id": "44185762",
+      "title": "How to convert the date value \"26th May 2017\" to \"26/05/2017\"?"
+    },
+    {
+      "id": "47296388",
+      "title": "Converting UNIX TimeStamp in Android API versions LESS than 24"
+    },
+    {
+      "id": "50837095",
+      "title": "Convert String date of format yyyy-MM-dd HH:mm:ss.SSS to String MM/dd/yyyy"
+    },
+    {
+      "id": "40137110",
+      "title": "Format parse exception \u201cEEE MMM dd HH:mm:ss Z yyyy\u201d"
+    },
+    {
+      "id": "47798849",
+      "title": "Datetime parsing error"
+    }
+  ],
+  "VerifyError": [
+    {
+      "id": "13985933",
+      "title": "which code coveragae support JDK1.7?"
+    },
+    {
+      "id": "14327784",
+      "title": "AsyncTask Android Force Closes App"
+    },
+    {
+      "id": "16764584",
+      "title": "Java.lang.verifyerror how do I fix or even find out the root cause?"
+    },
+    {
+      "id": "30190092",
+      "title": "The variable that broke the eclipse's back : maximum number of variables?"
+    },
+    {
+      "id": "30810182",
+      "title": "Can not deploy application with Hibernate 5"
+    },
+    {
+      "id": "43613715",
+      "title": "Execption in thread main : java.lang.verifyError"
+    }
+  ],
+  "NetworkOnMainThreadException": [
+    {
+      "id": "16618116",
+      "title": "Android no Network in Main Thread and no View update in external thread"
+    },
+    {
+      "id": "38666874",
+      "title": "How to use network I/O with Android"
+    },
+    {
+      "id": "39289639",
+      "title": "Can't connect URL JSON Parser"
+    },
+    {
+      "id": "62596881",
+      "title": "MySQL Could not create connection to database server"
+    },
+    {
+      "id": "24122046",
+      "title": "HTTP POST call from Android"
+    },
+    {
+      "id": "20928268",
+      "title": "Connection for httppost : NetworkOnMainThreadException"
+    },
+    {
+      "id": "12742001",
+      "title": "Android - android.os.NetworkOnMainThreadException when acess Http client"
+    },
+    {
+      "id": "72440840",
+      "title": "How to do I create a separate thread to do a network operation in Android?"
+    },
+    {
+      "id": "26871983",
+      "title": "Network On Main Thread Exception 1156"
+    },
+    {
+      "id": "30045798",
+      "title": "Getting and displaying the source code of a web page in android's textbox or a label"
+    },
+    {
+      "id": "23894373",
+      "title": "How to display message from Android to PHP?"
+    },
+    {
+      "id": "21351488",
+      "title": "Java URL droid crashing"
+    },
+    {
+      "id": "26462012",
+      "title": "cannot connect mysql with android in wampserver localhost using emulator"
+    },
+    {
+      "id": "28154198",
+      "title": "Connection being refused while sending data from Android app to server"
+    },
+    {
+      "id": "16929690",
+      "title": "android force close on json parse from url api"
+    },
+    {
+      "id": "32602165",
+      "title": "how to create a JSON's object"
+    },
+    {
+      "id": "39089612",
+      "title": "AndroidManifest.xml 'package.name.Activity' is not assignable to 'android.app.Activity'"
+    },
+    {
+      "id": "21573891",
+      "title": "NetworkOnMainThreadException for register function"
+    },
+    {
+      "id": "25346740",
+      "title": "Android API error / httpget NetworkOnMainThreadException"
+    },
+    {
+      "id": "35285089",
+      "title": "Convert url to bitmap in NetworkOnMainThreadException"
+    },
+    {
+      "id": "25070453",
+      "title": "android.os.NetworkOnMainThreadException error when executing async task"
+    },
+    {
+      "id": "24347181",
+      "title": "Accessing database causing NetworkOnMainThread Exception error in Android"
+    },
+    {
+      "id": "36233067",
+      "title": "Android get website content / source code"
+    },
+    {
+      "id": "65667793",
+      "title": "android.os.StrictMode$AndroidBlockGuardPolicy.onNetwork error while android app makes http api"
+    },
+    {
+      "id": "55585995",
+      "title": "How to fix App crashes when initializing Translate using google translate API"
+    },
+    {
+      "id": "39805141",
+      "title": "Android HTTPUrlConnection errors"
+    },
+    {
+      "id": "21340946",
+      "title": "Android calling page that returns JSON error"
+    },
+    {
+      "id": "13760130",
+      "title": "Load XML from site in android"
+    },
+    {
+      "id": "23932287",
+      "title": "Android app crashing at start"
+    },
+    {
+      "id": "14964819",
+      "title": "Android: What is main thread in remote service? Network operations in service"
+    },
+    {
+      "id": "19203104",
+      "title": "Android - Read Contents of TXT file from the Web"
+    },
+    {
+      "id": "68990493",
+      "title": "I want to get json result to autocomplete searchview but my app crashes"
+    },
+    {
+      "id": "18597002",
+      "title": "Call SOAP service from android with ksoap error"
+    },
+    {
+      "id": "33921102",
+      "title": "App crashes at http request"
+    },
+    {
+      "id": "27711791",
+      "title": "Android 5.0: android.os.NetworkOnMainThreadException when trying to get Bitmap object"
+    },
+    {
+      "id": "25571156",
+      "title": "Runnable inside an AsyncTask being run on main thread."
+    },
+    {
+      "id": "66440170",
+      "title": "Java Android Studio - exeception thrown on button click"
+    },
+    {
+      "id": "39456096",
+      "title": "Connecting to PostgreSQL through JDBC - NetworkOnMainThreadException"
+    },
+    {
+      "id": "27657479",
+      "title": "Load image from url"
+    },
+    {
+      "id": "16458755",
+      "title": "android.os.NetworkOnMainThreadException with a AsyncTask"
+    },
+    {
+      "id": "28703541",
+      "title": "udacity sunshine- app crashes on mobile even after I connect to the internet using AsyncTask"
+    },
+    {
+      "id": "58323454",
+      "title": "What is the problem with the onClick method"
+    },
+    {
+      "id": "29194126",
+      "title": "NetworkOnMainThread Issue with AsyncTask"
+    },
+    {
+      "id": "18853469",
+      "title": "Read url page content and print in log"
+    },
+    {
+      "id": "34860557",
+      "title": "Cannot connect android to phpmyadmin"
+    },
+    {
+      "id": "22395417",
+      "title": "Error StrictMode$AndroidBlockGuardPolicy.onNetwork"
+    },
+    {
+      "id": "52670129",
+      "title": "HttpUrlConnection #getResponseCode() - throw Exception"
+    },
+    {
+      "id": "16498992",
+      "title": "Upload text to http Android"
+    },
+    {
+      "id": "17701021",
+      "title": "android.os.NetworkOnMainThreadException - XML Parsing"
+    },
+    {
+      "id": "36798903",
+      "title": "HTTP Request is not working"
+    }
+  ]
+}

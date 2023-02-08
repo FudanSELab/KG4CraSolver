@@ -1,0 +1,56 @@
+sentence,label
+"Ok, so it turns out some of the entities that inherited from Compensation had properties with ManyToOne relations and they were missing cascade annotations.",3
+"Because they were more than one property, I received no TransientPropertyValueException and instead it tried to load the parent Compensation entity which was the closest thing that it could associate the entity to without those fields that weren't being cascaded.",3
+Which means that this whole problem was due to missing cascade annotations.,3
+PARENT_LAST is required to override classes provided by the server.,3
+"You can't log a string variable to verify its contents, because many many different strings are not visually distinguishable.",3
+"There were no issues with the Manifest files or the build.properties, this was a constructor problem.",3
+Your transactional method storeEMail is being directly invoke by onMessage.,3
+The transactional behavior is implemented by a AOP proxy that wraps storeEMail.,3
+"Since you are invoking storeEMail directly, the AOP proxy isn't invoked and you don't have a transaction.storeEMail needs to be invoked on an injected bean reference",3
+NoClassDefFoundError happens if your class definition is present at compile time but is missing at runtime.,3
+It's a variable declare problem.,3
+"this is only set when you're calling a method of the object, it's not available when you're initializing an object.",3
+"You also can't refer to the variable af until after the assignment, not during the creation of the literal.",3
+"I did not decode the question, but a possible issue is the way you call your script: -CODE-.http://localhost:8888/ will call http://localhost:8888/model.jshttp://localhost:8888/static/ajax.html will call http://localhost:8888/static/model.js",3
+Resource.getBundle take a FQCN as a parameters.,3
+"In the statement ResourceBundle.getBundle(""resources.enumerations""), the JRE are looking for the files resources/enumerations<_local>.properties.",3
+"Maybe you have two layouts, one with the ivMonkeyStart ImageView and one without, and these devices get the second layout.",3
+"So, if there is something wrong with AIDL request, or user's profile is disabled you will have NPE in ApplicationPackageManager.java code.",3
+"The countdown function is an arrow function, which means that the this inside it is inherited from the outer scope.",3
+The same is true for the setTimeout callback.,3
+Your problem is in this line: -CODE-.,3
+"You have three buttons, but only two linear layouts.",3
+"When you click the third button, you're trying to access the third linear layout, which is not there.",3
+"With hibernate-validator 6.0.10 you transitively pull in the dependency to the Bean Validation API (javax.validation:validation-api:2.0.1.Final.which has new features, including more flexible cascaded validation of container types, so basically you can add validation annotations to elements of collections of type java.util.Iterable, java.util.List and java.util.Map",3
+This could happen due to multiple reason:.,3
+"[-]Either the corresponding jar wont be available which is the hivejdbcdriver jar with the right version eg: ""hive-jdbc-1.2.1.jar.or sometimes you may to use ""hive-jdbc-1.2.1-standalone.jar""(depending upon on how your usecase isin the libraries folder or .m2 repository",3
+"[-]Or,it could also be the jar may not be added in your classpath(add an entry for this jar in your .classpath file), depending upon how your application is built.",3
+The problem is using Liberica OpenJDK to compile project.,3
+In Tomcat 8.0.38 and onwards we have one flag called scanManifest to scan the additional classpath entries from the MANIFEST.MF of the jars.,3
+The default is true i.e.to scan the manifest of jars,3
+Tomcat was taking application's old build.,3
+In previous build I had spring-ws-core:2.x.RELEASE which was bringing spring-beans.4.x.jar and it is incompatible with other spring 5 jars.so root cause was incompatible jars and then tomcat cache build,3
+"It only check the \\, i think it is a bug.",3
+"It says ""Caused by: org.hibernate.hql.internal.ast.QuerySyntaxException: testtab is not mapped"".",3
+"The problem was Maven not importing the Hibernate Jar, After importing it manually, it worked just fine.",3
+"The issue here is that user/webpage scripts (unprivileged scripts.don't have access to JavaScript API for security purposes and browser, chrome are part of JavaScript APIs which can only be accessed by privileged scripts like web extension's background scripts and content scripts (again content scripts don't have access to all the JavaScript APIs)",3
+"Corda uses its own serialisation framework which requires the Java compiler to preserve the argument names when generating bytecode, so that objects can be correctly recreated later.",3
+"My bad, the issue was with the bucket name that was passed.",3
+It included the folder name in addition to bucket name.,3
+It was <BUCKET_NAME>/<FOLDER_NAME> that caused the issue.,3
+You are escaping the forward slash instead of having a baskward slash.-CODE-,3
+You can also take advantage of the template string with the string representation of a regex to get it's source code representation.,3
+"As it turns out, your problem was because you had forgotten to recompile your code.",3
+I think you have to specify that you are sending a TLS email before sending the email.-CODE-,3
+"Because Hibernate doesn't do a Select query to perform an update or insert, make sure you are not manually creating records in your DB for tables that are supposed to be managed by Hibernate.",3
+Accessing a jQuery object using bracket notation returns a DOMElement which does not have the val(.function,3
+I got this error because I was passing in a string instead of a real 'type' from the App.Helpers object to an extract method in some custom RESTAdapter code I had overridden.,3
+Somewhere in your code you (or a framework.close your EntityManagerFactory,3
+"You're calling remove on the list itself, which is fine.",3
+The documentation states that calling remove on the list's iterator would throw an UpsupportedOperationException.,3
+PreferenceMgr depends on another jar which has bug in certain version.,3
+"This is off the assumption that books.returnDate is coming from your backend, probably as a part of a JSON response.",3
+javax.mail is something of a land mine on Domino.,3
+"It's kind of present, by way of ""mail.jar.in the ""ndextdirectory as well as the com.ibm.designer.lib.javamail plugin in OSGi land, but that is version 1.3 of the spec",3
+"The method you're trying to use there was, unfortunately, added in 1.4.",3

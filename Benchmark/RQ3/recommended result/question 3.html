@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/layui/2.6.8/css/layui.min.css">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/layui/2.6.8/layui.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.8/vue.min.js"></script>
+</head>
+<style type="text/css">
+body {
+  background-color: #F4F5F6;
+  margin: 0;
+  padding: 0;
+}
+
+.layui-container {
+  margin-top: 50px;
+  width: 80vw;
+  line-height: 40px;
+}
+
+.layui-table {
+  margin: 0;
+  width: 100%;
+  table-layout: fixed;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI Adjusted", "Segoe UI", "Liberation Sans", sans-serif;
+}
+
+.layui-table ol li {
+  list-style: decimal;
+  margin-left: 30px;
+}
+
+.layui-table td {
+  padding: 5px 15px;
+  font-size: 14px;
+  color: #232629;
+  line-height: 20px;
+  border: none;
+  border-bottom: 0px solid #FFFFFF;
+}
+
+.layui-table a {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.layui-table .left-font {
+  text-align: right;
+  vertical-align: top;
+  font-size: 15px;
+  background-color: #F2F3F4;
+}
+
+.layui-table[lay-even] tr:nth-child(even) {
+  background-color: #F2F3F4;
+}
+
+.layui-table[lay-even] tr:nth-child(odd) {
+  background-color: #F2F3F4;
+}
+
+.layui-panel {
+  font-size: 12px;
+  color: #232629;
+  margin: 10px 0 50px;
+  padding: 9px 0;
+  background-color: #F2F3F4;
+}
+
+.layui-panel a:hover {
+  color: #3B4045;
+}
+
+.layui-panel .title {
+  padding: 5px;
+  font-size: 25px;
+  line-height: 40px;
+  margin: 0 20px 0;
+  color: #3B4045;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI Adjusted", "Segoe UI", "Liberation Sans", sans-serif;
+}
+
+/*mark {*/
+/*    background-color: #F0B27A;*/
+/*    padding: 1px 3px 1px;*/
+/*    border-radius: 3px;*/
+/*    line-height: 16px;*/
+/*    margin: 0 1px;*/
+/*}*/
+
+/*em {*/
+/*    font-family: Georgia, Cambria, "Times New Roman", Times, serif;*/
+/*    font-size: 15px;*/
+/*    margin: 0 5px;*/
+/*    text-decoration: underline;*/
+/*}*/
+
+/*.layui-table ol li mark {*/
+/*    background-color: #CACFD2;*/
+/*}*/
+
+code {
+  font-family: ui-monospace, "Cascadia Mono", "Segoe UI Mono", "Liberation Mono", Menlo, Monaco, Consolas, monospace;
+  font-size: 12px;
+  border-radius: 3px;
+  line-height: 20px;
+  word-wrap: normal;
+}
+
+pre {
+  padding: 12px;
+  width: auto;
+  overflow: auto;
+  background-color: #E7E8E9;
+  border-radius: 3px;
+}
+
+.answer-title a {
+  font-size: 18px;
+  font-weight: bold;
+}
+</style>
+
+<body>
+  <div id="app" class="layui-container">
+    <div class="layui-row layui-col-space15">
+      <div class="layui-col-md12">
+        <div class="layui-panel" style="margin-bottom: 30px;">
+          <div class="title"><strong>Query:&nbsp;&nbsp;</strong>
+            <a :href="'https://stackoverflow.com/questions/'+post_id" target="_blank" v-html="title">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="layui-panel" v-for="(answer, index) in answer">
+      <table class="layui-table" lay-even>
+        <colgroup>
+          <col width="14%">
+          <col width="86%">
+        </colgroup>
+        <tbody>
+          <tr>
+            <td rowspan="1" class="left-font">
+              <strong>Id&nbsp;[<span>{{answer.answer_id}}</span>]</strong>
+            </td>
+            <td>
+              <div class="answer-title">
+                <a :href="'https://stackoverflow.com/questions/'+answer.answer_id" target="_blank" v-html="answer.title">
+                </a>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" class="left-font">
+              <strong>Environment</strong>
+            </td>
+            <td>
+              <strong>{{answer.environment.join(", ")}}</strong>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" class="left-font">
+              <strong>Extra Info</strong>
+            </td>
+            <td>
+              <span class="layui-badge layui-bg-black">ViewCount:&nbsp;{{answer.ViewCount}}</span>
+              <span class="layui-badge layui-bg-black">Score:&nbsp;{{answer.Score}}</span>
+              <span class="layui-badge layui-bg-black">AnswerScore:&nbsp;{{answer.AnswerScore}}</span>
+              <span class="layui-badge layui-bg-black">Environment Score:&nbsp;{{answer.environment_score}}</span>
+              <span v-show="answer.exception_message_score" class="layui-badge layui-bg-black">Exception Message Score:&nbsp;{{answer.exception_message_score}}</span>
+              <span v-show="answer.exception_stack_score" class="layui-badge layui-bg-black">Exception Stack
+                Score:&nbsp;{{answer.exception_stack_score}}</span>
+              <span v-show="answer.code_score" class="layui-badge layui-bg-black">Code
+                Score:&nbsp;{{answer.code_score}}</span>
+              <span v-show="answer.symptom_score" class="layui-badge layui-bg-black">Symptom
+                Score:&nbsp;{{answer.symptom_score}}</span>
+              <span v-show="answer.purpose_score" class="layui-badge layui-bg-black">Purpose
+                Score:&nbsp;{{answer.purpose_score}}</span>
+            </td>
+          </tr>
+          <!--          <tr>-->
+          <!--            <td rowspan="1" class="left-font">-->
+          <!--              <strong>Exception Stack</strong>-->
+          <!--            </td>-->
+          <!--            <td>-->
+          <!--              <div v-for="(exc,) in answer.exception_stack">-->
+          <!--                <pre style="max-height: 300px"><code>{{exc}}</code></pre>-->
+          <!--              </div>-->
+          <!--            </td>-->
+          <!--          </tr>-->
+          <tr v-show="answer.exception_message">
+            <td rowspan="1" class="left-font">
+              <strong>Exception Message</strong>
+            </td>
+            <td>
+              <div>
+                <pre style="max-height: 300px"><code>{{answer.exception_message}}</code></pre>
+              </div>
+            </td>
+          </tr>
+          <tr v-show="answer.symptom">
+            <td rowspan="1" class="left-font">
+              <strong>Symptom</strong>
+            </td>
+            <td>
+              <p v-for="(symptom,) in answer.symptom">{{symptom}}</p>
+            </td>
+          </tr>
+          <tr v-show="answer.code.length>0">
+            <td rowspan="1" class="left-font">
+              <strong></strong>
+            </td>
+            <td>
+              <div class="layui-collapse">
+                <div class="layui-colla-item" v-for="(code,i) in answer.code">
+                  <h2 class="layui-colla-title">code {{i + 1}}</h2>
+                  <pre class="layui-colla-content" style="max-height: 300px"><code>{{code}}</code></pre>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr v-show="answer.reason.length>0">
+            <td rowspan="1" class="left-font">
+              <strong>Reason</strong>
+            </td>
+            <td>
+              <p v-for="(reason,) in answer.reason">{{reason}}</p>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" class="left-font">
+              <strong>Solution</strong>
+            </td>
+            <td>
+              <p v-for="(solution,) in answer.solution">{{solution}}</p>
+            </td>
+          </tr>
+          <tr v-show="answer.answer_code.length>0">
+            <td rowspan="1" class="left-font">
+              <strong></strong>
+            </td>
+            <td>
+              <div class="layui-collapse">
+                <div class="layui-colla-item" v-for="(answer_code, i) in answer.answer_code">
+                  <h2 class="layui-colla-title">code {{i + 1}}</h2>
+                  <pre class="layui-colla-content" style="max-height: 600px"><code>{{answer_code}}</code></pre>
+                </div>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <script type="text/javascript">
+  const vm = new Vue({
+    el: '#app',
+    data: JSON.parse(JSON.stringify({"post_id": "63641940", "exception_type": "UnknownHostException", "environment": "java, JDK, JRE", "title": "how can I run Java code while i have JDK and JRE installed on windows?", "answer": [{"answer_id": "52671412", "title": "Error: A JNI error has occurred, please check your installation and try again - during running Java program from Ubuntu terminal", "Score": 7, "ViewCount": 52620, "LastEditDate": "", "LastActivityDate": "2021-02-21 05:50:53", "AnswerScore": 9, "reason": ["You've compiled for Java 11 ... but you're running an older JRE (Java 8)"], "solution": ["SUGGESTIONS: [-]recompile with -source and -target to target an earlier version of Java in your .class file, or. ", "[-]Upgrade your target JRE to Java 11. ", "FYI, these are the Java versions in each Java class file's header: -CODE-. ", "Also FYI, here are the command line options for javac: Java SE 11 > Tools > javac. ", "PS: You may have multiple independent versions of Java installed at the same time. "], "answer_code": ["\nhttps://en.wikipedia.org/wiki/Java_class_file\n\nJava SE 11 = 55 (0x37 hex)\nJava SE 10 = 54 (0x36 hex)\nJava SE 9 = 53 (0x35 hex)\nJava SE 8 = 52 (0x34 hex)\nJava SE 7 = 51 (0x33 hex)\nJava SE 6.0 = 50 (0x32 hex)\nJava SE 5.0 = 49 (0x31 hex)\nJDK 1.4 = 48 (0x30 hex)\nJDK 1.3 = 47 (0x2F hex)\nJDK 1.2 = 46 (0x2E hex)\nJDK 1.1 = 45 (0x2D hex)\n\n"], "environment": ["unsupported-class-version", "java program", "complied class", "java version 8", "ubuntu", "java", "client-server", "ubuntu jdk", "stackoverflow and other forum and blogs"], "symptom": ["I'm trying to run a simple client-server program written in Java through Ubuntu terminal. ", "I could compile the code successfully unfortunately, I can't run the code. ", "During running the complied class, I'm getting the following error: -CODE-. ", "I've tried to search stackoverflow and other forum and blogs to find a solution, I've find some similar questions, tried the answers provided to those question but could find a solution for my problem. ", "Later, I've try to write a very simple Java program, like just to print a greeting, this program also could be compiled but would not run producing the same error. ", "I've tried to execute the program from different folders except from the root folder. ", "I can perfectly work in Eclipse where my java version 8, problem occurs only when working in terminal. ", "In my Ubuntu jdk version is 11 (which has been automatically been updated without my knowledge); My Ubuntu version:18.04.1 LTS. "], "exception_stack": ["\nmamun@mamun:~$ java Test Error: A JNI error has occurred, please check\n  your installation and try again Exception in thread \"main\"\n  java.lang.UnsupportedClassVersionError: Test has been compiled by a\n  more recent version of the Java Runtime (class file version 55.0),\n  this version of the Java Runtime only recognizes class file versions\n  up to 52.0    at java.lang.ClassLoader.defineClass1(Native Method)    at\n  java.lang.ClassLoader.defineClass(ClassLoader.java:763)   at\n  java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)\n    at java.net.URLClassLoader.defineClass(URLClassLoader.java:467)     at\n  java.net.URLClassLoader.access$100(URLClassLoader.java:73)    at\n  java.net.URLClassLoader$1.run(URLClassLoader.java:368)    at\n  java.net.URLClassLoader$1.run(URLClassLoader.java:362)    at\n  java.security.AccessController.doPrivileged(Native Method)    at\n  java.net.URLClassLoader.findClass(URLClassLoader.java:361)    at\n  java.lang.ClassLoader.loadClass(ClassLoader.java:424)     at\n  sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)     at\n  java.lang.ClassLoader.loadClass(ClassLoader.java:357)     at \n  sun.launcher.LauncherHelper.checkAndLoadMain(LauncherHelper.java:495)\n"], "code": ["import java.io.IOException;\nimport java.net.ServerSocket;\nimport java.net.Socket;\n\npublic class Server \n{\n        public static void main(String[] args)\n        {\n                try \n                {\n                        //create server Socket with demo port\n                        ServerSocket server = new ServerSocket(20);\n\n                        //wait for server connection\n                        Socket s = server.accept();\n\n                        //upon establishing connection, print \n                       // successful message\n                        System.out.println(\"connection eastablished\");\n                } \n                catch (IOException e) \n                {\n                        e.printStackTrace();\n                }\n        }\n}\n", "import java.io.IOException;\nimport java.net.Socket;\nimport java.net.UnknownHostException;\n\npublic class Client \n{\n        public static void main(String[] args)\n        {\n                try \n                {\n                        //create client socket\n                        Socket client = new Socket(\"127.0.0.1\", 20);\n\n                        //upon establishing connection, print                            \n                        //successful message\n                        System.out.println(\"connection eastablished\");\n\n                } \n                catch (UnknownHostException e) \n                {\n                        e.printStackTrace();\n                } \n                catch (IOException e) \n                {\n                        e.printStackTrace();\n                }\n        }\n}\n", "public class Test\n{\n        public static void main(String[] args)\n                {\n                        System.out.println(\"Hello...\");\n                }\n}\n"], "purpose": ["I've tried to execute the program from different folders except from the root folder. ", "I'm trying to run a simple client-server program written in Java through Ubuntu terminal. ", "Later, I've try to write a very simple Java program, like just to print a greeting, this program also could be compiled but would not run producing the same error. "], "purpose_rank": 10, "symptom_rank": 4, "exception_message_rank": 0, "exception_stack_rank": 0, "exception_message": "  java.lang.UnsupportedClassVersionError: Test has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0\n", "purpose_score": 70, "symptom_score": 88, "exception_message_score": 100, "exception_stack_score": 100}, {"answer_id": "27836057", "title": "Android rxJava Error handling with retrofit", "Score": 11, "ViewCount": 8902, "LastEditDate": "2015-01-08 17:53:05", "LastActivityDate": "2016-06-28 16:29:12", "AnswerScore": 0, "reason": ["It looks like you may be running into an issue has been fixed as of RxJava 1.0: TrampolineScheduler NullPointerException. "], "solution": [], "answer_code": [], "environment": ["rx java", "wifi", "observable", "tutorial, explonation", "android", "error-handling", "java", "java class", "logcat", "rx-java", "retrofit"], "symptom": ["I'm using the newer RX java where instead of: -CODE-. this is used: (due to deprecation-CODE-", "(This can be important as most example, tutorial, explonation uses the old one.... ", "I have a Java class, relevant parts from it: -CODE-. ", "This code almost works perfectly, if everything is ok. ", "But if I make an intentional error, like I turn off the WiFi.. than retrofit get the \"UnKnownHostException\"..as it should happen at the retrofit call (getUserin the try catch block", "But instead of handling the error to onError(Throwable t. --> where I could handle, it just crashes the app", "So it is like if the error never gets to the catch block. ", "What is strange that HTTP errors (like 404, 401 etc.. is catched, got by onError(...and everything is just fine", "Everything goes for 3 times before crash, as of .retry(3. but none gets into catch clause", "LogCat Output: -CODE-. the given api address is not the real one, but the real one is reachable", "I just turned off the WiFi to test error handling. ", "And one more use-case: If I add to the observable .onExceptionResumeNext([2nd observable]. than it goes to the 2nd observable, and it not crashes"], "exception_stack": ["    01-08 16:19:31.576  15285-16162/asd.bdef.gh D/Retrofit\ufe55 ---- ERROR https://testapi.com/api/login\n    01-08 16:19:31.606  15285-16162/asd.bdef.gh D/Retrofit\ufe55 java.net.UnknownHostException: Unable to resolve host \"testapi.com\": No address associated with hostname\n                at java.net.InetAddress.lookupHostByName(InetAddress.java:394)\n                at java.net.InetAddress.getAllByNameImpl(InetAddress.java:236)\n                at java.net.InetAddress.getAllByName(InetAddress.java:214)\n                at com.squareup.okhttp.internal.Network$1.resolveInetAddresses(Network.java:29)\n                at com.squareup.okhttp.internal.http.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:259)\n                at com.squareup.okhttp.internal.http.RouteSelector.nextProxy(RouteSelector.java:233)\n                at com.squareup.okhttp.internal.http.RouteSelector.nextUnconnected(RouteSelector.java:159)\n                at com.squareup.okhttp.internal.http.RouteSelector.next(RouteSelector.java:133)\n                at com.squareup.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:314)\n                at com.squareup.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:237)\n                at com.squareup.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:423)\n                at com.squareup.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:105)\n                at com.squareup.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:239)\n                at com.squareup.okhttp.internal.huc.DelegatingHttpsURLConnection.getOutputStream(DelegatingHttpsURLConnection.java:218)\n                at com.squareup.okhttp.internal.huc.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:25)\n                at retrofit.client.UrlConnectionClient.prepareRequest(UrlConnectionClient.java:68)\n                at retrofit.client.UrlConnectionClient.execute(UrlConnectionClient.java:37)\n                at retrofit.RestAdapter$RestHandler.invokeRequest(RestAdapter.java:321)\n                at retrofit.RestAdapter$RestHandler.access$100(RestAdapter.java:220)\n                at retrofit.RestAdapter$RestHandler$1.invoke(RestAdapter.java:265)\n                at retrofit.RxSupport$2.run(RxSupport.java:55)\n                at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)\n                at java.util.concurrent.FutureTask.run(FutureTask.java:234)\n                at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)\n                at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)\n                at retrofit.Platform$Android$2$1.run(Platform.java:142)\n                at java.lang.Thread.run(Thread.java:841)\n    01-08 16:19:31.606  15285-16162/asd.bdef.gh D/Retrofit\ufe55 ---- END ERROR\n    01-08 16:19:31.977  15285-15285/asd.bdef.gh D/AndroidRuntime\ufe55 Shutting down VM\n    01-08 16:19:31.977  15285-15285/asd.bdef.gh W/dalvikvm\ufe55 threadid=1: thread exiting with uncaught exception (group=0x41c9d8b0)\n    01-08 16:19:31.977  15285-15285/asd.bdef.gh E/AndroidRuntime\ufe55 FATAL EXCEPTION: main\n", "FATAL EXCEPTION: main\nrx.exceptions.OnErrorFailedException: Error occurred when trying to propagate error to Observer.onError\n        at rx.observers.SafeSubscriber._onError(SafeSubscriber.java:175)\n        at rx.observers.SafeSubscriber.onError(SafeSubscriber.java:97)\n        at rx.internal.operators.NotificationLite.accept(NotificationLite.java:144)\n", "Caused by: java.lang.NullPointerException: Attempt to read from field 'rx.functions.Action0 rx.schedulers.TrampolineScheduler$TimedAction.action' on a null object reference\n        at rx.schedulers.TrampolineScheduler$InnerCurrentThreadScheduler.enqueue(TrampolineScheduler.java:85)\n"], "code": ["Observable.create(new Observable.OnSubscribeFunc<T>() {...});\n", "Observable.create(new Observable.OnSubscribe<T>() {...});\n", "private interface ApiManagerService {\n\n    @FormUrlEncoded\n    @POST(\"/login\")\n    User getUser(@Field(\"username\") String userName, @Field(\"password\") String password);\n\n}\n\n\nprivate static RestAdapter restAdapter = new RestAdapter.Builder()\n    .setEndpoint(HOST)\n    .setLogLevel(RestAdapter.LogLevel.FULL)\n    .build();\n\nprivate static ApiManagerService apiManager = restAdapter.create(ApiManagerService.class);\n\npublic static Subscription login(final String userName, final String password, Observer<User> observer) {\n    return Observable.create(new Observable.OnSubscribe<User>() {\n        @Override\n        public void call(Subscriber<? super User> subscriber) {\n            try {\n\n                User user = apiManager.getUser(userName, password);\n\n                subscriber.onNext(user);\n                subscriber.onCompleted();\n\n            } catch (RetrofitError e) {\n                subscriber.onError(e);\n            } catch (Throwable e) {\n                subscriber.onError(e);\n            }\n        }\n    }\n\n    ).subscribeOn(Schedulers.io())\n     .retry(3)\n     .observeOn(AndroidSchedulers.mainThread())\n     .subscribe(observer);\n}\n", "ApiManager.login(userName, pass, new Observer<User>() {\n    @Override\n    public void onCompleted() { }\n\n    @Override\n    public void onError(Throwable e) {\n        DialogManager.showBasicErrorDialog(getApplicationContext(), e.getLocalizedMessage());\n        logger.showLog(\"Login Not ok\");\n        e.printStackTrace();\n    }\n\n    @Override\n    public void onNext(User user) {\n        logger.showLog(\"login ok, user: \" + user.getName().toString());\n        {...}\n    }\n\n}); \n"], "environment_rank": 1, "exception_message_rank": 8, "exception_stack_rank": 19, "exception_message": "    01-08 16:19:31.606  15285-16162/asd.bdef.gh D/Retrofit\ufe55 java.net.UnknownHostException: Unable to resolve host \"testapi.com\": No address associated with hostname\n", "environment_score": 97, "exception_message_score": 76, "exception_stack_score": 43}, {"answer_id": "36190837", "title": "Java 1.4.2 IOException in getOutputStream() on AS400", "Score": 0, "ViewCount": 189, "LastEditDate": "2016-04-01 15:44:58", "LastActivityDate": "2016-04-01 15:44:58", "AnswerScore": 0, "reason": [], "solution": ["Finally I resolve my problem, adding the IP and Domain in the host table (as I mentioned in a edit. but here is another problem", "The provider gave me one IP for requests and two more IPs for responses, an I added the three IPs with the same domain in the host table. ", "I deleted two of three IPs and then I tried using only the IP for request and it worked. "], "answer_code": [], "environment": ["java1.4", "tcp/ip host table entries. and now the as400", "setdoinput and setdooutput", "tcpcfg and then option 10", "qshell or using a rpg program", "nslookup", "v6r1m0", "ioexception", "ips", "iseries-navigator", "option 12", "java", "ibm-midrange", "as400 security", "xml", "java 1.4.2"], "symptom": ["I'm working under a AS400 system using Java 1.4.2, to get an XML but when I do the request using getOutputStream(. ", "I got an IOException and the message only returns the domain of the provider. ", "And the message error is \"ERROR IOException: test.example.it\". ", "I tested my code in a computer with Windows XP, Netbeans 4.1, Java 1.4.2 Build 19 (the same in the AS400. and I get the XML without problems", "I can compile my code into the AS400 but when I run the class in QSHELL or using a RPG Program i get the error. ", "EDIT: Its a POST method, and actually I included setDoInput and setDoOutput in the code. ", "Now printing the exception I get this: -CODE-. ", "EDIT: Looks like nslookup doesn't resolve the domain but after that I retry using the IP and now I have this error... -CODE-", "I think it would be a problem with AS400 security, probably should I add this domain in a list or edit a system value. ", "EDIT: Using TCPCFG and then option 10, in this table of hosts I don't have the domain test.example.it, I suppose that I need to add this domain and IP, isn't it. ", "EDIT: The version is V6R1M0. ", "I added the IPs (Option 10. ", "Work with TCP/IP host table entries. and now the AS400 resolve the domain but now I have a new problem-CODE-", "In the option 12 I have *SAME in all the options. ", "I found in a group this: \"Is the 8080 port on the 400. ", "Is the 400 setup to accept 8080 traffic via SSL\". "], "exception_stack": ["\njava.net.UnknownHostException: test.example.it\nERROR IOException: test.example.it\n", "\njava.net.SocketException: The value specified for the argument is not correct.\nERROR IOException: The value specified for the argument is not correct.\n", "\njava.net.ConnectException: A remote host refused an attempted connect operation.\n"], "code": ["try {\n  url = new URL(\"https://test.example.it/27/xml/\"); //Example URL...\n} catch(MalformedURLException exMAL) {\n  return exMAL.getMessage();\n}\n\n//Set parameters\nLinkedHashMap params = new LinkedHashMap();\nparams.put(\"id\", id);\nparams.put(\"password\", password);\n...\nparams.put(\"description\", description);\n\nString data = \"\";\nSet set = params.entrySet();\nIterator i = set.iterator();\n\n//Create URL of parameters\nwhile(i.hasNext()){\nif(data != \"\"){\n  data += \"&\";\n}\nMap.Entry me = (Map.Entry)i.next();\n  data += me.getKey() + \"=\" + me.getValue();\n}\n\ntry {\n  //Create connection\n  conn = (HttpURLConnection) url.openConnection();\n  conn.setRequestMethod(\"POST\");\n  conn.setRequestProperty(\"Content-Type\", \"application/x-www-form-urlencoded\");\n  conn.setDoInput(true);\n  conn.setDoOutput(true);\n  conn.setUseCaches(false);\n\n  //Do request\n  OutputStreamWriter wr = new OutputStreamWriter(conn.getOutputStream()); //Error here\n  wr.write(data);\n  wr.flush();\n\n  //Get resource\n  InputStream is = conn.getInputStream();\n  outputData = readAll(is);\n  } catch (IOException ioEx) {\n    return \"ERROR IOException: \" + ioEx.getMessage();\n  }\n", "\n Internet         Subnet              Line      Line  Opt  Address          Mask             Description  Type \n\n 127.0.0.1        255.0.0.0        *LOOPBACK    *NONE\n 151.208.xxx.xx   255.255.255.0    ETHLINE      *ELAN\n\n"], "symptom_rank": 19, "exception_message_rank": 3, "exception_stack_rank": 11, "exception_message": "java.net.UnknownHostException: test.example.it\nERROR IOException: test.example.it\n", "symptom_score": 43, "exception_message_score": 91, "exception_stack_score": 67}, {"answer_id": "46403096", "title": "Error while importing Dynamic Web Project into Eclipse Juno", "Score": 0, "ViewCount": 226, "LastEditDate": "2017-09-25 10:38:14", "LastActivityDate": "2017-09-25 11:01:31", "AnswerScore": 0, "reason": ["My runtime environment was configured incorrectly to the wrong server since the Dynamic Web Module version was not supported. "], "solution": ["I had to change the Dynamic Web module version in the Navigation view in the file: org.eclipse.wst.common.project.facet.core.xml. ", "I was then able to choose the appropriate runtime. "], "answer_code": [], "environment": ["exception", "eclipse", "java", "java 1.6", "eclipse juno", "eclipse-juno"], "symptom": ["I'm relatively new to Web Development and I'm facing an issue.I'm trying to import a WAR file into Eclipse Juno and I run into the following error. ", "I'm using Java 1.6. ", "An internal error occurred during: -CODE-. "], "exception_stack": ["\n\"Loading descriptor for CWP.\". java.net.UnknownHostException:\n  java.sun.com\n"], "code": [], "purpose": ["I'm using Java 1.6. ", "I'm trying to import a WAR file into Eclipse Juno and I run into the following error. "], "purpose_rank": 8, "symptom_rank": 5, "environment_rank": 8, "exception_message": "\"Loading descriptor for CWP.\". java.net.UnknownHostException:\n", "purpose_score": 76, "symptom_score": 85, "environment_score": 76}, {"answer_id": "24612100", "title": "java Exception in thread \"main\" java.net.UnknownHostException: Test: Test: unknown error OS ubuntu", "Score": 15, "ViewCount": 25950, "LastEditDate": "2017-05-23 12:02:29", "LastActivityDate": "2017-03-21 15:50:38", "AnswerScore": 24, "reason": ["Your host name is Sachin. ", "The exception in thread \"main. java.net.UnknownHostException: Sachin: Sachin: unknown error show that"], "solution": ["Add Sachin to /etc/hosts: -CODE-. "], "answer_code": ["myip     localhost\n127.0.0.1   localhost\n127.0.1.1   test5\n127.0.0.1   Sachin\n"], "environment": ["java", "ubuntu"], "symptom": ["This error is related to my previous question where I had an error with InetAddress.getLocalHost(). ", "I found a suggestion to add an entry in /etc/hosts: -CODE-. but my error is still not resolved"], "exception_stack": ["Exception in thread \"main\" java.net.UnknownHostException: Sachin: Sachin: unknown error\n    at java.net.InetAddress.getLocalHost(InetAddress.java:1484)\n    at InetAddressTest.main(InetAddressTest.java:6)\nCaused by: java.net.UnknownHostException: Sachin: unknown error\n    at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)\n    at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:907)\n    at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1302)\n    at java.net.InetAddress.getLocalHost(InetAddress.java:1479)\n    ... 1 more\n"], "code": ["myip     localhost\n127.0.0.1   localhost\n127.0.1.1   test5\n", "import java.net.*;\n\npublic class InetAddressTest {\n    public static void main(String args[]) throws UnknownHostException {\n        InetAddress Address = InetAddress.getLocalHost();\n\n    }\n}\n"], "environment_rank": 13, "exception_message_rank": 9, "exception_stack_rank": 29, "exception_message": "Exception in thread \"main\" java.net.UnknownHostException: Sachin: Sachin: unknown error\nCaused by: java.net.UnknownHostException: Sachin: unknown error\n", "environment_score": 61, "exception_message_score": 73, "exception_stack_score": 13}, {"answer_id": "1838140", "title": "How do I fix this UnknownHostException?", "Score": 5, "ViewCount": 30360, "LastEditDate": "2011-12-13 16:19:33", "LastActivityDate": "2013-06-28 17:31:50", "AnswerScore": 16, "reason": [], "solution": [], "answer_code": ["Proxy proxy = new Proxy(Proxy.DIRECT,\n    new InetSocketAddress(proxyHost, proxyPort));\nurl.openConnection(proxy);\n", "System.setProperty(\"http.proxyHost\", \"my.proxyhost.com\");\nSystem.setProperty(\"http.proxyPort\", \"1234\");\n"], "environment": ["java", "android", "url"], "symptom": ["I am behind a proxy and when I try. readURL(\"http://abc.com\"to access URL http://abc.com it throws java.net.UnknownHostException: I have: -CODE-in manifest file"], "exception_stack": [], "code": ["public static final String readURL(String url)throws Throwable\n{\n        try {\n            InputStream in = (InputStream) fetch(url);\n            byte[] bArr = readBytes(in);\n            return new String(bArr);\n        } catch (Throwable e) {\n            throw e;\n            }\n}\n\n\npublic static final Object fetch(String address) throws MalformedURLException,IOException {\n    URL url = new URL(address);\n    Object content = url.getContent();\n    return content;\n}\n", "<uses-permission android:name=\"android.permission.INTERNET\" /> \n"], "environment_rank": 21, "title_rank": 3, "exception_message": "", "environment_score": 37}, {"answer_id": "4227624", "title": "FTP site works but I'm unable to connect from Java program. I get java.net.UnknownHostException", "Score": 3, "ViewCount": 7033, "LastEditDate": "", "LastActivityDate": "2010-11-19 17:33:32", "AnswerScore": 9, "reason": [], "solution": ["Try changing your code so that it connects to \"site.com\". "], "answer_code": [], "environment": ["windows explorer", "java 1.6", "upload", "edtftpj library", "java program", "edtftpj", "ftp server", "java", "exception", "ftp site", "ftp"], "symptom": ["In the project I'm working on now, I need to upload a file to a FTP site. ", "I have written many programs that do this before and they have worked just fine. ", "When I try to upload the file from the program, I get this to be specific: -CODE-. ", "However when I try to connect to the same site from within a browser (Chrome, IE. or from windows explorer, I'm able to find the site and login just fine", "I tired posting a picture, but I was prevented from doing so as I'm a newbie. ", "If I could not connect from windows, then I can assume it is a FTP server issue. ", "This happens to me only from the Java program. ", "And I also know that my code works as I have used in numerous occasions before. ", "I use the edtFTPj library. ", "My environment is Eclipse Helios (32 bit. on Java 1.6 (32 bitrunning from a Windows 7 64 bit machine"], "exception_stack": [], "code": ["\npublic void uploadFile(String fileName) throws Exception {\n        FileTransferClient ftpClient = null;\n\n        try {\n            ftpClient = new FileTransferClient();\n            ftpClient.setRemoteHost(gv.ftpHost);\n            ftpClient.setRemotePort(21);\n            ftpClient.setUserName(gv.ftpUserName);\n            ftpClient.setPassword(gv.ftpPassword);\n            ftpClient.getAdvancedFTPSettings().setConnectMode(FTPConnectMode.PASV);\n            ftpClient.connect();\n\n            ftpClient.uploadFile(gv.irp + fileName, fileName, WriteMode.OVERWRITE);\n        }\n        catch (Exception e) {\n            throw new Exception(\"Error occured in uploadFile()\\n\" + e);\n        }\n        finally {\n            if (ftpClient != null) {\n                if (ftpClient.isConnected()) {\n                    ftpClient.disconnect();\n                }\n                ftpClient = null;\n            }\n        }\n    }\n"], "environment_rank": 16, "title_rank": 10, "exception_message": "", "environment_score": 52}, {"answer_id": "46343451", "title": "Java Socket ClassCast Exception", "Score": 1, "ViewCount": 250, "LastEditDate": "2017-09-21 15:45:08", "LastActivityDate": "2017-09-21 15:45:08", "AnswerScore": 1, "reason": ["You can't cast the value that is returned by \"getObjectFromByte. method to an \"Archivio\", because it is not of a compatible type", "In particular, it is an Integer. ", "It happens because the read method of the ObjectInputStream returns an int (See Javadoc). "], "solution": [], "answer_code": [], "environment": ["java sockets", "serializable", "sockets", "java", "exception"], "symptom": ["I've been developing a software to send files through TCP/IP connection using Java Sockets. ", "The program compiles, however, the 'Server Application' throws a Class Cast Exception and the files aren't sent to the server. ", "Above is the following code: Server class: -CODE-. ", "Exception thrown by the IDE: -CODE-. "], "exception_stack": ["Exception in thread \"main\" java.lang.ClassCastException: java.lang.Integer cannot be cast to filesender.Arquivo\nat filesender.ServidorTCP.main(ServidorTCP.java:20)\nC:\\Users\\DeveloperEng\\AppData\\Local\\NetBeans\\Cache\\8.2\\executor-snippets\\run.xml:53: Java returned: 1\nFALHA NA CONSTRU\u00c7\u00c3O (tempo total: 5 segundos)\n"], "code": ["package filesender;\n\nimport java.io.*;\nimport java.net.*;\n\npublic class ServidorTCP {\n\npublic static void main(String[] args) \n        throws IOException, UnknownHostException {\n\n    try (ServerSocket socketServer = new ServerSocket(6789)) {\n        Socket socket = socketServer.accept();\n        System.out.println(\"Conex\u00e3o realizada com o cliente na porta 6789\");\n\n        byte[] objectAsByte = new byte[socket.getReceiveBufferSize()];\n        BufferedInputStream bf = \n                new BufferedInputStream(socket.getInputStream());\n        bf.read(objectAsByte);\n\n        Arquivo arquivo = (Arquivo) getObjectFromByte(objectAsByte);\n\n        String dir = arquivo.getDiretorio() + \"\\\\\" + arquivo.getNome();\n        System.out.println(\"Criando o arquivo: \" + dir);\n\n        try (FileOutputStream fos = new FileOutputStream(dir)) {\n            fos.write(arquivo.getConteudo());\n        }\n    }\n}\n\nprivate static Object getObjectFromByte(byte[] objectAsByte) {\n    Object obj = null;\n    ByteArrayInputStream bis = null;\n    ObjectInputStream ois = null;\n\n    try {\n        bis = new ByteArrayInputStream(objectAsByte);\n        ois = new ObjectInputStream(bis);\n        obj = ois.read();\n\n        bis.close();\n        ois.close();\n    } catch (IOException e) {\n\n    }\n    return obj;\n   }\n  }\n", "package filesender;\n\nimport java.io.*;\nimport java.net.*;\n\npublic class ClienteTCP {\n\npublic static Arquivo arquivo;\nprivate static final long serialVersionUID = 1L;\n\n\npublic static void main(String[] args) \n        throws IOException, UnknownHostException {\n\n    selectFile();\n\n    try (Socket clientSocket = new Socket(\"127.0.0.1\", 6789)) {\n\n        try (BufferedOutputStream bf = \n                new BufferedOutputStream(clientSocket.getOutputStream())) {\n            byte[] bytea = serializeFile();\n            bf.write(bytea);\n            bf.flush();\n        }\n    }       \n}\n\nprivate static void selectFile() {      \n    try {\n        File file = new File(\"C:\\\\Users\\\\DeveloperEng\\\\Documents\\\\\"\n                + \"teste\\\\arquivo.txt\");\n        byte[] bFile = new byte[(int) file.length()];\n        try (FileInputStream fis = new FileInputStream(file)) {\n            fis.read(bFile);\n        }\n\n\n        arquivo = new Arquivo();\n        arquivo.setConteudo(bFile);\n        arquivo.setNome(\"teste.txt\");\n        arquivo.setDiretorio(\"C:\\\\Users\\\\DeveloperEng\\\\Documents\");\n    } catch (IOException e) {\n\n    }       \n}\n\nprivate static byte[] serializeFile() {\n    ByteArrayOutputStream bao = null;\n    ObjectOutputStream ous = null;\n    try {\n        bao = new ByteArrayOutputStream();\n        ous = new ObjectOutputStream(bao);\n        ous.writeObject(arquivo);\n        //return bao.toByteArray();\n    } catch (IOException e) {\n\n    }\n    return bao.toByteArray();\n  }\n}\n", "package filesender;\n\nimport java.io.*;\n\npublic class Arquivo implements Serializable {\n   private String nome;\n   private byte[] conteudo;\n   private String diretorio;\n\n   private static final long serialVersionUID = 1L;\n\n   public String getNome() {\n      return nome;\n   }\n\n   public void setNome(String nome) {\n      this.nome = nome;\n   }\n\n   public byte[] getConteudo() {\n      return conteudo;\n   }\n\n   public void setConteudo(byte[] conteudo) {\n      this.conteudo = conteudo;\n   }\n\n   public String getDiretorio() {\n      return diretorio;\n   }\n\n   public void setDiretorio(String diretorio) {\n      this.diretorio = diretorio;\n   }   \n}\n"], "environment_rank": 4, "exception_stack_rank": 21, "exception_message": "Exception in thread \"main\" java.lang.ClassCastException: java.lang.Integer cannot be cast to filesender.Arquivo\n", "environment_score": 88, "exception_stack_score": 37}, {"answer_id": "12914454", "title": "Where and when should I use the close() method to avoid IOException in ObjectInputStream?", "Score": 0, "ViewCount": 3190, "LastEditDate": "2012-11-20 10:41:41", "LastActivityDate": "2013-11-22 23:59:28", "AnswerScore": 3, "reason": ["This line of stack trace shows that the exception is occurring when you are initializing the ObjectInputStream, not when you are closing. -CODE-", "The most likely cause is that the remote client did not open an ObjectOutputStream. "], "solution": [], "answer_code": [], "environment": ["tcp", "networking", "sockets", "java", "objectinputstream"], "symptom": ["I'm trying to read an object from client program over tcp. ", "As you can see in this line I created objectInput: -CODE-. ", "And then read my input from the other program. ", "It used to work fine until i made minor changes to clean up the program. ", "My question is, After reading the object should I close the objectInputStream or Keep remain without close. ", "Should I close it straight away after using it or at the end of if block or at the end of program. ", "By the way I have read the close documentation. "], "exception_stack": ["java.io.EOFException\n    at java.io.ObjectInputStream$PeekInputStream.readFully(ObjectInputStream.java:2280)\n    at java.io.ObjectInputStream$BlockDataInputStream.readShort(ObjectInputStream.java:2749)\n    at java.io.ObjectInputStream.readStreamHeader(ObjectInputStream.java:779)\n    at java.io.ObjectInputStream.<init>(ObjectInputStream.java:279)\n    at Server.ClientWorker.run(MyCollectionServer.java:116)\n    at java.lang.Thread.run(Thread.java:680)\n"], "code": ["ObjectInputStream objectInput = new ObjectInputStream(incoming.getInputStream());\n", "objectInput.clsoe();\n", "    public static void main(String[] args) {\n        ServerSocket serverSocket = null;\n        try \n        {\n            serverSocket = new ServerSocket(port);  \n        } \n        catch (IOException e) \n                {\n            e.printStackTrace();\n        }\n        while(true)\n        {   \n            ClientWorker w;\n            try\n            {   \n                w = new ClientWorker(serverSocket.accept());\n                Thread t = new Thread(w);\n                t.start();\n            }\n            catch(IOException e)\n            {\n                e.printStackTrace();\n                break;\n            }   \n        }\n    }\n}\n\nclass ClientWorker implements Runnable\n{\n.....\n    private Socket incoming;\n    public ClientWorker(Socket incoming)\n    {\n        myList = new ArrayList<PureAlbum>();\n        loadList();\n        this.incoming = incoming;\n    }\n\n.....\n    public synchronized  void run()\n    {\n\nelse if(request.compareTo(\"AddAlbum\")==0)\n        {\n            try\n            {\n                ObjectInputStream objectInput = new ObjectInputStream(incoming.getInputStream()); //This is the line mentioned in the error\n                PureAlbum object = (PureAlbum) objectInput.readObject();\n\n\n                if(object instanceof CDAlbum)\n                {\n                    CDAlbum a = (CDAlbum) object;\n                    myList.add(a);\n                    System.out.println(\"Artist = \" + a.getArtist());\n                }\n                else if(object instanceof Client.au.edu.uow.Collection.DVDAlbum)\n                {\n                    myList.add((DVDAlbum) object);              \n                }\n                else\n                {\n                    System.err.println(\"Warning : The object to add to database is unknown! \"+ object.getClass() + \"*\");\n                    System.exit(0);\n                }\n\n\n            }\n            catch (UnknownHostException e) \n            {\n                System.err.println(\"Can not read the host name\");\n                e.printStackTrace();\n            } \n            catch (IOException e) \n            {\n                System.err.println(\"Can not read the FILE name\"); //This exception has been called\n                e.printStackTrace(); \n            }\n            catch (ClassNotFoundException e) \n            {\n                e.printStackTrace();\n            }\n        }\n"], "purpose": ["I'm trying to read an object from client program over tcp. "], "purpose_rank": 22, "title_rank": 6, "exception_message": "java.io.EOFException\n", "purpose_score": 34}, {"answer_id": "67302258", "title": "Error connecting to Kafka running in docker container", "Score": 1, "ViewCount": 946, "LastEditDate": "2021-04-28 16:00:06", "LastActivityDate": "2021-04-28 16:00:06", "AnswerScore": 2, "reason": ["This is the value that the broker provides to the client telling it where to find it when it makes subsequent connections. "], "solution": ["You've not shared your Docker Compose so I can't give you the specific fix to make, but in essence you need to configure your advertised listeners correctly. "], "answer_code": [], "environment": ["localhost and mapped port 19092", "spring-boot", "kafka and zookeeper", "porperty file", "kafka properties", "docker", "spring", "wildfly server", "apache-kafka", "java"], "symptom": ["I have configured following Kafka properties for my spring boot based library bundled inside a lib directory of an EAR deployed to Wildfly. ", "I am able to start the spring components successfully by loading the porperty file from classpath (WEB-INF/classes. -CODE-", "I run Kafka and zookeeper via docker compose, and the containers are mapped to host ports 12181 and 19092 respectively. ", "The publish fails with the error: -CODE-. ", "Now this is after having provided spring.kafka.producer.bootstrap-servers=127.0.0.1:19092 property. ", "What's interesting though is: -CODE-. the Wildfly server error logs show the app is actually connecting to the docker container via it's container ID i.e-CODE-from the docker ps -a output and: -CODE-", "I'm confused as to how is the spring boot code, despite the config property referring server over localhost and mapped port 19092, is managing to find a docker container on it's ID and default port and then trying to connect to it. "], "exception_stack": ["19:37:42,914 ERROR [org.springframework.kafka.support.LoggingProducerListener] (swiftalker-3) Exception thrown when sending a message with key='543507' and payload='com.foo.app.kanban.defect.entity.KanbanDefect@84b13' to topic alm_swift-alm:: org.apache.kafka.common.errors.TimeoutException: Topic alm_swift-alm not present in metadata after 2000 ms.\n\n19:37:43,124 WARN  [org.apache.kafka.clients.NetworkClient] (kafka-producer-network-thread | iris-producer-local-1) [Producer clientId=iris-producer-local-1] Error connecting to node 6be446692a1f:9092 (id: 1001 rack: null): java.net.UnknownHostException: 6be446692a1f\n    at java.net.InetAddress.getAllByName0(InetAddress.java:1281)\n    at java.net.InetAddress.getAllByName(InetAddress.java:1193)\n    at java.net.InetAddress.getAllByName(InetAddress.java:1127)\n    at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:110)\n    at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:403)\n    at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:363)\n    at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:151)\n    at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:955)\n    at org.apache.kafka.clients.NetworkClient.access$600(NetworkClient.java:73)\n    at org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:1128)\n    at org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:1016)\n    at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:547)\n    at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:324)\n    at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:239)\n    at java.lang.Thread.run(Thread.java:748)\n", "Error connecting to node 6be446692a1f:9092 (id: 1001 rack: null): java.net.UnknownHostException: 6be446692a1f\n"], "code": ["spring.autoconfigure.exclude=org.springframework.boot.autoconfigure.gson.GsonAutoConfiguration,org.springframework.boot.autoconfigure.jms.artemis.ArtemisAutoConfiguration,\\\norg.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration\nspring.kafka.admin.client-id=iris-admin-local\nspring.kafka.producer.client-id=iris-producer-local\nspring.kafka.producer.retries=3\nspring.kafka.producer.properties.max.block.ms=2000\nspring.kafka.producer.bootstrap-servers=127.0.0.1:19092\nspring.kafka.producer.key-serializer=org.apache.kafka.common.serialization.StringSerializer\nspring.kafka.producer.value-serializer=org.springframework.kafka.support.serializer.JsonSerializer\nfoo.app.kafka.executor.core-pool-size=10\nfoo.app.kafka.executor.max-pool-size=500\nfoo.app.kafka.executor.queue-capacity=1000\n", "CONTAINER ID   NAMES                PORTS                                                                          CREATED          STATUS\n2133c81ed51d   mongo                0.0.0.0:23556->27017/tcp, 0.0.0.0:23557->27018/tcp, 0.0.0.0:23558->27019/tcp   29 minutes ago   Up 29 minutes\nf18b86d8739e   kafka-ui             0.0.0.0:18080->8080/tcp                                                        29 minutes ago   Up 29 minutes\n6be446692a1f   kafka                0.0.0.0:19092->9092/tcp                                                        29 minutes ago   Up 29 minutes\n873304e1e6a0   zookeeper            2181/tcp, 2888/tcp, 3888/tcp, 8080/tcp                                         29 minutes ago   Up 29 minutes\n", "6be446692a1f   kafka                0.0.0.0:19092->9092/tcp\n", "version: '3'\n\nnetworks:\n  app-tier:\n    driver: bridge\n\nservices:\n  zookeeper:\n    image: 'docker.io/bitnami/zookeeper:3-debian-10'\n    container_name: 'zookeeper'\n    networks:\n      - app-tier\n    volumes:\n      - 'zookeeper_data:/bitnami'\n    environment:\n      - ALLOW_ANONYMOUS_LOGIN=yes\n  kafka:\n    image: 'docker.io/bitnami/kafka:2-debian-10'\n    container_name: 'kafka'\n    ports:\n      - 19092:9092\n    networks:\n      - app-tier\n    volumes:\n      - 'kafka_data:/bitnami'\n      - /var/run/docker.sock:/var/run/docker.sock\n    environment:\n      - KAFKA_CFG_ZOOKEEPER_CONNECT=zookeeper:2181\n      - ALLOW_PLAINTEXT_LISTENER=yes\n    depends_on:\n      - zookeeper\n  database:\n    image: 'mongo'\n    container_name: 'mongo'\n    environment:\n      - MONGO_INITDB_DATABASE='swiftalk_db'\n    networks:\n      - app-tier\n    ports:\n      - 23556-23558:27017-27019\n    depends_on:\n      - kafka\n  kafka-ui:\n    container_name: kafka-ui\n    image: provectuslabs/kafka-ui:latest\n    ports:\n      - 18080:8080\n    networks:\n      - app-tier\n    volumes: \n      - 'mongo_data:/data/db'\n    depends_on:\n      - kafka\n    environment:\n      - KAFKA_CLUSTERS_0_NAME=local\n      - KAFKA_CLUSTERS_0_BOOTSTRAPSERVERS=kafka:9092\n      - KAFKA_CLUSTERS_0_ZOOKEEPER=zookeeper:2181\n\nvolumes:\n  zookeeper_data:\n    driver: local\n  kafka_data:\n    driver: local\n  mongo_data:\n    driver: local\n"], "symptom_rank": 15, "exception_message_rank": 6, "exception_stack_rank": 16, "exception_message": "19:37:42,914 ERROR [org.springframework.kafka.support.LoggingProducerListener] (swiftalker-3) Exception thrown when sending a message with key='543507' and payload='com.foo.app.kanban.defect.entity.KanbanDefect@84b13' to topic alm_swift-alm:: org.apache.kafka.common.errors.TimeoutException: Topic alm_swift-alm not present in metadata after 2000 ms.\n19:37:43,124 WARN  [org.apache.kafka.clients.NetworkClient] (kafka-producer-network-thread | iris-producer-local-1) [Producer clientId=iris-producer-local-1] Error connecting to node 6be446692a1f:9092 (id: 1001 rack: null): java.net.UnknownHostException: 6be446692a1f\n", "symptom_score": 55, "exception_message_score": 82, "exception_stack_score": 52}]}))
+  })
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,88 @@
+sentence,label
+For example: -CODE-.,4
+Changed to: -CODE-.,4
+You have to extend not only: -CODE-.and implement the reequired Methods,4
+You need both settings .isolated shared library and PARENT_LAST classloader setting to use your own httpclient libraries,4
+"Instead, treat all your strings as binary data.",4
+Make a hex dump and compare that.,4
+Here's one way of reproducing your output and problem: -CODE-.,4
+"The MA_Provider implementation was lacking a void constructor; Once I added this: -CODE-.on the implementation class of the ProviderInterface, the OSGi bundles were able to retrieve the service",4
+"""students.definitely is not a correct JSON, so no wonder that the engine protests at JSON.parse(""students"")",4
+You probably want something like: -CODE-.,4
+You need to provide your program with a library that contains the definition.,4
+To do that you usually need to place your library right next to your program because that's where your program will search for it.,4
+"When I change the val inner to val temp, it won't get error.",4
+So you need to split this up.,4
+"Define the first class in the object literal, the rest require assignments so they can refer to the variable.-CODE-",4
+"EDIT also your model.js has an error on line 133: -CODE-.the proper for loop format is: -CODE-j < jl; is extra, resulting in the ""Unexpected token <error message",4
+"In your example, you should use getBundle(""com.sod.ap.properties.enumerations"".",4
+"You should delete <tr> tag, before and after foreach block.-CODE-",4
+In my maven settings.xml I added (as specified in maven site): -CODE-.,4
+"After remove it, Roboletric worked fine.",4
+"The dependency is not in the jar, it would be resolved if you configure as in java.lang.NoClassDefFoundError: org/apache/spark/streaming/twitter/TwitterUtils.",4
+Found my answer here.full .travis.yml: -CODE-,4
+"I think it is impossible to prevent this situation, and I advise you to wrap notification creation in try{}catch block.",4
+"So, here: -CODE-.this refers to the this at the top level of the module, which is undefined in your setup",4
+"You want this to refer to the current instance instead: when calling countdown, it should capture the new this value (of the instance), rather than inheriting the this of the outer scope.",4
+"So, change: -CODE-.to: -CODE-or to: -CODE-",4
+So you can remove cz.jirutka.validator.collection.constraints.EachPattern and instead use javax.validation.constraints' @Pattern following way: -CODE-.,4
+I have Uninstall that.,4
+And install Java from oracle and problem fixed �C.,4
+"It's was a cast problem, I change the return type of the methode to int: -CODE-.",4
+Check if you have any jar with CLASS-PATH entry in MANIEST.MF referring this jar file.,4
+I got the similar issue: -CODE-.,4
+"Spotted out that, one of my jar file jaxws-rt-2.1.3 having the jaxws-api.jar as class path entry.",4
+"I have the jaxws-api-2.1.jar in my lib, so jarscanner complained File not found as its trying to find one without version name.**Addition of following entry in context.xml under TOMCAT_HOME/conf should resolve this, as it would stop resolving non-existing jar files ** -CODE-we can also correct the manifest file to include the jar version and then deploy the application",4
+"I cleaned tomcat history by tomcat -> clean I did gradle refresh, ran again on tomcat server and issue resolved.",4
+"UPDATE.try to use: -CODE-@robinlook at the express source code, express/lib/utils.js: -CODE-",4
+"Hibernate recognizes Class name, not table name.",4
+So: -CODE-.shoulde be: -CODE-,4
+"Basically, if you need to send data from web page script to background script, CustomEvent should be used to send data to a content script which acts as a bridge and from there send that data to background script using browser.runtime.sendMessage.",4
+PFB sample code: -CODE-.contentscript.js: -CODE-background.js: -CODE-,4
+For this to work with IntelliJ do the following: [-]Open the settings: Windows: File -> Settings osX/ Ubuntu: IntelliJ IDEA -> Preferences.,4
+"[-]Go to Build, Execution, Deployment -> Compiler -> Java Compiler Write -parameters in the Additional command line parameters field.",4
+[-]Completely rebuild the project (Build -> Rebuild Project.,4
+or using groovy only: -CODE-.,4
+After passing just the <BUCKET_NAME> it worked fine.,4
+You need to escape the backward slash as well: -CODE-.,4
+"Basically, eval(/any regex/ + ''.will get the same regex-CODE-",4
+"After downloading the code from your dropbox, I decompiled CDAlbum to reveal an outdated constructor: -CODE-.",4
+"After recompiling (after following my suggestions), the code appeared to work fine.",4
+"As I stated in my comments, your code here is probably modified and not the actual code producing the exception; you're more than likely trying to add to the tracks field, however you never initialized it -.you only initialized the local variable tracks",4
+Try doing something like the following...-CODE-,4
+You should post an SSCCE or at least the unmodified code to receive accurate help.,4
+It's going to be tough to solve the issue if you treat it as a black box.,4
+"Note you can move all of your initialization to the field declarations, e.g.-CODE-",4
+Also for more info you can refer to this user guide: https://commons.apache.org/proper/commons-email/userguide.html.,4
+"if you want to use import/export you should add type=""module.in script tag in html",4
+Like this.-CODE-,4
+And as you used export instead of default export when importing use: -CODE-.,4
+"However, here are some possible solutions to your problem based on my educated guesses : Refer to this question for characteristics of saveOrUpdate(.: Hibernate saveOrUpdate behavior: -CODE-",4
+"Make sure you're not calling saveOrUpdate(.twice on the same object anywhere, as this will cause a stale object exception",4
+"Secondly, refer to this question : Hibernate saveOrUpdate fails when I execute it on empty table: -CODE-.",4
+Create actual instances of objects and save test objects to your DB instead.,4
+If you want to retrieve an element by its index within a matched set you need to use eq(): -CODE-.,4
+Alternatively you can retain the DOMElement and use the value property: -CODE-.,4
+"In addition to BoneCP and SLF4J, you need to add Google Guava, because BoneCP's requirements page states that it needs to be present.",4
+Download guava-*.jar and add it to your classpath the same way you did with SLF4J and BoneCP.,4
+you must initialize Activity Object ActionBarSherlock project file.,4
+The solution is to pass in the corresponding model helper in App.Helpers using my custom type name.,4
+Something like this in the overridden RESTAdapter.serializer.extractMany method: -CODE-.,4
+Make sure you didn't call close(.on it,4
+E.g.: -CODE-.,4
+You need to use: -CODE-.before: -CODE-,4
+EDIT : -CODE-.,4
+"In gradle, we set the bug version of the jar.",4
+"Thus when loading PreferenceMgr, classloader trigers the bug in MAUtils and results in NoClassDefFoundError.",4
+"You probably just forgot to convert it from a string to a date, since JSON can't store an actual date object.",4
+So when you do something like: -CODE-.you just need to do: -CODE-or you could just do: -CODE-,4
+"You may be able to get around it by adding a jar for a newer version of javax.mail+its implementation to your NSF, but I haven't tried that so I can't say for sure.",4
+"That may be what you're already trying anyway, to get access to the classes.",4
+You could also try putting this code in an OSGi plugin and embedding the javax.mail jar inside that or bringing it along as a version-range-constricted external OSGi plugin.,4
+"You could alternatively use the Notes API to send email, though then you'd be using the Domino server to route the email and not a custom SMTP server (unless Domino happens to be configured to route through that server anyway).",4
+You need to use: -CODE-.,4
+As first index is 0 and last is alignedSeqA.length(.1,4
+"Is this variables out of scope.if not, try this: -CODE-and should config.body userInfo be inside the object",4
+Make sure the SearchActivity.this.parts list is non-null.,4
+That's the only thing I can see that would trigger an NPE on that line.,4
+(It's definitely not new BigDecimal(5.5.anyhow.,4

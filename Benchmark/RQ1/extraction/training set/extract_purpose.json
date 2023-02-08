@@ -1,0 +1,272 @@
+[
+  {
+    "context": "Hey Everyone I am developing an application that plays YouTube Video, I extend YoutubeBaseActivity for the activity that should play the video but I keep getting an error when the activity is reached.",
+    "question": "What am I trying to do?",
+    "answers": {
+      "start": 18,
+      "end": 68,
+      "text": "developing an application that plays YouTube Video"
+    }
+  },
+  {
+    "context": "I would like to use httpclient-4.2.5 and tried using an isolated shared library as suggested in the previous post.",
+    "question": "What am I trying to do?",
+    "answers": {
+      "start": 16,
+      "end": 79,
+      "text": "use httpclient-4.2.5 and tried using an isolated shared library"
+    }
+  },
+  {
+    "context": "I'm having a weird problem with BigDecimal.",
+    "question": "What am I trying to do?",
+    "answers": {
+      "start": 32,
+      "end": 42,
+      "text": "BigDecimal"
+    }
+  },
+  {
+    "context": "I'm trying to create a user-generated table that can be stored and accessed across multiple sessions on the same computer.",
+    "question": "What am I trying to do?",
+    "answers": {
+      "start": 14,
+      "end": 122,
+      "text": "create a user-generated table that can be stored and accessed across multiple sessions on the same computer."
+    }
+  },
+  {
+    "context": "I am trying to build a program that will take a sentence from user and return the language of the text to the user.",
+    "question": "What am I trying to do?",
+    "answers": {
+      "start": 15,
+      "end": 114,
+      "text": "build a program that will take a sentence from user and return the language of the text to the user"
+    }
+  },
+  {
+    "context": "Just consider code below: -CODE- I expect get result, print \"a\" and \"b\", but only print \"a\" and an error: -CODE-",
+    "question": "What am I trying to do?",
+    "answers": {
+      "start": 54,
+      "end": 71,
+      "text": "print \"a\" and \"b\""
+    }
+  },
+  {
+    "context": "I'm trying to extend one class from another inside the module.",
+    "question": "What am I trying to do?",
+    "answers": {
+      "start": 14,
+      "end": 43,
+      "text": "extend one class from another"
+    }
+  },
+  {
+    "context": "I am running a server on go.",
+    "question": "What am I trying to do?",
+    "answers": {
+      "start": 5,
+      "end": 27,
+      "text": "running a server on go"
+    }
+  },
+  {
+    "context": "I'm new with Laravel and I wanted to get started with Bootstrap Modal.",
+    "question": "What am I trying to do?",
+    "answers": {
+      "start": 37,
+      "end": 69,
+      "text": "get started with Bootstrap Modal"
+    }
+  },
+  {
+    "context": "I'm using library DataTables and I build the Update function around it",
+    "question": "What am I trying to do?",
+    "answers": {
+      "start": 35,
+      "end": 60,
+      "text": "build the Update function"
+    }
+  },
+  {
+    "context": "I want to add support for unit tests on an existing Android Studio 1.1 project.",
+    "question": "What am I trying to do?",
+    "answers": {
+      "start": 10,
+      "end": 36,
+      "text": "add support for unit tests"
+    }
+  },
+  {
+    "context": "I'm trying to get my karma tests running in a travis-ci build.",
+    "question": "What am I trying to do?",
+    "answers": {
+      "start": 14,
+      "end": 61,
+      "text": "get my karma tests running in a travis-ci build"
+    }
+  },
+  {
+    "context": "When I try to use an @EachPattern on a List with: -CODE- I get the following error: -CODE-",
+    "question": "What am I trying to do?",
+    "answers": {
+      "start": 14,
+      "end": 43,
+      "text": "use an @EachPattern on a List"
+    }
+  },
+  {
+    "context": "I am trying to connect my hive jdbc client to hiveserver2.",
+    "question": "What am I trying to do?",
+    "answers": {
+      "start": 15,
+      "end": 57,
+      "text": "connect my hive jdbc client to hiveserver2"
+    }
+  },
+  {
+    "context": "When I try deploy my war file, I get error In catalina.out: -CODE-",
+    "question": "What am I trying to do?",
+    "answers": {
+      "start": 11,
+      "end": 29,
+      "text": "deploy my war file"
+    }
+  },
+  {
+    "context": "I upgraded my Java application from Spring 4 to Spring 5 and i am getting java.lang.NoClassDefFoundError: Lorg/springframework/beans/factory/access/BeanFactoryReference error while running on tomcat server. ",
+    "question": "What am I trying to do?",
+    "answers": {
+      "start": 2,
+      "end": 56,
+      "text": "upgraded my Java application from Spring 4 to Spring 5"
+    }
+  },
+  {
+    "context": "-CODE- I tried to display a todo.html page by connecting to http://localhost:3000 , but I'm getting an error when i open the http://localhost:3000 page , the error i have uploaded above as a snippet.",
+    "question": "What am I trying to do?",
+    "answers": {
+      "start": 18,
+      "end": 42,
+      "text": "display a todo.html page"
+    }
+  },
+  {
+    "context": "I am trying a simple program with hibernate but while retrieving data from db i am getting this error.",
+    "question": "What am I trying to do?",
+    "answers": {
+      "start": 12,
+      "end": 43,
+      "text": "a simple program with hibernate"
+    }
+  },
+  {
+    "context": "I'm having a trouble using Hibernate in a Maven/JEE project, and still getting this error each time I try to use it (Hibernate).",
+    "question": "What am I trying to do?",
+    "answers": {
+      "start": 21,
+      "end": 59,
+      "text": "using Hibernate in a Maven/JEE project"
+    }
+  },
+  {
+    "context": "I am trying to communicate my web page script with my content script of my web extension with the code below.",
+    "question": "What am I trying to do?",
+    "answers": {
+      "start": 15,
+      "end": 45,
+      "text": "communicate my web page script"
+    }
+  },
+  {
+    "context": "I am trying to run corda-bootcamp test case for Contract.",
+    "question": "What am I trying to do?",
+    "answers": {
+      "start": 15,
+      "end": 56,
+      "text": "run corda-bootcamp test case for Contract"
+    }
+  },
+  {
+    "context": "I am trying to encode bytes to Base64 in groovy and I am getting returned the above error when I am trying to run it.",
+    "question": "What am I trying to do?",
+    "answers": {
+      "start": 15,
+      "end": 37,
+      "text": "encode bytes to Base64"
+    }
+  },
+  {
+    "context": "I am trying to get list of object in an S3 bucket using AWS SDK for Java version 2.",
+    "question": "What am I trying to do?",
+    "answers": {
+      "start": 15,
+      "end": 49,
+      "text": "get list of object in an S3 bucket"
+    }
+  },
+  {
+    "context": "I am creating an app in play 2.2.1 and trying to add email facility to it.",
+    "question": "What am I trying to do?",
+    "answers": {
+      "start": 49,
+      "end": 73,
+      "text": "add email facility to it"
+    }
+  },
+  {
+    "context": "I'm new to Vue, and been trying to import a variable that consists of API key necessary for my app.js where Vue CDN is used.",
+    "question": "What am I trying to do?",
+    "answers": {
+      "start": 35,
+      "end": 52,
+      "text": "import a variable"
+    }
+  },
+  {
+    "context": "I have the following code, where I am selecting all matching elements that start with the same name, excluding one I do not want included in the group.",
+    "question": "What am I trying to do?",
+    "answers": {
+      "start": 38,
+      "end": 151,
+      "text": "selecting all matching elements that start with the same name, excluding one I do not want included in the group."
+    }
+  },
+  {
+    "context": "So, I'm trying to build routes in my Ember application dynamically with data from an API endpoint, /categories, with Ember Data.",
+    "question": "What am I trying to do?",
+    "answers": {
+      "start": 18,
+      "end": 30,
+      "text": "build routes"
+    }
+  },
+  {
+    "context": "I need a time differnce in my react componenet.",
+    "question": "What am I trying to do?",
+    "answers": {
+      "start": 9,
+      "end": 23,
+      "text": "time differnce"
+    }
+  },
+  {
+    "context": "I want to include attachments when email is sent to a recipient.",
+    "question": "What am I trying to do?",
+    "answers": {
+      "start": 10,
+      "end": 63,
+      "text": "include attachments when email is sent to a recipient"
+    }
+  },
+  {
+    "context": "I am receiving a NPE from this bit of code.",
+    "question": "What am I trying to do?",
+    "answers": {
+      "start": 5,
+      "end": 42,
+      "text": "receiving a NPE from this bit of code"
+    }
+  }
+]
