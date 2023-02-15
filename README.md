@@ -8,7 +8,7 @@ We construct a crash solution KG with 963,334 nodes and 1,626,101 edges for 245 
 
 [SO threads](https://github.com/KG4CraSolver/KG4CraSolver.github.io/blob/main/KGBuilder/all_exception_post_info.json), the related 71,592 SO threads.  we select the threads that: (1) have “java” in the title or tags, (2) have “exception” or “error” in the title or tags, (3) have an accepted answer, (4) have a positive vote for its question, and (5) contain at least one specific exception type in the given exception type list.
 
-[Crash Solution KG](https://zenodo.org/api/files/75bb61b3-6256-49fc-85c4-6f2422f39249/CrashSolutionKG.V1.graph), our constructed crash solution KG with 963,334 nodes and 1,626,101 edges. 
+[Crash Solution KG](https://zenodo.org/record/7642152/files/CrashSolutionKG.V1.graph?download=1), our constructed crash solution KG with 963,334 nodes and 1,626,101 edges. 
 
 ## Benchmark
 
